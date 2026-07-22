@@ -4,11 +4,15 @@ import { useEffect, useMemo, useRef } from "react";
 import * as maplibregl from "maplibre-gl";
 import { useMapInstance } from "./map-instance-context";
 import { useRouteMap } from "@/features/routes/route-context";
+import {
+  DEFAULT_ROUTE_COLOR,
+  ROUTE_FIT_BOUNDS_MAX_ZOOM,
+  ROUTE_FIT_BOUNDS_PADDING,
+} from "@/lib/constants";
 
 const SOURCE_ID = "selected-route";
 const LAYER_CASING = "selected-route-casing";
 const LAYER_LINE = "selected-route-line";
-const DEFAULT_COLOR = "#d9714f";
 
 interface RouteLine {
   color: string;
@@ -48,7 +52,7 @@ export function RouteLayer() {
     () =>
       detail
         ? {
-            color: detail.route.color || DEFAULT_COLOR,
+            color: detail.route.color || DEFAULT_ROUTE_COLOR,
             path: directionStops.map((s) => [s.lng, s.lat] as [number, number]),
           }
         : null,
@@ -81,7 +85,7 @@ export function RouteLayer() {
         type: "line",
         source: SOURCE_ID,
         layout: { "line-cap": "round", "line-join": "round" },
-        paint: { "line-color": DEFAULT_COLOR, "line-width": 4.5 },
+        paint: { "line-color": DEFAULT_ROUTE_COLOR, "line-width": 4.5 },
       });
       applyRouteData(map, lineRef.current);
     };
@@ -105,9 +109,9 @@ export function RouteLayer() {
       new maplibregl.LngLatBounds(first, first)
     );
     map.fitBounds(bounds, {
-      padding: { top: 110, bottom: 90, left: 90, right: 90 },
+      padding: ROUTE_FIT_BOUNDS_PADDING,
       duration: 800,
-      maxZoom: 14.5,
+      maxZoom: ROUTE_FIT_BOUNDS_MAX_ZOOM,
     });
   }, [map, line]);
 

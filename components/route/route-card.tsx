@@ -14,7 +14,7 @@ interface RouteCardProps {
 }
 
 export function RouteCard({ route, selected, onSelect, onHoverChange }: RouteCardProps) {
-  const color = route.color || colorForBusNo(route.bus_no);
+  const color = route.color || colorForBusNo(route.busNo);
 
   return (
     <button
@@ -45,7 +45,7 @@ export function RouteCard({ route, selected, onSelect, onHoverChange }: RouteCar
           className="flex size-10 shrink-0 items-center justify-center rounded-md font-display text-sm font-bold text-white"
           style={{ background: color }}
         >
-          {route.bus_no}
+          {route.busNo}
         </div>
 
         <div className="min-w-0 flex-1 pt-0.5">
@@ -71,12 +71,12 @@ export function RouteCard({ route, selected, onSelect, onHoverChange }: RouteCar
             </div>
           </div>
 
-          {(route.operation_time || route.fare != null) && (
+          {(route.operationTime || route.fare != null) && (
             <div className="mt-2.5 flex items-center justify-between border-t border-border pt-2 font-mono text-[11px] text-muted-foreground">
-              {route.operation_time ? (
+              {route.operationTime ? (
                 <span className="flex items-center gap-1">
                   <Clock className="size-3" />
-                  {route.operation_time.start} - {route.operation_time.end}
+                  {route.operationTime.start} - {route.operationTime.end}
                 </span>
               ) : (
                 <span />

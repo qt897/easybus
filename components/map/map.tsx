@@ -12,7 +12,7 @@ import { StopPopup } from "./popup";
 import { FloatingSearch } from "./floating-search";
 import { MapControlsTopRight, MapControlsBottomRight } from "./map-controls";
 import { useRouteMap } from "@/features/routes/route-context";
-import { HCMC_CENTER } from "@/features/routes/data";
+import { CITY_CENTER, DEFAULT_MAP_ZOOM } from "@/lib/constants";
 import { MAP_STYLES } from "@/lib/map-styles";
 
 // Next.js bundles maplibre-gl as ESM, whose worker resolves relative to
@@ -33,8 +33,8 @@ export function MapContainer() {
     const instance = new maplibregl.Map({
       container: containerRef.current,
       style: MAP_STYLES.simple,
-      center: HCMC_CENTER,
-      zoom: 12.2,
+      center: CITY_CENTER,
+      zoom: DEFAULT_MAP_ZOOM,
       attributionControl: { compact: true },
     });
 

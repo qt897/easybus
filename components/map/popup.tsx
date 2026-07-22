@@ -6,10 +6,12 @@ import { X } from "lucide-react";
 import { useMapInstance } from "./map-instance-context";
 import { useRouteMap } from "@/features/routes/route-context";
 import { colorForBusNo } from "@/features/routes/colors";
+import { useTranslation } from "@/lib/i18n/context";
 
 export function StopPopup() {
   const map = useMapInstance();
   const { selectedStop, selectStop, selectedBusNo, detail, selectRoute } = useRouteMap();
+  const t = useTranslation();
   const [pos, setPos] = useState<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
@@ -51,7 +53,7 @@ export function StopPopup() {
               type="button"
               onClick={() => selectStop(null)}
               className="shrink-0 rounded-md p-0.5 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-              aria-label="Đóng"
+              aria-label={t.popup.close}
             >
               <X className="size-4" />
             </button>
@@ -59,7 +61,9 @@ export function StopPopup() {
 
           {selectedStop.routes.length > 0 && (
             <div className="mt-3">
-              <p className="text-[11px] font-medium text-muted-foreground">Tuyến đi qua</p>
+              <p className="text-[11px] font-medium text-muted-foreground">
+                {t.popup.routesThrough}
+              </p>
               <div className="mt-1.5 flex flex-wrap gap-1.5">
                 {selectedStop.routes.map((busNo) => {
                   const isCurrent = busNo === selectedBusNo;

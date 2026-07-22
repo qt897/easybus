@@ -1,6 +1,9 @@
+import {ClerkProvider} from "@clerk/nextjs";
+import { shadcn } from "@clerk/ui/themes";
 import type { Metadata } from "next";
 import { Space_Grotesk, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { LocaleProvider } from "@/lib/i18n/context";
 import "./globals.css";
 
 const display = Space_Grotesk({
@@ -37,7 +40,11 @@ export default function RootLayout({
       className={`${display.variable} ${body.variable} ${mono.variable} h-full antialiased`}
     >
       <body className="h-full font-sans">
-        <TooltipProvider delay={200}>{children}</TooltipProvider>
+        <ClerkProvider appearance={{ theme: shadcn }}>
+          <LocaleProvider>
+            <TooltipProvider delay={200}>{children}</TooltipProvider>
+          </LocaleProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

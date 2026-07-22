@@ -1,29 +1,26 @@
 import { NextResponse } from "next/server";
+import { DATA_BASE_URL, DATA_CACHE_SECONDS } from "@/lib/env";
+import { adaptRouteInfo } from "@/features/routes/adapters";
+import type {
+  ExternalRouteDetail,
+  ExternalRouteListResponse,
+  ExternalRouteSummary,
+} from "@/features/routes/external-types";
+import type { RouteSummary } from "@/features/routes/types";
 
-const BASE_URL =
-  "https://raw.githubusercontent.com/qt897/easybus/refs/heads/main/data";
-
-interface RawSummary {
-  id: number;
-  bus_no: string;
-  name: string;
-}
-
-async function fetchFare(busNo: string) {
+async function fetchSummaryExtras(busNo: string) {
   try {
-    const res = await fetch(`${BASE_URL}/${encodeURIComponent(busNo)}.json`, {
-      next: { revalidate: 3600 },
+    const res = await fetch(`${DATA_BASE_URL}/${encodeURIComponent(busNo)}.json`, {
+      next: { revalidate: DATA_CACHE_SECONDS },
     });
     if (!res.ok) return null;
-    const json = await res.json();
-    const route = json.data?.route;
-    if (!route) return null;
+    const json = (await res.json()) as { data?: ExternalRouteDetail };
+    if (!json.data?.route) return null;
+    const info = adaptRouteInfo(json.data.route);
     return {
-      color: route.color as string | undefined,
-      fare: route.tickets?.[0]?.price as number | undefined,
-      operation_time: route.operation_time as
-        | { start: string; end: string }
-        | undefined,
+      color: info.color,
+      fare: info.tickets[0]?.price,
+      operationTime: info.operationTime,
     };
   } catch {
     return null;
@@ -31,33 +28,30 @@ async function fetchFare(busNo: string) {
 }
 
 export async function GET() {
-  const res = await fetch(`${BASE_URL}/all_routes.json`, {
-    next: { revalidate: 3600 },
+  const res = await fetch(`${DATA_BASE_URL}/all_routes.json`, {
+    next: { revalidate: DATA_CACHE_SECONDS },
   });
 
   if (!res.ok) {
-    return NextResponse.json(
-      { error: "Không thể tải danh sách tuyến" },
-      { status: 502 }
-    );
+    return NextResponse.json({ error: "ROUTES_FETCH_FAILED" }, { status: 502 });
   }
 
-  const json = await res.json();
-  const summaries: RawSummary[] = json.data ?? [];
+  const json = (await res.json()) as ExternalRouteListResponse;
+  const summaries: ExternalRouteSummary[] = json.data ?? [];
 
-  const enriched = await Promise.all(
+  const data: RouteSummary[] = await Promise.all(
     summaries.map(async (item) => {
-      const extra = await fetchFare(item.bus_no);
+      const extra = await fetchSummaryExtras(item.bus_no);
       return {
         id: item.id,
-        bus_no: item.bus_no,
+        busNo: item.bus_no,
         name: item.name,
         color: extra?.color,
         fare: extra?.fare,
-        operation_time: extra?.operation_time,
+        operationTime: extra?.operationTime,
       };
     })
   );
 
-  return NextResponse.json({ data: enriched });
+  return NextResponse.json({ data });
 }

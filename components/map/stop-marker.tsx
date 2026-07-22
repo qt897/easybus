@@ -4,9 +4,8 @@ import { useEffect, useRef } from "react";
 import * as maplibregl from "maplibre-gl";
 import { useMapInstance } from "./map-instance-context";
 import { useRouteMap } from "@/features/routes/route-context";
-import type { RouteStop } from "@/features/routes/api-types";
-
-const DEFAULT_COLOR = "#d9714f";
+import { DEFAULT_ROUTE_COLOR } from "@/lib/constants";
+import type { Stop } from "@/features/routes/types";
 
 function createMarkerElement(kind: "origin" | "stop" | "destination", color: string) {
   const el = document.createElement("div");
@@ -52,14 +51,15 @@ export function StopMarkers() {
 
   useEffect(() => {
     if (!map) return;
+    console.log("STOPMARKERS EFFECT RUN", directionStops.length);
 
     const markers = markersRef.current;
     markers.forEach((marker) => marker.remove());
     markers.clear();
 
-    const color = detail?.route.color || DEFAULT_COLOR;
+    const color = detail?.route.color || DEFAULT_ROUTE_COLOR;
 
-    directionStops.forEach((stop: RouteStop, index: number) => {
+    directionStops.forEach((stop: Stop, index: number) => {
       let kind: "origin" | "stop" | "destination" = "stop";
       if (index === 0) kind = "origin";
       else if (index === directionStops.length - 1) kind = "destination";
@@ -72,12 +72,15 @@ export function StopMarkers() {
         .setLngLat([stop.lng, stop.lat])
         .addTo(map);
 
+      el.addEventListener("mousedown", () => console.log("MARKER MOUSEDOWN", stop.name));
+      el.addEventListener("mouseup", () => console.log("MARKER MOUSEUP", stop.name));
       el.addEventListener("click", (event) => {
+        console.log("MARKER CLICK", stop.name);
         event.stopPropagation();
         selectStop(stop);
       });
 
-      markers.set(stop.stop_id, marker);
+      markers.set(stop.stopId, marker);
     });
 
     return () => {

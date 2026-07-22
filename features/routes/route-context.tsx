@@ -1,28 +1,19 @@
 "use client";
 
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useMemo,
-  useState,
-} from "react";
+import { createContext, useCallback, useContext, useMemo, useState } from "react";
 import { useRouteList } from "./use-route-list";
 import { useRouteDetail } from "./use-route-detail";
 import { splitRouteName } from "./derive";
-import type { DirectionKey, RouteStop } from "./api-types";
+import { useRouteSearch } from "@/features/search/use-route-search";
+import { GEOLOCATION_TIMEOUT_MS } from "@/lib/constants";
+import type { ApiErrorCode } from "@/lib/i18n/types";
+import type { DirectionKey, RouteDetail, RouteSummary, Stop } from "./types";
 
 export type SidebarTab = "routes" | "directions" | "favorites";
 
-export interface RouteListItem {
-  id: number;
-  bus_no: string;
-  name: string;
+export interface RouteListItem extends RouteSummary {
   origin: string;
   destination: string;
-  color?: string;
-  fare?: number;
-  operation_time?: { start: string; end: string };
 }
 
 interface UserLocationState {
@@ -34,7 +25,7 @@ interface RouteMapContextValue {
   routes: RouteListItem[];
   filteredRoutes: RouteListItem[];
   loading: boolean;
-  error: boolean;
+  error: ApiErrorCode | null;
   retry: () => void;
 
   query: string;
@@ -48,17 +39,17 @@ interface RouteMapContextValue {
   hoveredBusNo: string | null;
   setHoveredBusNo: (busNo: string | null) => void;
 
-  detail: ReturnType<typeof useRouteDetail>["detail"];
+  detail: RouteDetail | null;
   detailLoading: boolean;
-  detailError: boolean;
+  detailError: ApiErrorCode | null;
   retryDetail: () => void;
 
   direction: DirectionKey;
   setDirection: (direction: DirectionKey) => void;
-  directionStops: RouteStop[];
+  directionStops: Stop[];
 
-  selectedStop: RouteStop | null;
-  selectStop: (stop: RouteStop | null) => void;
+  selectedStop: Stop | null;
+  selectStop: (stop: Stop | null) => void;
 
   userLocation: UserLocationState | null;
   locating: boolean;
@@ -71,40 +62,29 @@ const RouteMapContext = createContext<RouteMapContextValue | null>(null);
 export function RouteMapProvider({ children }: { children: React.ReactNode }) {
   const { routes: rawRoutes, loading, error, retry } = useRouteList();
 
-  const [query, setQuery] = useState("");
   const [tab, setTab] = useState<SidebarTab>("routes");
   const [selectedBusNo, setSelectedBusNo] = useState<string | null>(null);
   const [hoveredBusNo, setHoveredBusNo] = useState<string | null>(null);
   const [direction, setDirection] = useState<DirectionKey>("outbound");
-  const [selectedStop, setSelectedStop] = useState<RouteStop | null>(null);
+  const [selectedStop, setSelectedStop] = useState<Stop | null>(null);
 
   const [userLocation, setUserLocation] = useState<UserLocationState | null>(null);
   const [locating, setLocating] = useState(false);
   const [locationError, setLocationError] = useState(false);
 
-  const { detail, loading: detailLoading, error: detailError, retry: retryDetail } =
-    useRouteDetail(selectedBusNo);
+  const {
+    detail,
+    loading: detailLoading,
+    error: detailError,
+    retry: retryDetail,
+  } = useRouteDetail(selectedBusNo);
 
   const routes = useMemo<RouteListItem[]>(
-    () =>
-      rawRoutes.map((r) => ({
-        ...r,
-        ...splitRouteName(r.name),
-      })),
+    () => rawRoutes.map((r) => ({ ...r, ...splitRouteName(r.name) })),
     [rawRoutes]
   );
 
-  const filteredRoutes = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return routes;
-    return routes.filter(
-      (r) =>
-        r.bus_no.toLowerCase().includes(q) ||
-        r.name.toLowerCase().includes(q) ||
-        r.origin.toLowerCase().includes(q) ||
-        r.destination.toLowerCase().includes(q)
-    );
-  }, [routes, query]);
+  const { query, setQuery, filteredRoutes } = useRouteSearch(routes);
 
   const selectRoute = useCallback((busNo: string | null) => {
     setSelectedBusNo((current) => (current === busNo ? null : busNo));
@@ -112,15 +92,13 @@ export function RouteMapProvider({ children }: { children: React.ReactNode }) {
     setDirection("outbound");
   }, []);
 
-  const selectStop = useCallback((stop: RouteStop | null) => {
+  const selectStop = useCallback((stop: Stop | null) => {
     setSelectedStop(stop);
   }, []);
 
   const directionStops = useMemo(() => {
     if (!detail) return [];
-    return direction === "outbound"
-      ? detail.direction_outbound.stops
-      : detail.direction_inbound.stops;
+    return direction === "outbound" ? detail.directionOutbound.stops : detail.directionInbound.stops;
   }, [detail, direction]);
 
   const requestUserLocation = useCallback(() => {
@@ -142,7 +120,7 @@ export function RouteMapProvider({ children }: { children: React.ReactNode }) {
         setLocationError(true);
         setLocating(false);
       },
-      { enableHighAccuracy: true, timeout: 8000 }
+      { enableHighAccuracy: true, timeout: GEOLOCATION_TIMEOUT_MS }
     );
   }, []);
 
@@ -175,11 +153,7 @@ export function RouteMapProvider({ children }: { children: React.ReactNode }) {
     requestUserLocation,
   };
 
-  return (
-    <RouteMapContext.Provider value={value}>
-      {children}
-    </RouteMapContext.Provider>
-  );
+  return <RouteMapContext.Provider value={value}>{children}</RouteMapContext.Provider>;
 }
 
 export function useRouteMap() {

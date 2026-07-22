@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-
-const BASE_URL =
-  "https://raw.githubusercontent.com/qt897/easybus/refs/heads/main/data";
+import { DATA_BASE_URL, DATA_CACHE_SECONDS } from "@/lib/env";
+import { adaptRouteDetail } from "@/features/routes/adapters";
+import type { ExternalRouteDetail } from "@/features/routes/external-types";
 
 const VALID_BUS_NO = /^[A-Za-z0-9-]+$/;
 
@@ -12,24 +12,31 @@ export async function GET(
   const { busNo } = await params;
 
   if (!VALID_BUS_NO.test(busNo)) {
-    return NextResponse.json({ error: "Mã tuyến không hợp lệ" }, { status: 400 });
+    return NextResponse.json({ error: "INVALID_BUS_NO" }, { status: 400 });
   }
 
-  const res = await fetch(`${BASE_URL}/${encodeURIComponent(busNo)}.json`, {
-    next: { revalidate: 3600 },
+  const res = await fetch(`${DATA_BASE_URL}/${encodeURIComponent(busNo)}.json`, {
+    next: { revalidate: DATA_CACHE_SECONDS },
   });
 
   if (res.status === 404) {
-    return NextResponse.json({ error: "Không tìm thấy tuyến" }, { status: 404 });
+    return NextResponse.json({ error: "ROUTE_NOT_FOUND" }, { status: 404 });
   }
 
   if (!res.ok) {
     return NextResponse.json(
-      { error: "Không thể tải chi tiết tuyến" },
+      { error: "ROUTE_DETAIL_FETCH_FAILED" },
       { status: 502 }
     );
   }
 
-  const json = await res.json();
-  return NextResponse.json(json.data ?? json);
+  const json = (await res.json()) as { data?: ExternalRouteDetail };
+  if (!json.data) {
+    return NextResponse.json(
+      { error: "ROUTE_DETAIL_FETCH_FAILED" },
+      { status: 502 }
+    );
+  }
+
+  return NextResponse.json(adaptRouteDetail(json.data));
 }

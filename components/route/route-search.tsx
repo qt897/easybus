@@ -4,9 +4,11 @@ import { Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useRouteMap } from "@/features/routes/route-context";
+import { useTranslation } from "@/lib/i18n/context";
 
 export function RouteSearch() {
   const { query, setQuery } = useRouteMap();
+  const t = useTranslation();
 
   return (
     <div className="relative">
@@ -14,8 +16,8 @@ export function RouteSearch() {
       <Input
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search routes..."
-        aria-label="Search routes"
+        placeholder={t.routeSearch.placeholder}
+        aria-label={t.routeSearch.placeholder}
         className="h-10 rounded-xl bg-muted pl-9 pr-9 shadow-none focus-visible:bg-card"
       />
       {query && (
@@ -25,7 +27,7 @@ export function RouteSearch() {
           size="icon-xs"
           onClick={() => setQuery("")}
           className="absolute right-1.5 top-1/2 -translate-y-1/2 text-muted-foreground"
-          aria-label="Clear search"
+          aria-label={t.routeSearch.clearAriaLabel}
         >
           <X className="size-3.5" />
         </Button>

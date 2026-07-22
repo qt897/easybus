@@ -6,7 +6,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 import { useRouteMap } from "@/features/routes/route-context";
-import type { RouteStop } from "@/features/routes/api-types";
+import { useTranslation } from "@/lib/i18n/context";
+import type { Stop } from "@/features/routes/types";
 
 function Stat({
   icon: Icon,
@@ -59,6 +60,7 @@ export function RouteDetail() {
     selectedStop,
     selectStop,
   } = useRouteMap();
+  const t = useTranslation();
 
   if (detailLoading) return <DetailSkeleton />;
 
@@ -68,10 +70,11 @@ export function RouteDetail() {
         <div className="flex size-11 items-center justify-center rounded-full bg-destructive/10 text-destructive">
           <WifiOff className="size-5" />
         </div>
-        <p className="text-sm font-medium text-foreground">Không thể tải chi tiết tuyến</p>
+        <p className="text-sm font-medium text-foreground">{t.routeDetail.errorTitle}</p>
+        <p className="text-xs text-muted-foreground">{t.errors[detailError]}</p>
         <Button variant="outline" size="sm" onClick={retryDetail} className="gap-1.5">
           <RefreshCw className="size-3.5" />
-          Thử lại
+          {t.routeDetail.retry}
         </Button>
       </div>
     );
@@ -88,7 +91,7 @@ export function RouteDetail() {
           variant="ghost"
           size="icon-sm"
           onClick={() => selectRoute(null)}
-          aria-label="Quay lại danh sách tuyến"
+          aria-label={t.routeDetail.back}
           className="mt-0.5 shrink-0"
         >
           <ArrowLeft className="size-4" />
@@ -97,7 +100,7 @@ export function RouteDetail() {
           className="flex size-11 shrink-0 items-center justify-center rounded-md font-display text-base font-bold text-white"
           style={{ background: route.color }}
         >
-          {route.bus_no}
+          {route.busNo}
         </div>
         <div className="min-w-0 pt-0.5">
           <p className="text-sm font-semibold leading-snug text-foreground">{route.name}</p>
@@ -108,30 +111,30 @@ export function RouteDetail() {
       <div className="grid grid-cols-2 gap-2 px-4">
         <Stat
           icon={Clock}
-          label="Giờ hoạt động"
-          value={`${route.operation_time.start} - ${route.operation_time.end}`}
+          label={t.routeDetail.operationHours}
+          value={`${route.operationTime.start} - ${route.operationTime.end}`}
         />
         <Stat
           icon={Timer}
-          label="Giãn cách"
-          value={`${route.headway_minutes.min}-${route.headway_minutes.max} phút`}
+          label={t.routeDetail.headway}
+          value={`${route.headwayMinutes.min}-${route.headwayMinutes.max} ${t.routeDetail.minutesUnit}`}
         />
         <Stat
           icon={Ruler}
-          label="Chiều dài"
-          value={`${(route.distance_m / 1000).toFixed(1)} km`}
+          label={t.routeDetail.distance}
+          value={`${(route.distanceM / 1000).toFixed(1)} km`}
         />
         <Stat
           icon={Users}
-          label="Sức chứa"
-          value={`${route.num_of_seats} chỗ`}
+          label={t.routeDetail.seats}
+          value={`${route.numOfSeats} ${t.routeDetail.seatsUnit}`}
         />
       </div>
 
       <div className="px-4 pt-3">
-        <p className="text-xs font-medium text-muted-foreground">Giá vé</p>
+        <p className="text-xs font-medium text-muted-foreground">{t.routeDetail.fare}</p>
         {route.tickets.length === 0 ? (
-          <p className="mt-1.5 text-sm text-foreground">Liên hệ nhà xe để biết giá vé.</p>
+          <p className="mt-1.5 text-sm text-foreground">{t.routeDetail.noFareInfo}</p>
         ) : (
           <div className="mt-1.5 flex flex-col divide-y divide-border rounded-lg border border-border">
             {route.tickets.map((ticket) => (
@@ -148,7 +151,7 @@ export function RouteDetail() {
 
       {route.operators.length > 0 && (
         <div className="px-4 pt-3">
-          <p className="text-xs font-medium text-muted-foreground">Đơn vị vận hành</p>
+          <p className="text-xs font-medium text-muted-foreground">{t.routeDetail.operator}</p>
           <p className="mt-1.5 text-sm text-foreground">{route.operators.join(", ")}</p>
         </div>
       )}
@@ -167,7 +170,7 @@ export function RouteDetail() {
                 : "text-muted-foreground hover:text-foreground"
             )}
           >
-            Lượt đi · {route.outbound_name}
+            {t.routeDetail.outbound} · {route.outboundName}
           </button>
           <button
             type="button"
@@ -179,24 +182,24 @@ export function RouteDetail() {
                 : "text-muted-foreground hover:text-foreground"
             )}
           >
-            Lượt về · {route.inbound_name}
+            {t.routeDetail.inbound} · {route.inboundName}
           </button>
         </div>
       </div>
 
       <div className="flex-1 px-4 py-3">
         <p className="mb-1.5 text-xs font-medium text-muted-foreground">
-          {directionStops.length} trạm dừng
+          {directionStops.length} {t.routeDetail.stopsCount}
         </p>
         <ol className="flex flex-col">
-          {directionStops.map((stop: RouteStop, index: number) => (
-            <li key={stop.stop_id}>
+          {directionStops.map((stop: Stop, index: number) => (
+            <li key={stop.stopId}>
               <button
                 type="button"
                 onClick={() => selectStop(stop)}
                 className={cn(
                   "flex w-full items-start gap-2.5 rounded-lg px-2 py-2 text-left transition-colors hover:bg-accent/40",
-                  selectedStop?.stop_id === stop.stop_id && "bg-accent/60"
+                  selectedStop?.stopId === stop.stopId && "bg-accent/60"
                 )}
               >
                 <span className="mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-muted font-mono text-[10px] text-muted-foreground">

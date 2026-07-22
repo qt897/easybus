@@ -1,26 +1,31 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import type { RouteDetail } from "./api-types";
+import type { ApiErrorCode } from "@/lib/i18n/types";
+import type { RouteDetail } from "./types";
 
 const cache = new Map<string, RouteDetail>();
+
+interface RouteDetailApiError {
+  error?: ApiErrorCode;
+}
 
 export function useRouteDetail(busNo: string | null) {
   const [prevBusNo, setPrevBusNo] = useState(busNo);
   const [detail, setDetail] = useState<RouteDetail | null>(() =>
     busNo ? cache.get(busNo) ?? null : null
   );
-  const [error, setError] = useState(false);
+  const [errorCode, setErrorCode] = useState<ApiErrorCode | null>(null);
   const [attempt, setAttempt] = useState(0);
 
   if (busNo !== prevBusNo) {
     setPrevBusNo(busNo);
     setDetail(busNo ? cache.get(busNo) ?? null : null);
-    setError(false);
+    setErrorCode(null);
   }
 
   const retry = useCallback(() => {
-    setError(false);
+    setErrorCode(null);
     setAttempt((n) => n + 1);
   }, []);
 
@@ -30,18 +35,19 @@ export function useRouteDetail(busNo: string | null) {
     let cancelled = false;
 
     fetch(`/api/routes/${encodeURIComponent(busNo)}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("failed");
-        return res.json() as Promise<RouteDetail>;
+      .then(async (res) => {
+        const json = (await res.json()) as RouteDetail & RouteDetailApiError;
+        if (!res.ok) throw new Error(json.error ?? "UNKNOWN");
+        return json;
       })
       .then((json) => {
         if (cancelled) return;
         cache.set(busNo, json);
         setDetail(json);
       })
-      .catch(() => {
+      .catch((err: Error) => {
         if (cancelled) return;
-        setError(true);
+        setErrorCode((err.message as ApiErrorCode) || "UNKNOWN");
       });
 
     return () => {
@@ -49,7 +55,7 @@ export function useRouteDetail(busNo: string | null) {
     };
   }, [busNo, attempt]);
 
-  const loading = !!busNo && !error && !detail;
+  const loading = !!busNo && !errorCode && !detail;
 
-  return { detail, loading, error, retry };
+  return { detail, loading, error: errorCode, retry };
 }

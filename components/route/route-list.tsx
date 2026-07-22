@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { RouteCard } from "./route-card";
 import { useRouteMap } from "@/features/routes/route-context";
+import { useTranslation } from "@/lib/i18n/context";
+import type { ApiErrorCode } from "@/lib/i18n/types";
 
 function RouteCardSkeleton() {
   return (
@@ -23,30 +25,30 @@ function RouteCardSkeleton() {
 }
 
 function EmptyState() {
+  const t = useTranslation();
   return (
     <div className="flex flex-col items-center gap-3 px-6 py-16 text-center">
       <div className="flex size-11 items-center justify-center rounded-full bg-muted text-muted-foreground">
         <SearchX className="size-5" />
       </div>
-      <p className="text-sm font-medium text-foreground">Không tìm thấy tuyến nào</p>
-      <p className="text-xs text-muted-foreground">
-        Thử tìm theo số tuyến, tên trạm hoặc điểm đến khác.
-      </p>
+      <p className="text-sm font-medium text-foreground">{t.routeList.emptyTitle}</p>
+      <p className="text-xs text-muted-foreground">{t.routeList.emptyDesc}</p>
     </div>
   );
 }
 
-function ErrorState({ onRetry }: { onRetry: () => void }) {
+function ErrorState({ code, onRetry }: { code: ApiErrorCode; onRetry: () => void }) {
+  const t = useTranslation();
   return (
     <div className="flex flex-col items-center gap-3 px-6 py-16 text-center">
       <div className="flex size-11 items-center justify-center rounded-full bg-destructive/10 text-destructive">
         <WifiOff className="size-5" />
       </div>
-      <p className="text-sm font-medium text-foreground">Không thể tải danh sách tuyến</p>
-      <p className="text-xs text-muted-foreground">Vui lòng kiểm tra kết nối và thử lại.</p>
+      <p className="text-sm font-medium text-foreground">{t.routeList.errorTitle}</p>
+      <p className="text-xs text-muted-foreground">{t.errors[code]}</p>
       <Button variant="outline" size="sm" onClick={onRetry} className="mt-1 gap-1.5">
         <RefreshCw className="size-3.5" />
-        Thử lại
+        {t.routeList.retry}
       </Button>
     </div>
   );
@@ -76,7 +78,7 @@ export function RouteList() {
   if (error) {
     return (
       <div className="h-full overflow-y-auto">
-        <ErrorState onRetry={retry} />
+        <ErrorState code={error} onRetry={retry} />
       </div>
     );
   }
@@ -103,9 +105,9 @@ export function RouteList() {
           >
             <RouteCard
               route={route}
-              selected={selectedBusNo === route.bus_no}
-              onSelect={() => selectRoute(route.bus_no)}
-              onHoverChange={(hovered) => setHoveredBusNo(hovered ? route.bus_no : null)}
+              selected={selectedBusNo === route.busNo}
+              onSelect={() => selectRoute(route.busNo)}
+              onHoverChange={(hovered) => setHoveredBusNo(hovered ? route.busNo : null)}
             />
           </motion.div>
         ))}

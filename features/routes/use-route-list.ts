@@ -1,17 +1,23 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import type { RouteListResponse, RouteSummary } from "./api-types";
+import type { ApiErrorCode } from "@/lib/i18n/types";
+import type { RouteSummary } from "./types";
+
+interface RouteListApiResponse {
+  data?: RouteSummary[];
+  error?: ApiErrorCode;
+}
 
 export function useRouteList() {
   const [routes, setRoutes] = useState<RouteSummary[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
+  const [errorCode, setErrorCode] = useState<ApiErrorCode | null>(null);
   const [attempt, setAttempt] = useState(0);
 
   const retry = useCallback(() => {
     setLoading(true);
-    setError(false);
+    setErrorCode(null);
     setAttempt((n) => n + 1);
   }, []);
 
@@ -19,18 +25,19 @@ export function useRouteList() {
     let cancelled = false;
 
     fetch("/api/routes")
-      .then((res) => {
-        if (!res.ok) throw new Error("failed");
-        return res.json() as Promise<RouteListResponse>;
+      .then(async (res) => {
+        const json = (await res.json()) as RouteListApiResponse;
+        if (!res.ok || !json.data) throw new Error(json.error ?? "UNKNOWN");
+        return json.data;
       })
-      .then((json) => {
+      .then((data) => {
         if (cancelled) return;
-        setRoutes(json.data);
+        setRoutes(data);
         setLoading(false);
       })
-      .catch(() => {
+      .catch((err: Error) => {
         if (cancelled) return;
-        setError(true);
+        setErrorCode((err.message as ApiErrorCode) || "UNKNOWN");
         setLoading(false);
       });
 
@@ -39,5 +46,5 @@ export function useRouteList() {
     };
   }, [attempt]);
 
-  return { routes, loading, error, retry };
+  return { routes, loading, error: errorCode, retry };
 }
