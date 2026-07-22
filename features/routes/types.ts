@@ -79,8 +79,9 @@ export interface RouteDirection {
 
 export interface RouteDetail {
   route: RouteInfo;
-  directionOutbound: RouteDirection;
-  directionInbound: RouteDirection;
+  // Some routes (e.g. one-way shuttles) have no return leg.
+  directionOutbound: RouteDirection | null;
+  directionInbound: RouteDirection | null;
 }
 
 export type DirectionKey = "outbound" | "inbound";

@@ -63,7 +63,7 @@ export function MapContainer() {
         <StopMarkers />
         <UserLocationMarker />
         <StopPopup />
-        <FloatingSearch />
+        {/* <FloatingSearch /> */}
         <MapControlsTopRight />
         <MapControlsBottomRight />
       </MapInstanceProvider>

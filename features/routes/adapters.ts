@@ -78,7 +78,8 @@ function adaptVariant(raw: ExternalRouteVariant): RouteVariant {
   };
 }
 
-function adaptDirection(raw: ExternalRouteDirection): RouteDirection {
+function adaptDirection(raw: ExternalRouteDirection | null): RouteDirection | null {
+  if (!raw) return null;
   return {
     variant: adaptVariant(raw.variant),
     stops: raw.stops.map(adaptStop),

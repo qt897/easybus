@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef } from "react";
 import * as maplibregl from "maplibre-gl";
 import { useMapInstance } from "./map-instance-context";
 import { useRouteMap } from "@/features/routes/route-context";
+import { colorForBusNo } from "@/features/routes/colors";
 import {
   DEFAULT_ROUTE_COLOR,
   ROUTE_FIT_BOUNDS_MAX_ZOOM,
@@ -52,7 +53,7 @@ export function RouteLayer() {
     () =>
       detail
         ? {
-            color: detail.route.color || DEFAULT_ROUTE_COLOR,
+            color: colorForBusNo(detail.route.busNo),
             path: directionStops.map((s) => [s.lng, s.lat] as [number, number]),
           }
         : null,

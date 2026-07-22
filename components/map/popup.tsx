@@ -10,7 +10,7 @@ import { useTranslation } from "@/lib/i18n/context";
 
 export function StopPopup() {
   const map = useMapInstance();
-  const { selectedStop, selectStop, selectedBusNo, detail, selectRoute } = useRouteMap();
+  const { selectedStop, selectStop, selectRoute } = useRouteMap();
   const t = useTranslation();
   const [pos, setPos] = useState<{ x: number; y: number } | null>(null);
 
@@ -65,24 +65,20 @@ export function StopPopup() {
                 {t.popup.routesThrough}
               </p>
               <div className="mt-1.5 flex flex-wrap gap-1.5">
-                {selectedStop.routes.map((busNo) => {
-                  const isCurrent = busNo === selectedBusNo;
-                  const color = isCurrent && detail ? detail.route.color : colorForBusNo(busNo);
-                  return (
-                    <button
-                      key={busNo}
-                      type="button"
-                      onClick={() => {
-                        selectRoute(busNo);
-                        selectStop(null);
-                      }}
-                      className="flex h-7 min-w-7 items-center justify-center rounded-md px-1.5 font-display text-xs font-bold text-white transition-transform hover:scale-105"
-                      style={{ background: color }}
-                    >
-                      {busNo}
-                    </button>
-                  );
-                })}
+                {selectedStop.routes.map((busNo) => (
+                  <button
+                    key={busNo}
+                    type="button"
+                    onClick={() => {
+                      selectRoute(busNo);
+                      selectStop(null);
+                    }}
+                    className="flex h-7 min-w-7 items-center justify-center rounded-md px-1.5 font-display text-xs font-bold text-white transition-transform hover:scale-105"
+                    style={{ background: colorForBusNo(busNo) }}
+                  >
+                    {busNo}
+                  </button>
+                ))}
               </div>
             </div>
           )}

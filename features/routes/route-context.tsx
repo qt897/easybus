@@ -98,7 +98,8 @@ export function RouteMapProvider({ children }: { children: React.ReactNode }) {
 
   const directionStops = useMemo(() => {
     if (!detail) return [];
-    return direction === "outbound" ? detail.directionOutbound.stops : detail.directionInbound.stops;
+    const selected = direction === "outbound" ? detail.directionOutbound : detail.directionInbound;
+    return (selected ?? detail.directionOutbound ?? detail.directionInbound)?.stops ?? [];
   }, [detail, direction]);
 
   const requestUserLocation = useCallback(() => {

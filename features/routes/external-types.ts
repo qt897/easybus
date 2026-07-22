@@ -81,6 +81,6 @@ export interface ExternalRouteDirection {
 
 export interface ExternalRouteDetail {
   route: ExternalRouteInfo;
-  direction_outbound: ExternalRouteDirection;
-  direction_inbound: ExternalRouteDirection;
+  direction_outbound: ExternalRouteDirection | null;
+  direction_inbound: ExternalRouteDirection | null;
 }

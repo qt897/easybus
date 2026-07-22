@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import * as maplibregl from "maplibre-gl";
 import { useMapInstance } from "./map-instance-context";
 import { useRouteMap } from "@/features/routes/route-context";
+import { colorForBusNo } from "@/features/routes/colors";
 import { DEFAULT_ROUTE_COLOR } from "@/lib/constants";
 import type { Stop } from "@/features/routes/types";
 
@@ -59,7 +60,7 @@ export function StopMarkers() {
     markers.forEach((marker) => marker.remove());
     markers.clear();
 
-    const color = detail?.route.color || DEFAULT_ROUTE_COLOR;
+    const color = detail ? colorForBusNo(detail.route.busNo) : DEFAULT_ROUTE_COLOR;
 
     directionStops.forEach((stop: Stop, index: number) => {
       let kind: "origin" | "stop" | "destination" = "stop";

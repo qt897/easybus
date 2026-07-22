@@ -14,7 +14,7 @@ interface RouteCardProps {
 }
 
 export function RouteCard({ route, selected, onSelect, onHoverChange }: RouteCardProps) {
-  const color = route.color || colorForBusNo(route.busNo);
+  const color = colorForBusNo(route.busNo);
 
   return (
     <button
@@ -42,7 +42,7 @@ export function RouteCard({ route, selected, onSelect, onHoverChange }: RouteCar
 
       <div className="flex items-start gap-3">
         <div
-          className="flex size-10 shrink-0 items-center justify-center rounded-md font-display text-sm font-bold text-white"
+          className="flex size-10 shrink-0 items-center justify-center rounded-md font-display text-sm font-bold text-white text-center"
           style={{ background: color }}
         >
           {route.busNo}

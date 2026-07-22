@@ -6,6 +6,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 import { useRouteMap } from "@/features/routes/route-context";
+import { colorForBusNo } from "@/features/routes/colors";
 import { useTranslation } from "@/lib/i18n/context";
 import type { Stop } from "@/features/routes/types";
 
@@ -97,8 +98,8 @@ export function RouteDetail() {
           <ArrowLeft className="size-4" />
         </Button>
         <div
-          className="flex size-11 shrink-0 items-center justify-center rounded-md font-display text-base font-bold text-white"
-          style={{ background: route.color }}
+          className="flex size-11 shrink-0 items-center justify-center rounded-md font-display text-base font-bold text-white text-center"
+          style={{ background: colorForBusNo(route.busNo) }}
         >
           {route.busNo}
         </div>
@@ -159,12 +160,12 @@ export function RouteDetail() {
       <Separator className="my-4" />
 
       <div className="px-4">
-        <div className="inline-flex rounded-lg bg-muted p-1">
+        <div className="inline-flex rounded-lg bg-muted p-1 w-full">
           <button
             type="button"
             onClick={() => setDirection("outbound")}
             className={cn(
-              "rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
+              "rounded-md px-3 py-1.5 text-xs font-medium transition-colors flex-1 text-center",
               direction === "outbound"
                 ? "bg-card text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -172,18 +173,20 @@ export function RouteDetail() {
           >
             {t.routeDetail.outbound} · {route.outboundName}
           </button>
-          <button
-            type="button"
-            onClick={() => setDirection("inbound")}
-            className={cn(
-              "rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
-              direction === "inbound"
-                ? "bg-card text-foreground shadow-sm"
-                : "text-muted-foreground hover:text-foreground"
-            )}
-          >
-            {t.routeDetail.inbound} · {route.inboundName}
-          </button>
+          {detail.directionInbound && (
+            <button
+              type="button"
+              onClick={() => setDirection("inbound")}
+              className={cn(
+                "rounded-md px-3 py-1.5 text-xs font-medium transition-colors flex-1 text-center",
+                direction === "inbound"
+                  ? "bg-card text-foreground shadow-sm"
+                  : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              {t.routeDetail.inbound} · {route.inboundName}
+            </button>
+          )}
         </div>
       </div>
 
