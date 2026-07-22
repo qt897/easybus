@@ -1,0 +1,1603 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 178,
+    "crawled_at": "2026-07-23T00:26:33"
+  },
+  "data": {
+    "route": {
+      "id": 178,
+      "bus_no": "127",
+      "name": "An Thới Đông - Ngã ba Bà Xán",
+      "color": "#0000FF",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 18000.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty TNHH Dịch vụ Vận tải sinh thái Vinbus, ĐT: 1900 866 663"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 6000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 135000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 40,
+        "max": 40
+      },
+      "headway_minutes": {
+        "min": 8,
+        "max": 30
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "20:00"
+      },
+      "total_trip": {
+        "value": 120,
+        "unit": "TPD"
+      },
+      "outbound_name": "Ngã ba Bà Xán",
+      "outbound_description": [
+        "Bến đò An Thới Đông",
+        "Đường An Thới Đông",
+        "Đường Rừng Sác",
+        "Đường Tam Thôn Hiệp",
+        "Đường Nguyễn Công Bao",
+        "Đường Tam Thôn Hiệp",
+        "Ngã ba Bà Xán"
+      ],
+      "inbound_name": "An Thới Đông",
+      "inbound_description": [
+        "Ngã ba Bà Xán",
+        "Đường Tam Thôn Hiệp",
+        "Đường Nguyễn Công Bao",
+        "Đường Tam Thôn Hiệp",
+        "Đường Rừng Sác",
+        "Đường An Thới Đông – Bến đò An Thới Đông"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: An Thới Đông - Bà Xán",
+        "short_name": "Ngã ba Bà Xán",
+        "start_stop": "Ủy ban nhân dân xã An Thới Đông",
+        "end_stop": "Ngã ba Bà Xán",
+        "distance_m": 18118.0,
+        "running_time_minutes": 40,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 29,
+        "route_var_id": 1,
+        "start_date": "01/03/2026",
+        "end_date": null,
+        "is_current": false,
+        "running_time_minutes": {
+          "min": 40,
+          "max": 40
+        },
+        "headway_minutes": {
+          "min": 8,
+          "max": 30
+        },
+        "total_trip": 60,
+        "operation_time": {
+          "start": "05:00",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 6860,
+          "code": "BX 84",
+          "name": "Ủy ban nhân dân xã An Thới Đông",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Ủy ban nhân dân xã An Thới Đông",
+          "street": "An Thới Đông",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.591123,
+          "lng": 106.788638,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6864,
+          "code": "HCG 043",
+          "name": "Trường tiểu học An Thới Đông",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Trường tiểu học An Thới Đông",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.590806,
+          "lng": 106.792517,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7100,
+          "code": "HCG 131",
+          "name": "Quán Phương Trang",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Trụ điện ATĐ 52",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.590268,
+          "lng": 106.80133,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7098,
+          "code": "HCG 129",
+          "name": "Rạch Giồng",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Đối điện trụ điện ATĐ 43.1",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587036,
+          "lng": 106.803616,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6865,
+          "code": "HCG 044",
+          "name": "Trường Trung học An Thới Đôn",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Đối diện Trường THCS An Thới Đông",
+          "street": "An Thới Đông",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.58335,
+          "lng": 106.805504,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7096,
+          "code": "HCG 127",
+          "name": "An Thới Đông",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Đối diện ATĐ 18",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.576036,
+          "lng": 106.81708,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6866,
+          "code": "HCG 045",
+          "name": "Rừng Sác",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Đối diện trụ điện TĐ11",
+          "street": "An Thới Đông",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.576221,
+          "lng": 106.824365,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6867,
+          "code": "HCG 046",
+          "name": "Tam Thôn Hiệp",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Cửa hàng Kim Nguyên",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587437,
+          "lng": 106.825535,
+          "routes": [
+            "127",
+            "128"
+          ]
+        },
+        {
+          "stop_id": 6868,
+          "code": "HCG 047",
+          "name": "Trường An Nghĩa",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện Trường THPT An Nghĩa",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.588829,
+          "lng": 106.830411,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7094,
+          "code": "HCG 125",
+          "name": "Tam Thôn Hiệp",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "TTH 19",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587305,
+          "lng": 106.833785,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7092,
+          "code": "HCG 123",
+          "name": "Thuận Yến",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện HTX Thuận Yến",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.588154,
+          "lng": 106.837851,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6869,
+          "code": "HCG 048",
+          "name": "Đê An Hòa",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện ngã 3 Đê An Hòa",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587632,
+          "lng": 106.845195,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7090,
+          "code": "HCG 121",
+          "name": "Đê N1",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trụ điện TTH 62.1",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587785,
+          "lng": 106.849819,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6870,
+          "code": "HCG 049",
+          "name": "Trường Tam Thôn Hiệp",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện Trường THCS Tam Thôn Hiệp",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587964,
+          "lng": 106.854519,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7088,
+          "code": "HCG 119",
+          "name": "Nguyễn Công Bao",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện TH 772",
+          "street": "Nguyễn Công Bao",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.595847,
+          "lng": 106.857056,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7086,
+          "code": "HCG 117",
+          "name": "Nguyễn Công Bao 2",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trụ điện TH 35",
+          "street": "Nguyễn Công Bao",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.598304,
+          "lng": 106.859556,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7084,
+          "code": "HCG 115",
+          "name": "Tam Thôn Hiệp",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trụ điện TH2.2",
+          "street": "Nguyễn Công Bao",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.601874,
+          "lng": 106.860108,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6872,
+          "code": "HCG 051",
+          "name": "Đình xã Tam Thôn Hiệp",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đình Xã Tam Thôn Hiệp",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.607996,
+          "lng": 106.859014,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6873,
+          "code": "HCG 052",
+          "name": "Nhà văn hóa Ấp Trần Hưng Đạo",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Nhà văn hóa ấp Trần Hưng Đạo",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.618019,
+          "lng": 106.855913,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7082,
+          "code": "HCG 113",
+          "name": "Cống Hưng Đạo",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trụ điện TTH 125",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.619042,
+          "lng": 106.852807,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6874,
+          "code": "HCG 053",
+          "name": "Cầu Tắc Tây Đen",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện trụ điện 11",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.618219,
+          "lng": 106.847556,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6875,
+          "code": "HCG 054",
+          "name": "Bà Xán",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Đối diện trụ diện TĐ39",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.619232,
+          "lng": 106.842567,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7080,
+          "code": "HCG 111",
+          "name": "Đội 5",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Đối diện trụ điện TĐ 29",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.620445,
+          "lng": 106.835598,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6876,
+          "code": "HCG 055",
+          "name": "Nghĩa trang Bình Khánh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Đối diện Nghĩa trang Bình Khánh",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.618219,
+          "lng": 106.825604,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6861,
+          "code": "BX 85",
+          "name": "Ngã ba Bà Xán",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Ngã 3 Bà Xán",
+          "street": "Bà Xán",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.616538,
+          "lng": 106.81884,
+          "routes": [
+            "127"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 3039,
+          "start_time": "05:00",
+          "end_time": "05:40"
+        },
+        {
+          "trip_id": 3040,
+          "start_time": "05:10",
+          "end_time": "05:50"
+        },
+        {
+          "trip_id": 3041,
+          "start_time": "05:20",
+          "end_time": "06:00"
+        },
+        {
+          "trip_id": 3042,
+          "start_time": "05:28",
+          "end_time": "06:08"
+        },
+        {
+          "trip_id": 3043,
+          "start_time": "05:36",
+          "end_time": "06:16"
+        },
+        {
+          "trip_id": 3044,
+          "start_time": "05:44",
+          "end_time": "06:24"
+        },
+        {
+          "trip_id": 3045,
+          "start_time": "05:52",
+          "end_time": "06:32"
+        },
+        {
+          "trip_id": 3046,
+          "start_time": "06:00",
+          "end_time": "06:40"
+        },
+        {
+          "trip_id": 3047,
+          "start_time": "06:10",
+          "end_time": "06:50"
+        },
+        {
+          "trip_id": 3048,
+          "start_time": "06:20",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 3049,
+          "start_time": "06:30",
+          "end_time": "07:10"
+        },
+        {
+          "trip_id": 3050,
+          "start_time": "06:40",
+          "end_time": "07:20"
+        },
+        {
+          "trip_id": 3051,
+          "start_time": "06:50",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 3052,
+          "start_time": "07:00",
+          "end_time": "07:40"
+        },
+        {
+          "trip_id": 3053,
+          "start_time": "07:30",
+          "end_time": "08:10"
+        },
+        {
+          "trip_id": 3054,
+          "start_time": "08:00",
+          "end_time": "08:40"
+        },
+        {
+          "trip_id": 3055,
+          "start_time": "08:30",
+          "end_time": "09:10"
+        },
+        {
+          "trip_id": 3056,
+          "start_time": "09:00",
+          "end_time": "09:40"
+        },
+        {
+          "trip_id": 3057,
+          "start_time": "09:30",
+          "end_time": "10:10"
+        },
+        {
+          "trip_id": 3058,
+          "start_time": "10:00",
+          "end_time": "10:40"
+        },
+        {
+          "trip_id": 3059,
+          "start_time": "10:08",
+          "end_time": "10:48"
+        },
+        {
+          "trip_id": 3060,
+          "start_time": "10:16",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 3061,
+          "start_time": "10:24",
+          "end_time": "11:04"
+        },
+        {
+          "trip_id": 3062,
+          "start_time": "10:32",
+          "end_time": "11:12"
+        },
+        {
+          "trip_id": 3063,
+          "start_time": "10:40",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 3064,
+          "start_time": "10:48",
+          "end_time": "11:28"
+        },
+        {
+          "trip_id": 3065,
+          "start_time": "10:56",
+          "end_time": "11:36"
+        },
+        {
+          "trip_id": 3066,
+          "start_time": "11:04",
+          "end_time": "11:44"
+        },
+        {
+          "trip_id": 3067,
+          "start_time": "11:12",
+          "end_time": "11:52"
+        },
+        {
+          "trip_id": 3068,
+          "start_time": "11:20",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 3069,
+          "start_time": "11:28",
+          "end_time": "12:08"
+        },
+        {
+          "trip_id": 3070,
+          "start_time": "11:36",
+          "end_time": "12:16"
+        },
+        {
+          "trip_id": 3071,
+          "start_time": "11:44",
+          "end_time": "12:24"
+        },
+        {
+          "trip_id": 3072,
+          "start_time": "11:52",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 3073,
+          "start_time": "12:00",
+          "end_time": "12:40"
+        },
+        {
+          "trip_id": 3074,
+          "start_time": "12:30",
+          "end_time": "13:10"
+        },
+        {
+          "trip_id": 3075,
+          "start_time": "13:00",
+          "end_time": "13:40"
+        },
+        {
+          "trip_id": 3076,
+          "start_time": "13:30",
+          "end_time": "14:10"
+        },
+        {
+          "trip_id": 3077,
+          "start_time": "14:00",
+          "end_time": "14:40"
+        },
+        {
+          "trip_id": 3078,
+          "start_time": "14:30",
+          "end_time": "15:10"
+        },
+        {
+          "trip_id": 3079,
+          "start_time": "15:00",
+          "end_time": "15:40"
+        },
+        {
+          "trip_id": 3080,
+          "start_time": "15:15",
+          "end_time": "15:55"
+        },
+        {
+          "trip_id": 3081,
+          "start_time": "15:30",
+          "end_time": "16:10"
+        },
+        {
+          "trip_id": 3082,
+          "start_time": "15:45",
+          "end_time": "16:25"
+        },
+        {
+          "trip_id": 3083,
+          "start_time": "16:00",
+          "end_time": "16:40"
+        },
+        {
+          "trip_id": 3084,
+          "start_time": "16:10",
+          "end_time": "16:50"
+        },
+        {
+          "trip_id": 3085,
+          "start_time": "16:20",
+          "end_time": "17:00"
+        },
+        {
+          "trip_id": 3086,
+          "start_time": "16:30",
+          "end_time": "17:10"
+        },
+        {
+          "trip_id": 3087,
+          "start_time": "16:40",
+          "end_time": "17:20"
+        },
+        {
+          "trip_id": 3088,
+          "start_time": "16:50",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 3089,
+          "start_time": "17:00",
+          "end_time": "17:40"
+        },
+        {
+          "trip_id": 3090,
+          "start_time": "17:10",
+          "end_time": "17:50"
+        },
+        {
+          "trip_id": 3091,
+          "start_time": "17:20",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 3092,
+          "start_time": "17:30",
+          "end_time": "18:10"
+        },
+        {
+          "trip_id": 3093,
+          "start_time": "17:45",
+          "end_time": "18:25"
+        },
+        {
+          "trip_id": 3094,
+          "start_time": "18:00",
+          "end_time": "18:40"
+        },
+        {
+          "trip_id": 3095,
+          "start_time": "18:30",
+          "end_time": "19:10"
+        },
+        {
+          "trip_id": 3096,
+          "start_time": "19:00",
+          "end_time": "19:40"
+        },
+        {
+          "trip_id": 3097,
+          "start_time": "19:30",
+          "end_time": "20:10"
+        },
+        {
+          "trip_id": 3098,
+          "start_time": "20:00",
+          "end_time": "20:40"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Bà Xán - An Thới Đông",
+        "short_name": "An Thới Đông",
+        "start_stop": "Ngã ba Bà Xán",
+        "end_stop": "Ủy ban nhân dân xã An Thới Đông",
+        "distance_m": 18144.99999999999,
+        "running_time_minutes": 40,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 30,
+        "route_var_id": 2,
+        "start_date": "01/03/2026",
+        "end_date": null,
+        "is_current": false,
+        "running_time_minutes": {
+          "min": 40,
+          "max": 40
+        },
+        "headway_minutes": {
+          "min": 8,
+          "max": 30
+        },
+        "total_trip": 60,
+        "operation_time": {
+          "start": "05:00",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 6861,
+          "code": "BX 85",
+          "name": "Ngã ba Bà Xán",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Ngã 3 Bà Xán",
+          "street": "Bà Xán",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.616538,
+          "lng": 106.81884,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6877,
+          "code": "HCG 056",
+          "name": "Nghĩa trang Bình Khánh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Nghĩa trang Bình Khánh",
+          "street": "Bà Xán",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.61784,
+          "lng": 106.825283,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7079,
+          "code": "HCG 110",
+          "name": "Đội 5",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Trụ điện TĐ29",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.620097,
+          "lng": 106.835368,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6878,
+          "code": "HCG 057",
+          "name": "Bà Xán",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Bình Khánh",
+          "address": "Trụ điện TĐ39",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.61992,
+          "lng": 106.84104,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6879,
+          "code": "HCG 058",
+          "name": "Cầu Tắc Tây Đen",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trụ điện 11",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.61804,
+          "lng": 106.847212,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7081,
+          "code": "HCG 112",
+          "name": "Cống Hưng Đạo",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện trụ điện TTH 125",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.618831,
+          "lng": 106.852705,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6880,
+          "code": "HCG 059",
+          "name": "Nhà văn hóa Ấp Trần Hưng Đạo",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện Ấp văn hóa Trần Hưng Đạo",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.617861,
+          "lng": 106.855811,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6881,
+          "code": "HCG 060",
+          "name": "Đình xã Tam Thôn Hiệp",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện Đình xã Tam Thôn Hiệp",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.607532,
+          "lng": 106.858934,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7083,
+          "code": "HCG 114",
+          "name": "Nguyễn Công Bao",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện trụ điện TH 86.4",
+          "street": "Nguyễn Công Bao",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.601779,
+          "lng": 106.85998,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7085,
+          "code": "HCG 116",
+          "name": "Nguyễn Công Bao 2",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện trụ điện TH35",
+          "street": "Nguyễn Công Bao",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.598515,
+          "lng": 106.85955,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6883,
+          "code": "HCG 062",
+          "name": "Trường Trung học Tam Thôn Hiệp",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trường THCS Tam Thôn Hiệp",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.588138,
+          "lng": 106.854706,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7089,
+          "code": "HCG 120",
+          "name": "Đường Đê N1",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện TTH 62.1",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.590463,
+          "lng": 106.856705,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6884,
+          "code": "HCG 063",
+          "name": "Đê An Hòa",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đê An Hòa",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587806,
+          "lng": 106.845024,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7091,
+          "code": "HCG 122",
+          "name": "Thuận Yến",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "HTX Thuận Yến",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.588349,
+          "lng": 106.838012,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7093,
+          "code": "HCG 124",
+          "name": "Tam Thôn Hiệp",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện TTH 19",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587505,
+          "lng": 106.834112,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6885,
+          "code": "HCG 064",
+          "name": "Trường An Nghĩa",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Trường THPT An Nghĩa",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.588961,
+          "lng": 106.830626,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6886,
+          "code": "HCG 065",
+          "name": "Rừng Sác",
+          "type": "Trụ dừng",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Tam Thôn Hiệp",
+          "address": "Đối diện Phúc Hải",
+          "street": "Tam Thôn Hiệp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.587579,
+          "lng": 106.82539,
+          "routes": [
+            "127",
+            "128"
+          ]
+        },
+        {
+          "stop_id": 6887,
+          "code": "HCG 066",
+          "name": "An Thới Đông",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Cột điện 3/21",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.576326,
+          "lng": 106.824199,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7095,
+          "code": "HCG 126",
+          "name": "An Thới Đông",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Trụ điện ATĐ 18",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.576205,
+          "lng": 106.817231,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6888,
+          "code": "HCG 067",
+          "name": "Trường THCS An Thới Đông",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Trường THCS An Thới Đông",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.583208,
+          "lng": 106.805778,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7097,
+          "code": "HCG 128",
+          "name": "Rạch Giồng",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Trụ đèn ATĐ 43.1",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.586931,
+          "lng": 106.803868,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 7099,
+          "code": "HCG 130",
+          "name": "Quán Phương Trang",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Đối diện trụ điện ATĐ 52",
+          "street": "An Thới Đông",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.590442,
+          "lng": 106.801395,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6889,
+          "code": "HCG 068",
+          "name": "Trường tiểu học An Thới Đông",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Đối diện Trường tiểu học An Thới Đông ",
+          "street": "An Thới Đông",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.590954,
+          "lng": 106.793289,
+          "routes": [
+            "127"
+          ]
+        },
+        {
+          "stop_id": 6860,
+          "code": "BX 84",
+          "name": "Ủy ban nhân dân xã An Thới Đông",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã An Thới Đông",
+          "address": "Ủy ban nhân dân xã An Thới Đông",
+          "street": "An Thới Đông",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.591123,
+          "lng": 106.788638,
+          "routes": [
+            "127"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 3099,
+          "start_time": "05:00",
+          "end_time": "05:40"
+        },
+        {
+          "trip_id": 3100,
+          "start_time": "05:10",
+          "end_time": "05:50"
+        },
+        {
+          "trip_id": 3101,
+          "start_time": "05:20",
+          "end_time": "06:00"
+        },
+        {
+          "trip_id": 3102,
+          "start_time": "05:28",
+          "end_time": "06:08"
+        },
+        {
+          "trip_id": 3103,
+          "start_time": "05:36",
+          "end_time": "06:16"
+        },
+        {
+          "trip_id": 3104,
+          "start_time": "05:44",
+          "end_time": "06:24"
+        },
+        {
+          "trip_id": 3105,
+          "start_time": "05:52",
+          "end_time": "06:32"
+        },
+        {
+          "trip_id": 3106,
+          "start_time": "06:00",
+          "end_time": "06:40"
+        },
+        {
+          "trip_id": 3107,
+          "start_time": "06:10",
+          "end_time": "06:50"
+        },
+        {
+          "trip_id": 3108,
+          "start_time": "06:20",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 3109,
+          "start_time": "06:30",
+          "end_time": "07:10"
+        },
+        {
+          "trip_id": 3110,
+          "start_time": "06:40",
+          "end_time": "07:20"
+        },
+        {
+          "trip_id": 3111,
+          "start_time": "06:50",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 3112,
+          "start_time": "07:00",
+          "end_time": "07:40"
+        },
+        {
+          "trip_id": 3113,
+          "start_time": "07:30",
+          "end_time": "08:10"
+        },
+        {
+          "trip_id": 3114,
+          "start_time": "08:00",
+          "end_time": "08:40"
+        },
+        {
+          "trip_id": 3115,
+          "start_time": "08:30",
+          "end_time": "09:10"
+        },
+        {
+          "trip_id": 3116,
+          "start_time": "09:00",
+          "end_time": "09:40"
+        },
+        {
+          "trip_id": 3117,
+          "start_time": "09:30",
+          "end_time": "10:10"
+        },
+        {
+          "trip_id": 3118,
+          "start_time": "10:00",
+          "end_time": "10:40"
+        },
+        {
+          "trip_id": 3119,
+          "start_time": "10:08",
+          "end_time": "10:48"
+        },
+        {
+          "trip_id": 3120,
+          "start_time": "10:16",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 3121,
+          "start_time": "10:24",
+          "end_time": "11:04"
+        },
+        {
+          "trip_id": 3122,
+          "start_time": "10:32",
+          "end_time": "11:12"
+        },
+        {
+          "trip_id": 3123,
+          "start_time": "10:40",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 3124,
+          "start_time": "10:48",
+          "end_time": "11:28"
+        },
+        {
+          "trip_id": 3125,
+          "start_time": "10:56",
+          "end_time": "11:36"
+        },
+        {
+          "trip_id": 3126,
+          "start_time": "11:04",
+          "end_time": "11:44"
+        },
+        {
+          "trip_id": 3127,
+          "start_time": "11:12",
+          "end_time": "11:52"
+        },
+        {
+          "trip_id": 3128,
+          "start_time": "11:20",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 3129,
+          "start_time": "11:28",
+          "end_time": "12:08"
+        },
+        {
+          "trip_id": 3130,
+          "start_time": "11:36",
+          "end_time": "12:16"
+        },
+        {
+          "trip_id": 3131,
+          "start_time": "11:44",
+          "end_time": "12:24"
+        },
+        {
+          "trip_id": 3132,
+          "start_time": "11:52",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 3133,
+          "start_time": "12:00",
+          "end_time": "12:40"
+        },
+        {
+          "trip_id": 3134,
+          "start_time": "12:30",
+          "end_time": "13:10"
+        },
+        {
+          "trip_id": 3135,
+          "start_time": "13:00",
+          "end_time": "13:40"
+        },
+        {
+          "trip_id": 3136,
+          "start_time": "13:30",
+          "end_time": "14:10"
+        },
+        {
+          "trip_id": 3137,
+          "start_time": "14:00",
+          "end_time": "14:40"
+        },
+        {
+          "trip_id": 3138,
+          "start_time": "14:30",
+          "end_time": "15:10"
+        },
+        {
+          "trip_id": 3139,
+          "start_time": "15:00",
+          "end_time": "15:40"
+        },
+        {
+          "trip_id": 3140,
+          "start_time": "15:15",
+          "end_time": "15:55"
+        },
+        {
+          "trip_id": 3141,
+          "start_time": "15:30",
+          "end_time": "16:10"
+        },
+        {
+          "trip_id": 3142,
+          "start_time": "15:45",
+          "end_time": "16:25"
+        },
+        {
+          "trip_id": 3143,
+          "start_time": "16:00",
+          "end_time": "16:40"
+        },
+        {
+          "trip_id": 3144,
+          "start_time": "16:10",
+          "end_time": "16:50"
+        },
+        {
+          "trip_id": 3145,
+          "start_time": "16:20",
+          "end_time": "17:00"
+        },
+        {
+          "trip_id": 3146,
+          "start_time": "16:30",
+          "end_time": "17:10"
+        },
+        {
+          "trip_id": 3147,
+          "start_time": "16:40",
+          "end_time": "17:20"
+        },
+        {
+          "trip_id": 3148,
+          "start_time": "16:50",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 3149,
+          "start_time": "17:00",
+          "end_time": "17:40"
+        },
+        {
+          "trip_id": 3150,
+          "start_time": "17:10",
+          "end_time": "17:50"
+        },
+        {
+          "trip_id": 3151,
+          "start_time": "17:20",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 3152,
+          "start_time": "17:30",
+          "end_time": "18:10"
+        },
+        {
+          "trip_id": 3153,
+          "start_time": "17:45",
+          "end_time": "18:25"
+        },
+        {
+          "trip_id": 3154,
+          "start_time": "18:00",
+          "end_time": "18:40"
+        },
+        {
+          "trip_id": 3155,
+          "start_time": "18:30",
+          "end_time": "19:10"
+        },
+        {
+          "trip_id": 3156,
+          "start_time": "19:00",
+          "end_time": "19:40"
+        },
+        {
+          "trip_id": 3157,
+          "start_time": "19:30",
+          "end_time": "20:10"
+        },
+        {
+          "trip_id": 3158,
+          "start_time": "20:00",
+          "end_time": "20:40"
+        }
+      ]
+    }
+  }
+}

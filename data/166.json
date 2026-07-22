@@ -1,0 +1,916 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 376,
+    "crawled_at": "2026-07-23T00:26:45"
+  },
+  "data": {
+    "route": {
+      "id": 376,
+      "bus_no": "166",
+      "name": "Đại học Quốc Gia - Suối Tiên",
+      "color": "#FFFF99",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 6600.0,
+      "num_of_seats": 60,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 5000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 112500,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 20,
+        "max": 20
+      },
+      "headway_minutes": {
+        "min": 8,
+        "max": 15
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "22:00"
+      },
+      "total_trip": {
+        "value": 94,
+        "unit": "TPD"
+      },
+      "outbound_name": "Suối Tiên",
+      "outbound_description": [
+        "Ga Đại học Quốc gia – Đỗ Mười (Quốc lộ 1)",
+        "Đường Võ Trường Toản",
+        "Đường Alexandre de Rhodes (Trục chính 10) – Đường Isaac Newton (Trục chính 3) – Quảng Trường Sáng Tạo",
+        "(quay đầu tại vòng xoay Quảng trường sáng tạo Đường 621) – Quảng trường sáng tạo",
+        "Đường Tạ Quang Bửu",
+        "Đường Thánh Gióng",
+        "Đường Vành Đai (Đường Nguyễn Bỉnh Khiêm) – Đường 621",
+        "Song hành Xa Lộ Hà Nội – Ga Đại học Quốc gia."
+      ],
+      "inbound_name": null,
+      "inbound_description": []
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Đại học Quốc Gia - Suối Tiên",
+        "short_name": "Suối Tiên",
+        "start_stop": "Ga Đại học Quốc gia",
+        "end_stop": "Ga Đại học Quốc gia",
+        "distance_m": 6819.0,
+        "running_time_minutes": 20,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 4,
+        "route_var_id": 1,
+        "start_date": "21/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 20,
+          "max": 20
+        },
+        "headway_minutes": {
+          "min": 8,
+          "max": 15
+        },
+        "total_trip": 94,
+        "operation_time": {
+          "start": "05:00",
+          "end": "22:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 8261,
+          "code": "BX98",
+          "name": "Ga Đại học Quốc gia",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Ga Đại học Quốc gia",
+          "street": "Song hành Xa Lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.865971,
+          "lng": 106.800467,
+          "routes": [
+            "166"
+          ]
+        },
+        {
+          "stop_id": 7620,
+          "code": "QTD 244",
+          "name": "Thư Viện Trung tâm ĐHQG TPHCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Thư viện trung tâm ĐHQG",
+          "street": "Võ Trường Toản ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.867741,
+          "lng": 106.795086,
+          "routes": [
+            "166",
+            "170",
+            "50",
+            "52"
+          ]
+        },
+        {
+          "stop_id": 7643,
+          "code": "QTD 247",
+          "name": "Thư Viện Trung tâm ĐHQG TPHCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Cổng sau Thư viện Trung tâm ĐHQG",
+          "street": "Võ Trường Toản",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.870422,
+          "lng": 106.796315,
+          "routes": [
+            "166",
+            "170",
+            "50",
+            "52"
+          ]
+        },
+        {
+          "stop_id": 7649,
+          "code": "QTD 270",
+          "name": "Hồ Câu cá",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện 6/21",
+          "street": "Alexsandre de Rhodes",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.871713,
+          "lng": 106.798117,
+          "routes": [
+            "166",
+            "170",
+            "50",
+            "52"
+          ]
+        },
+        {
+          "stop_id": 7645,
+          "code": "QTD 248",
+          "name": "Nhà Văn hoá sinh viên",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nhà văn hoá sinh viên",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.874832,
+          "lng": 106.800016,
+          "routes": [
+            "08",
+            "10",
+            "166",
+            "19",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7624,
+          "code": "QTD 255",
+          "name": "Đại học Quốc tế (đối diện cổng QTST)",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện Đại học Quốc tế",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.876476,
+          "lng": 106.80257,
+          "routes": [
+            "08",
+            "10",
+            "166",
+            "19",
+            "50",
+            "52",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7647,
+          "code": "QTD 252",
+          "name": "KTX Khu A ĐH Quốc Gia TPHCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nút giao Quảng trường (hướng ra)",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.875638,
+          "lng": 106.804914,
+          "routes": [
+            "08",
+            "10",
+            "166",
+            "170",
+            "19",
+            "50",
+            "52",
+            "61-77",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7648,
+          "code": "QTD 253",
+          "name": "KTX Khu A ĐH Quốc Gia TPHCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nút giao Quảng trường (hướng vào)",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.875886,
+          "lng": 106.804968,
+          "routes": [
+            "08",
+            "10",
+            "166",
+            "170",
+            "19",
+            "50",
+            "52",
+            "61-77",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7633,
+          "code": "QTD 256",
+          "name": "KTX Khu A ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "KTX Khu A ĐHQG (CX 161-163)",
+          "street": "Tạ Quang Bửu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.877729,
+          "lng": 106.805858,
+          "routes": [
+            "166",
+            "50"
+          ]
+        },
+        {
+          "stop_id": 7636,
+          "code": "QTD 259",
+          "name": "Đại học Bách Khoa - ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện ĐH Bách Khoa (CX101-103)",
+          "street": "Tạ Quang Bửu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.879921,
+          "lng": 106.80729,
+          "routes": [
+            "166",
+            "50"
+          ]
+        },
+        {
+          "stop_id": 8297,
+          "code": "HCM 0004",
+          "name": "Tòa AH4- KTX Khu A",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện 136 - 138",
+          "street": "Nguyễn Bỉnh Khiêm",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.880791,
+          "lng": 106.810634,
+          "routes": [
+            "166",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 8295,
+          "code": "HCM 0002",
+          "name": "Bến xe buýt Khu A",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện Căn hộ The EastGate",
+          "street": "Nguyễn Bỉnh Khiêm",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.876186,
+          "lng": 106.807541,
+          "routes": [
+            "166",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 572,
+          "code": "QTD 175",
+          "name": "Đại học An Ninh Nhân Dân",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Nhà máy Tiến Thành",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871402,
+          "lng": 106.806657,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "166",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 576,
+          "code": "QTD 176",
+          "name": "Trường ĐH công nghệ thông tin",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Trường ĐH Công Nghệ thông tin",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.869172,
+          "lng": 106.804727,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "166",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 8261,
+          "code": "BX98",
+          "name": "Ga Đại học Quốc gia",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Ga Đại học Quốc gia",
+          "street": "Song hành Xa Lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.865971,
+          "lng": 106.800467,
+          "routes": [
+            "166"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 146,
+          "start_time": "05:00",
+          "end_time": "05:20"
+        },
+        {
+          "trip_id": 147,
+          "start_time": "05:15",
+          "end_time": "05:35"
+        },
+        {
+          "trip_id": 148,
+          "start_time": "05:30",
+          "end_time": "05:50"
+        },
+        {
+          "trip_id": 149,
+          "start_time": "05:42",
+          "end_time": "06:02"
+        },
+        {
+          "trip_id": 150,
+          "start_time": "05:54",
+          "end_time": "06:14"
+        },
+        {
+          "trip_id": 151,
+          "start_time": "06:06",
+          "end_time": "06:26"
+        },
+        {
+          "trip_id": 152,
+          "start_time": "06:14",
+          "end_time": "06:34"
+        },
+        {
+          "trip_id": 153,
+          "start_time": "06:22",
+          "end_time": "06:42"
+        },
+        {
+          "trip_id": 154,
+          "start_time": "06:30",
+          "end_time": "06:50"
+        },
+        {
+          "trip_id": 155,
+          "start_time": "06:38",
+          "end_time": "06:58"
+        },
+        {
+          "trip_id": 156,
+          "start_time": "06:46",
+          "end_time": "07:06"
+        },
+        {
+          "trip_id": 157,
+          "start_time": "06:54",
+          "end_time": "07:14"
+        },
+        {
+          "trip_id": 158,
+          "start_time": "07:02",
+          "end_time": "07:22"
+        },
+        {
+          "trip_id": 159,
+          "start_time": "07:10",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 160,
+          "start_time": "07:18",
+          "end_time": "07:38"
+        },
+        {
+          "trip_id": 161,
+          "start_time": "07:26",
+          "end_time": "07:46"
+        },
+        {
+          "trip_id": 162,
+          "start_time": "07:34",
+          "end_time": "07:54"
+        },
+        {
+          "trip_id": 163,
+          "start_time": "07:42",
+          "end_time": "08:02"
+        },
+        {
+          "trip_id": 164,
+          "start_time": "07:50",
+          "end_time": "08:10"
+        },
+        {
+          "trip_id": 165,
+          "start_time": "07:58",
+          "end_time": "08:18"
+        },
+        {
+          "trip_id": 166,
+          "start_time": "08:06",
+          "end_time": "08:26"
+        },
+        {
+          "trip_id": 167,
+          "start_time": "08:14",
+          "end_time": "08:34"
+        },
+        {
+          "trip_id": 168,
+          "start_time": "08:26",
+          "end_time": "08:46"
+        },
+        {
+          "trip_id": 169,
+          "start_time": "08:38",
+          "end_time": "08:58"
+        },
+        {
+          "trip_id": 170,
+          "start_time": "08:50",
+          "end_time": "09:10"
+        },
+        {
+          "trip_id": 171,
+          "start_time": "09:02",
+          "end_time": "09:22"
+        },
+        {
+          "trip_id": 172,
+          "start_time": "09:17",
+          "end_time": "09:37"
+        },
+        {
+          "trip_id": 173,
+          "start_time": "09:32",
+          "end_time": "09:52"
+        },
+        {
+          "trip_id": 174,
+          "start_time": "09:47",
+          "end_time": "10:07"
+        },
+        {
+          "trip_id": 175,
+          "start_time": "10:02",
+          "end_time": "10:22"
+        },
+        {
+          "trip_id": 176,
+          "start_time": "10:17",
+          "end_time": "10:37"
+        },
+        {
+          "trip_id": 177,
+          "start_time": "10:32",
+          "end_time": "10:52"
+        },
+        {
+          "trip_id": 178,
+          "start_time": "10:44",
+          "end_time": "11:04"
+        },
+        {
+          "trip_id": 179,
+          "start_time": "10:56",
+          "end_time": "11:16"
+        },
+        {
+          "trip_id": 180,
+          "start_time": "11:04",
+          "end_time": "11:24"
+        },
+        {
+          "trip_id": 181,
+          "start_time": "11:12",
+          "end_time": "11:32"
+        },
+        {
+          "trip_id": 182,
+          "start_time": "11:20",
+          "end_time": "11:40"
+        },
+        {
+          "trip_id": 183,
+          "start_time": "11:28",
+          "end_time": "11:48"
+        },
+        {
+          "trip_id": 184,
+          "start_time": "11:36",
+          "end_time": "11:56"
+        },
+        {
+          "trip_id": 185,
+          "start_time": "11:48",
+          "end_time": "12:08"
+        },
+        {
+          "trip_id": 186,
+          "start_time": "12:00",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 187,
+          "start_time": "12:12",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 188,
+          "start_time": "12:24",
+          "end_time": "12:44"
+        },
+        {
+          "trip_id": 189,
+          "start_time": "12:36",
+          "end_time": "12:56"
+        },
+        {
+          "trip_id": 190,
+          "start_time": "12:48",
+          "end_time": "13:08"
+        },
+        {
+          "trip_id": 191,
+          "start_time": "13:00",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 192,
+          "start_time": "13:15",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 193,
+          "start_time": "13:30",
+          "end_time": "13:50"
+        },
+        {
+          "trip_id": 194,
+          "start_time": "13:45",
+          "end_time": "14:05"
+        },
+        {
+          "trip_id": 195,
+          "start_time": "14:00",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 196,
+          "start_time": "14:15",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 197,
+          "start_time": "14:27",
+          "end_time": "14:47"
+        },
+        {
+          "trip_id": 198,
+          "start_time": "14:39",
+          "end_time": "14:59"
+        },
+        {
+          "trip_id": 199,
+          "start_time": "14:51",
+          "end_time": "15:11"
+        },
+        {
+          "trip_id": 200,
+          "start_time": "15:03",
+          "end_time": "15:23"
+        },
+        {
+          "trip_id": 201,
+          "start_time": "15:11",
+          "end_time": "15:31"
+        },
+        {
+          "trip_id": 202,
+          "start_time": "15:19",
+          "end_time": "15:39"
+        },
+        {
+          "trip_id": 203,
+          "start_time": "15:27",
+          "end_time": "15:47"
+        },
+        {
+          "trip_id": 204,
+          "start_time": "15:35",
+          "end_time": "15:55"
+        },
+        {
+          "trip_id": 205,
+          "start_time": "15:43",
+          "end_time": "16:03"
+        },
+        {
+          "trip_id": 206,
+          "start_time": "15:51",
+          "end_time": "16:11"
+        },
+        {
+          "trip_id": 207,
+          "start_time": "15:59",
+          "end_time": "16:19"
+        },
+        {
+          "trip_id": 208,
+          "start_time": "16:07",
+          "end_time": "16:27"
+        },
+        {
+          "trip_id": 209,
+          "start_time": "16:15",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 210,
+          "start_time": "16:23",
+          "end_time": "16:43"
+        },
+        {
+          "trip_id": 211,
+          "start_time": "16:31",
+          "end_time": "16:51"
+        },
+        {
+          "trip_id": 212,
+          "start_time": "16:39",
+          "end_time": "16:59"
+        },
+        {
+          "trip_id": 213,
+          "start_time": "16:47",
+          "end_time": "17:07"
+        },
+        {
+          "trip_id": 214,
+          "start_time": "16:55",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 215,
+          "start_time": "17:03",
+          "end_time": "17:23"
+        },
+        {
+          "trip_id": 216,
+          "start_time": "17:15",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 217,
+          "start_time": "17:27",
+          "end_time": "17:47"
+        },
+        {
+          "trip_id": 218,
+          "start_time": "17:39",
+          "end_time": "17:59"
+        },
+        {
+          "trip_id": 219,
+          "start_time": "17:51",
+          "end_time": "18:11"
+        },
+        {
+          "trip_id": 220,
+          "start_time": "18:03",
+          "end_time": "18:23"
+        },
+        {
+          "trip_id": 221,
+          "start_time": "18:15",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 222,
+          "start_time": "18:27",
+          "end_time": "18:47"
+        },
+        {
+          "trip_id": 223,
+          "start_time": "18:39",
+          "end_time": "18:59"
+        },
+        {
+          "trip_id": 224,
+          "start_time": "18:51",
+          "end_time": "19:11"
+        },
+        {
+          "trip_id": 225,
+          "start_time": "19:03",
+          "end_time": "19:23"
+        },
+        {
+          "trip_id": 226,
+          "start_time": "19:15",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 227,
+          "start_time": "19:27",
+          "end_time": "19:47"
+        },
+        {
+          "trip_id": 228,
+          "start_time": "19:39",
+          "end_time": "19:59"
+        },
+        {
+          "trip_id": 229,
+          "start_time": "19:51",
+          "end_time": "20:11"
+        },
+        {
+          "trip_id": 230,
+          "start_time": "20:03",
+          "end_time": "20:23"
+        },
+        {
+          "trip_id": 231,
+          "start_time": "20:15",
+          "end_time": "20:35"
+        },
+        {
+          "trip_id": 232,
+          "start_time": "20:27",
+          "end_time": "20:47"
+        },
+        {
+          "trip_id": 233,
+          "start_time": "20:39",
+          "end_time": "20:59"
+        },
+        {
+          "trip_id": 234,
+          "start_time": "20:51",
+          "end_time": "21:11"
+        },
+        {
+          "trip_id": 235,
+          "start_time": "21:03",
+          "end_time": "21:23"
+        },
+        {
+          "trip_id": 236,
+          "start_time": "21:15",
+          "end_time": "21:35"
+        },
+        {
+          "trip_id": 237,
+          "start_time": "21:30",
+          "end_time": "21:50"
+        },
+        {
+          "trip_id": 238,
+          "start_time": "21:45",
+          "end_time": "22:05"
+        },
+        {
+          "trip_id": 239,
+          "start_time": "22:00",
+          "end_time": "22:20"
+        }
+      ]
+    }
+  }
+}

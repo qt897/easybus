@@ -1,0 +1,1163 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 420,
+    "crawled_at": "2026-07-23T00:27:13"
+  },
+  "data": {
+    "route": {
+      "id": 420,
+      "bus_no": "61-73",
+      "name": "Thành phố mới - Thành phố Tân Uyên",
+      "color": "#C0C0C0",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 19700.0,
+      "num_of_seats": "52 - 80",
+      "operators": [
+        "Công ty TNHH Xe buýt Becamex Tokyu, ĐT: (0274) 222 0555"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 15000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 8000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 45,
+        "max": 50
+      },
+      "headway_minutes": {
+        "min": 5,
+        "max": 5
+      },
+      "operation_time": {
+        "start": "06:12",
+        "end": "17:35"
+      },
+      "total_trip": {
+        "value": 11,
+        "unit": "TPD"
+      },
+      "outbound_name": "Thành phố Tân Uyên",
+      "outbound_description": [
+        "Trạm trung chuyển Hikari",
+        "đường Lý Thái tổ",
+        "Đại Lộ Hùng Vương",
+        "đường Trường Sa",
+        "đường nội bộ SORA Gardens",
+        "SORA Gardens",
+        "đường nội bộ SORA Gardens",
+        "Đại lộ Hùng Vương",
+        "đường Lý Thái Tổ",
+        "Trạm trung chuyển Hikari",
+        "Lý Thái Tổ",
+        "đường Huỳnh Văn Lũy",
+        "đường Nguyễn Văn Linh",
+        "đường ĐT 746",
+        "đường Phan Đình Phùng",
+        "đường ĐT 747",
+        "Trung tâm hành chính thành phố Tân Uyên",
+        "đường ĐT746 (quay đầu)",
+        "Bến xe thành phố Tân Uyên."
+      ],
+      "inbound_name": "Thành phố mới",
+      "inbound_description": [
+        "Bến xe thành phố Tân Uyên",
+        "đường ĐT746",
+        "đường ĐT 747",
+        "Trung tâm hành chính thành phố Tân Uyên",
+        "đường ĐT 747",
+        "đường Phan Đình Phùng",
+        "đường ĐT 746",
+        "đường Nguyễn Văn Linh",
+        "đường Huỳnh Văn Luỹ",
+        "đường Lý Thái Tổ  -Trạm trung chuyển Hikari",
+        "đường Lý Thái Tổ",
+        "Đại lộ Hùng Vương",
+        "đường Trường Sa",
+        "đường nội bộ SORA Gardens",
+        "SORA Gardens",
+        "đường nội bộ SORA Gardens",
+        "Đại Lộ Hùng Vương",
+        "đường Lý Thái Tổ",
+        "trạm trung chuyển Hikari."
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Thành phố mới - Thành phố Tân Uyên",
+        "short_name": "Thành phố Tân Uyên",
+        "start_stop": "Thành phố mới",
+        "end_stop": "Thành phố Tân Uyên",
+        "distance_m": 21167.999999999993,
+        "running_time_minutes": 50,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 13,
+        "route_var_id": 1,
+        "start_date": "13/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 50,
+          "max": 50
+        },
+        "headway_minutes": {
+          "min": 40,
+          "max": 445
+        },
+        "total_trip": 4,
+        "operation_time": {
+          "start": "07:00",
+          "end": "16:40"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9348,
+          "code": "BD BX 0015",
+          "name": "Thành phố mới",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Thành phố mới",
+          "street": "Lý Thái Tổ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.057913,
+          "lng": 106.684244,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8419,
+          "code": "BD-0108",
+          "name": "Khách sạn Becamex Thành phố Mới",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khách sạn Becamex Thành phố Mới",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056832,
+          "lng": 106.684672,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8408,
+          "code": "BD-0097",
+          "name": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "street": "Đại Lộ Hùng Vương",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.052003,
+          "lng": 106.681825,
+          "routes": [
+            "171",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8406,
+          "code": "BD-0095",
+          "name": "SORA gardens",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "SORA gardens",
+          "street": "Đường nội bộ SORA gardens",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.045967,
+          "lng": 106.678817,
+          "routes": [
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8242,
+          "code": "BX BD 012",
+          "name": "Trạm trung chuyển Hikari",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm trung chuyển Hikari (6)",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.05781,
+          "lng": 106.68414,
+          "routes": [
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8416,
+          "code": "BD-0105",
+          "name": "WTC EXPO B",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "WTC EXPO B",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056072,
+          "lng": 106.685781,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8414,
+          "code": "BD-0103",
+          "name": "Phố Thương mại - Lý Thái Tổ",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phố Thương mại - Lý Thái Tổ",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.055079,
+          "lng": 106.687209,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8422,
+          "code": "BD-0111",
+          "name": "Trường Ngô Thời Nhiệm",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Ngô Thời Nhiệm",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.053595,
+          "lng": 106.689316,
+          "routes": [
+            "61-38",
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 9121,
+          "code": "BD-0833",
+          "name": "Chùa Long Ẩn",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chùa Long Ẩn",
+          "street": "Đường ĐT 742",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.056493,
+          "lng": 106.6942,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8583,
+          "code": "BD-0193",
+          "name": "Ngã 4 Huỳnh Văn Luỹ - Nguyễn Văn Linh",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 4 Huỳnh Văn Luỹ - Nguyễn Văn Linh",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.058825,
+          "lng": 106.697393,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8585,
+          "code": "BD-0195",
+          "name": "Đồn công an Kim Huy",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đồn công an Kim Huy",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.053112,
+          "lng": 106.705567,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8587,
+          "code": "BD-0197",
+          "name": "Cổng Chào Thành Phố Tân Uyên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cổng Chào Thành Phố Tân Uyên",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.043059,
+          "lng": 106.720447,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8615,
+          "code": "BD-0199",
+          "name": "Vòng xoay Tân Hiệp",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Vòng xoay Tân Hiệp",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.041618,
+          "lng": 106.724915,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8617,
+          "code": "BD-0201",
+          "name": "Giáo xứ Bến Sắn",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Giáo xứ Bến Sắn",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.045956,
+          "lng": 106.735828,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8619,
+          "code": "BD-0203",
+          "name": "Khu điều trị phong Bến Sắn",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khu điều trị phong Bến Sắn",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.047781,
+          "lng": 106.741185,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8621,
+          "code": "BD-0205",
+          "name": "Khu công nghiệp Nam Tân Uyên",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khu công nghiệp Nam Tân Uyên",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.04952,
+          "lng": 106.747825,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8623,
+          "code": "BD-0207",
+          "name": "Vòng xoay Nam Tân Uyên",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Vòng xoay Nam Tân Uyên",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.04951,
+          "lng": 106.754873,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8625,
+          "code": "BD-0209",
+          "name": "UBND Phường Khánh Bình",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND Phường Khánh Bình",
+          "street": "DT74",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.050246,
+          "lng": 106.760867,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8627,
+          "code": "BD-0211",
+          "name": "Công an phường Khánh Bình",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công an phường Khánh Bình",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.052813,
+          "lng": 106.769007,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8628,
+          "code": "BD-0212",
+          "name": "Ngã ba ĐT 746 - Nguyễn Hữu Cảnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba ĐT 746 - Nguyễn Hữu Cảnh",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056979,
+          "lng": 106.773388,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8667,
+          "code": "BD-0214",
+          "name": "Ngã ba Phan Đình Phùng - ĐT 747",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba Phan Đình Phùng - ĐT 747",
+          "street": "Phan Đình Phùng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056763,
+          "lng": 106.788274,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8705,
+          "code": "BD-0216",
+          "name": "Ngã ba ĐT 747 - Đoàn Thị Liên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba ĐT 747 - Đoàn Thị Liên",
+          "street": "Đường ĐT 747",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.05704,
+          "lng": 106.79198,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8785,
+          "code": "BD-0218",
+          "name": "Bến đò Tân Uyên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Bến đò Tân Uyên",
+          "street": "ĐT 747",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.057622,
+          "lng": 106.793405,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8787,
+          "code": "BD-0220",
+          "name": "UBND TP.Tân Uyên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND TP.Tân Uyên",
+          "street": "ĐT 747",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.060346,
+          "lng": 106.797402,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 9043,
+          "code": "BD-0222",
+          "name": "Trường THPT Huỳnh Văn Nghệ",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường THPT Huỳnh Văn Nghệ",
+          "street": "ĐT 747",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.062511,
+          "lng": 106.797394,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 9345,
+          "code": "BD BX 0012",
+          "name": "Thành phố Tân Uyên",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Thành phố Tân Uyên",
+          "street": "ĐT746",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.064264,
+          "lng": 106.790124,
+          "routes": [
+            "61-73"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 81,
+          "start_time": "07:00",
+          "end_time": "07:50"
+        },
+        {
+          "trip_id": 82,
+          "start_time": "14:25",
+          "end_time": "15:15"
+        },
+        {
+          "trip_id": 83,
+          "start_time": "16:00",
+          "end_time": "16:50"
+        },
+        {
+          "trip_id": 84,
+          "start_time": "16:40",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Thành phố Tân Uyên - Thành phố mới",
+        "short_name": "Thành phố mới",
+        "start_stop": "Thành phố Tân Uyên",
+        "end_stop": "Thành phố mới",
+        "distance_m": 20093.999999999985,
+        "running_time_minutes": 50,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 14,
+        "route_var_id": 2,
+        "start_date": "13/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 45,
+          "max": 50
+        },
+        "headway_minutes": {
+          "min": 5,
+          "max": 435
+        },
+        "total_trip": 7,
+        "operation_time": {
+          "start": "06:12",
+          "end": "17:35"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9345,
+          "code": "BD BX 0012",
+          "name": "Thành phố Tân Uyên",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Thành phố Tân Uyên",
+          "street": "ĐT746",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.064264,
+          "lng": 106.790124,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 9096,
+          "code": "BD-0223",
+          "name": "Trường THPT Huỳnh Văn Nghệ",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường THPT Huỳnh Văn Nghệ",
+          "street": "ĐT 747",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.06247,
+          "lng": 106.797322,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8790,
+          "code": "BD-0221",
+          "name": "UBND TP.Tân Uyên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND TP.Tân Uyên",
+          "street": "ĐT 747",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.06088,
+          "lng": 106.797417,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8784,
+          "code": "BD-0217",
+          "name": "Ngã ba ĐT 747 - Đoàn Thị Liên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba ĐT 747 - Đoàn Thị Liên",
+          "street": "ĐT 747 ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.057281,
+          "lng": 106.792394,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8668,
+          "code": "BD-0215",
+          "name": "Ngã ba Phan Đình Phùng - ĐT 747",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba Phan Đình Phùng - ĐT 747",
+          "street": "Phan Đình Phùng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056803,
+          "lng": 106.788427,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8629,
+          "code": "BD-0213",
+          "name": "Ngã ba ĐT 746 - Nguyễn Hữu Cảnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba ĐT 746 - Nguyễn Hữu Cảnh",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.057219,
+          "lng": 106.773374,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8626,
+          "code": "BD-0210",
+          "name": "UBND Phường Khánh Bình",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND Phường Khánh Bình",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.050243,
+          "lng": 106.760069,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8624,
+          "code": "BD-0208",
+          "name": "Vòng xoay Nam Tân Uyên",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Vòng xoay Nam Tân Uyên",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.049766,
+          "lng": 106.754329,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8622,
+          "code": "BD-0206",
+          "name": "Khu công nghiệp Nam Tân Uyên",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khu công nghiệp Nam Tân Uyên",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.04979,
+          "lng": 106.747613,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8620,
+          "code": "BD-0204",
+          "name": "Khu điều trị phong Bến Sắn",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khu điều trị phong Bến Sắn",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.047645,
+          "lng": 106.740229,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8618,
+          "code": "BD-0202",
+          "name": "Giáo xứ Bến Sắn",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Giáo xứ Bến Sắn",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.045649,
+          "lng": 106.734495,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8616,
+          "code": "BD-0200",
+          "name": "Vòng xoay Tân Hiệp",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Vòng xoay Tân Hiệp",
+          "street": "DT746",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.041636,
+          "lng": 106.724289,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8590,
+          "code": "BD-0198",
+          "name": "Cổng Chào Thành Phố Tân Uyên",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cổng Chào Thành Phố Tân Uyên",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.043176,
+          "lng": 106.720631,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8586,
+          "code": "BD-0196",
+          "name": "Đồn công an Kim Huy",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đồn công an Kim Huy",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.053078,
+          "lng": 106.705973,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8584,
+          "code": "BD-0194",
+          "name": "Ngã 4 Huỳnh Văn Luỹ - Nguyễn Văn Linh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 4 Huỳnh Văn Luỹ - Nguyễn Văn Linh",
+          "street": "ng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.058563,
+          "lng": 106.698113,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8582,
+          "code": "BD-0192",
+          "name": "Chùa Long Ân",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chùa Long Ân",
+          "street": "Huỳnh Văn Luỹ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056913,
+          "lng": 106.694223,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8421,
+          "code": "BD-0110",
+          "name": "Trường Ngô Thời Nhiệm",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Ngô Thời Nhiệm",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.053769,
+          "lng": 106.689417,
+          "routes": [
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8413,
+          "code": "BD-0102",
+          "name": "Phố Thương mại - Lý Thái Tổ",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phố Thương mại - Lý Thái Tổ",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.055213,
+          "lng": 106.687354,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8415,
+          "code": "BD-0104",
+          "name": "WTC EXPO B",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "WTC EXPO B",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056094,
+          "lng": 106.686126,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-73"
+          ]
+        },
+        {
+          "stop_id": 8242,
+          "code": "BX BD 012",
+          "name": "Trạm trung chuyển Hikari",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm trung chuyển Hikari (6)",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.05781,
+          "lng": 106.68414,
+          "routes": [
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8419,
+          "code": "BD-0108",
+          "name": "Khách sạn Becamex Thành phố Mới",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khách sạn Becamex Thành phố Mới",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056832,
+          "lng": 106.684672,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8408,
+          "code": "BD-0097",
+          "name": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "street": "Đại Lộ Hùng Vương",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.052003,
+          "lng": 106.681825,
+          "routes": [
+            "171",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8406,
+          "code": "BD-0095",
+          "name": "SORA gardens",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "SORA gardens",
+          "street": "Đường nội bộ SORA gardens",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.045967,
+          "lng": 106.678817,
+          "routes": [
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 9348,
+          "code": "BD BX 0015",
+          "name": "Thành phố mới",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Thành phố mới",
+          "street": "Lý Thái Tổ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.057913,
+          "lng": 106.684244,
+          "routes": [
+            "61-73"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 85,
+          "start_time": "06:12",
+          "end_time": "06:57"
+        },
+        {
+          "trip_id": 86,
+          "start_time": "06:17",
+          "end_time": "07:02"
+        },
+        {
+          "trip_id": 87,
+          "start_time": "07:22",
+          "end_time": "08:12"
+        },
+        {
+          "trip_id": 88,
+          "start_time": "08:15",
+          "end_time": "09:00"
+        },
+        {
+          "trip_id": 89,
+          "start_time": "15:30",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 90,
+          "start_time": "17:00",
+          "end_time": "17:50"
+        },
+        {
+          "trip_id": 91,
+          "start_time": "17:35",
+          "end_time": "18:25"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2075 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 77,
+    "crawled_at": "2026-07-23T00:27:03"
+  },
+  "data": {
+    "route": {
+      "id": 77,
+      "bus_no": "57",
+      "name": "Chợ Phước Bình - Trường Trung học Phổ thông Hiệp Bình",
+      "color": "#9A0EEA",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 13100.0,
+      "num_of_seats": 60,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 5000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 112500,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 42,
+        "max": 42
+      },
+      "headway_minutes": {
+        "min": 10,
+        "max": 20
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "18:30"
+      },
+      "total_trip": {
+        "value": 130,
+        "unit": "TPD"
+      },
+      "outbound_name": "Trường Trung học Phổ thông Hiệp Bình",
+      "outbound_description": [
+        "Chợ Phước Bình (Trường trung cấp nghề TP.HCM cơ sở III)",
+        "Đại lộ 3",
+        "Đường số 20",
+        "Đường số 9",
+        "Đường số 6D",
+        "Đường số 18B",
+        "Đại lộ 2",
+        "Đường Đỗ Xuân Hợp",
+        "Đường Dương Đình Hội",
+        "Đường Đình Phong Phú",
+        "Đường Lê Văn Việt",
+        "Ngã tư Thủ Đức",
+        "Đường Võ Văn Ngân",
+        "Đường Lê Văn Ninh",
+        "Đường Dương Văn Cam",
+        "Đường Kha Vạn Cân",
+        "Đường Phạm Văn Đồng",
+        "Đường Hiệp Bình",
+        "Trường Trung học Phổ thông Hiệp Bình"
+      ],
+      "inbound_name": "Chợ Phước Bình",
+      "inbound_description": [
+        "Trường Trung học Phổ thông Hiệp Bình",
+        "Đường Hiệp Bình",
+        "Đường Phạm Văn Đồng",
+        "Đường Kha Vạn Cân",
+        "Đường Võ Văn Ngân",
+        "Ngã tư Thủ Đức",
+        "Đường Lê Văn Việt",
+        "Đường Đình Phong Phú",
+        "Đường Dương Đình Hội",
+        "Đường Đỗ Xuân Hợp",
+        "Đại lộ 2",
+        "Đường số 18B",
+        "Đường số 6D",
+        "Đường số 9",
+        "Đường số 20",
+        "Đại lộ 3",
+        "Chợ Phước Bình (Trường trung cấp nghề TP.HCM cơ sở III)"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 153,
+        "name": "Lượt đi: Chợ Phước Bình - Trường THPT Hiệp Bình",
+        "short_name": "Trường Trung học Phổ thông Hiệp Bình",
+        "start_stop": "Chợ Phước Bình",
+        "end_stop": "Trường Trung học Phổ thông Hiệp Bình",
+        "distance_m": 13537.0,
+        "running_time_minutes": 42,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 21,
+        "route_var_id": 153,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 42,
+          "max": 42
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 20
+        },
+        "total_trip": 65,
+        "operation_time": {
+          "start": "05:00",
+          "end": "18:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 3201,
+          "code": "BX 32",
+          "name": "Chợ Phước Bình",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "ĐẦU BẾN TRƯỜNG TC NGHỀ TPHCM CƠ SỞ 3",
+          "street": "Đại Lộ 3",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.812699,
+          "lng": 106.770912,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 7949,
+          "code": "TPTĐ 081",
+          "name": "Trung cấp nghề Suleco",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Bình",
+          "address": "120 (đối diện trường Trung cấp nghề Suleco)",
+          "street": "Đại lộ 3",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.812885,
+          "lng": 106.770724,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 7951,
+          "code": "TPTĐ 083",
+          "name": "Công viên Phước Bình",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Bình",
+          "address": "giữa Công viên Phước Bình",
+          "street": "Đường số 18B",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.815364,
+          "lng": 106.770137,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 7955,
+          "code": "TPTĐ 087",
+          "name": "Chợ Phước Bình",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Bình",
+          "address": "Chợ Phước Bình",
+          "street": "Đại lộ 2",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.817384,
+          "lng": 106.771932,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3267,
+          "code": "Q9 037",
+          "name": "Trường THPT Phước Long",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Long B",
+          "address": "16",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.816901,
+          "lng": 106.774834,
+          "routes": [
+            "163D",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3266,
+          "code": "Q9 038",
+          "name": "Đường 359",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "54A- 54B",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.818463,
+          "lng": 106.776627,
+          "routes": [
+            "163D",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3269,
+          "code": "Q9 039",
+          "name": "Chung cư Khang Điền",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Long B",
+          "address": "68 (80 - 82 - 84)",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.819235,
+          "lng": 106.777916,
+          "routes": [
+            "163D",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3268,
+          "code": "Q9 040",
+          "name": "Đường 185",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "156",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.820408,
+          "lng": 106.778778,
+          "routes": [
+            "163D",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 8193,
+          "code": "TPTĐ 269",
+          "name": "Khu nhà ở công nhân Lilama 18",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Long B",
+          "address": "108",
+          "street": "Dương Đình Hội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.82169,
+          "lng": 106.77967,
+          "routes": [
+            "163D",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3271,
+          "code": "Q9 041",
+          "name": "Ngã 3 Bằng Lăng",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "214-92A",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.824554,
+          "lng": 106.780795,
+          "routes": [
+            "163D",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3270,
+          "code": "Q9 042",
+          "name": "Trường THCS Tăng Nhơn Phú B",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Trường THCS Tăng Nhơn Phú B",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.82966,
+          "lng": 106.783065,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3273,
+          "code": "Q9 043",
+          "name": "Đình Phong Phú",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "249",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.831119,
+          "lng": 106.783741,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3272,
+          "code": "Q9 044",
+          "name": "UBND phường Tăng Nhơn Phú B",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Trung tâm y tế dự phòng Quận 9",
+          "street": "Đình Phong Phú",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.835793,
+          "lng": 106.782453,
+          "routes": [
+            "57",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 3275,
+          "code": "Q9 045",
+          "name": "Trung tâm GDTX Quận 9",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "83",
+          "street": "Đình Phong Phú",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.840042,
+          "lng": 106.780853,
+          "routes": [
+            "57",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 3274,
+          "code": "Q9 046",
+          "name": "Cổng Đình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "7",
+          "street": "Đình Phong Phú",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.843785,
+          "lng": 106.781273,
+          "routes": [
+            "57",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 1536,
+          "code": "Q9 091-1",
+          "name": "Nhà sách Thành Nghĩa",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Đối diện 140-142",
+          "street": "Lê Văn Việt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.845176,
+          "lng": 106.780377,
+          "routes": [
+            "141",
+            "162",
+            "56",
+            "57",
+            "76"
+          ]
+        },
+        {
+          "stop_id": 1539,
+          "code": "Q9 109",
+          "name": "Bệnh viện 7C-Trường Quân y 2",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "91-93-95",
+          "street": "Lê Văn Việt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.846799,
+          "lng": 106.777512,
+          "routes": [
+            "141",
+            "162",
+            "56",
+            "57",
+            "76"
+          ]
+        },
+        {
+          "stop_id": 1538,
+          "code": "Q9 110",
+          "name": "Siêu thị Coopmart",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Hiệp Phú",
+          "address": "21 (17-19)",
+          "street": "Lê Văn Việt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.848411,
+          "lng": 106.775045,
+          "routes": [
+            "141",
+            "162",
+            "56",
+            "57",
+            "76"
+          ]
+        },
+        {
+          "stop_id": 400,
+          "code": "QTD 065",
+          "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Chiểu",
+          "address": "1",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.849871,
+          "lng": 106.772105,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168D",
+            "56",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 402,
+          "code": "QTD 066",
+          "name": "Siêu thị Nguyễn Kim",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Chiểu",
+          "address": "307 (312)",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.849805,
+          "lng": 106.768837,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168D",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 403,
+          "code": "QTD 067",
+          "name": "Nhà thiếu nhi Thủ Đức",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Chiểu",
+          "address": "Nhà thiếu nhi",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.850556,
+          "lng": 106.766794,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168D",
+            "169D",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 404,
+          "code": "QTD 068",
+          "name": "Cao đẳng xây dựng 2",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Chiểu",
+          "address": "233 (253)",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.850808,
+          "lng": 106.764101,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168D",
+            "169D",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 405,
+          "code": "QTD 069",
+          "name": "Ngã ba Chương Dương",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Đối diện 100",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.850645,
+          "lng": 106.760201,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168D",
+            "169D",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 3277,
+          "code": "QTD 145",
+          "name": "Chợ Thủ Đức",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Tây",
+          "address": "20-21",
+          "street": "Lê Văn Ninh",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.850327,
+          "lng": 106.754005,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 575,
+          "code": "QTD 146",
+          "name": "Trạm Cầu ngang",
+          "type": "Biển treo",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "569",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.847199,
+          "lng": 106.751587,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 578,
+          "code": "QTD 147",
+          "name": "Công an Phường Linh Đông",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "525",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.845116,
+          "lng": 106.749763,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 577,
+          "code": "QTD 148",
+          "name": "Trạm xăng 27-7",
+          "type": "Biển treo",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "459 (Đối diện 624)",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.841721,
+          "lng": 106.74659,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 583,
+          "code": "QTD 153",
+          "name": "Nút giao Linh Đông -PVĐ",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "Trụ chiếu sáng A226",
+          "street": "Phạm Văn Đồng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.84077,
+          "lng": 106.742682,
+          "routes": [
+            "08",
+            "50",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 3276,
+          "code": "QTD 231",
+          "name": "Chợ Hiệp Bình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "30",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.839212,
+          "lng": 106.732221,
+          "routes": [
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 7144,
+          "code": "QTD 233",
+          "name": "Đường 38",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Phước",
+          "address": "122",
+          "street": "Hiệp Bình",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.843148,
+          "lng": 106.730933,
+          "routes": [
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 3278,
+          "code": "QTD 232",
+          "name": "Đường Tam Bình",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "204",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.845201,
+          "lng": 106.728058,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 8035,
+          "code": "TPTĐ 165",
+          "name": "Trường THPT Hiệp Bình",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Phước",
+          "address": "63",
+          "street": "Hiệp Bình",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.847039,
+          "lng": 106.722248,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3187,
+          "code": "BX 74",
+          "name": "Trường Trung học Phổ thông Hiệp Bình",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Trường Hiệp Bình",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.84741,
+          "lng": 106.721474,
+          "routes": [
+            "57"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 4589,
+          "start_time": "05:00",
+          "end_time": "05:42"
+        },
+        {
+          "trip_id": 4590,
+          "start_time": "05:15",
+          "end_time": "05:57"
+        },
+        {
+          "trip_id": 4591,
+          "start_time": "05:30",
+          "end_time": "06:12"
+        },
+        {
+          "trip_id": 4592,
+          "start_time": "05:42",
+          "end_time": "06:24"
+        },
+        {
+          "trip_id": 4593,
+          "start_time": "05:54",
+          "end_time": "06:36"
+        },
+        {
+          "trip_id": 4594,
+          "start_time": "06:06",
+          "end_time": "06:48"
+        },
+        {
+          "trip_id": 4595,
+          "start_time": "06:16",
+          "end_time": "06:58"
+        },
+        {
+          "trip_id": 4596,
+          "start_time": "06:26",
+          "end_time": "07:08"
+        },
+        {
+          "trip_id": 4597,
+          "start_time": "06:36",
+          "end_time": "07:18"
+        },
+        {
+          "trip_id": 4598,
+          "start_time": "06:48",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 4599,
+          "start_time": "07:00",
+          "end_time": "07:42"
+        },
+        {
+          "trip_id": 4600,
+          "start_time": "07:12",
+          "end_time": "07:54"
+        },
+        {
+          "trip_id": 4601,
+          "start_time": "07:24",
+          "end_time": "08:06"
+        },
+        {
+          "trip_id": 4602,
+          "start_time": "07:36",
+          "end_time": "08:18"
+        },
+        {
+          "trip_id": 4603,
+          "start_time": "07:48",
+          "end_time": "08:30"
+        },
+        {
+          "trip_id": 4604,
+          "start_time": "08:00",
+          "end_time": "08:42"
+        },
+        {
+          "trip_id": 4605,
+          "start_time": "08:12",
+          "end_time": "08:54"
+        },
+        {
+          "trip_id": 4606,
+          "start_time": "08:24",
+          "end_time": "09:06"
+        },
+        {
+          "trip_id": 4607,
+          "start_time": "08:36",
+          "end_time": "09:18"
+        },
+        {
+          "trip_id": 4608,
+          "start_time": "08:48",
+          "end_time": "09:30"
+        },
+        {
+          "trip_id": 4609,
+          "start_time": "09:00",
+          "end_time": "09:42"
+        },
+        {
+          "trip_id": 4610,
+          "start_time": "09:12",
+          "end_time": "09:54"
+        },
+        {
+          "trip_id": 4611,
+          "start_time": "09:24",
+          "end_time": "10:06"
+        },
+        {
+          "trip_id": 4612,
+          "start_time": "09:36",
+          "end_time": "10:18"
+        },
+        {
+          "trip_id": 4613,
+          "start_time": "09:48",
+          "end_time": "10:30"
+        },
+        {
+          "trip_id": 4614,
+          "start_time": "10:00",
+          "end_time": "10:42"
+        },
+        {
+          "trip_id": 4615,
+          "start_time": "10:12",
+          "end_time": "10:54"
+        },
+        {
+          "trip_id": 4616,
+          "start_time": "10:22",
+          "end_time": "11:04"
+        },
+        {
+          "trip_id": 4617,
+          "start_time": "10:32",
+          "end_time": "11:14"
+        },
+        {
+          "trip_id": 4618,
+          "start_time": "10:42",
+          "end_time": "11:24"
+        },
+        {
+          "trip_id": 4619,
+          "start_time": "10:54",
+          "end_time": "11:36"
+        },
+        {
+          "trip_id": 4620,
+          "start_time": "11:06",
+          "end_time": "11:48"
+        },
+        {
+          "trip_id": 4621,
+          "start_time": "11:18",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 4622,
+          "start_time": "11:30",
+          "end_time": "12:12"
+        },
+        {
+          "trip_id": 4623,
+          "start_time": "11:42",
+          "end_time": "12:24"
+        },
+        {
+          "trip_id": 4624,
+          "start_time": "11:54",
+          "end_time": "12:36"
+        },
+        {
+          "trip_id": 4625,
+          "start_time": "12:06",
+          "end_time": "12:48"
+        },
+        {
+          "trip_id": 4626,
+          "start_time": "12:18",
+          "end_time": "13:00"
+        },
+        {
+          "trip_id": 4627,
+          "start_time": "12:30",
+          "end_time": "13:12"
+        },
+        {
+          "trip_id": 4628,
+          "start_time": "12:42",
+          "end_time": "13:24"
+        },
+        {
+          "trip_id": 4629,
+          "start_time": "12:54",
+          "end_time": "13:36"
+        },
+        {
+          "trip_id": 4630,
+          "start_time": "13:06",
+          "end_time": "13:48"
+        },
+        {
+          "trip_id": 4631,
+          "start_time": "13:21",
+          "end_time": "14:03"
+        },
+        {
+          "trip_id": 4632,
+          "start_time": "13:36",
+          "end_time": "14:18"
+        },
+        {
+          "trip_id": 4633,
+          "start_time": "13:51",
+          "end_time": "14:33"
+        },
+        {
+          "trip_id": 4634,
+          "start_time": "14:06",
+          "end_time": "14:48"
+        },
+        {
+          "trip_id": 4635,
+          "start_time": "14:21",
+          "end_time": "15:03"
+        },
+        {
+          "trip_id": 4636,
+          "start_time": "14:36",
+          "end_time": "15:18"
+        },
+        {
+          "trip_id": 4637,
+          "start_time": "14:51",
+          "end_time": "15:33"
+        },
+        {
+          "trip_id": 4638,
+          "start_time": "15:06",
+          "end_time": "15:48"
+        },
+        {
+          "trip_id": 4639,
+          "start_time": "15:21",
+          "end_time": "16:03"
+        },
+        {
+          "trip_id": 4640,
+          "start_time": "15:33",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 4641,
+          "start_time": "15:45",
+          "end_time": "16:27"
+        },
+        {
+          "trip_id": 4642,
+          "start_time": "15:57",
+          "end_time": "16:39"
+        },
+        {
+          "trip_id": 4643,
+          "start_time": "16:09",
+          "end_time": "16:51"
+        },
+        {
+          "trip_id": 4644,
+          "start_time": "16:19",
+          "end_time": "17:01"
+        },
+        {
+          "trip_id": 4645,
+          "start_time": "16:29",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 4646,
+          "start_time": "16:39",
+          "end_time": "17:21"
+        },
+        {
+          "trip_id": 4647,
+          "start_time": "16:49",
+          "end_time": "17:31"
+        },
+        {
+          "trip_id": 4648,
+          "start_time": "17:04",
+          "end_time": "17:46"
+        },
+        {
+          "trip_id": 4649,
+          "start_time": "17:19",
+          "end_time": "18:01"
+        },
+        {
+          "trip_id": 4650,
+          "start_time": "17:34",
+          "end_time": "18:16"
+        },
+        {
+          "trip_id": 4651,
+          "start_time": "17:50",
+          "end_time": "18:32"
+        },
+        {
+          "trip_id": 4652,
+          "start_time": "18:10",
+          "end_time": "18:52"
+        },
+        {
+          "trip_id": 4653,
+          "start_time": "18:30",
+          "end_time": "19:12"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 154,
+        "name": "Lượt về: Trường THPT Hiệp Bình - Chợ Phước Bình",
+        "short_name": "Chợ Phước Bình",
+        "start_stop": "Trường Trung học Phổ thông Hiệp Bình",
+        "end_stop": "Chợ Phước Bình",
+        "distance_m": 13479.999999999998,
+        "running_time_minutes": 42,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 22,
+        "route_var_id": 154,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 42,
+          "max": 42
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 20
+        },
+        "total_trip": 65,
+        "operation_time": {
+          "start": "05:00",
+          "end": "18:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 3187,
+          "code": "BX 74",
+          "name": "Trường Trung học Phổ thông Hiệp Bình",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Trường Hiệp Bình",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.84741,
+          "lng": 106.721474,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3188,
+          "code": "QTD 228",
+          "name": "Đường Tam Bình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "173",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.844887,
+          "lng": 106.728932,
+          "routes": [
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 3189,
+          "code": "QTD 229",
+          "name": "Đường 38",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "73 (67) ",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.842652,
+          "lng": 106.730919,
+          "routes": [
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 3190,
+          "code": "QTD 230",
+          "name": "Chợ Hiệp Bình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "11",
+          "street": "Hiệp Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.838664,
+          "lng": 106.732254,
+          "routes": [
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 528,
+          "code": "QTD 123",
+          "name": "Chùa An Lạc",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "Chùa Ưu Đàm",
+          "street": "Phạm Văn Đồng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.837484,
+          "lng": 106.733288,
+          "routes": [
+            "08",
+            "50",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 529,
+          "code": "QTD 124",
+          "name": "Cầu Gò Dưa",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "Trụ chiếu sáng C185",
+          "street": "Phạm Văn Đồng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.839776,
+          "lng": 106.740509,
+          "routes": [
+            "08",
+            "50",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 532,
+          "code": "QTD 127",
+          "name": "Trạm xăng 27-7",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "Kế 624",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.84129,
+          "lng": 106.746346,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 533,
+          "code": "QTD 128",
+          "name": "Công an phường Linh Đông",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "672-676",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.844781,
+          "lng": 106.74966,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 534,
+          "code": "QTD 129",
+          "name": "Trạm Cầu Ngang",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "746 (742)",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.847416,
+          "lng": 106.75209,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 535,
+          "code": "QTD 130",
+          "name": "Chợ Thủ Đức",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Tây",
+          "address": "1002-1004",
+          "street": "Kha Vạn Cân",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 10.850158,
+          "lng": 106.754372,
+          "routes": [
+            "08",
+            "57",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 493,
+          "code": "QTD 070",
+          "name": "Ngã ba Chương Dương",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Bình Thọ",
+          "address": "120",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.850419,
+          "lng": 106.760931,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168V",
+            "169V",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 490,
+          "code": "QTD 071",
+          "name": "Cao đẳng xây dựng 2",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "190",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.85065,
+          "lng": 106.764439,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168V",
+            "169V",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 492,
+          "code": "QTD 072",
+          "name": "Siêu thị Nguyễn Kim",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Chiểu",
+          "address": "275-274",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.849686,
+          "lng": 106.769112,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168V",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 497,
+          "code": "QTD 073",
+          "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Bình Thọ",
+          "address": "366-368",
+          "street": "Võ Văn Ngân",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.849597,
+          "lng": 106.771917,
+          "routes": [
+            "06",
+            "08",
+            "141",
+            "168V",
+            "56",
+            "57",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 1502,
+          "code": "Q9 089",
+          "name": "Siêu thị Coopmart",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "4-6",
+          "street": "Lê Văn Việt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.848192,
+          "lng": 106.775032,
+          "routes": [
+            "141",
+            "162",
+            "56",
+            "57",
+            "76"
+          ]
+        },
+        {
+          "stop_id": 1504,
+          "code": "Q9 090",
+          "name": "Bệnh viện 7C-Trường Quân y 2",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "50",
+          "street": "Lê Văn Việt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.846262,
+          "lng": 106.778124,
+          "routes": [
+            "141",
+            "162",
+            "56",
+            "57",
+            "76"
+          ]
+        },
+        {
+          "stop_id": 1495,
+          "code": "Q9 091",
+          "name": "Nhà sách Thành Nghĩa",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "142-144",
+          "street": "Lê Văn Việt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.84486,
+          "lng": 106.780563,
+          "routes": [
+            "141",
+            "162",
+            "56",
+            "57",
+            "76"
+          ]
+        },
+        {
+          "stop_id": 3191,
+          "code": "Q9 047",
+          "name": "Cổng Đình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "32",
+          "street": "Đình Phong Phú",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.843428,
+          "lng": 106.781128,
+          "routes": [
+            "57",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 3192,
+          "code": "Q9 048",
+          "name": "Trung tâm GDTX Quận 9",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "106B (60)",
+          "street": "Đình Phong Phú",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.839918,
+          "lng": 106.780372,
+          "routes": [
+            "57",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 3193,
+          "code": "Q9 049",
+          "name": "UBND phường Tăng Nhơn Phú B",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "180B-182",
+          "street": "Đình Phong Phú",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.835176,
+          "lng": 106.782378,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3194,
+          "code": "Q9 050",
+          "name": "Đình Phong Phú",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Đình Phong Phú",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.830956,
+          "lng": 106.78351,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3195,
+          "code": "Q9 051",
+          "name": "Trường THCS Tăng Nhơn Phú B",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "251 (255)",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.829402,
+          "lng": 106.782759,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3196,
+          "code": "Q9 052",
+          "name": "Ngã 3 Bằng Lăng",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Đối diện 212",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.824323,
+          "lng": 106.780833,
+          "routes": [
+            "163V",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 8194,
+          "code": "TPTĐ 270",
+          "name": "Khu nhà ở công nhân Lilama 18",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Long B",
+          "address": "139E-141",
+          "street": "Dương Đình Hội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.821881,
+          "lng": 106.779679,
+          "routes": [
+            "163V",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3197,
+          "code": "Q9 053",
+          "name": "Đường 185",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "173",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.820239,
+          "lng": 106.778557,
+          "routes": [
+            "163V",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3200,
+          "code": "Q9 054",
+          "name": "Chung cư Khang Điền",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Long B",
+          "address": "87-89 (101)",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.819217,
+          "lng": 106.777684,
+          "routes": [
+            "163V",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3202,
+          "code": "Q9 055",
+          "name": "Đường 359",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "49",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.818332,
+          "lng": 106.776354,
+          "routes": [
+            "163V",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3198,
+          "code": "Q9 056",
+          "name": "Trường THPT Phước Long",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "11",
+          "street": "Dương Đình Hội",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.817067,
+          "lng": 106.774862,
+          "routes": [
+            "163V",
+            "57"
+          ]
+        },
+        {
+          "stop_id": 4260,
+          "code": "Q9 066",
+          "name": "84-86, Đại Lộ 2",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "84-86",
+          "street": "Đại Lộ 2",
+          "support_disability": "",
+          "status": "Chưa khai thác",
+          "lat": 10.81751,
+          "lng": 106.771483,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 7952,
+          "code": "TPTĐ 084",
+          "name": "Công viên Phước Bình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Bình",
+          "address": "đối diện Công viên Phước Bình (đối diện đường số 6C)",
+          "street": "Đường số 18B",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.815663,
+          "lng": 106.770087,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 7950,
+          "code": "TPTĐ 082",
+          "name": "Trung cấp nghề Suleco",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Phước Bình",
+          "address": "Trường Trung cấp nghề Suleco",
+          "street": "Đại lộ 3",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.812697,
+          "lng": 106.770756,
+          "routes": [
+            "57"
+          ]
+        },
+        {
+          "stop_id": 3201,
+          "code": "BX 32",
+          "name": "Chợ Phước Bình",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "ĐẦU BẾN TRƯỜNG TC NGHỀ TPHCM CƠ SỞ 3",
+          "street": "Đại Lộ 3",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.812699,
+          "lng": 106.770912,
+          "routes": [
+            "57"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 4654,
+          "start_time": "05:00",
+          "end_time": "05:42"
+        },
+        {
+          "trip_id": 4655,
+          "start_time": "05:15",
+          "end_time": "05:57"
+        },
+        {
+          "trip_id": 4656,
+          "start_time": "05:30",
+          "end_time": "06:12"
+        },
+        {
+          "trip_id": 4657,
+          "start_time": "05:42",
+          "end_time": "06:24"
+        },
+        {
+          "trip_id": 4658,
+          "start_time": "05:54",
+          "end_time": "06:36"
+        },
+        {
+          "trip_id": 4659,
+          "start_time": "06:06",
+          "end_time": "06:48"
+        },
+        {
+          "trip_id": 4660,
+          "start_time": "06:16",
+          "end_time": "06:58"
+        },
+        {
+          "trip_id": 4661,
+          "start_time": "06:26",
+          "end_time": "07:08"
+        },
+        {
+          "trip_id": 4662,
+          "start_time": "06:36",
+          "end_time": "07:18"
+        },
+        {
+          "trip_id": 4663,
+          "start_time": "06:48",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 4664,
+          "start_time": "07:00",
+          "end_time": "07:42"
+        },
+        {
+          "trip_id": 4665,
+          "start_time": "07:12",
+          "end_time": "07:54"
+        },
+        {
+          "trip_id": 4666,
+          "start_time": "07:24",
+          "end_time": "08:06"
+        },
+        {
+          "trip_id": 4667,
+          "start_time": "07:36",
+          "end_time": "08:18"
+        },
+        {
+          "trip_id": 4668,
+          "start_time": "07:48",
+          "end_time": "08:30"
+        },
+        {
+          "trip_id": 4669,
+          "start_time": "08:00",
+          "end_time": "08:42"
+        },
+        {
+          "trip_id": 4670,
+          "start_time": "08:12",
+          "end_time": "08:54"
+        },
+        {
+          "trip_id": 4671,
+          "start_time": "08:24",
+          "end_time": "09:06"
+        },
+        {
+          "trip_id": 4672,
+          "start_time": "08:36",
+          "end_time": "09:18"
+        },
+        {
+          "trip_id": 4673,
+          "start_time": "08:48",
+          "end_time": "09:30"
+        },
+        {
+          "trip_id": 4674,
+          "start_time": "09:00",
+          "end_time": "09:42"
+        },
+        {
+          "trip_id": 4675,
+          "start_time": "09:12",
+          "end_time": "09:54"
+        },
+        {
+          "trip_id": 4676,
+          "start_time": "09:24",
+          "end_time": "10:06"
+        },
+        {
+          "trip_id": 4677,
+          "start_time": "09:36",
+          "end_time": "10:18"
+        },
+        {
+          "trip_id": 4678,
+          "start_time": "09:48",
+          "end_time": "10:30"
+        },
+        {
+          "trip_id": 4679,
+          "start_time": "10:00",
+          "end_time": "10:42"
+        },
+        {
+          "trip_id": 4680,
+          "start_time": "10:12",
+          "end_time": "10:54"
+        },
+        {
+          "trip_id": 4681,
+          "start_time": "10:22",
+          "end_time": "11:04"
+        },
+        {
+          "trip_id": 4682,
+          "start_time": "10:32",
+          "end_time": "11:14"
+        },
+        {
+          "trip_id": 4683,
+          "start_time": "10:42",
+          "end_time": "11:24"
+        },
+        {
+          "trip_id": 4684,
+          "start_time": "10:54",
+          "end_time": "11:36"
+        },
+        {
+          "trip_id": 4685,
+          "start_time": "11:06",
+          "end_time": "11:48"
+        },
+        {
+          "trip_id": 4686,
+          "start_time": "11:18",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 4687,
+          "start_time": "11:30",
+          "end_time": "12:12"
+        },
+        {
+          "trip_id": 4688,
+          "start_time": "11:42",
+          "end_time": "12:24"
+        },
+        {
+          "trip_id": 4689,
+          "start_time": "11:54",
+          "end_time": "12:36"
+        },
+        {
+          "trip_id": 4690,
+          "start_time": "12:06",
+          "end_time": "12:48"
+        },
+        {
+          "trip_id": 4691,
+          "start_time": "12:18",
+          "end_time": "13:00"
+        },
+        {
+          "trip_id": 4692,
+          "start_time": "12:30",
+          "end_time": "13:12"
+        },
+        {
+          "trip_id": 4693,
+          "start_time": "12:42",
+          "end_time": "13:24"
+        },
+        {
+          "trip_id": 4694,
+          "start_time": "12:54",
+          "end_time": "13:36"
+        },
+        {
+          "trip_id": 4695,
+          "start_time": "13:06",
+          "end_time": "13:48"
+        },
+        {
+          "trip_id": 4696,
+          "start_time": "13:21",
+          "end_time": "14:03"
+        },
+        {
+          "trip_id": 4697,
+          "start_time": "13:36",
+          "end_time": "14:18"
+        },
+        {
+          "trip_id": 4698,
+          "start_time": "13:51",
+          "end_time": "14:33"
+        },
+        {
+          "trip_id": 4699,
+          "start_time": "14:06",
+          "end_time": "14:48"
+        },
+        {
+          "trip_id": 4700,
+          "start_time": "14:21",
+          "end_time": "15:03"
+        },
+        {
+          "trip_id": 4701,
+          "start_time": "14:36",
+          "end_time": "15:18"
+        },
+        {
+          "trip_id": 4702,
+          "start_time": "14:51",
+          "end_time": "15:33"
+        },
+        {
+          "trip_id": 4703,
+          "start_time": "15:06",
+          "end_time": "15:48"
+        },
+        {
+          "trip_id": 4704,
+          "start_time": "15:21",
+          "end_time": "16:03"
+        },
+        {
+          "trip_id": 4705,
+          "start_time": "15:33",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 4706,
+          "start_time": "15:45",
+          "end_time": "16:27"
+        },
+        {
+          "trip_id": 4707,
+          "start_time": "15:57",
+          "end_time": "16:39"
+        },
+        {
+          "trip_id": 4708,
+          "start_time": "16:09",
+          "end_time": "16:51"
+        },
+        {
+          "trip_id": 4709,
+          "start_time": "16:19",
+          "end_time": "17:01"
+        },
+        {
+          "trip_id": 4710,
+          "start_time": "16:29",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 4711,
+          "start_time": "16:39",
+          "end_time": "17:21"
+        },
+        {
+          "trip_id": 4712,
+          "start_time": "16:49",
+          "end_time": "17:31"
+        },
+        {
+          "trip_id": 4713,
+          "start_time": "17:04",
+          "end_time": "17:46"
+        },
+        {
+          "trip_id": 4714,
+          "start_time": "17:19",
+          "end_time": "18:01"
+        },
+        {
+          "trip_id": 4715,
+          "start_time": "17:34",
+          "end_time": "18:16"
+        },
+        {
+          "trip_id": 4716,
+          "start_time": "17:50",
+          "end_time": "18:32"
+        },
+        {
+          "trip_id": 4717,
+          "start_time": "18:10",
+          "end_time": "18:52"
+        },
+        {
+          "trip_id": 4718,
+          "start_time": "18:30",
+          "end_time": "19:12"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1772 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 384,
+    "crawled_at": "2026-07-23T00:27:40"
+  },
+  "data": {
+    "route": {
+      "id": 384,
+      "bus_no": "MRT1",
+      "name": "Bến Thành - Suối Tiên",
+      "color": "#3366FF",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 18821.0,
+      "num_of_seats": 930,
+      "operators": [
+        "Công ty TNHH MTV Đường sắt đô thị số 1"
+      ],
+      "tickets": [],
+      "time_of_trip_minutes": {
+        "min": 29,
+        "max": 29
+      },
+      "headway_minutes": {
+        "min": 6,
+        "max": 15
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "22:00"
+      },
+      "total_trip": {
+        "value": 228,
+        "unit": "TPD"
+      },
+      "outbound_name": "Suối Tiên",
+      "outbound_description": [
+        "Ga Bến Thành",
+        "Ga Nhà hát Thành phố",
+        "Ga Ba Son",
+        "Ga Văn Thánh",
+        "Ga Tân Cảng",
+        "Ga Thảo Điền",
+        "Ga An Phú",
+        "Ga Rạch Chiếc",
+        "Ga Phước Long",
+        "Ga Bình Thái",
+        "Ga Thủ Đức",
+        "Ga Khu Công nghệ Cao",
+        "Ga Đại học Quốc Gia",
+        "Ga Bến xe Suối Tiên"
+      ],
+      "inbound_name": "Bến Thành",
+      "inbound_description": [
+        "Ga Bến xe Suối Tiên",
+        "Ga Đại học Quốc Gia",
+        "Ga Khu Công nghệ cao",
+        "Ga Thủ Đức",
+        "Ga Bình Thái",
+        "Ga Phước Long",
+        "Ga Rạch Chiếc",
+        "Ga An Phú",
+        "Ga Thảo Điền",
+        "Ga Tân Cảng",
+        "Ga Văn Thánh",
+        "Ga Ba Son",
+        "Ga Nhà hát Thành phố",
+        "Ga Bến Thành"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bến Thành - Bến xe Suối Tiên",
+        "short_name": "Suối Tiên",
+        "start_stop": "Ga Bến Thành",
+        "end_stop": "Ga Bến xe Suối Tiên",
+        "distance_m": 18894.0,
+        "running_time_minutes": 29,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 45,
+        "route_var_id": 1,
+        "start_date": "01/06/2026",
+        "end_date": "16/08/2026",
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 29,
+          "max": 29
+        },
+        "headway_minutes": {
+          "min": 6,
+          "max": 15
+        },
+        "total_trip": 114,
+        "operation_time": {
+          "start": "05:00",
+          "end": "22:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7003,
+          "code": "BTN",
+          "name": "Ga Bến Thành",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Thành",
+          "address": "Bến Thành",
+          "street": "Công trường Quách Thị Trang",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.770838,
+          "lng": 106.697513,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7004,
+          "code": "OPH",
+          "name": "Ga Nhà hát Thành phố",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Nhà hát Thành phố",
+          "street": "Đồng Khởi",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.775275,
+          "lng": 106.701976,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7005,
+          "code": "BSN",
+          "name": "Ga Ba Son",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Ba Son",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.781556,
+          "lng": 106.708011,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7006,
+          "code": "VTP",
+          "name": "Ga Văn Thánh",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 22",
+          "address": "Hẻm 56 Điện Biên Phủ",
+          "street": "Hẻm 56 Điện Biên Phủ",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.796011,
+          "lng": 106.715446,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7007,
+          "code": "TCN",
+          "name": "Ga Tân Cảng",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 25",
+          "address": "Công viên Tân Cảng",
+          "street": "Điện Biên Phủ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.79854,
+          "lng": 106.723144,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7008,
+          "code": "TDN",
+          "name": "Ga Thảo Điền",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường Thảo Điền",
+          "address": "Thảo Điền",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.800469,
+          "lng": 106.73361,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7009,
+          "code": "ANP",
+          "name": "Ga An Phú",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường An Phú",
+          "address": "An Phú",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.802134,
+          "lng": 106.74229,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7010,
+          "code": "RCC",
+          "name": "Ga Rạch Chiếc",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường An Phú",
+          "address": "Rạch Chiếc",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.808505,
+          "lng": 106.755261,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7011,
+          "code": "PCL",
+          "name": "Ga Phước Long",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Trường Thọ",
+          "address": "Phước Long",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.821446,
+          "lng": 106.758179,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7012,
+          "code": "BTT",
+          "name": "Ga Bình Thái",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Trường Thọ",
+          "address": "Bình Thái",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.832647,
+          "lng": 106.763908,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7013,
+          "code": "TDC",
+          "name": "Ga Thủ Đức",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Bình Thọ",
+          "address": "Thủ Đức",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.846383,
+          "lng": 106.771633,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7016,
+          "code": "HTP",
+          "name": "Ga Khu Công nghệ Cao",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Bình Chiểu",
+          "address": "Khu Công nghệ Cao",
+          "street": "Xa lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.858975,
+          "lng": 106.788837,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7014,
+          "code": "NUS",
+          "name": "Ga Đại học Quốc Gia",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Suối Tiên",
+          "street": "Xa lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.866313,
+          "lng": 106.801261,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7015,
+          "code": "STT",
+          "name": "Ga Bến xe Suối Tiên",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Long Bình",
+          "address": "Bến xe Suối Tiên",
+          "street": "Bến xe Suối Tiên",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.879499,
+          "lng": 106.81406,
+          "routes": [
+            "MRT1"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 10644,
+          "start_time": "05:00",
+          "end_time": "05:29"
+        },
+        {
+          "trip_id": 10645,
+          "start_time": "05:15",
+          "end_time": "05:44"
+        },
+        {
+          "trip_id": 10646,
+          "start_time": "05:30",
+          "end_time": "05:59"
+        },
+        {
+          "trip_id": 10647,
+          "start_time": "05:42",
+          "end_time": "06:11"
+        },
+        {
+          "trip_id": 10648,
+          "start_time": "05:54",
+          "end_time": "06:23"
+        },
+        {
+          "trip_id": 10649,
+          "start_time": "06:06",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 10650,
+          "start_time": "06:18",
+          "end_time": "06:47"
+        },
+        {
+          "trip_id": 10651,
+          "start_time": "06:30",
+          "end_time": "06:59"
+        },
+        {
+          "trip_id": 10652,
+          "start_time": "06:40",
+          "end_time": "07:09"
+        },
+        {
+          "trip_id": 10653,
+          "start_time": "06:50",
+          "end_time": "07:19"
+        },
+        {
+          "trip_id": 10654,
+          "start_time": "07:00",
+          "end_time": "07:29"
+        },
+        {
+          "trip_id": 10655,
+          "start_time": "07:08",
+          "end_time": "07:37"
+        },
+        {
+          "trip_id": 10656,
+          "start_time": "07:16",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 10657,
+          "start_time": "07:24",
+          "end_time": "07:53"
+        },
+        {
+          "trip_id": 10658,
+          "start_time": "07:30",
+          "end_time": "07:59"
+        },
+        {
+          "trip_id": 10659,
+          "start_time": "07:36",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 10660,
+          "start_time": "07:42",
+          "end_time": "08:11"
+        },
+        {
+          "trip_id": 10661,
+          "start_time": "07:48",
+          "end_time": "08:17"
+        },
+        {
+          "trip_id": 10662,
+          "start_time": "07:54",
+          "end_time": "08:23"
+        },
+        {
+          "trip_id": 10663,
+          "start_time": "08:00",
+          "end_time": "08:29"
+        },
+        {
+          "trip_id": 10664,
+          "start_time": "08:06",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 10665,
+          "start_time": "08:12",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 10666,
+          "start_time": "08:18",
+          "end_time": "08:47"
+        },
+        {
+          "trip_id": 10667,
+          "start_time": "08:24",
+          "end_time": "08:53"
+        },
+        {
+          "trip_id": 10668,
+          "start_time": "08:30",
+          "end_time": "08:59"
+        },
+        {
+          "trip_id": 10669,
+          "start_time": "08:38",
+          "end_time": "09:07"
+        },
+        {
+          "trip_id": 10670,
+          "start_time": "08:46",
+          "end_time": "09:15"
+        },
+        {
+          "trip_id": 10671,
+          "start_time": "08:54",
+          "end_time": "09:23"
+        },
+        {
+          "trip_id": 10672,
+          "start_time": "09:02",
+          "end_time": "09:31"
+        },
+        {
+          "trip_id": 10673,
+          "start_time": "09:12",
+          "end_time": "09:41"
+        },
+        {
+          "trip_id": 10674,
+          "start_time": "09:22",
+          "end_time": "09:51"
+        },
+        {
+          "trip_id": 10675,
+          "start_time": "09:32",
+          "end_time": "10:01"
+        },
+        {
+          "trip_id": 10676,
+          "start_time": "09:42",
+          "end_time": "10:11"
+        },
+        {
+          "trip_id": 10677,
+          "start_time": "09:52",
+          "end_time": "10:21"
+        },
+        {
+          "trip_id": 10678,
+          "start_time": "10:02",
+          "end_time": "10:31"
+        },
+        {
+          "trip_id": 10679,
+          "start_time": "10:12",
+          "end_time": "10:41"
+        },
+        {
+          "trip_id": 10680,
+          "start_time": "10:22",
+          "end_time": "10:51"
+        },
+        {
+          "trip_id": 10681,
+          "start_time": "10:32",
+          "end_time": "11:01"
+        },
+        {
+          "trip_id": 10682,
+          "start_time": "10:42",
+          "end_time": "11:11"
+        },
+        {
+          "trip_id": 10683,
+          "start_time": "10:52",
+          "end_time": "11:21"
+        },
+        {
+          "trip_id": 10684,
+          "start_time": "11:02",
+          "end_time": "11:31"
+        },
+        {
+          "trip_id": 10685,
+          "start_time": "11:12",
+          "end_time": "11:41"
+        },
+        {
+          "trip_id": 10686,
+          "start_time": "11:22",
+          "end_time": "11:51"
+        },
+        {
+          "trip_id": 10687,
+          "start_time": "11:32",
+          "end_time": "12:01"
+        },
+        {
+          "trip_id": 10688,
+          "start_time": "11:42",
+          "end_time": "12:11"
+        },
+        {
+          "trip_id": 10689,
+          "start_time": "11:52",
+          "end_time": "12:21"
+        },
+        {
+          "trip_id": 10690,
+          "start_time": "12:02",
+          "end_time": "12:31"
+        },
+        {
+          "trip_id": 10691,
+          "start_time": "12:12",
+          "end_time": "12:41"
+        },
+        {
+          "trip_id": 10692,
+          "start_time": "12:22",
+          "end_time": "12:51"
+        },
+        {
+          "trip_id": 10693,
+          "start_time": "12:32",
+          "end_time": "13:01"
+        },
+        {
+          "trip_id": 10694,
+          "start_time": "12:42",
+          "end_time": "13:11"
+        },
+        {
+          "trip_id": 10695,
+          "start_time": "12:52",
+          "end_time": "13:21"
+        },
+        {
+          "trip_id": 10696,
+          "start_time": "13:02",
+          "end_time": "13:31"
+        },
+        {
+          "trip_id": 10697,
+          "start_time": "13:12",
+          "end_time": "13:41"
+        },
+        {
+          "trip_id": 10698,
+          "start_time": "13:22",
+          "end_time": "13:51"
+        },
+        {
+          "trip_id": 10699,
+          "start_time": "13:32",
+          "end_time": "14:01"
+        },
+        {
+          "trip_id": 10700,
+          "start_time": "13:44",
+          "end_time": "14:13"
+        },
+        {
+          "trip_id": 10701,
+          "start_time": "13:56",
+          "end_time": "14:25"
+        },
+        {
+          "trip_id": 10702,
+          "start_time": "14:08",
+          "end_time": "14:37"
+        },
+        {
+          "trip_id": 10703,
+          "start_time": "14:20",
+          "end_time": "14:49"
+        },
+        {
+          "trip_id": 10704,
+          "start_time": "14:32",
+          "end_time": "15:01"
+        },
+        {
+          "trip_id": 10705,
+          "start_time": "14:44",
+          "end_time": "15:13"
+        },
+        {
+          "trip_id": 10706,
+          "start_time": "14:56",
+          "end_time": "15:25"
+        },
+        {
+          "trip_id": 10707,
+          "start_time": "15:08",
+          "end_time": "15:37"
+        },
+        {
+          "trip_id": 10708,
+          "start_time": "15:20",
+          "end_time": "15:49"
+        },
+        {
+          "trip_id": 10709,
+          "start_time": "15:32",
+          "end_time": "16:01"
+        },
+        {
+          "trip_id": 10710,
+          "start_time": "15:42",
+          "end_time": "16:11"
+        },
+        {
+          "trip_id": 10711,
+          "start_time": "15:52",
+          "end_time": "16:21"
+        },
+        {
+          "trip_id": 10712,
+          "start_time": "16:02",
+          "end_time": "16:31"
+        },
+        {
+          "trip_id": 10713,
+          "start_time": "16:12",
+          "end_time": "16:41"
+        },
+        {
+          "trip_id": 10714,
+          "start_time": "16:22",
+          "end_time": "16:51"
+        },
+        {
+          "trip_id": 10715,
+          "start_time": "16:32",
+          "end_time": "17:01"
+        },
+        {
+          "trip_id": 10716,
+          "start_time": "16:40",
+          "end_time": "17:09"
+        },
+        {
+          "trip_id": 10717,
+          "start_time": "16:48",
+          "end_time": "17:17"
+        },
+        {
+          "trip_id": 10718,
+          "start_time": "16:56",
+          "end_time": "17:25"
+        },
+        {
+          "trip_id": 10719,
+          "start_time": "17:04",
+          "end_time": "17:33"
+        },
+        {
+          "trip_id": 10720,
+          "start_time": "17:10",
+          "end_time": "17:39"
+        },
+        {
+          "trip_id": 10721,
+          "start_time": "17:16",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 10722,
+          "start_time": "17:22",
+          "end_time": "17:51"
+        },
+        {
+          "trip_id": 10723,
+          "start_time": "17:28",
+          "end_time": "17:57"
+        },
+        {
+          "trip_id": 10724,
+          "start_time": "17:34",
+          "end_time": "18:03"
+        },
+        {
+          "trip_id": 10725,
+          "start_time": "17:40",
+          "end_time": "18:09"
+        },
+        {
+          "trip_id": 10726,
+          "start_time": "17:46",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 10727,
+          "start_time": "17:52",
+          "end_time": "18:21"
+        },
+        {
+          "trip_id": 10728,
+          "start_time": "17:58",
+          "end_time": "18:27"
+        },
+        {
+          "trip_id": 10729,
+          "start_time": "18:04",
+          "end_time": "18:33"
+        },
+        {
+          "trip_id": 10730,
+          "start_time": "18:10",
+          "end_time": "18:39"
+        },
+        {
+          "trip_id": 10731,
+          "start_time": "18:16",
+          "end_time": "18:45"
+        },
+        {
+          "trip_id": 10732,
+          "start_time": "18:22",
+          "end_time": "18:51"
+        },
+        {
+          "trip_id": 10733,
+          "start_time": "18:28",
+          "end_time": "18:57"
+        },
+        {
+          "trip_id": 10734,
+          "start_time": "18:34",
+          "end_time": "19:03"
+        },
+        {
+          "trip_id": 10735,
+          "start_time": "18:40",
+          "end_time": "19:09"
+        },
+        {
+          "trip_id": 10736,
+          "start_time": "18:46",
+          "end_time": "19:15"
+        },
+        {
+          "trip_id": 10737,
+          "start_time": "18:52",
+          "end_time": "19:21"
+        },
+        {
+          "trip_id": 10738,
+          "start_time": "18:58",
+          "end_time": "19:27"
+        },
+        {
+          "trip_id": 10739,
+          "start_time": "19:06",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 10740,
+          "start_time": "19:14",
+          "end_time": "19:43"
+        },
+        {
+          "trip_id": 10741,
+          "start_time": "19:22",
+          "end_time": "19:51"
+        },
+        {
+          "trip_id": 10742,
+          "start_time": "19:30",
+          "end_time": "19:59"
+        },
+        {
+          "trip_id": 10743,
+          "start_time": "19:40",
+          "end_time": "20:09"
+        },
+        {
+          "trip_id": 10744,
+          "start_time": "19:50",
+          "end_time": "20:19"
+        },
+        {
+          "trip_id": 10745,
+          "start_time": "20:00",
+          "end_time": "20:29"
+        },
+        {
+          "trip_id": 10746,
+          "start_time": "20:10",
+          "end_time": "20:39"
+        },
+        {
+          "trip_id": 10747,
+          "start_time": "20:20",
+          "end_time": "20:49"
+        },
+        {
+          "trip_id": 10748,
+          "start_time": "20:30",
+          "end_time": "20:59"
+        },
+        {
+          "trip_id": 10749,
+          "start_time": "20:40",
+          "end_time": "21:09"
+        },
+        {
+          "trip_id": 10750,
+          "start_time": "20:50",
+          "end_time": "21:19"
+        },
+        {
+          "trip_id": 10751,
+          "start_time": "21:00",
+          "end_time": "21:29"
+        },
+        {
+          "trip_id": 10752,
+          "start_time": "21:10",
+          "end_time": "21:39"
+        },
+        {
+          "trip_id": 10753,
+          "start_time": "21:20",
+          "end_time": "21:49"
+        },
+        {
+          "trip_id": 10754,
+          "start_time": "21:30",
+          "end_time": "21:59"
+        },
+        {
+          "trip_id": 10755,
+          "start_time": "21:40",
+          "end_time": "22:09"
+        },
+        {
+          "trip_id": 10756,
+          "start_time": "21:50",
+          "end_time": "22:19"
+        },
+        {
+          "trip_id": 10757,
+          "start_time": "22:00",
+          "end_time": "22:29"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Bến xe Suối Tiên - Bến Thành",
+        "short_name": "Bến Thành",
+        "start_stop": "Ga Bến xe Suối Tiên",
+        "end_stop": "Ga Bến Thành",
+        "distance_m": 18890.0,
+        "running_time_minutes": 29,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 46,
+        "route_var_id": 2,
+        "start_date": "01/06/2026",
+        "end_date": "16/08/2026",
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 29,
+          "max": 29
+        },
+        "headway_minutes": {
+          "min": 6,
+          "max": 15
+        },
+        "total_trip": 114,
+        "operation_time": {
+          "start": "05:00",
+          "end": "22:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7015,
+          "code": "STT",
+          "name": "Ga Bến xe Suối Tiên",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Long Bình",
+          "address": "Bến xe Suối Tiên",
+          "street": "Bến xe Suối Tiên",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.879499,
+          "lng": 106.81406,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7014,
+          "code": "NUS",
+          "name": "Ga Đại học Quốc Gia",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Suối Tiên",
+          "street": "Xa lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.866313,
+          "lng": 106.801261,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7016,
+          "code": "HTP",
+          "name": "Ga Khu Công nghệ Cao",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Bình Chiểu",
+          "address": "Khu Công nghệ Cao",
+          "street": "Xa lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.858975,
+          "lng": 106.788837,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7013,
+          "code": "TDC",
+          "name": "Ga Thủ Đức",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Bình Thọ",
+          "address": "Thủ Đức",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.846383,
+          "lng": 106.771633,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7012,
+          "code": "BTT",
+          "name": "Ga Bình Thái",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Trường Thọ",
+          "address": "Bình Thái",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.832647,
+          "lng": 106.763908,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7011,
+          "code": "PCL",
+          "name": "Ga Phước Long",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Trường Thọ",
+          "address": "Phước Long",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.821446,
+          "lng": 106.758179,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7010,
+          "code": "RCC",
+          "name": "Ga Rạch Chiếc",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường An Phú",
+          "address": "Rạch Chiếc",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.808505,
+          "lng": 106.755261,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7009,
+          "code": "ANP",
+          "name": "Ga An Phú",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường An Phú",
+          "address": "An Phú",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.802134,
+          "lng": 106.74229,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7008,
+          "code": "TDN",
+          "name": "Ga Thảo Điền",
+          "type": "Ga Metro Số 1",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường Thảo Điền",
+          "address": "Thảo Điền",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.800469,
+          "lng": 106.73361,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7007,
+          "code": "TCN",
+          "name": "Ga Tân Cảng",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 25",
+          "address": "Công viên Tân Cảng",
+          "street": "Điện Biên Phủ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.79854,
+          "lng": 106.723144,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7006,
+          "code": "VTP",
+          "name": "Ga Văn Thánh",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 22",
+          "address": "Hẻm 56 Điện Biên Phủ",
+          "street": "Hẻm 56 Điện Biên Phủ",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.796011,
+          "lng": 106.715446,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7005,
+          "code": "BSN",
+          "name": "Ga Ba Son",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Ba Son",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.781556,
+          "lng": 106.708011,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7004,
+          "code": "OPH",
+          "name": "Ga Nhà hát Thành phố",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Nhà hát Thành phố",
+          "street": "Đồng Khởi",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.775275,
+          "lng": 106.701976,
+          "routes": [
+            "MRT1"
+          ]
+        },
+        {
+          "stop_id": 7003,
+          "code": "BTN",
+          "name": "Ga Bến Thành",
+          "type": "Ga Metro Số 1",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Thành",
+          "address": "Bến Thành",
+          "street": "Công trường Quách Thị Trang",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.770838,
+          "lng": 106.697513,
+          "routes": [
+            "MRT1"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 10758,
+          "start_time": "05:00",
+          "end_time": "05:29"
+        },
+        {
+          "trip_id": 10759,
+          "start_time": "05:15",
+          "end_time": "05:44"
+        },
+        {
+          "trip_id": 10760,
+          "start_time": "05:30",
+          "end_time": "05:59"
+        },
+        {
+          "trip_id": 10761,
+          "start_time": "05:42",
+          "end_time": "06:11"
+        },
+        {
+          "trip_id": 10762,
+          "start_time": "05:54",
+          "end_time": "06:23"
+        },
+        {
+          "trip_id": 10763,
+          "start_time": "06:04",
+          "end_time": "06:33"
+        },
+        {
+          "trip_id": 10764,
+          "start_time": "06:14",
+          "end_time": "06:43"
+        },
+        {
+          "trip_id": 10765,
+          "start_time": "06:24",
+          "end_time": "06:53"
+        },
+        {
+          "trip_id": 10766,
+          "start_time": "06:34",
+          "end_time": "07:03"
+        },
+        {
+          "trip_id": 10767,
+          "start_time": "06:44",
+          "end_time": "07:13"
+        },
+        {
+          "trip_id": 10768,
+          "start_time": "06:54",
+          "end_time": "07:23"
+        },
+        {
+          "trip_id": 10769,
+          "start_time": "07:02",
+          "end_time": "07:31"
+        },
+        {
+          "trip_id": 10770,
+          "start_time": "07:10",
+          "end_time": "07:39"
+        },
+        {
+          "trip_id": 10771,
+          "start_time": "07:18",
+          "end_time": "07:47"
+        },
+        {
+          "trip_id": 10772,
+          "start_time": "07:24",
+          "end_time": "07:53"
+        },
+        {
+          "trip_id": 10773,
+          "start_time": "07:30",
+          "end_time": "07:59"
+        },
+        {
+          "trip_id": 10774,
+          "start_time": "07:36",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 10775,
+          "start_time": "07:42",
+          "end_time": "08:11"
+        },
+        {
+          "trip_id": 10776,
+          "start_time": "07:48",
+          "end_time": "08:17"
+        },
+        {
+          "trip_id": 10777,
+          "start_time": "07:54",
+          "end_time": "08:23"
+        },
+        {
+          "trip_id": 10778,
+          "start_time": "08:00",
+          "end_time": "08:29"
+        },
+        {
+          "trip_id": 10779,
+          "start_time": "08:06",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 10780,
+          "start_time": "08:12",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 10781,
+          "start_time": "08:18",
+          "end_time": "08:47"
+        },
+        {
+          "trip_id": 10782,
+          "start_time": "08:24",
+          "end_time": "08:53"
+        },
+        {
+          "trip_id": 10783,
+          "start_time": "08:32",
+          "end_time": "09:01"
+        },
+        {
+          "trip_id": 10784,
+          "start_time": "08:40",
+          "end_time": "09:09"
+        },
+        {
+          "trip_id": 10785,
+          "start_time": "08:48",
+          "end_time": "09:17"
+        },
+        {
+          "trip_id": 10786,
+          "start_time": "08:56",
+          "end_time": "09:25"
+        },
+        {
+          "trip_id": 10787,
+          "start_time": "09:06",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 10788,
+          "start_time": "09:16",
+          "end_time": "09:45"
+        },
+        {
+          "trip_id": 10789,
+          "start_time": "09:26",
+          "end_time": "09:55"
+        },
+        {
+          "trip_id": 10790,
+          "start_time": "09:36",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 10791,
+          "start_time": "09:46",
+          "end_time": "10:15"
+        },
+        {
+          "trip_id": 10792,
+          "start_time": "09:56",
+          "end_time": "10:25"
+        },
+        {
+          "trip_id": 10793,
+          "start_time": "10:06",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 10794,
+          "start_time": "10:16",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 10795,
+          "start_time": "10:26",
+          "end_time": "10:55"
+        },
+        {
+          "trip_id": 10796,
+          "start_time": "10:36",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 10797,
+          "start_time": "10:46",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 10798,
+          "start_time": "10:56",
+          "end_time": "11:25"
+        },
+        {
+          "trip_id": 10799,
+          "start_time": "11:06",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 10800,
+          "start_time": "11:16",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 10801,
+          "start_time": "11:26",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 10802,
+          "start_time": "11:36",
+          "end_time": "12:05"
+        },
+        {
+          "trip_id": 10803,
+          "start_time": "11:46",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 10804,
+          "start_time": "11:56",
+          "end_time": "12:25"
+        },
+        {
+          "trip_id": 10805,
+          "start_time": "12:06",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 10806,
+          "start_time": "12:16",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 10807,
+          "start_time": "12:26",
+          "end_time": "12:55"
+        },
+        {
+          "trip_id": 10808,
+          "start_time": "12:36",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 10809,
+          "start_time": "12:46",
+          "end_time": "13:15"
+        },
+        {
+          "trip_id": 10810,
+          "start_time": "12:56",
+          "end_time": "13:25"
+        },
+        {
+          "trip_id": 10811,
+          "start_time": "13:08",
+          "end_time": "13:37"
+        },
+        {
+          "trip_id": 10812,
+          "start_time": "13:20",
+          "end_time": "13:49"
+        },
+        {
+          "trip_id": 10813,
+          "start_time": "13:32",
+          "end_time": "14:01"
+        },
+        {
+          "trip_id": 10814,
+          "start_time": "13:44",
+          "end_time": "14:13"
+        },
+        {
+          "trip_id": 10815,
+          "start_time": "13:56",
+          "end_time": "14:25"
+        },
+        {
+          "trip_id": 10816,
+          "start_time": "14:08",
+          "end_time": "14:37"
+        },
+        {
+          "trip_id": 10817,
+          "start_time": "14:20",
+          "end_time": "14:49"
+        },
+        {
+          "trip_id": 10818,
+          "start_time": "14:32",
+          "end_time": "15:01"
+        },
+        {
+          "trip_id": 10819,
+          "start_time": "14:44",
+          "end_time": "15:13"
+        },
+        {
+          "trip_id": 10820,
+          "start_time": "14:56",
+          "end_time": "15:25"
+        },
+        {
+          "trip_id": 10821,
+          "start_time": "15:06",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 10822,
+          "start_time": "15:16",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 10823,
+          "start_time": "15:26",
+          "end_time": "15:55"
+        },
+        {
+          "trip_id": 10824,
+          "start_time": "15:36",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 10825,
+          "start_time": "15:46",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 10826,
+          "start_time": "15:56",
+          "end_time": "16:25"
+        },
+        {
+          "trip_id": 10827,
+          "start_time": "16:06",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 10828,
+          "start_time": "16:16",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 10829,
+          "start_time": "16:26",
+          "end_time": "16:55"
+        },
+        {
+          "trip_id": 10830,
+          "start_time": "16:34",
+          "end_time": "17:03"
+        },
+        {
+          "trip_id": 10831,
+          "start_time": "16:42",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 10832,
+          "start_time": "16:50",
+          "end_time": "17:19"
+        },
+        {
+          "trip_id": 10833,
+          "start_time": "16:58",
+          "end_time": "17:27"
+        },
+        {
+          "trip_id": 10834,
+          "start_time": "17:04",
+          "end_time": "17:33"
+        },
+        {
+          "trip_id": 10835,
+          "start_time": "17:10",
+          "end_time": "17:39"
+        },
+        {
+          "trip_id": 10836,
+          "start_time": "17:16",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 10837,
+          "start_time": "17:22",
+          "end_time": "17:51"
+        },
+        {
+          "trip_id": 10838,
+          "start_time": "17:28",
+          "end_time": "17:57"
+        },
+        {
+          "trip_id": 10839,
+          "start_time": "17:34",
+          "end_time": "18:03"
+        },
+        {
+          "trip_id": 10840,
+          "start_time": "17:40",
+          "end_time": "18:09"
+        },
+        {
+          "trip_id": 10841,
+          "start_time": "17:46",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 10842,
+          "start_time": "17:52",
+          "end_time": "18:21"
+        },
+        {
+          "trip_id": 10843,
+          "start_time": "17:58",
+          "end_time": "18:27"
+        },
+        {
+          "trip_id": 10844,
+          "start_time": "18:04",
+          "end_time": "18:33"
+        },
+        {
+          "trip_id": 10845,
+          "start_time": "18:10",
+          "end_time": "18:39"
+        },
+        {
+          "trip_id": 10846,
+          "start_time": "18:16",
+          "end_time": "18:45"
+        },
+        {
+          "trip_id": 10847,
+          "start_time": "18:22",
+          "end_time": "18:51"
+        },
+        {
+          "trip_id": 10848,
+          "start_time": "18:28",
+          "end_time": "18:57"
+        },
+        {
+          "trip_id": 10849,
+          "start_time": "18:34",
+          "end_time": "19:03"
+        },
+        {
+          "trip_id": 10850,
+          "start_time": "18:40",
+          "end_time": "19:09"
+        },
+        {
+          "trip_id": 10851,
+          "start_time": "18:46",
+          "end_time": "19:15"
+        },
+        {
+          "trip_id": 10852,
+          "start_time": "18:52",
+          "end_time": "19:21"
+        },
+        {
+          "trip_id": 10853,
+          "start_time": "19:00",
+          "end_time": "19:29"
+        },
+        {
+          "trip_id": 10854,
+          "start_time": "19:08",
+          "end_time": "19:37"
+        },
+        {
+          "trip_id": 10855,
+          "start_time": "19:16",
+          "end_time": "19:45"
+        },
+        {
+          "trip_id": 10856,
+          "start_time": "19:24",
+          "end_time": "19:53"
+        },
+        {
+          "trip_id": 10857,
+          "start_time": "19:34",
+          "end_time": "20:03"
+        },
+        {
+          "trip_id": 10858,
+          "start_time": "19:44",
+          "end_time": "20:13"
+        },
+        {
+          "trip_id": 10859,
+          "start_time": "19:54",
+          "end_time": "20:23"
+        },
+        {
+          "trip_id": 10860,
+          "start_time": "20:04",
+          "end_time": "20:33"
+        },
+        {
+          "trip_id": 10861,
+          "start_time": "20:14",
+          "end_time": "20:43"
+        },
+        {
+          "trip_id": 10862,
+          "start_time": "20:24",
+          "end_time": "20:53"
+        },
+        {
+          "trip_id": 10863,
+          "start_time": "20:34",
+          "end_time": "21:03"
+        },
+        {
+          "trip_id": 10864,
+          "start_time": "20:44",
+          "end_time": "21:13"
+        },
+        {
+          "trip_id": 10865,
+          "start_time": "20:54",
+          "end_time": "21:23"
+        },
+        {
+          "trip_id": 10866,
+          "start_time": "21:04",
+          "end_time": "21:33"
+        },
+        {
+          "trip_id": 10867,
+          "start_time": "21:14",
+          "end_time": "21:43"
+        },
+        {
+          "trip_id": 10868,
+          "start_time": "21:24",
+          "end_time": "21:53"
+        },
+        {
+          "trip_id": 10869,
+          "start_time": "21:36",
+          "end_time": "22:05"
+        },
+        {
+          "trip_id": 10870,
+          "start_time": "21:48",
+          "end_time": "22:17"
+        },
+        {
+          "trip_id": 10871,
+          "start_time": "22:00",
+          "end_time": "22:29"
+        }
+      ]
+    }
+  }
+}

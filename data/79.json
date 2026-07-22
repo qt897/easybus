@@ -1,0 +1,2038 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 119,
+    "crawled_at": "2026-07-23T00:27:28"
+  },
+  "data": {
+    "route": {
+      "id": 119,
+      "bus_no": "79",
+      "name": "Bến xe Củ Chi - Đền Bến Dược",
+      "color": "#06C2AC",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 25000.0,
+      "num_of_seats": 55,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 7000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 157500,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 45,
+        "max": 45
+      },
+      "headway_minutes": {
+        "min": 15,
+        "max": 30
+      },
+      "operation_time": {
+        "start": "04:30",
+        "end": "20:00"
+      },
+      "total_trip": {
+        "value": 80,
+        "unit": "TPD"
+      },
+      "outbound_name": "Đền Bến Dược",
+      "outbound_description": [
+        "Bến xe Củ Chi",
+        "Đường Phan Văn Khải (Quốc lộ 22)",
+        "Đường Nguyễn Thị Rành",
+        "Tỉnh lộ 15",
+        "Khu di tích lịch sử Bến Dược"
+      ],
+      "inbound_name": "Bến xe Củ Chi",
+      "inbound_description": [
+        "Khu di tích lịch sử Bến Dược",
+        "Tỉnh lộ 15",
+        "Đường Nguyễn Thị Rành",
+        "Đường Phan Văn Khải (Quốc lộ 22)",
+        "Bến xe Củ Chi"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 237,
+        "name": "Lượt đi: Bến xe Củ Chi - Bến Dược",
+        "short_name": "Đền Bến Dược",
+        "start_stop": "Bến xe Củ Chi",
+        "end_stop": "Bến Dược",
+        "distance_m": 25417.0,
+        "running_time_minutes": 45,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 25,
+        "route_var_id": 237,
+        "start_date": "07/04/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 45,
+          "max": 45
+        },
+        "headway_minutes": {
+          "min": 15,
+          "max": 30
+        },
+        "total_trip": 40,
+        "operation_time": {
+          "start": "05:30",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 732,
+          "code": "BX 63",
+          "name": "Bến xe Củ Chi",
+          "type": "Bến xe",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "Bến xe Củ Chi",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.971617,
+          "lng": 106.482099,
+          "routes": [
+            "100",
+            "107",
+            "126",
+            "13",
+            "70-1",
+            "70-2",
+            "74",
+            "79",
+            "87",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 734,
+          "code": "HCC 018",
+          "name": "Bến xe Củ Chi",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "928",
+          "street": "Quốc lộ 22",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.972533,
+          "lng": 106.480347,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 733,
+          "code": "HCC 019",
+          "name": "Bệnh viện Củ Chi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Thị trấn Củ Chi",
+          "address": "18",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.974756,
+          "lng": 106.475742,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 738,
+          "code": "HCC 020",
+          "name": "Trạm xăng",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "86",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.976133,
+          "lng": 106.473129,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3856,
+          "code": "HCC 055",
+          "name": "Quốc lộ 22",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Tân An Hội",
+          "address": "Đối diện số 1",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.978095,
+          "lng": 106.471022,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3857,
+          "code": "QCCT277",
+          "name": "Trường tiểu học Nguyễn Thị Rành",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Tân An Hội",
+          "address": "Trường tiểu học Liên Minh Công Nông",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.983593,
+          "lng": 106.470518,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3858,
+          "code": "HCC 057",
+          "name": "Ngã 3 Trung Viết",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "112",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.992719,
+          "lng": 106.468919,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9470,
+          "code": "HCC 366",
+          "name": "Ấp Trảng Lắm",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "160",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.9964,
+          "lng": 106.46794,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3859,
+          "code": "HCC 058",
+          "name": "Ấp Trung Viết",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "194",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.99967,
+          "lng": 106.467339,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9472,
+          "code": "HCC 368",
+          "name": "Nguyễn Thị Kiệp",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "258",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.002926,
+          "lng": 106.467804,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3860,
+          "code": "HCC 059",
+          "name": "Tỉnh lộ 2",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "Đối diện 337",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.008822,
+          "lng": 106.47232,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9474,
+          "code": "HCC 370",
+          "name": "Phạm Thị Phạn",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "382",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.012297,
+          "lng": 106.475381,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3861,
+          "code": "QCCT281",
+          "name": "Ấp Bàu Chứa",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "430",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.017143,
+          "lng": 106.480524,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 7676,
+          "code": "HCC 0830",
+          "name": "Kề ngã 3 516 Nguyễn Thị Rành",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "đối diện 495",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.020964,
+          "lng": 106.484363,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3886,
+          "code": "HCC 083",
+          "name": "Ấp Bàu Tròn",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "500",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.024223,
+          "lng": 106.484996,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 7838,
+          "code": "HCC 351",
+          "name": "Văn phòng ấp Bàu Tròn",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "Văn phòng ấp Bàu Tròn",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.028104,
+          "lng": 106.485554,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3863,
+          "code": "QCCT283",
+          "name": "Bà Thiên",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "580",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.032601,
+          "lng": 106.486702,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3865,
+          "code": "HCC 062",
+          "name": "Xã Nhuận Đức",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "606",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.035844,
+          "lng": 106.486434,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9476,
+          "code": "HCC 372",
+          "name": "Đoàn Thị Mối",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "652D",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.040161,
+          "lng": 106.485322,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3864,
+          "code": "HCC 063",
+          "name": "Trường tiều học Nhuận Đức 2",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "688",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.043547,
+          "lng": 106.484942,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9478,
+          "code": "HCC 374",
+          "name": "Đỗ Đăng Tuyển",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "720",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.048368,
+          "lng": 106.484294,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3866,
+          "code": "HCC 064",
+          "name": "Ấp Canh Lý",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "778",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.052145,
+          "lng": 106.483859,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9480,
+          "code": "HCC 376",
+          "name": "Đường 816",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "816",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.057806,
+          "lng": 106.481725,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3867,
+          "code": "HCC 065",
+          "name": "Tỉnh Lộ 7",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "856",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.061258,
+          "lng": 106.480592,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9482,
+          "code": "HCC 378",
+          "name": "Đối diện Chùa Bà Chúa Xứ Củ Chi",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "Đối diện 993",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.06627,
+          "lng": 106.47903,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3868,
+          "code": "HCC 066",
+          "name": "Ấp Xóm Mới",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "980B",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.070961,
+          "lng": 106.477867,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9484,
+          "code": "HCC 380",
+          "name": "Cạnh 1040",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "Cạnh 1040",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.076582,
+          "lng": 106.476157,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3870,
+          "code": "HCC 067",
+          "name": "Ấp Bàu Đưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1084",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.082459,
+          "lng": 106.474493,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3869,
+          "code": "QCCT290",
+          "name": "Ngã tư An Nhơn tây",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "Đối diện cột điện 78",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.087217,
+          "lng": 106.473307,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9486,
+          "code": "HCC 382",
+          "name": "Ngã 3 Công Ty Bò Sữa",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "cạnh đường Bến Súc",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.102192,
+          "lng": 106.472358,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3872,
+          "code": "HCC 069",
+          "name": "Phú Thuận",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1188A",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.108063,
+          "lng": 106.473151,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3871,
+          "code": "HCC 070",
+          "name": "Trại cưa Minh Khôi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1284",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.116249,
+          "lng": 106.476896,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9488,
+          "code": "HCC 384",
+          "name": "Mẹ Việt Nam anh hùng  Hồ Thị Nói",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "1340A",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.121384,
+          "lng": 106.479074,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3873,
+          "code": "QCCT293",
+          "name": "Ngã 3 Hố Bò",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "1412",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.126602,
+          "lng": 106.48262,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3514,
+          "code": "QCCT098",
+          "name": "Ngã 3 Nguyễn Thị Rành",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "1692-1694",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.129555,
+          "lng": 106.484068,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3515,
+          "code": "QCCT099",
+          "name": "ngã 3 xã Phú Mỹ Hưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "Đối diện 1873",
+          "street": "Tỉnh lộ 15 Củ Chi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.131771,
+          "lng": 106.479084,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3518,
+          "code": "QCCT100",
+          "name": "Cầu Thai Thai",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "1832",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.13984,
+          "lng": 106.472856,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3520,
+          "code": "QCCT101",
+          "name": "Ngã 3 tỉnh lộ 6",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "1920 (1928)",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.143235,
+          "lng": 106.469112,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9464,
+          "code": "HCC 364",
+          "name": "Ấp Phú Hiệp",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "đối diện 1919",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.144703,
+          "lng": 106.467165,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3516,
+          "code": "QCCT102",
+          "name": "Ngã 3 Đền Bến Dược",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "2066",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.149403,
+          "lng": 106.461033,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3874,
+          "code": "BX 64",
+          "name": "Bến Dược",
+          "type": "Bến xe",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "ĐẦU BẾN BẾN DƯỢC",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.154824,
+          "lng": 106.455331,
+          "routes": [
+            "79"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 1833,
+          "start_time": "05:30",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 1834,
+          "start_time": "05:50",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 1835,
+          "start_time": "06:10",
+          "end_time": "06:55"
+        },
+        {
+          "trip_id": 1836,
+          "start_time": "06:30",
+          "end_time": "07:15"
+        },
+        {
+          "trip_id": 1837,
+          "start_time": "06:50",
+          "end_time": "07:35"
+        },
+        {
+          "trip_id": 1838,
+          "start_time": "07:10",
+          "end_time": "07:55"
+        },
+        {
+          "trip_id": 1839,
+          "start_time": "07:30",
+          "end_time": "08:15"
+        },
+        {
+          "trip_id": 1840,
+          "start_time": "07:50",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 1841,
+          "start_time": "08:10",
+          "end_time": "08:55"
+        },
+        {
+          "trip_id": 1842,
+          "start_time": "08:30",
+          "end_time": "09:15"
+        },
+        {
+          "trip_id": 1843,
+          "start_time": "08:50",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 1844,
+          "start_time": "09:10",
+          "end_time": "09:55"
+        },
+        {
+          "trip_id": 1845,
+          "start_time": "09:30",
+          "end_time": "10:15"
+        },
+        {
+          "trip_id": 1846,
+          "start_time": "09:50",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 1847,
+          "start_time": "10:10",
+          "end_time": "10:55"
+        },
+        {
+          "trip_id": 1848,
+          "start_time": "10:30",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 1849,
+          "start_time": "10:50",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 1850,
+          "start_time": "11:10",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 1851,
+          "start_time": "11:30",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 1852,
+          "start_time": "11:50",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 1853,
+          "start_time": "12:10",
+          "end_time": "12:55"
+        },
+        {
+          "trip_id": 1854,
+          "start_time": "12:40",
+          "end_time": "13:25"
+        },
+        {
+          "trip_id": 1855,
+          "start_time": "13:10",
+          "end_time": "13:55"
+        },
+        {
+          "trip_id": 1856,
+          "start_time": "13:40",
+          "end_time": "14:25"
+        },
+        {
+          "trip_id": 1857,
+          "start_time": "14:10",
+          "end_time": "14:55"
+        },
+        {
+          "trip_id": 1858,
+          "start_time": "14:40",
+          "end_time": "15:25"
+        },
+        {
+          "trip_id": 1859,
+          "start_time": "15:10",
+          "end_time": "15:55"
+        },
+        {
+          "trip_id": 1860,
+          "start_time": "15:40",
+          "end_time": "16:25"
+        },
+        {
+          "trip_id": 1861,
+          "start_time": "16:00",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 1862,
+          "start_time": "16:20",
+          "end_time": "17:05"
+        },
+        {
+          "trip_id": 1863,
+          "start_time": "16:40",
+          "end_time": "17:25"
+        },
+        {
+          "trip_id": 1864,
+          "start_time": "17:00",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 1865,
+          "start_time": "17:15",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 1866,
+          "start_time": "17:30",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 1867,
+          "start_time": "17:50",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 1868,
+          "start_time": "18:10",
+          "end_time": "18:55"
+        },
+        {
+          "trip_id": 1869,
+          "start_time": "18:30",
+          "end_time": "19:15"
+        },
+        {
+          "trip_id": 1870,
+          "start_time": "19:00",
+          "end_time": "19:45"
+        },
+        {
+          "trip_id": 1871,
+          "start_time": "19:30",
+          "end_time": "20:15"
+        },
+        {
+          "trip_id": 1872,
+          "start_time": "20:00",
+          "end_time": "20:45"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 238,
+        "name": "Lượt về: Bến Dược - Bến xe Củ Chi",
+        "short_name": "Bến xe Củ Chi",
+        "start_stop": "Bến Dược",
+        "end_stop": "Bến xe Củ Chi",
+        "distance_m": 25956.0,
+        "running_time_minutes": 45,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 26,
+        "route_var_id": 238,
+        "start_date": "07/04/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 45,
+          "max": 45
+        },
+        "headway_minutes": {
+          "min": 20,
+          "max": 30
+        },
+        "total_trip": 40,
+        "operation_time": {
+          "start": "04:30",
+          "end": "19:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 3874,
+          "code": "BX 64",
+          "name": "Bến Dược",
+          "type": "Bến xe",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "ĐẦU BẾN BẾN DƯỢC",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.154824,
+          "lng": 106.455331,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3536,
+          "code": "QCCT103",
+          "name": "Ngã 3 Đền Bến Dược",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "2203 (2185)",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.149482,
+          "lng": 106.460727,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9463,
+          "code": "HCC 363",
+          "name": "Ấp Phú Hiệp",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "1919",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.144193,
+          "lng": 106.467658,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3533,
+          "code": "QCCT104",
+          "name": "Ngã 3 tỉnh lộ 6",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "2039 (đối diện 1880)",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.142477,
+          "lng": 106.469879,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3534,
+          "code": "QCCT105",
+          "name": "Cầu Thai Thai",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "1979 (đối diện 144)",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.138829,
+          "lng": 106.473699,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3538,
+          "code": "QCCT106",
+          "name": "Ngã 3 xã Phú Mỹ Hưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "1833",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.130334,
+          "lng": 106.479959,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3537,
+          "code": "QCCT107",
+          "name": "Ngã 3 Nguyễn Thị Rành",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Phú Mỹ Hưng",
+          "address": "1799 (Đối diện 1694)",
+          "street": "Tỉnh lộ 15",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.129481,
+          "lng": 106.483719,
+          "routes": [
+            "70",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3875,
+          "code": "HCC 072",
+          "name": "Ngã 3 Hố Bò",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1477",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.126365,
+          "lng": 106.482249,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9489,
+          "code": "HCC 385",
+          "name": "Mẹ Việt Nam anh hùng  Hồ Thị Nói",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "1427",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.122443,
+          "lng": 106.479297,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3877,
+          "code": "QCCT295",
+          "name": "Trại cưa Minh Khôi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1343 (ĐD 1292)",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.116733,
+          "lng": 106.47703,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3878,
+          "code": "HCC 074",
+          "name": "Phú Thuận",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "Đối diện 1180",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.107805,
+          "lng": 106.473017,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9487,
+          "code": "HCC 383",
+          "name": "Ngã 3 Công Ty Bò Sữa",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "đối diện đường Bến Súc",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.101604,
+          "lng": 106.472124,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3879,
+          "code": "HCC 075",
+          "name": "Ngã tư An Nhơn Tây",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "Ngã tư An Nhơn Tây",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.087612,
+          "lng": 106.4732,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3881,
+          "code": "HCC 076",
+          "name": "Ấp Bàu Đưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1149",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.082253,
+          "lng": 106.47443,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9485,
+          "code": "HCC 381",
+          "name": "1109",
+          "type": "Bãi hậu cần",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "1109",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.077041,
+          "lng": 106.475896,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3880,
+          "code": "HCC 077",
+          "name": "Ấp Xóm Mới",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "1047A",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.071482,
+          "lng": 106.477585,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9483,
+          "code": "HCC 379",
+          "name": "Chùa Bà Chúa Xứ Củ Chi",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "995",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.066744,
+          "lng": 106.478789,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3883,
+          "code": "HCC 078",
+          "name": "Tỉnh Lộ 7",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "945",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.060733,
+          "lng": 106.480646,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9481,
+          "code": "HCC 377",
+          "name": "Đường 816",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã An Nhơn Tây",
+          "address": "907",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.058189,
+          "lng": 106.481479,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3882,
+          "code": "HCC 079",
+          "name": "Ấp Canh Lý",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "847B",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.052524,
+          "lng": 106.483564,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9479,
+          "code": "HCC 375",
+          "name": "Đỗ Đăng Tuyển",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "805",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.048546,
+          "lng": 106.484206,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3884,
+          "code": "HCC 080",
+          "name": "Trường tiểu học Nhuận Đức 2",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "751",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.043092,
+          "lng": 106.484811,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9477,
+          "code": "HCC 373",
+          "name": "Đoàn Thị Mối",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "697",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.039808,
+          "lng": 106.485267,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3885,
+          "code": "HCC 081",
+          "name": "Xã Nhuận Đức",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "657",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.036203,
+          "lng": 106.486054,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3888,
+          "code": "HCC 082",
+          "name": "Bà Thiên",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "Đối diện 572",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.032298,
+          "lng": 106.486289,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 7839,
+          "code": "HCC 352",
+          "name": "Văn phòng ấp Bàu Tròn",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "541",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.02842,
+          "lng": 106.485468,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3862,
+          "code": "HCC 061",
+          "name": "Ấp Bàu Tròn",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "511",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.024587,
+          "lng": 106.484905,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 7837,
+          "code": "HCC 350",
+          "name": "Ngã 3 Nguyễn Thị Lộc",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "Đối diện 482",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.022059,
+          "lng": 106.484449,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3889,
+          "code": "QCCT306",
+          "name": "Ấp Bàu Chứa",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "407A",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.017436,
+          "lng": 106.480898,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9475,
+          "code": "HCC 371",
+          "name": "Nguyễn Thị Bưa",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "363",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.01268,
+          "lng": 106.47559,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3887,
+          "code": "HCC 085",
+          "name": "Tỉnh Lộ 2",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "313",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.008153,
+          "lng": 106.471242,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3890,
+          "code": "HCC 086",
+          "name": "Ấp Trung Viết",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "207",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.000079,
+          "lng": 106.467051,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9471,
+          "code": "HCC 367",
+          "name": "Ấp Trảng Lắm",
+          "type": "Ô sơn",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Nhuận Đức",
+          "address": "169",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.995944,
+          "lng": 106.467894,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3891,
+          "code": "HCC 087",
+          "name": "Ngã 3 Trung Viết",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "143",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.99207,
+          "lng": 106.46896,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3892,
+          "code": "HCC 088",
+          "name": "Trường tiểu học Nguyễn Thị Rành",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "53",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983825,
+          "lng": 106.470359,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 3893,
+          "code": "HCC 056",
+          "name": "Quốc Lộ 22",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "5",
+          "street": "Nguyễn Thị Rành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.978358,
+          "lng": 106.470904,
+          "routes": [
+            "79"
+          ]
+        },
+        {
+          "stop_id": 787,
+          "code": "HCC 035",
+          "name": "Ngã 3 Nguyễn Thị Rành",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Tân An Hội",
+          "address": "55",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.976109,
+          "lng": 106.472717,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 788,
+          "code": "HCC 036",
+          "name": "Bệnh viện Củ Chi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Tân An Hội",
+          "address": "991 (số 5-7 xe máy Quang Phương)",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.974061,
+          "lng": 106.476579,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 9465,
+          "code": "HCC 365",
+          "name": "Bệnh viện đa khoa khu vực Củ Chi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Xã Tân An Hội",
+          "address": "965",
+          "street": "Phan Văn Khải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.973308,
+          "lng": 106.478097,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 963,
+          "code": "HCC 037",
+          "name": "Bến xe Củ Chi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Củ Chi",
+          "ward": "Thị trấn Củ Chi",
+          "address": "907 (Chợ Củ Chi)",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.972091,
+          "lng": 106.48049,
+          "routes": [
+            "100",
+            "107",
+            "70-1",
+            "70-2",
+            "79"
+          ]
+        },
+        {
+          "stop_id": 7617,
+          "code": "HCC 279",
+          "name": "chợ Củ Chi",
+          "type": "Nhà chờ",
+          "zone": "Huyện Củ Chi",
+          "ward": "Thị trấn Củ Chi",
+          "address": "chợ Củ Chi",
+          "street": "Quốc lộ 22",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.970495,
+          "lng": 106.482453,
+          "routes": [
+            "100",
+            "107",
+            "126",
+            "13",
+            "70-1",
+            "70-2",
+            "74",
+            "79",
+            "87",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 732,
+          "code": "BX 63",
+          "name": "Bến xe Củ Chi",
+          "type": "Bến xe",
+          "zone": "Huyện Củ Chi",
+          "ward": null,
+          "address": "Bến xe Củ Chi",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.971617,
+          "lng": 106.482099,
+          "routes": [
+            "100",
+            "107",
+            "126",
+            "13",
+            "70-1",
+            "70-2",
+            "74",
+            "79",
+            "87",
+            "94"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 1873,
+          "start_time": "04:30",
+          "end_time": "05:15"
+        },
+        {
+          "trip_id": 1874,
+          "start_time": "05:00",
+          "end_time": "05:45"
+        },
+        {
+          "trip_id": 1875,
+          "start_time": "05:20",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 1876,
+          "start_time": "05:40",
+          "end_time": "06:25"
+        },
+        {
+          "trip_id": 1877,
+          "start_time": "06:00",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 1878,
+          "start_time": "06:20",
+          "end_time": "07:05"
+        },
+        {
+          "trip_id": 1879,
+          "start_time": "06:40",
+          "end_time": "07:25"
+        },
+        {
+          "trip_id": 1880,
+          "start_time": "07:00",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 1881,
+          "start_time": "07:25",
+          "end_time": "08:10"
+        },
+        {
+          "trip_id": 1882,
+          "start_time": "07:50",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 1883,
+          "start_time": "08:15",
+          "end_time": "09:00"
+        },
+        {
+          "trip_id": 1884,
+          "start_time": "08:40",
+          "end_time": "09:25"
+        },
+        {
+          "trip_id": 1885,
+          "start_time": "09:00",
+          "end_time": "09:45"
+        },
+        {
+          "trip_id": 1886,
+          "start_time": "09:20",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 1887,
+          "start_time": "09:40",
+          "end_time": "10:25"
+        },
+        {
+          "trip_id": 1888,
+          "start_time": "10:00",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 1889,
+          "start_time": "10:20",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 1890,
+          "start_time": "10:40",
+          "end_time": "11:25"
+        },
+        {
+          "trip_id": 1891,
+          "start_time": "11:00",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 1892,
+          "start_time": "11:20",
+          "end_time": "12:05"
+        },
+        {
+          "trip_id": 1893,
+          "start_time": "11:40",
+          "end_time": "12:25"
+        },
+        {
+          "trip_id": 1894,
+          "start_time": "12:00",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 1895,
+          "start_time": "12:25",
+          "end_time": "13:10"
+        },
+        {
+          "trip_id": 1896,
+          "start_time": "12:50",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 1897,
+          "start_time": "13:15",
+          "end_time": "14:00"
+        },
+        {
+          "trip_id": 1898,
+          "start_time": "13:40",
+          "end_time": "14:25"
+        },
+        {
+          "trip_id": 1899,
+          "start_time": "14:05",
+          "end_time": "14:50"
+        },
+        {
+          "trip_id": 1900,
+          "start_time": "14:30",
+          "end_time": "15:15"
+        },
+        {
+          "trip_id": 1901,
+          "start_time": "14:55",
+          "end_time": "15:40"
+        },
+        {
+          "trip_id": 1902,
+          "start_time": "15:20",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 1903,
+          "start_time": "15:45",
+          "end_time": "16:30"
+        },
+        {
+          "trip_id": 1904,
+          "start_time": "16:10",
+          "end_time": "16:55"
+        },
+        {
+          "trip_id": 1905,
+          "start_time": "16:30",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 1906,
+          "start_time": "16:50",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 1907,
+          "start_time": "17:10",
+          "end_time": "17:55"
+        },
+        {
+          "trip_id": 1908,
+          "start_time": "17:30",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 1909,
+          "start_time": "18:00",
+          "end_time": "18:45"
+        },
+        {
+          "trip_id": 1910,
+          "start_time": "18:30",
+          "end_time": "19:15"
+        },
+        {
+          "trip_id": 1911,
+          "start_time": "19:00",
+          "end_time": "19:45"
+        },
+        {
+          "trip_id": 1912,
+          "start_time": "19:30",
+          "end_time": "20:15"
+        }
+      ]
+    }
+  }
+}

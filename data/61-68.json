@@ -1,0 +1,825 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 417,
+    "crawled_at": "2026-07-23T00:27:12"
+  },
+  "data": {
+    "route": {
+      "id": 417,
+      "bus_no": "61-68",
+      "name": "Hikari - Chợ Phú Chánh - Nhà ở an sinh xã hội Hòa Lợi",
+      "color": "#C0C0C0",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 10320.0,
+      "num_of_seats": "52 - 80",
+      "operators": [
+        "Công ty TNHH Xe buýt Becamex Tokyu, ĐT: (0274) 222 0555"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 15000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 8000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 29,
+        "max": 29
+      },
+      "headway_minutes": {
+        "min": 0,
+        "max": 0
+      },
+      "operation_time": {
+        "start": "07:45",
+        "end": "20:30"
+      },
+      "total_trip": {
+        "value": 4,
+        "unit": "TPD"
+      },
+      "outbound_name": "Nhà ở an sinh xã hội Hòa Lợi",
+      "outbound_description": [
+        "Trạm trung chuyển Hikari",
+        "đường Lý Thái tổ",
+        "Đại Lộ Hùng Vương",
+        "đường Trường Sa",
+        "đường nội bộ SORA Gardens",
+        "SORA Gardens",
+        "đường nội bộ SORA Gardens",
+        "Đại Lộ Hùng Vương",
+        "đường Lý Thái Tổ",
+        "trạm trung chuyển Hikari",
+        "đường Lý Thái Tổ",
+        "đường Võ Nguyên Giáp",
+        "Chợ Phú Chánh (quay đầu)",
+        "đường Võ Nguyên Giáp",
+        "đường Thống Nhất -Dân Chủ",
+        "đường nội bộ Nhà ở An sinh xã hội Hòa Lợi",
+        "Nhà ở An sinh xã hội Hòa Lợi trạm số 1."
+      ],
+      "inbound_name": "Hikari",
+      "inbound_description": [
+        "Nhà ở An sinh xã hội Hòa Lợi trạm số 1",
+        "đường nội bộ Nhà ở An sinh xã hội Hòa Lợi",
+        "đường Lê Lợi",
+        "đường Dân Chủ",
+        "đường Thống Nhất",
+        "đường Võ Nguyên Giáp",
+        "chợ Phú Chánh (quay đầu)",
+        "đường Võ Nguyên Giáp",
+        "Sảnh chung cư The View (quay đầu)",
+        "đường Võ Nguyên Giáp",
+        "đường Lý Thái Tổ",
+        "trạm trung chuyển Hikari",
+        "đường Lý Thái Tổ",
+        "Đại Lộ Hùng Vương",
+        "đường Trường Sa",
+        "đường nội bộ SORA gardens",
+        "SORA gardens đường nội bộ SORA gardens",
+        "Đại Lộ Hùng Vương",
+        "đường Lý Thái Tổ",
+        "trạm trung chuyển Hikari."
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Trạm trung chuyển Hikari - Nhà ở An Sinh xã hội Hòa Lợi",
+        "short_name": "Nhà ở an sinh xã hội Hòa Lợi",
+        "start_stop": "Trạm trung chuyển Hikari",
+        "end_stop": "Nhà ở An Sinh xã hội Hòa Lợi",
+        "distance_m": 10588.000000000002,
+        "running_time_minutes": 29,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 11,
+        "route_var_id": 1,
+        "start_date": "19/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 29,
+          "max": 29
+        },
+        "headway_minutes": {
+          "min": 0,
+          "max": 0
+        },
+        "total_trip": 1,
+        "operation_time": {
+          "start": "20:30",
+          "end": "20:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9349,
+          "code": "BD BX 0016",
+          "name": "Trạm trung chuyển Hikari",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm trung chuyển Hikari",
+          "street": "Lý Thái Tổ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.057973,
+          "lng": 106.68389,
+          "routes": [
+            "61-67",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8419,
+          "code": "BD-0108",
+          "name": "Khách sạn Becamex Thành phố Mới",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khách sạn Becamex Thành phố Mới",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056832,
+          "lng": 106.684672,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8408,
+          "code": "BD-0097",
+          "name": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "street": "Đại Lộ Hùng Vương",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.052003,
+          "lng": 106.681825,
+          "routes": [
+            "171",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8407,
+          "code": "BD-0096",
+          "name": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "street": "Đại Lộ Hùng Vương",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.051961,
+          "lng": 106.68201,
+          "routes": [
+            "171",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8425,
+          "code": "BD-0114",
+          "name": "Trạm trung chuyển Hikari 3",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm trung chuyển Hikari 3",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.057912,
+          "lng": 106.683842,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8443,
+          "code": "BD-0132",
+          "name": "Trường Quốc Tế Việt Hoa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Quốc Tế Việt Hoa",
+          "street": " Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.068177,
+          "lng": 106.680866,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8445,
+          "code": "BD-0134",
+          "name": "MIDORI PARK",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "MIDORI PARK",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.07016,
+          "lng": 106.680397,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8448,
+          "code": "BD-0137",
+          "name": "Chung cư The View",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chung cư The View",
+          "street": "Sảnh Chung Cư The View",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.072435,
+          "lng": 106.681185,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8449,
+          "code": "BD-0138",
+          "name": "Phố Thương Mại Uni-town",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phố Thương Mại Uni-town",
+          "street": " Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.07314,
+          "lng": 106.683516,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8453,
+          "code": "BD-0142",
+          "name": "VSIP2 Thống Nhất - Đường số 2",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Thống Nhất - Đường số 2",
+          "street": " Thống Nhất",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.076597,
+          "lng": 106.684273,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8455,
+          "code": "BD-0144",
+          "name": "VSIP2 Thống Nhất - Đường số 4",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Thống Nhất - Đường số 4",
+          "street": "Thống Nhất",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.082225,
+          "lng": 106.682985,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8457,
+          "code": "BD-0146",
+          "name": "VSIP2 Thống Nhất - Dân Chủ",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Thống Nhất - Dân Chủ",
+          "street": "Thống Nhất ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.08572,
+          "lng": 106.682134,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8459,
+          "code": "BD-0148",
+          "name": "VSIP2 Dân Chủ - Thống Nhất",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Dân Chủ - Thống Nhất",
+          "street": "Dân Chủ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.086116,
+          "lng": 106.680891,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8461,
+          "code": "BD-0150",
+          "name": "VSIP2 Dân Chủ - Vành Đai 1",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Dân Chủ - Vành Đai 1",
+          "street": "Dân Chủ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.084894,
+          "lng": 106.675579,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 9351,
+          "code": "BD BX 0018",
+          "name": "Nhà ở An Sinh xã hội Hòa Lợi",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà ở An Sinh xã hội Hòa Lợi",
+          "street": "Lê Lợi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.085301,
+          "lng": 106.671538,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 17,
+          "start_time": "20:30",
+          "end_time": "20:59"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Nhà ở An Sinh xã hội Hòa Lợi - Trạm trung chuyển Hikari",
+        "short_name": "Hikari",
+        "start_stop": "Nhà ở An Sinh xã hội Hòa Lợi",
+        "end_stop": "Trạm trung chuyển Hikari",
+        "distance_m": 10661.000000000004,
+        "running_time_minutes": 29,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 12,
+        "route_var_id": 2,
+        "start_date": "19/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 29,
+          "max": 29
+        },
+        "headway_minutes": {
+          "min": 160,
+          "max": 480
+        },
+        "total_trip": 3,
+        "operation_time": {
+          "start": "07:45",
+          "end": "18:25"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9351,
+          "code": "BD BX 0018",
+          "name": "Nhà ở An Sinh xã hội Hòa Lợi",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà ở An Sinh xã hội Hòa Lợi",
+          "street": "Lê Lợi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.085301,
+          "lng": 106.671538,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8462,
+          "code": "BD-0151",
+          "name": "VSIP2 Dân Chủ - Vành Đai 1",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Dân Chủ - Vành Đai 1",
+          "street": "Dân Chủ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.084955,
+          "lng": 106.67629,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8458,
+          "code": "BD-0147",
+          "name": "VSIP2 Thống Nhất - Dân Chủ",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Thống Nhất - Dân Chủ",
+          "street": "Thống Nhất",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.085311,
+          "lng": 106.682045,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8456,
+          "code": "BD-0145",
+          "name": "VSIP2 Thống Nhất - Đường số 4",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Thống Nhất - Đường số 4",
+          "street": "Thống Nhất",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.082368,
+          "lng": 106.6827,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8454,
+          "code": "BD-0143",
+          "name": "VSIP2 Thống Nhất - Đường số 2",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VSIP2 Thống Nhất - Đường số 2",
+          "street": "Thống Nhất",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.076222,
+          "lng": 106.684133,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8451,
+          "code": "BD-0140",
+          "name": "Trường tiểu học Hòa Phú",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Hòa Phú",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.075169,
+          "lng": 106.69128,
+          "routes": [
+            "171",
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8452,
+          "code": "BD-0141",
+          "name": "Chợ Phú Chánh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chợ Phú Chánh",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "",
+          "status": "Tạm ngưng khai thác",
+          "lat": 11.075748,
+          "lng": 106.692591,
+          "routes": [
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8450,
+          "code": "BD-0139",
+          "name": "Phố Thương Mại Uni-town",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phố Thương Mại Uni-town",
+          "street": "Võ Nguyên Giáp",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.073385,
+          "lng": 106.683498,
+          "routes": [
+            "61-39",
+            "61-68"
+          ]
+        },
+        {
+          "stop_id": 8446,
+          "code": "BD-0135",
+          "name": "MIDORI PARK",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "MIDORI PARK",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.070125,
+          "lng": 106.680185,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8444,
+          "code": "BD-0133",
+          "name": "Trường Quốc Tế Việt Hoa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Quốc Tế Việt Hoa",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.068166,
+          "lng": 106.68062,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8425,
+          "code": "BD-0114",
+          "name": "Trạm trung chuyển Hikari 3",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm trung chuyển Hikari 3",
+          "street": "Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.057912,
+          "lng": 106.683842,
+          "routes": [
+            "61-39",
+            "61-68",
+            "61-70"
+          ]
+        },
+        {
+          "stop_id": 8419,
+          "code": "BD-0108",
+          "name": "Khách sạn Becamex Thành phố Mới",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khách sạn Becamex Thành phố Mới",
+          "street": "Đường Lý Thái Tổ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.056832,
+          "lng": 106.684672,
+          "routes": [
+            "61-37",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8408,
+          "code": "BD-0097",
+          "name": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "street": "Đại Lộ Hùng Vương",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.052003,
+          "lng": 106.681825,
+          "routes": [
+            "171",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8406,
+          "code": "BD-0095",
+          "name": "SORA gardens",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "SORA gardens",
+          "street": "Đường nội bộ SORA gardens",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.045967,
+          "lng": 106.678817,
+          "routes": [
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-73",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 8407,
+          "code": "BD-0096",
+          "name": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Đại lộ Hùng Vương - Lê Lợi",
+          "street": "Đại Lộ Hùng Vương",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.051961,
+          "lng": 106.68201,
+          "routes": [
+            "171",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-55",
+            "61-67",
+            "61-68",
+            "61-70",
+            "61-77"
+          ]
+        },
+        {
+          "stop_id": 9349,
+          "code": "BD BX 0016",
+          "name": "Trạm trung chuyển Hikari",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm trung chuyển Hikari",
+          "street": "Lý Thái Tổ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.057973,
+          "lng": 106.68389,
+          "routes": [
+            "61-67",
+            "61-68",
+            "61-70"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 18,
+          "start_time": "07:45",
+          "end_time": "08:14"
+        },
+        {
+          "trip_id": 19,
+          "start_time": "15:45",
+          "end_time": "16:14"
+        },
+        {
+          "trip_id": 20,
+          "start_time": "18:25",
+          "end_time": "18:54"
+        }
+      ]
+    }
+  }
+}

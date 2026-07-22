@@ -1,0 +1,2719 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 422,
+    "crawled_at": "2026-07-23T00:27:04"
+  },
+  "data": {
+    "route": {
+      "id": 422,
+      "bus_no": "60-15",
+      "name": "Thủ Dầu Một - Đồng Xoài",
+      "color": "#00FF00",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 90000.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty TNHH Phúc Gia Khang"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 20000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 35000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 60000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 40000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 45000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 50000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 70000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 150,
+        "max": 150
+      },
+      "headway_minutes": {
+        "min": 40,
+        "max": 65
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "17:30"
+      },
+      "total_trip": {
+        "value": 30,
+        "unit": "TPD"
+      },
+      "outbound_name": "Đồng Xoài",
+      "outbound_description": [
+        "Bến xe khách tỉnh Bình Dương",
+        "Đường 30/4",
+        "Đại lộ Bình Dương",
+        "Ngã 4 Sở Sao",
+        "Đường ĐT 741",
+        "Ngã 3 Cổng Xanh",
+        "Phú Giáo",
+        "Đồng Xoài",
+        "Bệnh viện đa khoa tỉnh Bình Phước",
+        "Khu công nghiệp Tân Thành"
+      ],
+      "inbound_name": "Thủ Dầu Một",
+      "inbound_description": [
+        "Khu công nghiệp Tân Thành",
+        "Bệnh viện đa khoa tỉnh Bình Phước",
+        "Đồng Xoài",
+        "Phú Giáo",
+        "Ngã 3 Cổng Xanh",
+        "Đường ĐT 741",
+        "Ngã 4 Sở Sao",
+        "Đại lộ Bình Dương",
+        "Đường 30/4",
+        "Bến xe khách tỉnh Bình Dương"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bến xe khách Bình Dương - KCN Tân Thành",
+        "short_name": "Đồng Xoài",
+        "start_stop": "Bến xe khách Bình Dương",
+        "end_stop": "KCN Tân Thành",
+        "distance_m": 88857.0000000001,
+        "running_time_minutes": 150,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "04/07/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 150,
+          "max": 150
+        },
+        "headway_minutes": {
+          "min": 45,
+          "max": 65
+        },
+        "total_trip": 15,
+        "operation_time": {
+          "start": "05:00",
+          "end": "17:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7257,
+          "code": "BXLT Thu Dau Mot",
+          "name": "Bến xe khách Bình Dương",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "Bến xe khách Bình Dương",
+          "street": "Đường 30 tháng 4",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.96564,
+          "lng": 106.668524,
+          "routes": [
+            "60-15",
+            "61-2",
+            "61-3",
+            "61-4",
+            "61-8",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8317,
+          "code": "BD-0017",
+          "name": "Bến xe khách tỉnh Bình Dương (Cổng cty điện lực)",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "sô 233, đường 30/4, Phường Thủ Dầu Một",
+          "street": "đường 30/4",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.966524,
+          "lng": 106.669017,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-3",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 8315,
+          "code": "BD-0015",
+          "name": "Sân vận động Gò Đậu - Bình Dương",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "đối diện 254, đường 30/4, Phường Thủ Dầu Một",
+          "street": "đường 30/4",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.970393,
+          "lng": 106.670637,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-3",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 8937,
+          "code": "BD-0652",
+          "name": "Kho bạc nhà nước Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Kho bạc nhà nước Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.974013,
+          "lng": 106.670637,
+          "routes": [
+            "171",
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9215,
+          "code": "BD-0925",
+          "name": "Ngã tư tân lập 1",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư tân lập 1",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.975152,
+          "lng": 106.67001,
+          "routes": [
+            "171",
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9247,
+          "code": "BD-0953",
+          "name": "Công ty BECAMEX IDC",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty BECAMEX IDC",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.976078,
+          "lng": 106.66958,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8938,
+          "code": "BD-0653",
+          "name": "Chi cục thuế nhà nước tỉnh Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chi cục thuế nhà nước tỉnh Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982339,
+          "lng": 106.666759,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8939,
+          "code": "BD-0654",
+          "name": "Ngân hàng Vietinbank",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngân hàng Vietinbank",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982845,
+          "lng": 106.66663,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8945,
+          "code": "BD-0660",
+          "name": "Cửa hàng điện thoại viễn thông",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cửa hàng điện thoại viễn thông",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983387,
+          "lng": 106.666496,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8955,
+          "code": "BD-0670",
+          "name": "Nhà thuốc tây Mỹ Kiều",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà thuốc tây Mỹ Kiều",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.985078,
+          "lng": 106.66612,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4"
+          ]
+        },
+        {
+          "stop_id": 8338,
+          "code": "BD-0034",
+          "name": "Ngã 3 Đại Lộ Bình Dương - Huỳnh Văn Luỹ ",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Đại Lộ Bình Dương - Huỳnh Văn Luỹ ",
+          "street": "Quốc Lộ 13",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.985588,
+          "lng": 106.665939,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9213,
+          "code": "BD-0923",
+          "name": "Siêu thị Big C đối diện",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Siêu thị Big C đối diện",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.98731,
+          "lng": 106.665171,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8946,
+          "code": "BD-0661",
+          "name": "Trường đại học Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường đại học Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.989959,
+          "lng": 106.663808,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8947,
+          "code": "BD-0662",
+          "name": "Trường cao đẳng kỹ thuật Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường cao đẳng kỹ thuật Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.990934,
+          "lng": 106.663256,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8958,
+          "code": "BD-0673",
+          "name": "Công ty TNHH và dịch vụ ô tô Thiện Minh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH và dịch vụ ô tô Thiện Minh",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.992529,
+          "lng": 106.658937,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8949,
+          "code": "BD-0664",
+          "name": "Hội đồng nhân dân phường Hiệp Thành",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Hội đồng nhân dân phường Hiệp Thành",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.992729,
+          "lng": 106.657049,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8337,
+          "code": "BD-0033",
+          "name": "Ngã 3 ĐL Bình Dương - Nguyễn Đức Thuận",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 ĐL Bình Dương - Nguyễn Đức Thuận",
+          "street": "Quốc Lộ 13",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.994719,
+          "lng": 106.653053,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 8960,
+          "code": "BD-0675",
+          "name": "Cách cửa hàng xe máy Honda 100m",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cách cửa hàng xe máy Honda 100m",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.996194,
+          "lng": 106.650703,
+          "routes": [
+            "60-15",
+            "61-4",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 9217,
+          "code": "BD-0927",
+          "name": "Đại lý xe tay ga minh hoàng phương( hãng xe YAMAHA)",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 756, Ql 13 , phường Thủ Dầu Một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.997555,
+          "lng": 106.648662,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-2",
+            "61-4"
+          ]
+        },
+        {
+          "stop_id": 9218,
+          "code": "BD-0928",
+          "name": "Trường THPT Nguyễn Đình Chiểu",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 814a, Ql 13 , phường Thủ Dầu Một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.999778,
+          "lng": 106.647152,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-2",
+            "61-4"
+          ]
+        },
+        {
+          "stop_id": 8961,
+          "code": "BD-0676",
+          "name": "Ngã ba suối giữa( cửa hàng xe máy ba Phi)",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "cách trạm thu phí 200m, Ql 13 , phường Thủ Dầu Một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.006944,
+          "lng": 106.645339,
+          "routes": [
+            "60-15",
+            "61-2",
+            "61-4"
+          ]
+        },
+        {
+          "stop_id": 8962,
+          "code": "BD-0677",
+          "name": "Công ty TNHH Nam Khương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH Nam Khương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.009859,
+          "lng": 106.646567,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 9598,
+          "code": "BD-0616",
+          "name": "Ngã ba trạm đăng kiểm 61 03D",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 1006, ql 13, phường Tdm ",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.015857,
+          "lng": 106.647924,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 8951,
+          "code": "BD-0666",
+          "name": "Cửa cuốn đài loan Đức Tuấn",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cửa cuốn đài loan Đức Tuấn",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.022059,
+          "lng": 106.64912,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 8952,
+          "code": "BD-0667",
+          "name": "Cty tnhh liên hiệp khôi",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cty tnhh liên hiệp khôi",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.02505,
+          "lng": 106.64904,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 9220,
+          "code": "BD-0930",
+          "name": "Nhà thuốc duy lâm",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà thuốc duy lâm",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.029426,
+          "lng": 106.643713,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 8591,
+          "code": "BD-0317",
+          "name": "Trạm xăng dầu Thịnh Phát Lộc",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm xăng dầu Thịnh Phát Lộc",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.048838,
+          "lng": 106.649941,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8593,
+          "code": "BD-0319",
+          "name": "Trường Trung cấp Nông Lâm",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Trung cấp Nông Lâm",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.057288,
+          "lng": 106.653938,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8595,
+          "code": "BD-0321",
+          "name": "Trạm xăng dầu Phúc Thạnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm xăng dầu Phúc Thạnh",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.069613,
+          "lng": 106.659088,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8597,
+          "code": "BD-0323",
+          "name": "Trường Tiểu học Hòa Lợi",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Tiểu học Hòa Lợi",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.09504,
+          "lng": 106.663524,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8599,
+          "code": "BD-0325",
+          "name": "Trường Mầm non Hòa Lời",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Mầm non Hòa Lời",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.102506,
+          "lng": 106.663051,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8601,
+          "code": "BD-0327",
+          "name": "Ngã 3 Bến Đồn",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Bến Đồn",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.116749,
+          "lng": 106.664409,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8603,
+          "code": "BD-0329",
+          "name": "Trạm xăng dầu số 32",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trạm xăng dầu số 32",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.132261,
+          "lng": 106.666651,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8605,
+          "code": "BD-0331",
+          "name": "Chợ Chánh Lưu",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chợ Chánh Lưu",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.144628,
+          "lng": 106.669857,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8607,
+          "code": "BD-0333",
+          "name": "Mẫu giáo Thỏ Ngọc",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Mẫu giáo Thỏ Ngọc",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.160671,
+          "lng": 106.672992,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8609,
+          "code": "BD-0335",
+          "name": "Cây xăng lộc phát",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng lộc phát",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.172513,
+          "lng": 106.675047,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8611,
+          "code": "BD-0337",
+          "name": "Ngã 3 Cua Pari",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Cua Pari",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.179333,
+          "lng": 106.682063,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8613,
+          "code": "BD-0339",
+          "name": "Trường Tiểu học Tân Bình",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường Tiểu học Tân Bình",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.180944,
+          "lng": 106.698307,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9697,
+          "code": "BD-0612",
+          "name": "Ngã 3 Bố Lá",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Bố Lá",
+          "street": "ĐT: 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.20223,
+          "lng": 106.721953,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9466,
+          "code": "BD-0465",
+          "name": "Trường THCS Phước Hòa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường THCS Phước Hòa",
+          "street": "ĐT 741",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.226177,
+          "lng": 106.728696,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8739,
+          "code": "BD-0464",
+          "name": "UBND xã Phước Hòa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND xã Phước Hòa",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.229061,
+          "lng": 106.730853,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8738,
+          "code": "BD-0463",
+          "name": "Cây xăng Phước An",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng Phước An",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.23326,
+          "lng": 106.733905,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8737,
+          "code": "BD-0462",
+          "name": "Công ty Cao su Phước Hòa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Cao su Phước Hòa",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.242113,
+          "lng": 106.752931,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8736,
+          "code": "BD-0461",
+          "name": "Nhà hàng Như Quỳnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà hàng Như Quỳnh",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.25852,
+          "lng": 106.761001,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8735,
+          "code": "BD-0460",
+          "name": "Cây xăng Ngọc Ánh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng Ngọc Ánh",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.262308,
+          "lng": 106.765882,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8734,
+          "code": "BD-0459",
+          "name": "Ô tô Nam Thịnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ô tô Nam Thịnh",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.26719,
+          "lng": 106.772218,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9154,
+          "code": "BD-0867",
+          "name": "Ngã ba Kỉnh Nhượng",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba Kỉnh Nhượng",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.267295,
+          "lng": 106.772293,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8733,
+          "code": "BD-0458",
+          "name": "Đối diện cây xăng dầu Vĩnh Tiến Thịnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện cây xăng dầu Vĩnh Tiến Thịnh",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.274103,
+          "lng": 106.783563,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9152,
+          "code": "BD-0865",
+          "name": "Cơ khí Hưng Lộc (đối diện)",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cơ khí Hưng Lộc (đối diện)",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.27485,
+          "lng": 106.784878,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8732,
+          "code": "BD-0457",
+          "name": "Trường tiểu học Vĩnh Hòa A",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Vĩnh Hòa A",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.278033,
+          "lng": 106.788397,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8712,
+          "code": "BD-0437",
+          "name": "Trường tiểu học Phước Vĩnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Phước Vĩnh",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.287828,
+          "lng": 106.792785,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8731,
+          "code": "BD-0456",
+          "name": "Trường tiểu học Phước Vĩnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Phước Vĩnh",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.2924,
+          "lng": 106.797554,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8730,
+          "code": "BD-0455",
+          "name": "ĐHKT kỹ thuật",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "ĐHKT kỹ thuật",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.297939,
+          "lng": 106.80228,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8729,
+          "code": "BD-0454",
+          "name": "Nấu ăn Mỹ Loan",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nấu ăn Mỹ Loan",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.309049,
+          "lng": 106.809956,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8728,
+          "code": "BD-0453",
+          "name": "Giáo xứ Nước Vàng",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Giáo xứ Nước Vàng",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.321052,
+          "lng": 106.823083,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8727,
+          "code": "BD-0452",
+          "name": "Cây Xăng An Bình",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây Xăng An Bình",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.325098,
+          "lng": 106.822375,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8725,
+          "code": "BD-0450",
+          "name": "Trường tiểu học An Bình B",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học An Bình B",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.346416,
+          "lng": 106.824843,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8724,
+          "code": "BD-0449",
+          "name": "Tạp hóa 5 chiếu",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tạp hóa 5 chiếu",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.349315,
+          "lng": 106.826801,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8723,
+          "code": "BD-0448",
+          "name": "Cây xăng Trọng nhân",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng Trọng nhân",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.351291,
+          "lng": 106.828115,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8722,
+          "code": "BD-0447",
+          "name": "Trường mần non hoa mai",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường mần non hoa mai",
+          "street": "Đường ĐT741: Chiều từ Đồng Xoài đến ngã ba Bố Lá",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.368358,
+          "lng": 106.833383,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9343,
+          "code": "BD BX 0010",
+          "name": "KCN Tân Thành",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "KCN Tân Thành",
+          "street": "DT 746B",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.522208,
+          "lng": 106.841234,
+          "routes": [
+            "60-15"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2,
+          "start_time": "05:00",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 3,
+          "start_time": "05:45",
+          "end_time": "08:15"
+        },
+        {
+          "trip_id": 4,
+          "start_time": "06:45",
+          "end_time": "09:15"
+        },
+        {
+          "trip_id": 5,
+          "start_time": "07:50",
+          "end_time": "10:20"
+        },
+        {
+          "trip_id": 6,
+          "start_time": "08:40",
+          "end_time": "11:10"
+        },
+        {
+          "trip_id": 7,
+          "start_time": "09:30",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 8,
+          "start_time": "10:20",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 9,
+          "start_time": "11:15",
+          "end_time": "13:45"
+        },
+        {
+          "trip_id": 10,
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "trip_id": 11,
+          "start_time": "13:05",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 12,
+          "start_time": "14:00",
+          "end_time": "16:30"
+        },
+        {
+          "trip_id": 13,
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "trip_id": 14,
+          "start_time": "15:40",
+          "end_time": "18:10"
+        },
+        {
+          "trip_id": 15,
+          "start_time": "16:30",
+          "end_time": "19:00"
+        },
+        {
+          "trip_id": 16,
+          "start_time": "17:30",
+          "end_time": "20:00"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: KCN Tân Thành - Bến xe khách Bình Dương",
+        "short_name": "Thủ Dầu Một",
+        "start_stop": "KCN Tân Thành",
+        "end_stop": "Bến xe khách Bình Dương",
+        "distance_m": 88347.99999999994,
+        "running_time_minutes": 150,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "04/07/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 150,
+          "max": 150
+        },
+        "headway_minutes": {
+          "min": 40,
+          "max": 60
+        },
+        "total_trip": 15,
+        "operation_time": {
+          "start": "05:00",
+          "end": "17:10"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9343,
+          "code": "BD BX 0010",
+          "name": "KCN Tân Thành",
+          "type": "Bến xe",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "KCN Tân Thành",
+          "street": "DT 746B",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.522208,
+          "lng": 106.841234,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9146,
+          "code": "BD-0859",
+          "name": "Đối diện Đại lý thuốc bvtv lệ xuân",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện Đại lý thuốc bvtv lệ xuân",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.377729,
+          "lng": 106.828287,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9147,
+          "code": "BD-0860",
+          "name": "Cơ sở sắt nhôm inox đại tín",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cơ sở sắt nhôm inox đại tín",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.370372,
+          "lng": 106.831929,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8721,
+          "code": "BD-0446",
+          "name": "Cây xăng 68",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng 68",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.368289,
+          "lng": 106.833158,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9148,
+          "code": "BD-0861",
+          "name": "Dưỡng Sinh đông y",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Dưỡng Sinh đông y",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.36445,
+          "lng": 106.832981,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9149,
+          "code": "BD-0862",
+          "name": "Ngã Ba Bầu Ao",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã Ba Bầu Ao",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.35603,
+          "lng": 106.829435,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8719,
+          "code": "BD-0444",
+          "name": "Cây xăng Phước Bình",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng Phước Bình",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.351028,
+          "lng": 106.82768,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9144,
+          "code": "BD-0857",
+          "name": "Trường tiểu học An Bình B",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học An Bình B",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.347915,
+          "lng": 106.825583,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8720,
+          "code": "BD-0445",
+          "name": "Trường tiểu học An Bình B",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học An Bình B",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.346978,
+          "lng": 106.824966,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8718,
+          "code": "BD-0443",
+          "name": "Tạp Hóa Năm Chiểu",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tạp Hóa Năm Chiểu",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.345379,
+          "lng": 106.824129,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8717,
+          "code": "BD-0442",
+          "name": "Cây xăng An Bình",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng An Bình",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.32514,
+          "lng": 106.821989,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8716,
+          "code": "BD-0441",
+          "name": "Tạp Hóa Bích Thủy",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tạp Hóa Bích Thủy",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.321263,
+          "lng": 106.822831,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8715,
+          "code": "BD-0440",
+          "name": "Giáo xứ Nước Vàng",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Giáo xứ Nước Vàng",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.320685,
+          "lng": 106.822756,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8714,
+          "code": "BD-0439",
+          "name": "Cách ĐTDĐ Minh Thiên 300m",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cách ĐTDĐ Minh Thiên 300m",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.309423,
+          "lng": 106.809774,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9145,
+          "code": "BD-0858",
+          "name": "ô tô điện Bảo Đức",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "ô tô điện Bảo Đức",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.306045,
+          "lng": 106.807382,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9150,
+          "code": "BD-0863",
+          "name": "Cây Xăng K9",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây Xăng K9",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.299018,
+          "lng": 106.802838,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9143,
+          "code": "BD-0856",
+          "name": "Trung tâm Giáo Dục thường xuyên huyện Phú Giáo",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trung tâm Giáo Dục thường xuyên huyện Phú Giáo",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.294341,
+          "lng": 106.798713,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8713,
+          "code": "BD-0438",
+          "name": "TT Giáo dục thường xuyên huyện",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "TT Giáo dục thường xuyên huyện",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.293983,
+          "lng": 106.798412,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9151,
+          "code": "BD-0864",
+          "name": "Đối diện trường THPT Phước Vĩnh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện trường THPT Phước Vĩnh",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.288139,
+          "lng": 106.792785,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8711,
+          "code": "BD-0436",
+          "name": "VLXD Tuyết Hồng",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "VLXD Tuyết Hồng",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.278648,
+          "lng": 106.788558,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9141,
+          "code": "BD-0854",
+          "name": "Cơ khí Hưng Lộc",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cơ khí Hưng Lộc",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.274892,
+          "lng": 106.784395,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9153,
+          "code": "BD-0866",
+          "name": "Cây xăng dầu Vĩnh Tiến Thịnh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng dầu Vĩnh Tiến Thịnh",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.274387,
+          "lng": 106.783435,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8710,
+          "code": "BD-0435",
+          "name": "Cơ khí Hưng Lộc",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cơ khí Hưng Lộc",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.274177,
+          "lng": 106.783124,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9142,
+          "code": "BD-0855",
+          "name": "CÔNG TY HƯNG PHÚ PHÁT",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "CÔNG TY HƯNG PHÚ PHÁT",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.27062,
+          "lng": 106.776702,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8709,
+          "code": "BD-0434",
+          "name": "Trường tiểu học Bình Hòa B",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Bình Hòa B",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.267864,
+          "lng": 106.772572,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8708,
+          "code": "BD-0433",
+          "name": "Cây xăng Ngọc Ánh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng Ngọc Ánh",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.262608,
+          "lng": 106.765848,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9155,
+          "code": "BD-0868",
+          "name": "Cửa hàng Minh Nhân",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cửa hàng Minh Nhân",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.26205,
+          "lng": 106.764992,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8707,
+          "code": "BD-0432",
+          "name": "Nhà hàng Như Quỳnh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà hàng Như Quỳnh",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.258653,
+          "lng": 106.760708,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9159,
+          "code": "BD-0872",
+          "name": "Nhà hàng Như Quỳnh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà hàng Như Quỳnh",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.258457,
+          "lng": 106.760529,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9156,
+          "code": "BD-0869",
+          "name": "Sữa xe Giang chuyên nghiệp",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Sữa xe Giang chuyên nghiệp",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.245082,
+          "lng": 106.756725,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8706,
+          "code": "BD-0431",
+          "name": "Công ty Cao su Phước Hòa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Cao su Phước Hòa",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.242236,
+          "lng": 106.75209,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9157,
+          "code": "BD-0870",
+          "name": "Bưu điện Phước Hòa",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Bưu điện Phước Hòa",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.242099,
+          "lng": 106.751114,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8704,
+          "code": "BD-0430",
+          "name": "Quán Đại Tân",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Quán Đại Tân",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.241094,
+          "lng": 106.744779,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9140,
+          "code": "BD-0852",
+          "name": "Trường tiểu học Bình Hoà B",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Bình Hoà B",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.238679,
+          "lng": 106.740337,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9158,
+          "code": "BD-0871",
+          "name": "Khu cân cư Phước Hòa",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Khu cân cư Phước Hòa",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.236012,
+          "lng": 106.735997,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8703,
+          "code": "BD-0429",
+          "name": "Cửa hàng bánh kem Thủy",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cửa hàng bánh kem Thủy",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.233907,
+          "lng": 106.73412,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8702,
+          "code": "BD-0428",
+          "name": "Trường tiểu học Phước Hòa A",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường tiểu học Phước Hòa A",
+          "street": "ĐT741: Chiều từ ngã ba Bố Lá đến Đồng Xoài",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.228814,
+          "lng": 106.73022,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9160,
+          "code": "BD-0873",
+          "name": "Cây Xăng Thành Công",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây Xăng Thành Công",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.218616,
+          "lng": 106.722854,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9161,
+          "code": "BD-0874",
+          "name": "Ngã ba nhà lầu",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba nhà lầu",
+          "street": "DT 741",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.210539,
+          "lng": 106.720381,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 9694,
+          "code": "BD-0759",
+          "name": "Đối diện Trường tiểu học Tân Bình",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện Trường tiểu học Tân Bình",
+          "street": "ĐT 741: Cổng xanh đi sở sao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.181342,
+          "lng": 106.699148,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8612,
+          "code": "BD-0338",
+          "name": "Nhà hàng Cù Lao Hương Tràm",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà hàng Cù Lao Hương Tràm",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 11.179381,
+          "lng": 106.683699,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8610,
+          "code": "BD-0336",
+          "name": "TT Bảo trợ xã hội Chánh Phú Hoà",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "TT Bảo trợ xã hội Chánh Phú Hoà",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.173313,
+          "lng": 106.674961,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8608,
+          "code": "BD-0334",
+          "name": "Ngã ba Hoa viên nghĩa trang Bình Dương",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba Hoa viên nghĩa trang Bình Dương",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.160514,
+          "lng": 106.672665,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8606,
+          "code": "BD-0332",
+          "name": " Đối diện Trạm xăng dầu số 32",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": " Đối diện Trạm xăng dầu số 32",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.131971,
+          "lng": 106.666324,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8604,
+          "code": "BD-0330",
+          "name": "Ngã ba Bến Đồn",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba Bến Đồn",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.115185,
+          "lng": 106.663985,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8602,
+          "code": "BD-0328",
+          "name": "Trường THCS Hoà Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường THCS Hoà Lợi",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.103601,
+          "lng": 106.662863,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8600,
+          "code": "BD-0326",
+          "name": "Ngã tư Hoà Lợi",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư Hoà Lợi",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.093608,
+          "lng": 106.663921,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8596,
+          "code": "BD-0322",
+          "name": "Chợ Nhật Huy",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chợ Nhật Huy",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.083322,
+          "lng": 106.665241,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8594,
+          "code": "BD-0320",
+          "name": "Cầm dồ Tín Thành 2",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cầm dồ Tín Thành 2",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.077536,
+          "lng": 106.662569,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8592,
+          "code": "BD-0318",
+          "name": "Trường trung cấp Mỹ thuật Văn hoá",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường trung cấp Mỹ thuật Văn hoá",
+          "street": "Nguyễn Văn Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.058457,
+          "lng": 106.65345,
+          "routes": [
+            "60-15"
+          ]
+        },
+        {
+          "stop_id": 8965,
+          "code": "BD-0680",
+          "name": "(Bánh canh nuôi - sở sao",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "so 1649, phường thới hòa",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.033196,
+          "lng": 106.640443,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 9219,
+          "code": "BD-0929",
+          "name": "Cty TNHH kim thành phát",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 1205 Ql 13 phường thủ dầu một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.026472,
+          "lng": 106.646578,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 9208,
+          "code": "BD-0919",
+          "name": "số 1123 Ql 13",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 1123 Ql 13 phường thủ dầu một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.021534,
+          "lng": 106.648784,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 9605,
+          "code": "BD-0902",
+          "name": "Cửa hàng hoàng minh đạt",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 1013 A Ql 13 phường thủ dầu một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.014352,
+          "lng": 106.647381,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 8950,
+          "code": "BD-0665",
+          "name": "số 917 Ql 13 ( ngã 3 suối giữa)",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 917 Ql 13",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 11.008364,
+          "lng": 106.645392,
+          "routes": [
+            "60-15",
+            "61-2"
+          ]
+        },
+        {
+          "stop_id": 9214,
+          "code": "BD-0924",
+          "name": "Showroom Phước ceramic",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 1731, Ql 13 phường thủ dầu một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.997935,
+          "lng": 106.647853,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-2",
+            "61-4"
+          ]
+        },
+        {
+          "stop_id": 8336,
+          "code": "BD-0032",
+          "name": "Ngã 3 ĐL Bình Dương - Nguyễn Đức Thuận",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 ĐL Bình Dương - Nguyễn Đức Thuận",
+          "street": "Quốc Lộ 13",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.995824,
+          "lng": 106.650794,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 9248,
+          "code": "BD-0954",
+          "name": "Số 621 ( Phòng CSCĐ tỉnh Bình Dương)",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 621, Ql 13 , phường Thủ Dầu Một",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.993851,
+          "lng": 106.654099,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-4",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 8957,
+          "code": "BD-0672",
+          "name": "Trường trung học phổ thông Hùng Vương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường trung học phổ thông Hùng Vương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.992434,
+          "lng": 106.657639,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9249,
+          "code": "BD-0955",
+          "name": "Tuyết Cửa hàng trang trí nội thất Như",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tuyết Cửa hàng trang trí nội thất Như",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.992008,
+          "lng": 106.661282,
+          "routes": [
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8956,
+          "code": "BD-0671",
+          "name": "Bảo tàn tỉnh Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Bảo tàn tỉnh Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.989959,
+          "lng": 106.663578,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9216,
+          "code": "BD-0926",
+          "name": "Siêu thị Big C",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Siêu thị Big C",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.987542,
+          "lng": 106.664774,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8339,
+          "code": "BD-0035",
+          "name": "Ngã 3 Đại Lộ Bình Dương - Huỳnh Văn Luỹ ",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Đại Lộ Bình Dương - Huỳnh Văn Luỹ ",
+          "street": "Quốc Lộ 13",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.985788,
+          "lng": 106.665564,
+          "routes": [
+            "171",
+            "60-15",
+            "61-4",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9211,
+          "code": "BD-0921",
+          "name": "liên đoàn lđ tỉnh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "liên đoàn lđ tỉnh",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983519,
+          "lng": 106.666217,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 8942,
+          "code": "BD-0657",
+          "name": "Sở nội vụ Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Sở nội vụ Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981897,
+          "lng": 106.666641,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9212,
+          "code": "BD-0922",
+          "name": "Ngã tư tân lập 2 đối diện",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã tư tân lập 2 đối diện",
+          "street": "Quốc lộ 13",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.978395,
+          "lng": 106.668084,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9246,
+          "code": "BD-0952",
+          "name": "Cục hải quan Bình Dương",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cục hải quan Bình Dương",
+          "street": "Đại lộ Bình Dương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.975741,
+          "lng": 106.66943,
+          "routes": [
+            "171",
+            "60-15",
+            "61-55"
+          ]
+        },
+        {
+          "stop_id": 9325,
+          "code": "BD-0632",
+          "name": "Ô tô Quang công ( cửa hàng vi tính Hiếu nghĩa)",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 214, đường 30/4, Phường Thủ Dầu Một",
+          "street": "đường 30/4",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.971605,
+          "lng": 106.670938,
+          "routes": [
+            "60-15",
+            "61-3",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52"
+          ]
+        },
+        {
+          "stop_id": 8314,
+          "code": "BD-0014",
+          "name": "Sân vận động Gò Đậu - Bình Dương",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "số 256, đường 30/4, Phường Thủ Dầu Một",
+          "street": "đường 30/4",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.970443,
+          "lng": 106.670407,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-3",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 8316,
+          "code": "BD-0016",
+          "name": "Bến xe khách tỉnh Bình Dương(Trung tâm gdtx bình dương)",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "đường 30/4, Phường Thủ Dầu Một",
+          "street": "đường 30/4",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.96701,
+          "lng": 106.669003,
+          "routes": [
+            "60-15",
+            "60-18",
+            "61-3",
+            "61-37",
+            "61-38",
+            "61-39",
+            "61-51",
+            "61-52",
+            "61-53"
+          ]
+        },
+        {
+          "stop_id": 7257,
+          "code": "BXLT Thu Dau Mot",
+          "name": "Bến xe khách Bình Dương",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "Bến xe khách Bình Dương",
+          "street": "Đường 30 tháng 4",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.96564,
+          "lng": 106.668524,
+          "routes": [
+            "60-15",
+            "61-2",
+            "61-3",
+            "61-4",
+            "61-8",
+            "61-9"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 17,
+          "start_time": "05:00",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 18,
+          "start_time": "05:40",
+          "end_time": "08:10"
+        },
+        {
+          "trip_id": 19,
+          "start_time": "06:30",
+          "end_time": "09:00"
+        },
+        {
+          "trip_id": 20,
+          "start_time": "07:20",
+          "end_time": "09:50"
+        },
+        {
+          "trip_id": 21,
+          "start_time": "08:10",
+          "end_time": "10:40"
+        },
+        {
+          "trip_id": 22,
+          "start_time": "09:05",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 23,
+          "start_time": "10:05",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 24,
+          "start_time": "11:05",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 25,
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "trip_id": 26,
+          "start_time": "12:55",
+          "end_time": "15:25"
+        },
+        {
+          "trip_id": 27,
+          "start_time": "13:45",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 28,
+          "start_time": "14:35",
+          "end_time": "17:05"
+        },
+        {
+          "trip_id": 29,
+          "start_time": "15:25",
+          "end_time": "17:55"
+        },
+        {
+          "trip_id": 30,
+          "start_time": "16:15",
+          "end_time": "18:45"
+        },
+        {
+          "trip_id": 31,
+          "start_time": "17:10",
+          "end_time": "19:40"
+        }
+      ]
+    }
+  }
+}

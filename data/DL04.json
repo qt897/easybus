@@ -1,0 +1,245 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 386,
+    "crawled_at": "2026-07-23T00:27:35"
+  },
+  "data": {
+    "route": {
+      "id": 386,
+      "bus_no": "DL04",
+      "name": "Sài Gòn - Bến Thành - Chợ Lớn",
+      "color": "#0000FF",
+      "type": "Không trợ giá - Du lịch",
+      "distance_m": 2222.0,
+      "num_of_seats": "48 - 60",
+      "operators": [
+        "Công ty Cổ phần du lịch Việt Nam - Hà Nội"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 10000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 80,
+        "max": 80
+      },
+      "headway_minutes": {
+        "min": 60,
+        "max": 60
+      },
+      "operation_time": {
+        "start": "09:00",
+        "end": "16:00"
+      },
+      "total_trip": {
+        "value": 8,
+        "unit": "TPD"
+      },
+      "outbound_name": "Chợ Lớn",
+      "outbound_description": [
+        "Bến xe buýt Sài Gòn",
+        "Phạm Ngũ Lão – Yersin – Trần Hưng Đạo – Lê Lợi",
+        "Lê Lai –  Trương Định",
+        "Nguyễn Thị Minh Khai – Lê Quý Đôn",
+        "Võ Văn Tần – Bà Huyện Thanh Quan",
+        "Nguyễn Thị Minh Khai",
+        "Hùng Vương",
+        "Hồng Bàng – Châu Văn Liêm",
+        "Hải Thượng Lãn Ông – Lê Quang Sung – Phạm Đình Hổ",
+        "Tháp Mười – Hải Thượng Lãn Ông – Châu Văn Liêm",
+        "Nguyễn Trãi",
+        "Nguyễn Tri Phương",
+        "Trần Phú – Trần Hưng Đạo – Đề Thám",
+        "Phạm Ngũ Lão – Yersin",
+        "Trần Hưng Đạo",
+        "Lê Lai",
+        "Bến xe buýt Sài Gòn"
+      ],
+      "inbound_name": null,
+      "inbound_description": []
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lộ trình (Không cấm Nguyễn Huệ)",
+        "short_name": "Chợ Lớn",
+        "start_stop": "Bến xe buýt Sài Gòn",
+        "end_stop": "Bến xe buýt Sài Gòn",
+        "distance_m": 19630.0,
+        "running_time_minutes": 80,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "08/07/2024",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 80,
+          "max": 80
+        },
+        "headway_minutes": {
+          "min": 60,
+          "max": 60
+        },
+        "total_trip": 8,
+        "operation_time": {
+          "start": "09:00",
+          "end": "16:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 35,
+          "code": "BX 01",
+          "name": "Bến xe buýt Sài Gòn",
+          "type": "Bến xe",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "BẾN XE BUÝT SÀI GÒN",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.767676,
+          "lng": 106.689362,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "27",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL04",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 35,
+          "code": "BX 01",
+          "name": "Bến xe buýt Sài Gòn",
+          "type": "Bến xe",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "BẾN XE BUÝT SÀI GÒN",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.767676,
+          "lng": 106.689362,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "27",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL04",
+            "DL05",
+            "DL06"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2,
+          "start_time": "09:00",
+          "end_time": "10:20"
+        },
+        {
+          "trip_id": 3,
+          "start_time": "10:00",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 4,
+          "start_time": "11:00",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 5,
+          "start_time": "12:00",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 6,
+          "start_time": "13:00",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 7,
+          "start_time": "14:00",
+          "end_time": "15:20"
+        },
+        {
+          "trip_id": 8,
+          "start_time": "15:00",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 9,
+          "start_time": "16:00",
+          "end_time": "17:20"
+        }
+      ]
+    }
+  }
+}

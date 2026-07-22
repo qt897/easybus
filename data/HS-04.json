@@ -1,0 +1,870 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 302,
+    "crawled_at": "2026-07-23T00:27:38"
+  },
+  "data": {
+    "route": {
+      "id": 302,
+      "bus_no": "HS-04",
+      "name": "Rừng Sác (Bình Khánh) - Trường THCS Bình Khánh",
+      "color": "#99CC00",
+      "type": "Học sinh - Có trợ giá",
+      "distance_m": 2600.0,
+      "num_of_seats": 29,
+      "operators": [
+        "Hợp tác xã Tân Tiến"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 0,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 5,
+        "max": 5
+      },
+      "headway_minutes": {
+        "min": 1,
+        "max": 1
+      },
+      "operation_time": {
+        "start": "06:00",
+        "end": "17:27"
+      },
+      "total_trip": {
+        "value": 130,
+        "unit": "TPD"
+      },
+      "outbound_name": "Trường THCS Bình Khánh",
+      "outbound_description": [
+        "Rừng Sác (Bình Khánh)",
+        "Trường THCS Bình Khánh"
+      ],
+      "inbound_name": "Rừng Sác (Bình Khánh)",
+      "inbound_description": [
+        "Trường THCS Bình Khánh",
+        "Rừng Sác (Bình Khánh)"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Rừng Sác (Bình Khánh) - Trường THCS Bình Khánh",
+        "short_name": "Trường THCS Bình Khánh",
+        "start_stop": "Rừng Sác (Bình Khánh)",
+        "end_stop": "Trường THCS Bình Khánh",
+        "distance_m": 2714.0,
+        "running_time_minutes": 5,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 5,
+          "max": 5
+        },
+        "headway_minutes": {
+          "min": 1,
+          "max": 320
+        },
+        "total_trip": 54,
+        "operation_time": {
+          "start": "06:00",
+          "end": "13:10"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7476,
+          "code": "BX_rungsac",
+          "name": "Rừng Sác (Bình Khánh)",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Phà Bình Khánh",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.663191,
+          "lng": 106.777174,
+          "routes": [
+            "HS-04",
+            "HS-07"
+          ]
+        },
+        {
+          "stop_id": 7495,
+          "code": "BX_THCSbinhkhanh",
+          "name": "Trường THCS Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.64249,
+          "lng": 106.78755,
+          "routes": [
+            "HS-01",
+            "HS-02",
+            "HS-03",
+            "HS-04"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 286,
+          "start_time": "06:00",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 287,
+          "start_time": "06:02",
+          "end_time": "06:07"
+        },
+        {
+          "trip_id": 288,
+          "start_time": "06:04",
+          "end_time": "06:09"
+        },
+        {
+          "trip_id": 289,
+          "start_time": "06:06",
+          "end_time": "06:11"
+        },
+        {
+          "trip_id": 290,
+          "start_time": "06:08",
+          "end_time": "06:13"
+        },
+        {
+          "trip_id": 291,
+          "start_time": "06:10",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 292,
+          "start_time": "06:12",
+          "end_time": "06:17"
+        },
+        {
+          "trip_id": 293,
+          "start_time": "06:14",
+          "end_time": "06:19"
+        },
+        {
+          "trip_id": 294,
+          "start_time": "06:15",
+          "end_time": "06:20"
+        },
+        {
+          "trip_id": 295,
+          "start_time": "06:20",
+          "end_time": "06:25"
+        },
+        {
+          "trip_id": 296,
+          "start_time": "06:22",
+          "end_time": "06:27"
+        },
+        {
+          "trip_id": 297,
+          "start_time": "06:24",
+          "end_time": "06:29"
+        },
+        {
+          "trip_id": 298,
+          "start_time": "06:26",
+          "end_time": "06:31"
+        },
+        {
+          "trip_id": 299,
+          "start_time": "06:28",
+          "end_time": "06:33"
+        },
+        {
+          "trip_id": 300,
+          "start_time": "06:30",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 301,
+          "start_time": "06:32",
+          "end_time": "06:37"
+        },
+        {
+          "trip_id": 302,
+          "start_time": "06:34",
+          "end_time": "06:39"
+        },
+        {
+          "trip_id": 303,
+          "start_time": "06:36",
+          "end_time": "06:41"
+        },
+        {
+          "trip_id": 304,
+          "start_time": "06:38",
+          "end_time": "06:43"
+        },
+        {
+          "trip_id": 305,
+          "start_time": "06:40",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 306,
+          "start_time": "06:42",
+          "end_time": "06:47"
+        },
+        {
+          "trip_id": 307,
+          "start_time": "06:43",
+          "end_time": "06:48"
+        },
+        {
+          "trip_id": 308,
+          "start_time": "06:45",
+          "end_time": "06:50"
+        },
+        {
+          "trip_id": 309,
+          "start_time": "06:47",
+          "end_time": "06:52"
+        },
+        {
+          "trip_id": 310,
+          "start_time": "06:49",
+          "end_time": "06:54"
+        },
+        {
+          "trip_id": 311,
+          "start_time": "06:51",
+          "end_time": "06:56"
+        },
+        {
+          "trip_id": 312,
+          "start_time": "06:55",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 313,
+          "start_time": "12:15",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 314,
+          "start_time": "12:17",
+          "end_time": "12:22"
+        },
+        {
+          "trip_id": 315,
+          "start_time": "12:19",
+          "end_time": "12:24"
+        },
+        {
+          "trip_id": 316,
+          "start_time": "12:25",
+          "end_time": "12:30"
+        },
+        {
+          "trip_id": 317,
+          "start_time": "12:27",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 318,
+          "start_time": "12:29",
+          "end_time": "12:34"
+        },
+        {
+          "trip_id": 319,
+          "start_time": "12:34",
+          "end_time": "12:39"
+        },
+        {
+          "trip_id": 320,
+          "start_time": "12:35",
+          "end_time": "12:40"
+        },
+        {
+          "trip_id": 321,
+          "start_time": "12:37",
+          "end_time": "12:42"
+        },
+        {
+          "trip_id": 322,
+          "start_time": "12:39",
+          "end_time": "12:44"
+        },
+        {
+          "trip_id": 323,
+          "start_time": "12:42",
+          "end_time": "12:47"
+        },
+        {
+          "trip_id": 324,
+          "start_time": "12:44",
+          "end_time": "12:49"
+        },
+        {
+          "trip_id": 325,
+          "start_time": "12:45",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 326,
+          "start_time": "12:47",
+          "end_time": "12:52"
+        },
+        {
+          "trip_id": 327,
+          "start_time": "12:49",
+          "end_time": "12:54"
+        },
+        {
+          "trip_id": 328,
+          "start_time": "12:52",
+          "end_time": "12:57"
+        },
+        {
+          "trip_id": 329,
+          "start_time": "12:54",
+          "end_time": "12:59"
+        },
+        {
+          "trip_id": 330,
+          "start_time": "12:56",
+          "end_time": "13:01"
+        },
+        {
+          "trip_id": 331,
+          "start_time": "12:57",
+          "end_time": "13:02"
+        },
+        {
+          "trip_id": 332,
+          "start_time": "12:58",
+          "end_time": "13:03"
+        },
+        {
+          "trip_id": 333,
+          "start_time": "12:59",
+          "end_time": "13:04"
+        },
+        {
+          "trip_id": 334,
+          "start_time": "13:00",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 335,
+          "start_time": "13:01",
+          "end_time": "13:06"
+        },
+        {
+          "trip_id": 336,
+          "start_time": "13:02",
+          "end_time": "13:07"
+        },
+        {
+          "trip_id": 337,
+          "start_time": "13:03",
+          "end_time": "13:08"
+        },
+        {
+          "trip_id": 338,
+          "start_time": "13:05",
+          "end_time": "13:10"
+        },
+        {
+          "trip_id": 339,
+          "start_time": "13:10",
+          "end_time": "13:15"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Trường THCS Bình Khánh - Rừng Sác (Bình Khánh)",
+        "short_name": "Rừng Sác (Bình Khánh)",
+        "start_stop": "Trường THCS Bình Khánh",
+        "end_stop": "Rừng Sác (Bình Khánh)",
+        "distance_m": 2948.0,
+        "running_time_minutes": 5,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 5,
+          "max": 5
+        },
+        "headway_minutes": {
+          "min": 1,
+          "max": 220
+        },
+        "total_trip": 76,
+        "operation_time": {
+          "start": "08:50",
+          "end": "17:27"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7495,
+          "code": "BX_THCSbinhkhanh",
+          "name": "Trường THCS Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.64249,
+          "lng": 106.78755,
+          "routes": [
+            "HS-01",
+            "HS-02",
+            "HS-03",
+            "HS-04"
+          ]
+        },
+        {
+          "stop_id": 7476,
+          "code": "BX_rungsac",
+          "name": "Rừng Sác (Bình Khánh)",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Phà Bình Khánh",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.663191,
+          "lng": 106.777174,
+          "routes": [
+            "HS-04",
+            "HS-07"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 340,
+          "start_time": "08:50",
+          "end_time": "08:55"
+        },
+        {
+          "trip_id": 341,
+          "start_time": "08:51",
+          "end_time": "08:56"
+        },
+        {
+          "trip_id": 342,
+          "start_time": "08:52",
+          "end_time": "08:57"
+        },
+        {
+          "trip_id": 343,
+          "start_time": "08:53",
+          "end_time": "08:58"
+        },
+        {
+          "trip_id": 344,
+          "start_time": "08:54",
+          "end_time": "08:59"
+        },
+        {
+          "trip_id": 345,
+          "start_time": "09:01",
+          "end_time": "09:06"
+        },
+        {
+          "trip_id": 346,
+          "start_time": "09:02",
+          "end_time": "09:07"
+        },
+        {
+          "trip_id": 347,
+          "start_time": "09:03",
+          "end_time": "09:08"
+        },
+        {
+          "trip_id": 348,
+          "start_time": "09:04",
+          "end_time": "09:09"
+        },
+        {
+          "trip_id": 349,
+          "start_time": "09:05",
+          "end_time": "09:10"
+        },
+        {
+          "trip_id": 350,
+          "start_time": "09:12",
+          "end_time": "09:17"
+        },
+        {
+          "trip_id": 351,
+          "start_time": "09:13",
+          "end_time": "09:18"
+        },
+        {
+          "trip_id": 352,
+          "start_time": "09:14",
+          "end_time": "09:19"
+        },
+        {
+          "trip_id": 353,
+          "start_time": "09:15",
+          "end_time": "09:20"
+        },
+        {
+          "trip_id": 354,
+          "start_time": "09:16",
+          "end_time": "09:21"
+        },
+        {
+          "trip_id": 355,
+          "start_time": "09:22",
+          "end_time": "09:27"
+        },
+        {
+          "trip_id": 356,
+          "start_time": "09:23",
+          "end_time": "09:28"
+        },
+        {
+          "trip_id": 357,
+          "start_time": "09:24",
+          "end_time": "09:29"
+        },
+        {
+          "trip_id": 358,
+          "start_time": "09:25",
+          "end_time": "09:30"
+        },
+        {
+          "trip_id": 359,
+          "start_time": "10:15",
+          "end_time": "10:20"
+        },
+        {
+          "trip_id": 360,
+          "start_time": "10:16",
+          "end_time": "10:21"
+        },
+        {
+          "trip_id": 361,
+          "start_time": "10:17",
+          "end_time": "10:22"
+        },
+        {
+          "trip_id": 362,
+          "start_time": "10:18",
+          "end_time": "10:23"
+        },
+        {
+          "trip_id": 363,
+          "start_time": "10:19",
+          "end_time": "10:24"
+        },
+        {
+          "trip_id": 364,
+          "start_time": "10:50",
+          "end_time": "10:55"
+        },
+        {
+          "trip_id": 365,
+          "start_time": "10:51",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 366,
+          "start_time": "10:52",
+          "end_time": "10:57"
+        },
+        {
+          "trip_id": 367,
+          "start_time": "10:53",
+          "end_time": "10:58"
+        },
+        {
+          "trip_id": 368,
+          "start_time": "10:54",
+          "end_time": "10:59"
+        },
+        {
+          "trip_id": 369,
+          "start_time": "11:00",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 370,
+          "start_time": "11:01",
+          "end_time": "11:06"
+        },
+        {
+          "trip_id": 371,
+          "start_time": "11:02",
+          "end_time": "11:07"
+        },
+        {
+          "trip_id": 372,
+          "start_time": "11:03",
+          "end_time": "11:08"
+        },
+        {
+          "trip_id": 373,
+          "start_time": "11:04",
+          "end_time": "11:09"
+        },
+        {
+          "trip_id": 374,
+          "start_time": "11:11",
+          "end_time": "11:16"
+        },
+        {
+          "trip_id": 375,
+          "start_time": "11:12",
+          "end_time": "11:17"
+        },
+        {
+          "trip_id": 376,
+          "start_time": "11:13",
+          "end_time": "11:18"
+        },
+        {
+          "trip_id": 377,
+          "start_time": "11:14",
+          "end_time": "11:19"
+        },
+        {
+          "trip_id": 378,
+          "start_time": "11:15",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 379,
+          "start_time": "11:22",
+          "end_time": "11:27"
+        },
+        {
+          "trip_id": 380,
+          "start_time": "11:23",
+          "end_time": "11:28"
+        },
+        {
+          "trip_id": 381,
+          "start_time": "11:24",
+          "end_time": "11:29"
+        },
+        {
+          "trip_id": 382,
+          "start_time": "11:25",
+          "end_time": "11:30"
+        },
+        {
+          "trip_id": 383,
+          "start_time": "15:05",
+          "end_time": "15:10"
+        },
+        {
+          "trip_id": 384,
+          "start_time": "15:06",
+          "end_time": "15:11"
+        },
+        {
+          "trip_id": 385,
+          "start_time": "15:07",
+          "end_time": "15:12"
+        },
+        {
+          "trip_id": 386,
+          "start_time": "15:08",
+          "end_time": "15:13"
+        },
+        {
+          "trip_id": 387,
+          "start_time": "15:09",
+          "end_time": "15:14"
+        },
+        {
+          "trip_id": 388,
+          "start_time": "16:17",
+          "end_time": "16:22"
+        },
+        {
+          "trip_id": 389,
+          "start_time": "16:18",
+          "end_time": "16:23"
+        },
+        {
+          "trip_id": 390,
+          "start_time": "16:19",
+          "end_time": "16:24"
+        },
+        {
+          "trip_id": 391,
+          "start_time": "16:20",
+          "end_time": "16:25"
+        },
+        {
+          "trip_id": 392,
+          "start_time": "16:21",
+          "end_time": "16:26"
+        },
+        {
+          "trip_id": 393,
+          "start_time": "16:27",
+          "end_time": "16:32"
+        },
+        {
+          "trip_id": 394,
+          "start_time": "16:28",
+          "end_time": "16:33"
+        },
+        {
+          "trip_id": 395,
+          "start_time": "16:29",
+          "end_time": "16:34"
+        },
+        {
+          "trip_id": 396,
+          "start_time": "16:30",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 397,
+          "start_time": "16:31",
+          "end_time": "16:36"
+        },
+        {
+          "trip_id": 398,
+          "start_time": "16:37",
+          "end_time": "16:42"
+        },
+        {
+          "trip_id": 399,
+          "start_time": "16:38",
+          "end_time": "16:43"
+        },
+        {
+          "trip_id": 400,
+          "start_time": "16:39",
+          "end_time": "16:44"
+        },
+        {
+          "trip_id": 401,
+          "start_time": "16:40",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 402,
+          "start_time": "16:41",
+          "end_time": "16:46"
+        },
+        {
+          "trip_id": 403,
+          "start_time": "17:05",
+          "end_time": "17:10"
+        },
+        {
+          "trip_id": 404,
+          "start_time": "17:06",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 405,
+          "start_time": "17:07",
+          "end_time": "17:12"
+        },
+        {
+          "trip_id": 406,
+          "start_time": "17:08",
+          "end_time": "17:13"
+        },
+        {
+          "trip_id": 407,
+          "start_time": "17:09",
+          "end_time": "17:14"
+        },
+        {
+          "trip_id": 408,
+          "start_time": "17:15",
+          "end_time": "17:20"
+        },
+        {
+          "trip_id": 409,
+          "start_time": "17:16",
+          "end_time": "17:21"
+        },
+        {
+          "trip_id": 410,
+          "start_time": "17:17",
+          "end_time": "17:22"
+        },
+        {
+          "trip_id": 411,
+          "start_time": "17:18",
+          "end_time": "17:23"
+        },
+        {
+          "trip_id": 412,
+          "start_time": "17:19",
+          "end_time": "17:24"
+        },
+        {
+          "trip_id": 413,
+          "start_time": "17:25",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 414,
+          "start_time": "17:26",
+          "end_time": "17:31"
+        },
+        {
+          "trip_id": 415,
+          "start_time": "17:27",
+          "end_time": "17:32"
+        }
+      ]
+    }
+  }
+}

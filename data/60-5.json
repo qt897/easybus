@@ -1,0 +1,905 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 381,
+    "crawled_at": "2026-07-23T00:27:06"
+  },
+  "data": {
+    "route": {
+      "id": 381,
+      "bus_no": "60-5",
+      "name": "Bến xe buýt Đại học Quốc Gia – Bến xe Biên Hòa",
+      "color": "#FF00FF",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 16000.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 6000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 10000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 20000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá HSSV",
+          "price": 4000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá HSSV",
+          "price": 6000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tháng không trợ giá",
+          "price": 400000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 40,
+        "max": 40
+      },
+      "headway_minutes": {
+        "min": 30,
+        "max": 60
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "18:05"
+      },
+      "total_trip": {
+        "value": 30,
+        "unit": "TPD"
+      },
+      "outbound_name": "Lượt đi: Bến Xe Buýt ÐH Quốc Gia Khu A - Bến xe Biên Hòa",
+      "outbound_description": [
+        "Bến xe buýt Đại học Quốc gia",
+        "Ký túc xá khu B (Đại học Quốc gia)",
+        "Đường Trần Đại Nghĩa",
+        "Đường Mạc Đĩnh Chi",
+        "Đường Nguyễn Du",
+        "Đường Lê Quý Đôn",
+        "Quảng trường Sáng Tạo",
+        "Đường 621",
+        "Đường Nguyễn Bỉnh Khiêm",
+        "Đường Thống Nhất",
+        "Quốc lộ 1K",
+        "Đường Nguyễn Ái Quốc",
+        "Cầu Hóa An",
+        "Đường Nguyễn Ái Quốc",
+        "Bến xe Biên Hòa"
+      ],
+      "inbound_name": "Lượt về: Bến xe Biên Hòa - Bến Xe Buýt ÐH Quốc Gia",
+      "inbound_description": [
+        "Bến xe Biên Hòa",
+        "Đường Nguyễn Ái Quốc (quay đầu)",
+        "cầu Hóa An",
+        "Đường Nguyễn Ái Quốc",
+        "Quốc lộ 1K",
+        "Đường Thống Nhất",
+        "Đường Nguyễn Bỉnh Khiêm",
+        "Đường 621 (rẽ trái)",
+        "Quảng trường Sáng Tạo",
+        "Đường Lê Quý Đôn",
+        "Đường Nguyễn Du",
+        "Đường Mạc Đĩnh Chi",
+        "Đường Trần Đại Nghĩa",
+        "Ký túc xá khu B (Đại học Quốc gia)",
+        "Bến xe buýt Đại học Quốc gia"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bến Xe Buýt ÐH Quốc Gia Khu A - Bến xe Biên Hòa",
+        "short_name": "Lượt đi: Bến Xe Buýt ÐH Quốc Gia Khu A - Bến xe Biên Hòa",
+        "start_stop": "Bến xe buýt Khu B - Đại học Quốc gia TP.HCM",
+        "end_stop": "Bến xe Biên Hòa",
+        "distance_m": 16365.0,
+        "running_time_minutes": 40,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 9,
+        "route_var_id": 1,
+        "start_date": "21/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 40,
+          "max": 40
+        },
+        "headway_minutes": {
+          "min": 45,
+          "max": 60
+        },
+        "total_trip": 15,
+        "operation_time": {
+          "start": "05:00",
+          "end": "18:05"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 4112,
+          "code": "BX90",
+          "name": "Bến xe buýt Khu B - Đại học Quốc gia TP.HCM",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Bến xe buýt Khu B - ĐH Quốc Gia",
+          "street": "Đường nội bộ Đại học Quốc gia",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.884156,
+          "lng": 106.778717,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7640,
+          "code": "QTD 269 ",
+          "name": "KTX Khu B ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện Cổng sau KTX Khu B ĐHQG",
+          "street": "Đường Tiêu biểu số 3",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.883487,
+          "lng": 106.778483,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7626,
+          "code": "QTD 267",
+          "name": "KTX Khu B ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "KTX Khu B ĐHQG (hướng ra)",
+          "street": "Trục chính số 7",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.881686,
+          "lng": 106.78233,
+          "routes": [
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7627,
+          "code": "QTD 264",
+          "name": "Viện Tài nguyên môi trường",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Viện Tài nguyên môi trường",
+          "street": "Trục chính số 7",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.879805,
+          "lng": 106.78719,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7637,
+          "code": "QTD 262 ",
+          "name": "Nhà khách ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nhà khách ĐHQG (CX264-266)",
+          "street": "Nguyễn Du",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.880685,
+          "lng": 106.795521,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7641,
+          "code": "QTD 260 ",
+          "name": "Hồ Đá ",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nút giao Nguyễn Du - Lê Quý Đôn (CX362-364)",
+          "street": "Nguyễn Du",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.882966,
+          "lng": 106.800145,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7656,
+          "code": "QTD 273",
+          "name": "Đại học Quốc tế (Cổng Lê Quý Đôn)",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đại học Quốc Tế (cổng ra) ",
+          "street": "Lê Quý Đôn",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.876792,
+          "lng": 106.803004,
+          "routes": [
+            "170",
+            "50",
+            "53",
+            "60-5",
+            "61-77",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7623,
+          "code": "QTD 254",
+          "name": "Đại học Quốc tế (cổng QTST)",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đại học Quốc tế",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.876655,
+          "lng": 106.802537,
+          "routes": [
+            "08",
+            "10",
+            "19",
+            "50",
+            "52",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7646,
+          "code": "QTD 249",
+          "name": "Nhà văn hoá sinh viên",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "đối diện nhà văn hoá sinh viên",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.874542,
+          "lng": 106.799995,
+          "routes": [
+            "08",
+            "10",
+            "19",
+            "50",
+            "52",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7632,
+          "code": "QTD 250",
+          "name": "Đại học Khoa học xã hội và Nhân văn",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đại học Khoa học xã hội và nhân văn",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.873446,
+          "lng": 106.802334,
+          "routes": [
+            "08",
+            "10",
+            "170",
+            "19",
+            "50",
+            "52",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7651,
+          "code": "QTD 272",
+          "name": "Vành đai ĐHQG TPHCM",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "đối diện trạm CNG",
+          "street": "Đường 621",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.874619,
+          "lng": 106.806271,
+          "routes": [
+            "08",
+            "10",
+            "19",
+            "50",
+            "52",
+            "53",
+            "60-5",
+            "61-77",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 8294,
+          "code": "HCM 0001",
+          "name": "Bến xe buýt Khu A",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "28-30",
+          "street": "Nguyễn Bỉnh Khiêm",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.87592,
+          "lng": 106.80753,
+          "routes": [
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 8296,
+          "code": "HCM 0003",
+          "name": "Tòa AH4- KTX Khu A",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "136 - 138",
+          "street": "Nguyễn Bỉnh Khiêm",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.8807,
+          "lng": 106.81078,
+          "routes": [
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7208,
+          "code": "BXLT Bien Hoa",
+          "name": "Bến xe Biên Hòa",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "4 Nguyễn Ái Quốc",
+          "street": "Quốc lộ 1K",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.954127,
+          "lng": 106.808953,
+          "routes": [
+            "05",
+            "60-1",
+            "60-5",
+            "60-7"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 194,
+          "start_time": "05:00",
+          "end_time": "05:40"
+        },
+        {
+          "trip_id": 195,
+          "start_time": "05:50",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 196,
+          "start_time": "06:40",
+          "end_time": "07:20"
+        },
+        {
+          "trip_id": 197,
+          "start_time": "07:25",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 198,
+          "start_time": "08:10",
+          "end_time": "08:50"
+        },
+        {
+          "trip_id": 199,
+          "start_time": "09:05",
+          "end_time": "09:45"
+        },
+        {
+          "trip_id": 200,
+          "start_time": "10:05",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 201,
+          "start_time": "11:05",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 202,
+          "start_time": "12:05",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 203,
+          "start_time": "13:05",
+          "end_time": "13:45"
+        },
+        {
+          "trip_id": 204,
+          "start_time": "14:05",
+          "end_time": "14:45"
+        },
+        {
+          "trip_id": 205,
+          "start_time": "15:05",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 206,
+          "start_time": "16:05",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 207,
+          "start_time": "17:05",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 208,
+          "start_time": "18:05",
+          "end_time": "18:45"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Bến xe Biên Hòa - Bến Xe Buýt ÐH Quốc Gia",
+        "short_name": "Lượt về: Bến xe Biên Hòa - Bến Xe Buýt ÐH Quốc Gia",
+        "start_stop": "Bến xe Biên Hòa",
+        "end_stop": "Bến xe buýt Khu B - Đại học Quốc gia TP.HCM",
+        "distance_m": 16884.0,
+        "running_time_minutes": 40,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 10,
+        "route_var_id": 2,
+        "start_date": "21/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 40,
+          "max": 40
+        },
+        "headway_minutes": {
+          "min": 30,
+          "max": 60
+        },
+        "total_trip": 15,
+        "operation_time": {
+          "start": "05:00",
+          "end": "18:05"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7208,
+          "code": "BXLT Bien Hoa",
+          "name": "Bến xe Biên Hòa",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "4 Nguyễn Ái Quốc",
+          "street": "Quốc lộ 1K",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.954127,
+          "lng": 106.808953,
+          "routes": [
+            "05",
+            "60-1",
+            "60-5",
+            "60-7"
+          ]
+        },
+        {
+          "stop_id": 8297,
+          "code": "HCM 0004",
+          "name": "Tòa AH4- KTX Khu A",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện 136 - 138",
+          "street": "Nguyễn Bỉnh Khiêm",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.880791,
+          "lng": 106.810634,
+          "routes": [
+            "166",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 8295,
+          "code": "HCM 0002",
+          "name": "Bến xe buýt Khu A",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện Căn hộ The EastGate",
+          "street": "Nguyễn Bỉnh Khiêm",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.876186,
+          "lng": 106.807541,
+          "routes": [
+            "166",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7650,
+          "code": "QTD 271",
+          "name": "Bến xe buýt Khu A ĐHQG",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Bến xe buýt Khu A ĐHQG ",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.87362,
+          "lng": 106.803042,
+          "routes": [
+            "08",
+            "10",
+            "170",
+            "19",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7645,
+          "code": "QTD 248",
+          "name": "Nhà Văn hoá sinh viên",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nhà văn hoá sinh viên",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.874832,
+          "lng": 106.800016,
+          "routes": [
+            "08",
+            "10",
+            "166",
+            "19",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7624,
+          "code": "QTD 255",
+          "name": "Đại học Quốc tế (đối diện cổng QTST)",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện Đại học Quốc tế",
+          "street": "Quảng Trường Sáng Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.876476,
+          "lng": 106.80257,
+          "routes": [
+            "08",
+            "10",
+            "166",
+            "19",
+            "50",
+            "52",
+            "53",
+            "60-5"
+          ]
+        },
+        {
+          "stop_id": 7657,
+          "code": "QTD 274",
+          "name": "Đại học Quốc tế (đối diện cổng Lê Quý Đôn)",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nút giao Lê Quý Đôn - ThomasEdison (đ/d ĐH Quốc tế)",
+          "street": "Lê Quý Đôn",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.878182,
+          "lng": 106.802731,
+          "routes": [
+            "170",
+            "50",
+            "53",
+            "60-5",
+            "61-77",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7642,
+          "code": "QTD 261",
+          "name": "Hồ Đá ",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Nút giao Lê Quý Đôn - Nguyễn Du (CX497-499)",
+          "street": "Nguyễn Du",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.883092,
+          "lng": 106.8,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7638,
+          "code": "QTD 263",
+          "name": "Nhà Khách ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện nhà khách ĐHQG (CX353-355)",
+          "street": "Nguyễn Du",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.880864,
+          "lng": 106.795558,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7628,
+          "code": "QTD 265",
+          "name": "Viện Tài nguyên môi trường",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện Viện Tài nguyên môi trường",
+          "street": "Trục chính số 7",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.879984,
+          "lng": 106.787013,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7625,
+          "code": "QTD 266",
+          "name": "KTX Khu B ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "KTX Khu B ĐHQG (hướng vào)",
+          "street": "Trục chính sô 7",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.88196,
+          "lng": 106.782871,
+          "routes": [
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7639,
+          "code": "QTD 268",
+          "name": "KTX Khu B ĐHQG",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Cổng sau KTX Khu B ĐHQG",
+          "street": "Đường Tiêu biểu số 3",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.883203,
+          "lng": 106.779116,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 4112,
+          "code": "BX90",
+          "name": "Bến xe buýt Khu B - Đại học Quốc gia TP.HCM",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Bến xe buýt Khu B - ĐH Quốc Gia",
+          "street": "Đường nội bộ Đại học Quốc gia",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.884156,
+          "lng": 106.778717,
+          "routes": [
+            "170",
+            "53",
+            "60-5",
+            "99"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 209,
+          "start_time": "05:00",
+          "end_time": "05:40"
+        },
+        {
+          "trip_id": 210,
+          "start_time": "05:50",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 211,
+          "start_time": "06:20",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 212,
+          "start_time": "07:05",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 213,
+          "start_time": "08:05",
+          "end_time": "08:45"
+        },
+        {
+          "trip_id": 214,
+          "start_time": "09:05",
+          "end_time": "09:45"
+        },
+        {
+          "trip_id": 215,
+          "start_time": "10:05",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 216,
+          "start_time": "11:05",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 217,
+          "start_time": "12:05",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 218,
+          "start_time": "13:05",
+          "end_time": "13:45"
+        },
+        {
+          "trip_id": 219,
+          "start_time": "14:05",
+          "end_time": "14:45"
+        },
+        {
+          "trip_id": 220,
+          "start_time": "15:05",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 221,
+          "start_time": "16:05",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 222,
+          "start_time": "17:05",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 223,
+          "start_time": "18:05",
+          "end_time": "18:45"
+        }
+      ]
+    }
+  }
+}

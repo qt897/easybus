@@ -1,0 +1,1364 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 93,
+    "crawled_at": "2026-07-23T00:27:16"
+  },
+  "data": {
+    "route": {
+      "id": 93,
+      "bus_no": "62-11",
+      "name": "Bến xe buýt Quận 8 - Tân Tập",
+      "color": "#01FF07",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 36400.0,
+      "num_of_seats": "27 - 60",
+      "operators": [
+        "Minh hiếu",
+        "HTX Đồng Tâm"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 10000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 18000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 32000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 90,
+        "max": 90
+      },
+      "headway_minutes": {
+        "min": 150,
+        "max": 150
+      },
+      "operation_time": {
+        "start": "05:15",
+        "end": "16:30"
+      },
+      "total_trip": {
+        "value": 8,
+        "unit": "TPD"
+      },
+      "outbound_name": "Tân Tập",
+      "outbound_description": [
+        "Bến xe buýt Quận 8",
+        "Quốc lộ 50",
+        "Liên tỉnh lộ 19",
+        "Bến xe Tân Tập"
+      ],
+      "inbound_name": "Bến xe buýt Quận 8",
+      "inbound_description": [
+        "Bến xe Tân Tập",
+        "Liên tỉnh lộ 19",
+        "Quốc lộ 50",
+        "Bến xe buýt Quận 8."
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bến xe buýt Quận 8 -  Bến xe Tân Tập ",
+        "short_name": "Tân Tập",
+        "start_stop": "Bến xe buýt Quận 8",
+        "end_stop": "Bến xe Tân Tập ",
+        "distance_m": 34663.0,
+        "running_time_minutes": 90,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 5,
+        "route_var_id": 1,
+        "start_date": "30/04/2022",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 90,
+          "max": 90
+        },
+        "headway_minutes": {
+          "min": 150,
+          "max": 180
+        },
+        "total_trip": 4,
+        "operation_time": {
+          "start": "08:30",
+          "end": "16:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 496,
+          "code": "BX 20",
+          "name": "Bến xe buýt Quận 8",
+          "type": "Bến xe",
+          "zone": "Quận 8",
+          "ward": null,
+          "address": "BẾN XE BUÝT QUẬN 8",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.733545,
+          "lng": 106.656357,
+          "routes": [
+            "08",
+            "22",
+            "25",
+            "34",
+            "59",
+            "62",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2148,
+          "code": "Q8 071",
+          "name": "Bến xe Quận 8",
+          "type": "Trụ dừng",
+          "zone": "Quận 8",
+          "ward": null,
+          "address": "328-330",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.732776,
+          "lng": 106.656051,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2149,
+          "code": "HBC 168",
+          "name": "Công an Bình Hưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A6/17",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.7308,
+          "lng": 106.655971,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2151,
+          "code": "HBC 169",
+          "name": "Mầm non Ánh Dương",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A11/9 (A11/07)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.72789,
+          "lng": 106.65589,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2150,
+          "code": "HBC 170",
+          "name": "Giáo xứ Bình Hưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A13/1",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.725292,
+          "lng": 106.655831,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2153,
+          "code": "HBC 171",
+          "name": "Bình Hưng",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B2/21A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.72058,
+          "lng": 106.655686,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3019,
+          "code": "HBC 172",
+          "name": "Nguyễn Văn Linh",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Bình Hưng",
+          "address": "B4/13",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.718477,
+          "lng": 106.655617,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3020,
+          "code": "HBC 173",
+          "name": "Trường tiều học Bình Hưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Bình Hưng",
+          "address": "Cột điện T66P (B6/19)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.715762,
+          "lng": 106.655531,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3021,
+          "code": "HBC 174",
+          "name": "Chùa An Hòa",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B8/31",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.71193,
+          "lng": 106.655627,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3023,
+          "code": "HBC 176",
+          "name": "Mầm non Anh Việt",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E11/307",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "Không có",
+          "lat": 10.708388,
+          "lng": 106.655359,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3025,
+          "code": "HBC 177",
+          "name": "Xăng dầu Phong Phú",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E4/106",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.704672,
+          "lng": 106.654801,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3024,
+          "code": "HBC 178",
+          "name": "Chùa Thiện Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E5/142",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.701515,
+          "lng": 106.654308,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3026,
+          "code": "HBC 179",
+          "name": "Trung tâm tư vấn đào tạo Úc Mỹ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E7/1914 (Đối diện E8/215)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.698194,
+          "lng": 106.654356,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3027,
+          "code": "HBC 180",
+          "name": "Trạm xăng Kim Quang",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "D7/203",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695416,
+          "lng": 106.654876,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3028,
+          "code": "HBC 181",
+          "name": "Trịnh Quang Nghị",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "D10/281",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.692511,
+          "lng": 106.654946,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3029,
+          "code": "HBC 182",
+          "name": "Trường Tiểu học Phong Phú",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B5/126",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.688431,
+          "lng": 106.653471,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3030,
+          "code": "HBC 183",
+          "name": "Sân banh ngã 3",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A2/33",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.683086,
+          "lng": 106.651068,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3031,
+          "code": "HBC 184",
+          "name": "Hội quán Thanh niên",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A4/95 (A4/94)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.677989,
+          "lng": 106.650488,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3032,
+          "code": "HBC 185",
+          "name": "Ngã 3 đường 3S",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E7/194",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673592,
+          "lng": 106.650853,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3033,
+          "code": "HBC 186",
+          "name": "Trường THCS Đa Phước",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "F11/322 (E11/323)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.669765,
+          "lng": 106.651052,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3034,
+          "code": "HBC 187",
+          "name": "Nghĩa trang Đa Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "D16/460A2",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.66667,
+          "lng": 106.651229,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3035,
+          "code": "HBC 188",
+          "name": "Đường liên Ấp 1-2",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Cột điện H148P (A14/396)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.662801,
+          "lng": 106.65154,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3036,
+          "code": "HBC 189",
+          "name": "Chùa Linh Hòa",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Cột điện H154P (D9/261/1A)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.659954,
+          "lng": 106.651776,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3038,
+          "code": "HBC 191",
+          "name": "Chùa Tam Bửu",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "D8/34C (D8/238/8)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.656164,
+          "lng": 106.653138,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3039,
+          "code": "HBC 192",
+          "name": "Chùa Phước Hội",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "D7/221A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.652463,
+          "lng": 106.654608,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3040,
+          "code": "HBC 193",
+          "name": "Cầu Ông Thìn",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Quy Đức",
+          "address": "A8/22A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.648087,
+          "lng": 106.655982,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3041,
+          "code": "HBC 194",
+          "name": "Trạm xăng Hoàng Thái",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Quy Đức",
+          "address": "D7/23A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.644338,
+          "lng": 106.656776,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3042,
+          "code": "LA_2",
+          "name": "Hoàng Thái Mart",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Đối diện 4102 (Đối diện B8/33B6)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.637843,
+          "lng": 106.658036,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 4421,
+          "code": "LA_3",
+          "name": "Nhà máy Kizunai",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Đối diện A13/2 (Quốc lộ 1A)",
+          "street": "Quốc lộ 50 (Quốc lộ 1A)",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.633299,
+          "lng": 106.66023,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 7263,
+          "code": "BXLT Tan Tap",
+          "name": "Bến xe Tân Tập ",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "Bến xe Tân Tập",
+          "street": "Đường DT 19",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.530851,
+          "lng": 106.734581,
+          "routes": [
+            "62-11"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 177,
+          "start_time": "08:30",
+          "end_time": "10:00"
+        },
+        {
+          "trip_id": 178,
+          "start_time": "11:30",
+          "end_time": "13:00"
+        },
+        {
+          "trip_id": 179,
+          "start_time": "14:00",
+          "end_time": "15:30"
+        },
+        {
+          "trip_id": 180,
+          "start_time": "16:30",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Bến xe Tân Tập -  Bến xe buýt Quận 8",
+        "short_name": "Bến xe buýt Quận 8",
+        "start_stop": "Bến xe Tân Tập ",
+        "end_stop": "Bến xe buýt Quận 8",
+        "distance_m": 34516.999999999985,
+        "running_time_minutes": 90,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 6,
+        "route_var_id": 2,
+        "start_date": "30/04/2022",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 90,
+          "max": 90
+        },
+        "headway_minutes": {
+          "min": 150,
+          "max": 195
+        },
+        "total_trip": 4,
+        "operation_time": {
+          "start": "05:15",
+          "end": "14:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7263,
+          "code": "BXLT Tan Tap",
+          "name": "Bến xe Tân Tập ",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "Bến xe Tân Tập",
+          "street": "Đường DT 19",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.530851,
+          "lng": 106.734581,
+          "routes": [
+            "62-11"
+          ]
+        },
+        {
+          "stop_id": 3116,
+          "code": "LA_4",
+          "name": "Nhà máy Kizunai",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Đối diện 86 (B8/33B6)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.633061,
+          "lng": 106.660509,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3119,
+          "code": "LA_1",
+          "name": "Hoàng Thái Mart",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Cửa hàng gỗ Hồng Thảo (Hoàng Thái Mart)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.638318,
+          "lng": 106.657993,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3118,
+          "code": "HBC 198",
+          "name": "Trạm xăng Hoàng Thái",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Quy Đức",
+          "address": "Đối diện D8A/34",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.644481,
+          "lng": 106.656861,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3121,
+          "code": "HBC 199",
+          "name": "Bệnh viện Tâm thần Bình Minh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Quy Đức",
+          "address": "A11/32A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.648282,
+          "lng": 106.656024,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3120,
+          "code": "HBC 200",
+          "name": "Chùa Phước Hội",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B7/177",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.652305,
+          "lng": 106.654791,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3123,
+          "code": "HBC 201",
+          "name": "Chùa Tam Bửu",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B3/63/1 (B2/63/1)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.656296,
+          "lng": 106.653214,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3122,
+          "code": "HBC 202",
+          "name": "Chùa Linh Hòa",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B2/35A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.659902,
+          "lng": 106.651905,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3125,
+          "code": "HBC 203",
+          "name": "Đường liên Ấp 1-2",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Phạm Văn Hai",
+          "address": "A8/240A",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.663001,
+          "lng": 106.651658,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3124,
+          "code": "HBC 204",
+          "name": "Nghĩa trang Đa Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A8/233 (Đối diện D14/407)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.666502,
+          "lng": 106.651352,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3127,
+          "code": "HBC 205",
+          "name": "Trường THCS Đa Phước",
+          "type": "Nhà chờ",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E11/323",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.66986,
+          "lng": 106.651175,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3126,
+          "code": "HBC 206",
+          "name": "Công ty Hồng Nhất",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A1/6/5 (A1/6)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673508,
+          "lng": 106.651003,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3128,
+          "code": "HBC 207",
+          "name": "Đình Chánh An Phú",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A6/183",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.677899,
+          "lng": 106.650681,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3129,
+          "code": "HBC 208",
+          "name": "Trường chuyên biệt Rạng Đông",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A12/366 (A12/363)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.683149,
+          "lng": 106.651261,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3131,
+          "code": "HBC 209",
+          "name": "Trường tiểu học Phong Phú",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Trường Mầm non Hướng Dương (Trường tiểu học Phong Phú)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.688516,
+          "lng": 106.653691,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3130,
+          "code": "HBC 210",
+          "name": "Trịnh Quang Nghị",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "D3/65",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.692622,
+          "lng": 106.655096,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3133,
+          "code": "HBC 211",
+          "name": "Trạm xăng Kim Quang",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E8/212M",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695548,
+          "lng": 106.654978,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3132,
+          "code": "HBC 212",
+          "name": "Trung tâm tư vấn đào tạo Úc Mỹ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E8/401 (E8/214A)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.698136,
+          "lng": 106.654501,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3136,
+          "code": "HBC 213",
+          "name": "Chùa Thiện Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E9/251",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.701768,
+          "lng": 106.654587,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3134,
+          "code": "HBC 214",
+          "name": "Xăng dầu Phong Phú",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E10/288",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.704709,
+          "lng": 106.654957,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3137,
+          "code": "HBC 215",
+          "name": "Mầm non Anh Việt",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "E11/304 (E11/304C)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.70823,
+          "lng": 106.655493,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3135,
+          "code": "HBC 216",
+          "name": "Chùa Ân Hòa",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B10/8 (B10/7)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.712051,
+          "lng": 106.655756,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3139,
+          "code": "HBC 217",
+          "name": "Văn phòng Ấp 3",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Bình Hưng",
+          "address": "B13/118",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.71552,
+          "lng": 106.655686,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 3138,
+          "code": "HBC 218",
+          "name": "Chùa Thiên Trì",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": "Xã Bình Hưng",
+          "address": "B15/21 (B15/20)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.718598,
+          "lng": 106.65574,
+          "routes": [
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2247,
+          "code": "HBC 219",
+          "name": "Bình Hưng",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "B17/24",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.720848,
+          "lng": 106.655837,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2244,
+          "code": "HBC 220",
+          "name": "Giáo xứ Bình Hưng",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A18/16",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.724923,
+          "lng": 106.655944,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2246,
+          "code": "HBC 221",
+          "name": "Mầm non ánh Dương",
+          "type": "Ô sơn",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "A24/20B",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.7277,
+          "lng": 106.656089,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2248,
+          "code": "HBC 222",
+          "name": "Công an Bình Hưng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Bình Chánh",
+          "ward": null,
+          "address": "Đối diện A6/10 (A27/13)",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.730905,
+          "lng": 106.656105,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11",
+            "62-9"
+          ]
+        },
+        {
+          "stop_id": 2249,
+          "code": "Q8 072",
+          "name": "Bến xe Quận 8",
+          "type": "Trụ dừng",
+          "zone": "Quận 8",
+          "ward": null,
+          "address": "407",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.733134,
+          "lng": 106.656239,
+          "routes": [
+            "22",
+            "45",
+            "47",
+            "62-11"
+          ]
+        },
+        {
+          "stop_id": 496,
+          "code": "BX 20",
+          "name": "Bến xe buýt Quận 8",
+          "type": "Bến xe",
+          "zone": "Quận 8",
+          "ward": null,
+          "address": "BẾN XE BUÝT QUẬN 8",
+          "street": "Quốc lộ 50",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.733545,
+          "lng": 106.656357,
+          "routes": [
+            "08",
+            "22",
+            "25",
+            "34",
+            "59",
+            "62",
+            "62-11",
+            "62-9"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 181,
+          "start_time": "05:15",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 182,
+          "start_time": "08:30",
+          "end_time": "10:00"
+        },
+        {
+          "trip_id": 183,
+          "start_time": "11:00",
+          "end_time": "12:30"
+        },
+        {
+          "trip_id": 184,
+          "start_time": "14:00",
+          "end_time": "15:30"
+        }
+      ]
+    }
+  }
+}

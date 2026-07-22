@@ -1,0 +1,566 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 365,
+    "crawled_at": "2026-07-23T00:26:42"
+  },
+  "data": {
+    "route": {
+      "id": 365,
+      "bus_no": "160",
+      "name": "Ga Văn Thánh - Vinhomes Central Park ",
+      "color": "#FF99CC",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 4100.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 5000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 112500,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 15,
+        "max": 15
+      },
+      "headway_minutes": {
+        "min": 15,
+        "max": 20
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "22:00"
+      },
+      "total_trip": {
+        "value": 57,
+        "unit": "TPD"
+      },
+      "outbound_name": "Vinhomes Central Park",
+      "outbound_description": [
+        "Ga Văn Thánh",
+        "(đường nội bộ Ga Văn Thánh)",
+        "hẻm 56 Điện Biên Phủ",
+        "hẻm 48 Điện Biên Phủ",
+        "đường Điện Biên Phủ",
+        "dưới cầu vượt Nguyễn Hữu Cảnh",
+        "đường nội bộ khu dân cư Vinhomes Central Park (dọc Công viên Vinhomes Central Park)",
+        "quay đầu tại giao lộ  đường nội bộ khu dân cư Vinhomes Central Park (đường Vạn Hoa 5)",
+        "đường nội bộ khu dân cư Vinhomes Central Park (dọc Công viên Vinhomes Central Park)",
+        "đường Nguyễn Hữu Cảnh",
+        "đường Điện Biên Phủ (làn ô tô)",
+        "(quay đầu tại giao lộ trước Pearl Plaza)",
+        "đường Điện Biên Phủ (làn ô tô)",
+        "đường Nguyễn Hữu Cảnh",
+        "hẻm 135 Nguyễn Hữu Cảnh",
+        "hẻm 56 Điên Biên Phủ",
+        "(đường nội bộ Ga Văn Thánh)",
+        "Ga Văn Thánh"
+      ],
+      "inbound_name": null,
+      "inbound_description": []
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Ga Văn Thánh - Vinhomes Central Park",
+        "short_name": "Vinhomes Central Park ",
+        "start_stop": "Bến xe buýt Ga Metro Văn Thánh",
+        "end_stop": "Bến xe buýt Ga Metro Văn Thánh",
+        "distance_m": 5857.0,
+        "running_time_minutes": 15,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 3,
+        "route_var_id": 1,
+        "start_date": "21/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 15,
+          "max": 15
+        },
+        "headway_minutes": {
+          "min": 15,
+          "max": 20
+        },
+        "total_trip": 57,
+        "operation_time": {
+          "start": "05:00",
+          "end": "22:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 8104,
+          "code": "BX 104",
+          "name": "Bến xe buýt Ga Metro Văn Thánh",
+          "type": "Bến xe",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 25",
+          "address": "Hẻm 135 ",
+          "street": "Nguyễn Hữu Cảnh",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.7974,
+          "lng": 106.717368,
+          "routes": [
+            "159",
+            "160"
+          ]
+        },
+        {
+          "stop_id": 475,
+          "code": "QBTH 057",
+          "name": "Cầu Sài Gòn",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Thạnh",
+          "ward": null,
+          "address": "658",
+          "street": "Điện Biên Phủ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.798525,
+          "lng": 106.719496,
+          "routes": [
+            "06",
+            "10",
+            "104",
+            "150",
+            "157",
+            "159",
+            "160",
+            "161",
+            "30",
+            "43",
+            "52",
+            "55",
+            "60-3",
+            "67"
+          ]
+        },
+        {
+          "stop_id": 8138,
+          "code": "QBTH 177",
+          "name": "Toà nhà Landmark 81",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 22",
+          "address": "Cạnh văn phòng Tân Cảng",
+          "street": "Trần Trọng Kim",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.796013,
+          "lng": 106.722695,
+          "routes": [
+            "160"
+          ]
+        },
+        {
+          "stop_id": 8139,
+          "code": "QBTH 178",
+          "name": "Tòa Nhà Park 3",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 22",
+          "address": "Đối diện tòa nhà Park 3",
+          "street": "Trần Trọng Kim",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.791713,
+          "lng": 106.723333,
+          "routes": [
+            "160"
+          ]
+        },
+        {
+          "stop_id": 8082,
+          "code": "QBTH 176",
+          "name": "Công viên Cầu Sài Gòn",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 25",
+          "address": "Phía trước 681 Điện Biên Phủ",
+          "street": "Nguyễn Hữu Cảnh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.799053,
+          "lng": 106.722217,
+          "routes": [
+            "104",
+            "158",
+            "159",
+            "160",
+            "161",
+            "30",
+            "55"
+          ]
+        },
+        {
+          "stop_id": 419,
+          "code": "QBTH 056",
+          "name": "Cầu Sài Gòn",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Thạnh",
+          "ward": null,
+          "address": "24(597)",
+          "street": "Điện Biên Phủ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.798893,
+          "lng": 106.719571,
+          "routes": [
+            "06",
+            "10",
+            "104",
+            "150",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "30",
+            "43",
+            "52",
+            "55",
+            "60-3",
+            "67"
+          ]
+        },
+        {
+          "stop_id": 8104,
+          "code": "BX 104",
+          "name": "Bến xe buýt Ga Metro Văn Thánh",
+          "type": "Bến xe",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 25",
+          "address": "Hẻm 135 ",
+          "street": "Nguyễn Hữu Cảnh",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.7974,
+          "lng": 106.717368,
+          "routes": [
+            "159",
+            "160"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 402,
+          "start_time": "05:00",
+          "end_time": "05:15"
+        },
+        {
+          "trip_id": 403,
+          "start_time": "05:20",
+          "end_time": "05:35"
+        },
+        {
+          "trip_id": 404,
+          "start_time": "05:40",
+          "end_time": "05:55"
+        },
+        {
+          "trip_id": 405,
+          "start_time": "06:00",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 406,
+          "start_time": "06:15",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 407,
+          "start_time": "06:30",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 408,
+          "start_time": "06:45",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 409,
+          "start_time": "07:00",
+          "end_time": "07:15"
+        },
+        {
+          "trip_id": 410,
+          "start_time": "07:15",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 411,
+          "start_time": "07:30",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 412,
+          "start_time": "07:45",
+          "end_time": "08:00"
+        },
+        {
+          "trip_id": 413,
+          "start_time": "08:00",
+          "end_time": "08:15"
+        },
+        {
+          "trip_id": 414,
+          "start_time": "08:20",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 415,
+          "start_time": "08:40",
+          "end_time": "08:55"
+        },
+        {
+          "trip_id": 416,
+          "start_time": "09:00",
+          "end_time": "09:15"
+        },
+        {
+          "trip_id": 417,
+          "start_time": "09:20",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 418,
+          "start_time": "09:40",
+          "end_time": "09:55"
+        },
+        {
+          "trip_id": 419,
+          "start_time": "10:00",
+          "end_time": "10:15"
+        },
+        {
+          "trip_id": 420,
+          "start_time": "10:20",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 421,
+          "start_time": "10:40",
+          "end_time": "10:55"
+        },
+        {
+          "trip_id": 422,
+          "start_time": "11:00",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 423,
+          "start_time": "11:15",
+          "end_time": "11:30"
+        },
+        {
+          "trip_id": 424,
+          "start_time": "11:30",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 425,
+          "start_time": "11:45",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 426,
+          "start_time": "12:00",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 427,
+          "start_time": "12:20",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 428,
+          "start_time": "12:40",
+          "end_time": "12:55"
+        },
+        {
+          "trip_id": 429,
+          "start_time": "13:00",
+          "end_time": "13:15"
+        },
+        {
+          "trip_id": 430,
+          "start_time": "13:20",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 431,
+          "start_time": "13:40",
+          "end_time": "13:55"
+        },
+        {
+          "trip_id": 432,
+          "start_time": "14:00",
+          "end_time": "14:15"
+        },
+        {
+          "trip_id": 433,
+          "start_time": "14:20",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 434,
+          "start_time": "14:40",
+          "end_time": "14:55"
+        },
+        {
+          "trip_id": 435,
+          "start_time": "15:00",
+          "end_time": "15:15"
+        },
+        {
+          "trip_id": 436,
+          "start_time": "15:20",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 437,
+          "start_time": "15:40",
+          "end_time": "15:55"
+        },
+        {
+          "trip_id": 438,
+          "start_time": "16:00",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 439,
+          "start_time": "16:15",
+          "end_time": "16:30"
+        },
+        {
+          "trip_id": 440,
+          "start_time": "16:30",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 441,
+          "start_time": "16:45",
+          "end_time": "17:00"
+        },
+        {
+          "trip_id": 442,
+          "start_time": "17:00",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 443,
+          "start_time": "17:15",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 444,
+          "start_time": "17:30",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 445,
+          "start_time": "17:45",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 446,
+          "start_time": "18:00",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 447,
+          "start_time": "18:20",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 448,
+          "start_time": "18:40",
+          "end_time": "18:55"
+        },
+        {
+          "trip_id": 449,
+          "start_time": "19:00",
+          "end_time": "19:15"
+        },
+        {
+          "trip_id": 450,
+          "start_time": "19:20",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 451,
+          "start_time": "19:40",
+          "end_time": "19:55"
+        },
+        {
+          "trip_id": 452,
+          "start_time": "20:00",
+          "end_time": "20:15"
+        },
+        {
+          "trip_id": 453,
+          "start_time": "20:20",
+          "end_time": "20:35"
+        },
+        {
+          "trip_id": 454,
+          "start_time": "20:40",
+          "end_time": "20:55"
+        },
+        {
+          "trip_id": 455,
+          "start_time": "21:00",
+          "end_time": "21:15"
+        },
+        {
+          "trip_id": 456,
+          "start_time": "21:20",
+          "end_time": "21:35"
+        },
+        {
+          "trip_id": 457,
+          "start_time": "21:40",
+          "end_time": "21:55"
+        },
+        {
+          "trip_id": 458,
+          "start_time": "22:00",
+          "end_time": "22:15"
+        }
+      ]
+    }
+  }
+}

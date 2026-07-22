@@ -1,0 +1,3010 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 62,
+    "crawled_at": "2026-07-23T00:26:56"
+  },
+  "data": {
+    "route": {
+      "id": 62,
+      "bus_no": "41",
+      "name": "Bến xe Miền Tây - Ngã tư Bốn Xã - Bến xe An Sương",
+      "color": "#C20078",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 22150.0,
+      "num_of_seats": 60,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 6000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 135000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 60,
+        "max": 60
+      },
+      "headway_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "19:20"
+      },
+      "total_trip": {
+        "value": 144,
+        "unit": "TPD"
+      },
+      "outbound_name": "Bến xe An Sương",
+      "outbound_description": [
+        "Bến xe Miền Tây",
+        "Đường Kinh Dương Vương",
+        "Đường Tên Lửa",
+        "Đường 17A",
+        "Đường 34",
+        "Đường số 1",
+        "Đường Tên Lửa",
+        "Tỉnh lộ 10",
+        "Đường Mã Lò",
+        "Đường Lê Văn Quới (Ngã tư Bốn Xã)",
+        "Đường Bình Long",
+        "Đường Văn Cao",
+        "Đường Tân Hương",
+        "Đường Độc Lập",
+        "Đường Tân Sơn Nhì",
+        "Đường Gò Dầu",
+        "Đường Cầu Xéo",
+        "Đường Tân Kỳ Tân Quý",
+        "Đường Lê Trọng Tấn",
+        "Đường Tây Thạnh",
+        "Đường Trường Chinh",
+        "Đường Lê Quang Đạo (Quốc lộ 22",
+        "Quay đầu tại Công ty Việt Hưng)",
+        "Bến xe An Sương"
+      ],
+      "inbound_name": "Bến xe Miền Tây",
+      "inbound_description": [
+        "Bến xe An Sương",
+        "Đường Lê Quang Đạo (Quốc lộ 22)",
+        "Đường Trường Chinh",
+        "Đường Tây Thạnh",
+        "Đường Lê Trọng Tấn",
+        "Đường Tân Kỳ Tân Quý",
+        "Đường Cầu Xéo",
+        "Đường Gò Dầu",
+        "Đường Tân Sơn Nhì",
+        "Đường Độc Lập",
+        "Đường Tân Hương",
+        "Đường Văn Cao",
+        "Đường Bình Long",
+        "(Ngã tư Bốn xã)",
+        "Đường Lê Văn Qưới",
+        "Đường Mã Lò",
+        "Tỉnh lộ 10",
+        "Đường Tên Lửa",
+        "Đường số 1",
+        "Đường số 34",
+        "Đường số 17A",
+        "Đường Tên Lửa",
+        "Đường Kinh Dương Vương",
+        "Bến xe Miền Tây"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 123,
+        "name": "Lượt đi: Bến xe Miền Tây - Bến xe An Sương",
+        "short_name": "Bến xe An Sương",
+        "start_stop": "Bến xe Miền Tây",
+        "end_stop": "Bến xe An Sương",
+        "distance_m": 22860.0,
+        "running_time_minutes": 60,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 35,
+        "route_var_id": 123,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 60,
+          "max": 60
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 15
+        },
+        "total_trip": 72,
+        "operation_time": {
+          "start": "05:00",
+          "end": "19:20"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 725,
+          "code": "BX 46",
+          "name": "Bến xe Miền Tây",
+          "type": "Bến xe",
+          "zone": "Quận Bình Tân",
+          "ward": null,
+          "address": "Bến xe Miền Tây",
+          "street": "Kinh Dương Vương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.739486,
+          "lng": 106.619438,
+          "routes": [
+            "10",
+            "102",
+            "139",
+            "14",
+            "148",
+            "151",
+            "32",
+            "39",
+            "41",
+            "60-1",
+            "91"
+          ]
+        },
+        {
+          "stop_id": 630,
+          "code": "QBT 014",
+          "name": "Bệnh viện Triều An",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "480 (EXIMBANK)",
+          "street": "Kinh Dương Vương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.739675,
+          "lng": 106.616392,
+          "routes": [
+            "09",
+            "102",
+            "151",
+            "25",
+            "39",
+            "41",
+            "60-1",
+            "61",
+            "62-1",
+            "62-10",
+            "62-2",
+            "62-8",
+            "63-1",
+            "84"
+          ]
+        },
+        {
+          "stop_id": 2306,
+          "code": "QBT 107",
+          "name": "Kinh Dương Vương",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "14",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.741721,
+          "lng": 106.614235,
+          "routes": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7538,
+          "code": "QBT 301",
+          "name": "Aeon Mall Bình Tân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "20-22",
+          "street": "Đường số 17A",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.744002,
+          "lng": 106.612256,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7537,
+          "code": "QBT 300",
+          "name": "Bệnh Viện Quốc Tế",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "138",
+          "street": "Đường số 17A",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.742342,
+          "lng": 106.60966,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7536,
+          "code": "QBT 299",
+          "name": "Đường số 13",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "Cột điện H35T",
+          "street": "Đường số 34",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.743934,
+          "lng": 106.608388,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7535,
+          "code": "QBT 298",
+          "name": "Đường số 34",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "451",
+          "street": "Đường số 1",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.746237,
+          "lng": 106.607332,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7534,
+          "code": "QBT 297",
+          "name": "Đường Tên Lửa",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "339-341",
+          "street": "Đường số 1",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.747507,
+          "lng": 106.611124,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2902,
+          "code": "QBT 105",
+          "name": "Tên Lửa",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "390",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.752561,
+          "lng": 106.610266,
+          "routes": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 9581,
+          "code": "QBT 318",
+          "name": "Đường số 23B",
+          "type": "Ô sơn",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "456-458",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.754348,
+          "lng": 106.609648,
+          "routes": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2904,
+          "code": "QBT 270",
+          "name": "Đường 32",
+          "type": "Ô sơn",
+          "zone": "Quận Bình Tân",
+          "ward": null,
+          "address": "652",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.755133,
+          "lng": 106.608292,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2907,
+          "code": "QBT 271",
+          "name": "Quán cơm ",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "706 (số mới 641)",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.755802,
+          "lng": 106.606141,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2906,
+          "code": "QBT 160",
+          "name": "Lê Đình Cẩn",
+          "type": "Ô sơn",
+          "zone": "Quận Bình Tân",
+          "ward": null,
+          "address": "831",
+          "street": "Tỉnh lộ 10,Tân Tạo, Hồ Chí Minh, Việt Nam",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.758005,
+          "lng": 106.60694,
+          "routes": [
+            "41",
+            "62-7",
+            "81"
+          ]
+        },
+        {
+          "stop_id": 2909,
+          "code": "QBT 272",
+          "name": "Mã Lò",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "42-44",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.758862,
+          "lng": 106.606407,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2908,
+          "code": "QBT 266",
+          "name": "Công ty Hương Sở",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "Đ/d Công ty Hương Sở (số 122)",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.760988,
+          "lng": 106.605084,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2910,
+          "code": "QBT 268",
+          "name": "Bệnh viện Bình Tân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "200",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.76356,
+          "lng": 106.60437,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1963,
+          "code": "QBT 267",
+          "name": "Phòng tiếp dân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "160 (Mầm non Cẩm Tú)",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.768097,
+          "lng": 106.603239,
+          "routes": [
+            "16",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1966,
+          "code": "QBT 265",
+          "name": "Công ty Đại Càng Phát",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "290",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.771929,
+          "lng": 106.602053,
+          "routes": [
+            "16",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1968,
+          "code": "QBT 243",
+          "name": "Ngã 3 Áo Đôi",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "330",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.77479,
+          "lng": 106.601313,
+          "routes": [
+            "16",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1806,
+          "code": "QBT 259",
+          "name": "Ngã 3 Lê Văn Quới",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "527",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776324,
+          "lng": 106.602799,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1807,
+          "code": "QBT 258",
+          "name": "Nhà thuốc Thiên Ân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "371",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776271,
+          "lng": 106.606017,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1812,
+          "code": "QBT 257",
+          "name": "Chợ Lê Văn Quới",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "307-309 ",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776223,
+          "lng": 106.609397,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1809,
+          "code": "QBT 256",
+          "name": "Bệnh viện Đa khoa Bình Tân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "167 ",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776023,
+          "lng": 106.613216,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1814,
+          "code": "QBT 238",
+          "name": "Siêu thị",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "Đ/d 42 (số 53)",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.774311,
+          "lng": 106.61923,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1609,
+          "code": "QTP 182",
+          "name": "Bình Long",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Phú Thạnh",
+          "address": "54 (445)",
+          "street": "Bình Long",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776155,
+          "lng": 106.621531,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1623,
+          "code": "QTP 183",
+          "name": "Đỗ Bí",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Phú Thạnh",
+          "address": "156",
+          "street": "Bình Long",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.77887,
+          "lng": 106.62076,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1811,
+          "code": "QTP 167",
+          "name": "Cây Xăng Bình Long",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Phú Thạnh",
+          "address": "Đối diện 1H",
+          "street": "Văn Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.781946,
+          "lng": 106.62075,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2589,
+          "code": "QTPT186",
+          "name": "Trường GTVT",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Phú Thọ Hoà",
+          "address": "64",
+          "street": "Văn Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.786699,
+          "lng": 106.622223,
+          "routes": [
+            "32",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2551,
+          "code": "QTP 107",
+          "name": "Nhà Thờ Tân Hương",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "141",
+          "street": "Tân Hương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.789681,
+          "lng": 106.624565,
+          "routes": [
+            "30",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2556,
+          "code": "QTP 108",
+          "name": "Café Suối Reo",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "43",
+          "street": "Tân Hương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.790343,
+          "lng": 106.628273,
+          "routes": [
+            "30",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2554,
+          "code": "QTP 109",
+          "name": "Nhà thờ Martino",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "15",
+          "street": "Tân Hương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.792511,
+          "lng": 106.628891,
+          "routes": [
+            "30",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2911,
+          "code": "QTP 118",
+          "name": "Tân Sơn Nhì",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Thành",
+          "address": "377-379",
+          "street": "Tân Sơn Nhì",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.793829,
+          "lng": 106.628761,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2913,
+          "code": "QTP 052",
+          "name": "Chung cư  Gò Dầu",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "44",
+          "street": "Gò Dầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.795697,
+          "lng": 106.628242,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2912,
+          "code": "QTP 053",
+          "name": "Café Tino",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "122",
+          "street": "Gò Dầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.795903,
+          "lng": 106.62487,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2918,
+          "code": "QTP 058",
+          "name": "Lê Đình Thám",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "77",
+          "street": "Cầu Xéo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.796464,
+          "lng": 106.623871,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2914,
+          "code": "QTP 059",
+          "name": "Cuối Cầu Xéo",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "3",
+          "street": "Cầu Xéo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.800497,
+          "lng": 106.624283,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2594,
+          "code": "QTP 090",
+          "name": "Trạm Xăng",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Sơn Nhì",
+          "address": "295",
+          "street": "Tân Kỳ Tân Quý",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.801929,
+          "lng": 106.626075,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2596,
+          "code": "QTP 091",
+          "name": "Trạm Đường Số 27",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Sơn Nhì",
+          "address": "235",
+          "street": "Tân Kỳ Tân Quý",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.802643,
+          "lng": 106.628525,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2598,
+          "code": "QTP 092",
+          "name": "Trạm Lê Trọng Tấn",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Sơn Nhì",
+          "address": "153",
+          "street": "Tân Kỳ Tân Quý",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.803166,
+          "lng": 106.631592,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2600,
+          "code": "QTP 060",
+          "name": "Trạm Đầu Lê Trọng Tấn",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "8A-8B",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.804282,
+          "lng": 106.632187,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2602,
+          "code": "QTP 061",
+          "name": "Trường Đại học Công Thương TPHCM",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "142-144",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.806065,
+          "lng": 106.628586,
+          "routes": [
+            "32",
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2000,
+          "code": "QTP 062",
+          "name": "Nguyễn Hữu Tiến",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "188",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.806785,
+          "lng": 106.625366,
+          "routes": [
+            "16",
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2005,
+          "code": "QTP 063",
+          "name": "Trạm Bờ Bao Tân Thắng",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "284",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.807464,
+          "lng": 106.622177,
+          "routes": [
+            "16",
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2917,
+          "code": "QTP 064",
+          "name": "Trạm Tây Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "386",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.808257,
+          "lng": 106.619133,
+          "routes": [
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2915,
+          "code": "QTP 022",
+          "name": "Trạm Đầu Tây Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "389",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.809564,
+          "lng": 106.619434,
+          "routes": [
+            "28",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2919,
+          "code": "QTP 023",
+          "name": "Trạm Trường Tiểu Học Lê Lai",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "237",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.812798,
+          "lng": 106.622345,
+          "routes": [
+            "28",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2457,
+          "code": "QTP 024",
+          "name": "Cây xăng Tây Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "Đối diện công ty Ngọc Nghĩa",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.816156,
+          "lng": 106.625565,
+          "routes": [
+            "28",
+            "32",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2916,
+          "code": "QTP 025",
+          "name": "Trạm Cổng KCN Tân Bình",
+          "type": "Nhà chờ",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "29/26 (Công ty Thành Công)",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.819169,
+          "lng": 106.628945,
+          "routes": [
+            "28",
+            "32",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 271,
+          "code": "QTB 079",
+          "name": "Khu Công Nghiệp Tân Bình",
+          "type": "Nhà chờ",
+          "zone": "Quận Tân Bình",
+          "ward": null,
+          "address": "932",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.822452,
+          "lng": 106.630254,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "23",
+            "27",
+            "32",
+            "41",
+            "62",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 272,
+          "code": "Q12 128",
+          "name": "Cầu Tham Lương - Siêu thị Thiên Hòa",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "60A-B (1/17A)",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.826957,
+          "lng": 106.625828,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "23",
+            "27",
+            "41",
+            "62",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 273,
+          "code": "Q12 129",
+          "name": "Chùa Vĩnh Phước",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "110 (189/4)",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.828627,
+          "lng": 106.624594,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "27",
+            "41",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 275,
+          "code": "Q12 132",
+          "name": "Chùa Lạc Quang",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "408",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.834781,
+          "lng": 106.620614,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "27",
+            "41",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 277,
+          "code": "Q12 131",
+          "name": "Bitis",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "590 (640)",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.838222,
+          "lng": 106.618398,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "27",
+            "41",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 1116,
+          "code": "Q12 123",
+          "name": "Bến xe An Sương",
+          "type": "Trụ dừng",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "142",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.846035,
+          "lng": 106.613361,
+          "routes": [
+            "151",
+            "27",
+            "41",
+            "65",
+            "71"
+          ]
+        },
+        {
+          "stop_id": 1239,
+          "code": "HHM 058",
+          "name": "Bến xe An Sương",
+          "type": "Trụ dừng",
+          "zone": "Huyện Hóc Môn",
+          "ward": "Xã Bà Điểm",
+          "address": "1B",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.845187,
+          "lng": 106.613522,
+          "routes": [
+            "04",
+            "104",
+            "122",
+            "13",
+            "145",
+            "151",
+            "33",
+            "41",
+            "61-3",
+            "62-5",
+            "65",
+            "71",
+            "74",
+            "85",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 166,
+          "code": "BX41",
+          "name": "Bến xe An Sương",
+          "type": "Bến xe",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "Bến xe An Sương",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.843737602233887,
+          "lng": 106.61337280273438,
+          "routes": [
+            "04",
+            "104",
+            "122",
+            "151",
+            "27",
+            "33",
+            "41",
+            "61-3",
+            "62-5",
+            "65",
+            "71",
+            "74",
+            "85"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 5306,
+          "start_time": "05:00",
+          "end_time": "06:00"
+        },
+        {
+          "trip_id": 5307,
+          "start_time": "05:15",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 5308,
+          "start_time": "05:30",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 5309,
+          "start_time": "05:45",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 5310,
+          "start_time": "05:57",
+          "end_time": "06:57"
+        },
+        {
+          "trip_id": 5311,
+          "start_time": "06:09",
+          "end_time": "07:09"
+        },
+        {
+          "trip_id": 5312,
+          "start_time": "06:19",
+          "end_time": "07:19"
+        },
+        {
+          "trip_id": 5313,
+          "start_time": "06:29",
+          "end_time": "07:29"
+        },
+        {
+          "trip_id": 5314,
+          "start_time": "06:41",
+          "end_time": "07:41"
+        },
+        {
+          "trip_id": 5315,
+          "start_time": "06:53",
+          "end_time": "07:53"
+        },
+        {
+          "trip_id": 5316,
+          "start_time": "07:05",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 5317,
+          "start_time": "07:17",
+          "end_time": "08:17"
+        },
+        {
+          "trip_id": 5318,
+          "start_time": "07:29",
+          "end_time": "08:29"
+        },
+        {
+          "trip_id": 5319,
+          "start_time": "07:41",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 5320,
+          "start_time": "07:53",
+          "end_time": "08:53"
+        },
+        {
+          "trip_id": 5321,
+          "start_time": "08:05",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 5322,
+          "start_time": "08:17",
+          "end_time": "09:17"
+        },
+        {
+          "trip_id": 5323,
+          "start_time": "08:29",
+          "end_time": "09:29"
+        },
+        {
+          "trip_id": 5324,
+          "start_time": "08:41",
+          "end_time": "09:41"
+        },
+        {
+          "trip_id": 5325,
+          "start_time": "08:53",
+          "end_time": "09:53"
+        },
+        {
+          "trip_id": 5326,
+          "start_time": "09:05",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 5327,
+          "start_time": "09:18",
+          "end_time": "10:18"
+        },
+        {
+          "trip_id": 5328,
+          "start_time": "09:31",
+          "end_time": "10:31"
+        },
+        {
+          "trip_id": 5329,
+          "start_time": "09:44",
+          "end_time": "10:44"
+        },
+        {
+          "trip_id": 5330,
+          "start_time": "09:56",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 5331,
+          "start_time": "10:08",
+          "end_time": "11:08"
+        },
+        {
+          "trip_id": 5332,
+          "start_time": "10:20",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 5333,
+          "start_time": "10:32",
+          "end_time": "11:32"
+        },
+        {
+          "trip_id": 5334,
+          "start_time": "10:44",
+          "end_time": "11:44"
+        },
+        {
+          "trip_id": 5335,
+          "start_time": "10:56",
+          "end_time": "11:56"
+        },
+        {
+          "trip_id": 5336,
+          "start_time": "11:08",
+          "end_time": "12:08"
+        },
+        {
+          "trip_id": 5337,
+          "start_time": "11:20",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 5338,
+          "start_time": "11:32",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 5339,
+          "start_time": "11:44",
+          "end_time": "12:44"
+        },
+        {
+          "trip_id": 5340,
+          "start_time": "11:56",
+          "end_time": "12:56"
+        },
+        {
+          "trip_id": 5341,
+          "start_time": "12:08",
+          "end_time": "13:08"
+        },
+        {
+          "trip_id": 5342,
+          "start_time": "12:20",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 5343,
+          "start_time": "12:32",
+          "end_time": "13:32"
+        },
+        {
+          "trip_id": 5344,
+          "start_time": "12:44",
+          "end_time": "13:44"
+        },
+        {
+          "trip_id": 5345,
+          "start_time": "12:56",
+          "end_time": "13:56"
+        },
+        {
+          "trip_id": 5346,
+          "start_time": "13:08",
+          "end_time": "14:08"
+        },
+        {
+          "trip_id": 5347,
+          "start_time": "13:20",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 5348,
+          "start_time": "13:33",
+          "end_time": "14:33"
+        },
+        {
+          "trip_id": 5349,
+          "start_time": "13:46",
+          "end_time": "14:46"
+        },
+        {
+          "trip_id": 5350,
+          "start_time": "13:59",
+          "end_time": "14:59"
+        },
+        {
+          "trip_id": 5351,
+          "start_time": "14:11",
+          "end_time": "15:11"
+        },
+        {
+          "trip_id": 5352,
+          "start_time": "14:23",
+          "end_time": "15:23"
+        },
+        {
+          "trip_id": 5353,
+          "start_time": "14:35",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 5354,
+          "start_time": "14:47",
+          "end_time": "15:47"
+        },
+        {
+          "trip_id": 5355,
+          "start_time": "14:59",
+          "end_time": "15:59"
+        },
+        {
+          "trip_id": 5356,
+          "start_time": "15:11",
+          "end_time": "16:11"
+        },
+        {
+          "trip_id": 5357,
+          "start_time": "15:23",
+          "end_time": "16:23"
+        },
+        {
+          "trip_id": 5358,
+          "start_time": "15:35",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 5359,
+          "start_time": "15:47",
+          "end_time": "16:47"
+        },
+        {
+          "trip_id": 5360,
+          "start_time": "15:59",
+          "end_time": "16:59"
+        },
+        {
+          "trip_id": 5361,
+          "start_time": "16:11",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 5362,
+          "start_time": "16:23",
+          "end_time": "17:23"
+        },
+        {
+          "trip_id": 5363,
+          "start_time": "16:35",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 5364,
+          "start_time": "16:47",
+          "end_time": "17:47"
+        },
+        {
+          "trip_id": 5365,
+          "start_time": "16:57",
+          "end_time": "17:57"
+        },
+        {
+          "trip_id": 5366,
+          "start_time": "17:07",
+          "end_time": "18:07"
+        },
+        {
+          "trip_id": 5367,
+          "start_time": "17:19",
+          "end_time": "18:19"
+        },
+        {
+          "trip_id": 5368,
+          "start_time": "17:31",
+          "end_time": "18:31"
+        },
+        {
+          "trip_id": 5369,
+          "start_time": "17:43",
+          "end_time": "18:43"
+        },
+        {
+          "trip_id": 5370,
+          "start_time": "17:55",
+          "end_time": "18:55"
+        },
+        {
+          "trip_id": 5371,
+          "start_time": "18:07",
+          "end_time": "19:07"
+        },
+        {
+          "trip_id": 5372,
+          "start_time": "18:19",
+          "end_time": "19:19"
+        },
+        {
+          "trip_id": 5373,
+          "start_time": "18:31",
+          "end_time": "19:31"
+        },
+        {
+          "trip_id": 5374,
+          "start_time": "18:43",
+          "end_time": "19:43"
+        },
+        {
+          "trip_id": 5375,
+          "start_time": "18:55",
+          "end_time": "19:55"
+        },
+        {
+          "trip_id": 5376,
+          "start_time": "19:07",
+          "end_time": "20:07"
+        },
+        {
+          "trip_id": 5377,
+          "start_time": "19:20",
+          "end_time": "20:20"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 124,
+        "name": "Lượt về: Bến xe An Sương - Bến xe Miền Tây",
+        "short_name": "Bến xe Miền Tây",
+        "start_stop": "Bến xe An Sương",
+        "end_stop": "Bến xe Miền Tây",
+        "distance_m": 22223.0,
+        "running_time_minutes": 60,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 36,
+        "route_var_id": 124,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 60,
+          "max": 60
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 15
+        },
+        "total_trip": 72,
+        "operation_time": {
+          "start": "05:00",
+          "end": "19:20"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 166,
+          "code": "BX41",
+          "name": "Bến xe An Sương",
+          "type": "Bến xe",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "Bến xe An Sương",
+          "street": "Quốc lộ 22",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.843737602233887,
+          "lng": 106.61337280273438,
+          "routes": [
+            "04",
+            "104",
+            "122",
+            "151",
+            "27",
+            "33",
+            "41",
+            "61-3",
+            "62-5",
+            "65",
+            "71",
+            "74",
+            "85"
+          ]
+        },
+        {
+          "stop_id": 167,
+          "code": "Q12 135",
+          "name": "Bitis",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "487",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.838891,
+          "lng": 106.617347,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "27",
+            "41",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 172,
+          "code": "Q12 136",
+          "name": "Chùa Lạc Quang",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "257",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.834497,
+          "lng": 106.620212,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "27",
+            "41",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 168,
+          "code": "Q12 137",
+          "name": "Chùa Vĩnh Phước",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "Chùa Vĩnh Phước",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.83202,
+          "lng": 106.621794,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "27",
+            "41",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 169,
+          "code": "Q12 139",
+          "name": "Cầu Tham Lương - Siêu thị Thiên Hòa",
+          "type": "Nhà chờ",
+          "zone": "Quận 12",
+          "ward": null,
+          "address": "21 (Kế 2/6B)",
+          "street": "Trường Chinh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.82624,
+          "lng": 106.62586,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "23",
+            "27",
+            "41",
+            "62",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 174,
+          "code": "QTP 010",
+          "name": "Trạm Dệt Thành Công",
+          "type": "Nhà chờ",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "8",
+          "street": "Trường Chinh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.822315,
+          "lng": 106.629825,
+          "routes": [
+            "04",
+            "104",
+            "13",
+            "145",
+            "23",
+            "27",
+            "32",
+            "41",
+            "62",
+            "65",
+            "94"
+          ]
+        },
+        {
+          "stop_id": 2454,
+          "code": "QTP 018",
+          "name": "Cổng Khu công nghiệp Tân Bình",
+          "type": "Nhà chờ",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "Công ty dầu thực vật Tân Bình",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.819528,
+          "lng": 106.629111,
+          "routes": [
+            "28",
+            "32",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2651,
+          "code": "QTP 019",
+          "name": "Cây xăng Tây Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "Công ty Ngọc Nghĩa",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.816451,
+          "lng": 106.625587,
+          "routes": [
+            "28",
+            "32",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2920,
+          "code": "QTP 020",
+          "name": "Trạm Trường Tiểu Học Lê Lai",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "Trường Lê Lai",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.812615,
+          "lng": 106.622147,
+          "routes": [
+            "28",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2921,
+          "code": "QTP 021",
+          "name": "Trạm Lê Trọng Tấn",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tây Thạnh",
+          "address": "298",
+          "street": "Tây Thạnh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.809427,
+          "lng": 106.619133,
+          "routes": [
+            "28",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2924,
+          "code": "QTP 071",
+          "name": "Tây Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "363",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.807646,
+          "lng": 106.61982,
+          "routes": [
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 1974,
+          "code": "QTP 072",
+          "name": "Trạm Bờ Bao Tân Thắng",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "271",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.80731,
+          "lng": 106.622368,
+          "routes": [
+            "16",
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 1975,
+          "code": "QTP 073",
+          "name": "Nguyễn Hữu Tiến",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "Đối diện 220 (số 213)",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.806767,
+          "lng": 106.624886,
+          "routes": [
+            "16",
+            "41",
+            "48",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2654,
+          "code": "QTP 074",
+          "name": "Trường Đại học Công Nghiệp Thực Phẩm",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "117",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.805859,
+          "lng": 106.628671,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2925,
+          "code": "QTP 075",
+          "name": "Trạm Tân Kỳ Tân Quý",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "15",
+          "street": "Lê Trọng Tấn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.804359,
+          "lng": 106.631981,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2657,
+          "code": "QTP 077",
+          "name": "Trạm café BonJour",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "128-130",
+          "street": "Tân Kỳ Tân Quý",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.803346,
+          "lng": 106.631577,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2656,
+          "code": "QTP 078",
+          "name": "Trạm Đường Số 27",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Sơn Kỳ",
+          "address": "216",
+          "street": "Tân Kỳ Tân Quý",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.802817,
+          "lng": 106.628487,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2659,
+          "code": "QTP 079",
+          "name": "Trạm cây xăng Sài Gòn Petro",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "302",
+          "street": "Tân Kỳ Tân Quý",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.802044,
+          "lng": 106.625923,
+          "routes": [
+            "32",
+            "41",
+            "69"
+          ]
+        },
+        {
+          "stop_id": 2926,
+          "code": "QTP 056",
+          "name": "Đầu cầu xéo",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "Đối diện 9",
+          "street": "Cầu Xéo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.800399,
+          "lng": 106.624222,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2922,
+          "code": "QTP 057",
+          "name": "Lê Đình Thám",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": null,
+          "address": "94",
+          "street": "Cầu Xéo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.796659,
+          "lng": 106.623749,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2923,
+          "code": "QTP 050",
+          "name": "Café Tino",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "111",
+          "street": "Gò Dầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.795829,
+          "lng": 106.624748,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2927,
+          "code": "QTP 051",
+          "name": "Chung cư  Gò Dầu",
+          "type": "Ô sơn",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "65-67",
+          "street": "Gò Dầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.795624,
+          "lng": 106.628082,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2931,
+          "code": "QTP 117",
+          "name": "Tân Sơn Nhì",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Sơn Nhì",
+          "address": "432",
+          "street": "Tân Sơn Nhì",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.794048,
+          "lng": 106.628799,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2719,
+          "code": "QTP 110",
+          "name": "Nhà thờ Martino",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "2",
+          "street": "Tân Hương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.792652,
+          "lng": 106.62886,
+          "routes": [
+            "30",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2717,
+          "code": "QTP 111",
+          "name": "Cafe Suối Reo",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "90",
+          "street": "Tân Hương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.789865,
+          "lng": 106.627785,
+          "routes": [
+            "30",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2722,
+          "code": "QTP 112",
+          "name": "Nhà Thờ Tân Hương",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Tân Qúy",
+          "address": "190",
+          "street": "Tân Hương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.789867,
+          "lng": 106.623999,
+          "routes": [
+            "30",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2666,
+          "code": "QTP 165",
+          "name": "Trường GTVT",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Phú Thạnh",
+          "address": "73",
+          "street": "Văn Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.78641,
+          "lng": 106.621998,
+          "routes": [
+            "32",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1735,
+          "code": "QTP 166",
+          "name": "Cây Xăng Bình Long",
+          "type": "Trụ dừng",
+          "zone": "Quận Tân Phú",
+          "ward": "Phường Phú Thạnh",
+          "address": "B10",
+          "street": "Văn Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.782247,
+          "lng": 106.620552,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1566,
+          "code": "QBT 211",
+          "name": "Bình Long",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "105",
+          "street": "Bình Long",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.779433,
+          "lng": 106.620405,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1562,
+          "code": "QBT 212",
+          "name": "Chùa Như Thị Thất",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "25 (Hoa Sen)",
+          "street": "Bình Long",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.775928,
+          "lng": 106.621424,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1734,
+          "code": "QBT 251",
+          "name": "Siêu thị (shop thời trang)",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "42",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.774648,
+          "lng": 106.618549,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1736,
+          "code": "QBT 252",
+          "name": "BV Đa khoa Bình Tân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "194",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.775918,
+          "lng": 106.613774,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1738,
+          "code": "QBT 253",
+          "name": "Chợ Lê Văn Quới",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "284",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776387,
+          "lng": 106.609762,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1737,
+          "code": "QBT 254",
+          "name": "Trạm xăng",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "442",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776418,
+          "lng": 106.605561,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 1740,
+          "code": "QBT 255",
+          "name": "Mã Lò",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Hưng Hoà A",
+          "address": "596",
+          "street": "Lê Văn Qưới",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.776455,
+          "lng": 106.603584,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2011,
+          "code": "QBT 260",
+          "name": "Ngã 3 Ao Đôi",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "339",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.775607,
+          "lng": 106.600991,
+          "routes": [
+            "16",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2010,
+          "code": "QBT 261",
+          "name": "Công ty Đại Càng Phát",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "247",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.77235,
+          "lng": 106.601849,
+          "routes": [
+            "16",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2013,
+          "code": "QBT 262",
+          "name": "Phòng tiếp dân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "201",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.768224,
+          "lng": 106.60311,
+          "routes": [
+            "16",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2929,
+          "code": "QBT 263",
+          "name": "Bệnh viện Bình Tân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "Bệnh viện BT",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.763949,
+          "lng": 106.603798,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2928,
+          "code": "QBT 264",
+          "name": "Công ty Hương Sở",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "79",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.761125,
+          "lng": 106.604934,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2930,
+          "code": "QBT 273",
+          "name": "Bà Hom",
+          "type": "Ô sơn",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông A",
+          "address": "9-11",
+          "street": "Mã Lò",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.758957,
+          "lng": 106.606194,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7176,
+          "code": "QBT 283",
+          "name": "Quán cơm",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "714",
+          "street": "Tên Lửa",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.755834,
+          "lng": 106.606044,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2933,
+          "code": "QBT 269",
+          "name": "Đường 32",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": null,
+          "address": "297",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.75498,
+          "lng": 106.6079,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2932,
+          "code": "QBT 101",
+          "name": "Tên Lửa",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "397",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.752471,
+          "lng": 106.610137,
+          "routes": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7531,
+          "code": "QBT 294",
+          "name": "Đường Tên Lửa",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "308",
+          "street": "Đường số 1",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.747807,
+          "lng": 106.611516,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7532,
+          "code": "QBT 295",
+          "name": "Đường số 34",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường Bình Trị Đông B",
+          "address": "408-410",
+          "street": "Đường số 1",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.746532,
+          "lng": 106.607836,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 7533,
+          "code": "QBT 296",
+          "name": "Đường số 13",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "Đối diện 64",
+          "street": "Đường số 34",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.744318,
+          "lng": 106.607906,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 4324,
+          "code": "QBT 206",
+          "name": "Bệnh Viện Quốc Tế",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "Đối diện 120",
+          "street": "Đường số 17A",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.742442,
+          "lng": 106.610062,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 4325,
+          "code": "QBT 207",
+          "name": "AEON Mall Bình Tân",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "Đối diện 14",
+          "street": "Đường số 17A",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.744171,
+          "lng": 106.61276,
+          "routes": [
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2389,
+          "code": "QBT 103",
+          "name": "Aeon mall Bình Tân",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": null,
+          "address": "Đối diện 32 (Đ/d 150)",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.743328,
+          "lng": 106.61341,
+          "routes": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 2391,
+          "code": "QBT 104",
+          "name": "Kinh Dương Vương",
+          "type": "Trụ dừng",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc A",
+          "address": "Đối diện 14 (số 3-5)",
+          "street": "Tên Lửa",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.741424,
+          "lng": 106.614227,
+          "routes": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "stop_id": 713,
+          "code": "QBT 007",
+          "name": "Bệnh viện Triều An",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Tân",
+          "ward": "Phường An Lạc",
+          "address": "Bệnh viện Triều An",
+          "street": "Kinh Dương Vương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.739665,
+          "lng": 106.61687,
+          "routes": [
+            "09",
+            "102",
+            "151",
+            "25",
+            "39",
+            "41",
+            "60-1",
+            "61",
+            "62-1",
+            "62-10",
+            "62-2",
+            "62-8",
+            "63-1",
+            "84"
+          ]
+        },
+        {
+          "stop_id": 725,
+          "code": "BX 46",
+          "name": "Bến xe Miền Tây",
+          "type": "Bến xe",
+          "zone": "Quận Bình Tân",
+          "ward": null,
+          "address": "Bến xe Miền Tây",
+          "street": "Kinh Dương Vương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.739486,
+          "lng": 106.619438,
+          "routes": [
+            "10",
+            "102",
+            "139",
+            "14",
+            "148",
+            "151",
+            "32",
+            "39",
+            "41",
+            "60-1",
+            "91"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 5378,
+          "start_time": "05:00",
+          "end_time": "06:00"
+        },
+        {
+          "trip_id": 5379,
+          "start_time": "05:15",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 5380,
+          "start_time": "05:30",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 5381,
+          "start_time": "05:45",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 5382,
+          "start_time": "05:57",
+          "end_time": "06:57"
+        },
+        {
+          "trip_id": 5383,
+          "start_time": "06:09",
+          "end_time": "07:09"
+        },
+        {
+          "trip_id": 5384,
+          "start_time": "06:19",
+          "end_time": "07:19"
+        },
+        {
+          "trip_id": 5385,
+          "start_time": "06:29",
+          "end_time": "07:29"
+        },
+        {
+          "trip_id": 5386,
+          "start_time": "06:41",
+          "end_time": "07:41"
+        },
+        {
+          "trip_id": 5387,
+          "start_time": "06:53",
+          "end_time": "07:53"
+        },
+        {
+          "trip_id": 5388,
+          "start_time": "07:05",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 5389,
+          "start_time": "07:17",
+          "end_time": "08:17"
+        },
+        {
+          "trip_id": 5390,
+          "start_time": "07:29",
+          "end_time": "08:29"
+        },
+        {
+          "trip_id": 5391,
+          "start_time": "07:41",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 5392,
+          "start_time": "07:53",
+          "end_time": "08:53"
+        },
+        {
+          "trip_id": 5393,
+          "start_time": "08:05",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 5394,
+          "start_time": "08:17",
+          "end_time": "09:17"
+        },
+        {
+          "trip_id": 5395,
+          "start_time": "08:29",
+          "end_time": "09:29"
+        },
+        {
+          "trip_id": 5396,
+          "start_time": "08:41",
+          "end_time": "09:41"
+        },
+        {
+          "trip_id": 5397,
+          "start_time": "08:53",
+          "end_time": "09:53"
+        },
+        {
+          "trip_id": 5398,
+          "start_time": "09:05",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 5399,
+          "start_time": "09:18",
+          "end_time": "10:18"
+        },
+        {
+          "trip_id": 5400,
+          "start_time": "09:31",
+          "end_time": "10:31"
+        },
+        {
+          "trip_id": 5401,
+          "start_time": "09:44",
+          "end_time": "10:44"
+        },
+        {
+          "trip_id": 5402,
+          "start_time": "09:56",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 5403,
+          "start_time": "10:08",
+          "end_time": "11:08"
+        },
+        {
+          "trip_id": 5404,
+          "start_time": "10:20",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 5405,
+          "start_time": "10:32",
+          "end_time": "11:32"
+        },
+        {
+          "trip_id": 5406,
+          "start_time": "10:44",
+          "end_time": "11:44"
+        },
+        {
+          "trip_id": 5407,
+          "start_time": "10:56",
+          "end_time": "11:56"
+        },
+        {
+          "trip_id": 5408,
+          "start_time": "11:08",
+          "end_time": "12:08"
+        },
+        {
+          "trip_id": 5409,
+          "start_time": "11:20",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 5410,
+          "start_time": "11:32",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 5411,
+          "start_time": "11:44",
+          "end_time": "12:44"
+        },
+        {
+          "trip_id": 5412,
+          "start_time": "11:56",
+          "end_time": "12:56"
+        },
+        {
+          "trip_id": 5413,
+          "start_time": "12:08",
+          "end_time": "13:08"
+        },
+        {
+          "trip_id": 5414,
+          "start_time": "12:20",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 5415,
+          "start_time": "12:32",
+          "end_time": "13:32"
+        },
+        {
+          "trip_id": 5416,
+          "start_time": "12:44",
+          "end_time": "13:44"
+        },
+        {
+          "trip_id": 5417,
+          "start_time": "12:56",
+          "end_time": "13:56"
+        },
+        {
+          "trip_id": 5418,
+          "start_time": "13:08",
+          "end_time": "14:08"
+        },
+        {
+          "trip_id": 5419,
+          "start_time": "13:20",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 5420,
+          "start_time": "13:33",
+          "end_time": "14:33"
+        },
+        {
+          "trip_id": 5421,
+          "start_time": "13:46",
+          "end_time": "14:46"
+        },
+        {
+          "trip_id": 5422,
+          "start_time": "13:59",
+          "end_time": "14:59"
+        },
+        {
+          "trip_id": 5423,
+          "start_time": "14:11",
+          "end_time": "15:11"
+        },
+        {
+          "trip_id": 5424,
+          "start_time": "14:23",
+          "end_time": "15:23"
+        },
+        {
+          "trip_id": 5425,
+          "start_time": "14:35",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 5426,
+          "start_time": "14:47",
+          "end_time": "15:47"
+        },
+        {
+          "trip_id": 5427,
+          "start_time": "14:59",
+          "end_time": "15:59"
+        },
+        {
+          "trip_id": 5428,
+          "start_time": "15:11",
+          "end_time": "16:11"
+        },
+        {
+          "trip_id": 5429,
+          "start_time": "15:23",
+          "end_time": "16:23"
+        },
+        {
+          "trip_id": 5430,
+          "start_time": "15:35",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 5431,
+          "start_time": "15:47",
+          "end_time": "16:47"
+        },
+        {
+          "trip_id": 5432,
+          "start_time": "15:59",
+          "end_time": "16:59"
+        },
+        {
+          "trip_id": 5433,
+          "start_time": "16:11",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 5434,
+          "start_time": "16:23",
+          "end_time": "17:23"
+        },
+        {
+          "trip_id": 5435,
+          "start_time": "16:35",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 5436,
+          "start_time": "16:47",
+          "end_time": "17:47"
+        },
+        {
+          "trip_id": 5437,
+          "start_time": "16:57",
+          "end_time": "17:57"
+        },
+        {
+          "trip_id": 5438,
+          "start_time": "17:07",
+          "end_time": "18:07"
+        },
+        {
+          "trip_id": 5439,
+          "start_time": "17:19",
+          "end_time": "18:19"
+        },
+        {
+          "trip_id": 5440,
+          "start_time": "17:31",
+          "end_time": "18:31"
+        },
+        {
+          "trip_id": 5441,
+          "start_time": "17:43",
+          "end_time": "18:43"
+        },
+        {
+          "trip_id": 5442,
+          "start_time": "17:55",
+          "end_time": "18:55"
+        },
+        {
+          "trip_id": 5443,
+          "start_time": "18:07",
+          "end_time": "19:07"
+        },
+        {
+          "trip_id": 5444,
+          "start_time": "18:19",
+          "end_time": "19:19"
+        },
+        {
+          "trip_id": 5445,
+          "start_time": "18:31",
+          "end_time": "19:31"
+        },
+        {
+          "trip_id": 5446,
+          "start_time": "18:43",
+          "end_time": "19:43"
+        },
+        {
+          "trip_id": 5447,
+          "start_time": "18:55",
+          "end_time": "19:55"
+        },
+        {
+          "trip_id": 5448,
+          "start_time": "19:07",
+          "end_time": "20:07"
+        },
+        {
+          "trip_id": 5449,
+          "start_time": "19:20",
+          "end_time": "20:20"
+        }
+      ]
+    }
+  }
+}

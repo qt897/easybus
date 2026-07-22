@@ -1,0 +1,2990 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 346,
+    "crawled_at": "2026-07-23T00:27:14"
+  },
+  "data": {
+    "route": {
+      "id": 346,
+      "bus_no": "61-9",
+      "name": "Thủ Dầu Một - Suối Tiên - Bến xe Miền Đông Mới",
+      "color": "#FF00FF",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 33000.0,
+      "num_of_seats": "20 - 50",
+      "operators": [
+        "Công ty CP VT Bình Dương, ĐT: (0274) 3822549"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 25000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 60000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 800000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 85,
+        "max": 85
+      },
+      "headway_minutes": {
+        "min": 45,
+        "max": 90
+      },
+      "operation_time": {
+        "start": "05:15",
+        "end": "17:50"
+      },
+      "total_trip": {
+        "value": 22,
+        "unit": "TPD"
+      },
+      "outbound_name": "Bến xe Miền Đông Mới",
+      "outbound_description": [
+        "Bến xe khách tỉnh Bình Dương",
+        "Đường 30/4",
+        "Đường Cách mạng tháng 8",
+        "Ngã 6 Chùa Bà",
+        "Đường Bác sĩ Yersin",
+        "Ngã tư Chợ Đình",
+        "Ngã tư Bình Chuẩn",
+        "Đường ĐT743",
+        "Ngã tư Miễu Ông Cù",
+        "Bùng Binh An Phú",
+        "Ngã tư 550",
+        "Cầu Vượt Sóng Thần",
+        "Quốc lộ 1A",
+        "Suối Tiên",
+        "Quốc lộ 1A",
+        "D400",
+        "Hoàng Hữu Nam",
+        "Đường số 13",
+        "Cổng sau Bến xe Miền Đông mới"
+      ],
+      "inbound_name": "Thủ Dầu Một",
+      "inbound_description": [
+        "Cổng sau Bến xe Miền Đông mới",
+        "Đường số 13",
+        "Hoàng Hữu Nam",
+        "D400",
+        "Quốc lộ 1A",
+        "Suối Tiên",
+        "Quốc lộ 1A",
+        "Cầu Vượt Sóng Thần",
+        "Ngã tư 550",
+        "Bùng Binh An Phú",
+        "Ngã tư Miễu Ông Cù",
+        "Đường ĐT743",
+        "Ngã tư Bình Chuẩn",
+        "Ngã tư Chợ Đình",
+        "Đường Bác sĩ Yersin",
+        "Ngã 6 Chùa Bà",
+        "Đường Cách mạng tháng 8",
+        "Đường 30/4",
+        "Bến xe khách tỉnh Bình Dương"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bến xe Thủ Dầu Một - Bến xe Miền Đông mới",
+        "short_name": "Bến xe Miền Đông Mới",
+        "start_stop": "Bến xe khách Bình Dương",
+        "end_stop": "Bến xe Miền Đông mới",
+        "distance_m": 35323.000000000015,
+        "running_time_minutes": 85,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 7,
+        "route_var_id": 1,
+        "start_date": "23/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 85,
+          "max": 85
+        },
+        "headway_minutes": {
+          "min": 45,
+          "max": 90
+        },
+        "total_trip": 11,
+        "operation_time": {
+          "start": "05:15",
+          "end": "17:30"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7257,
+          "code": "BXLT Thu Dau Mot",
+          "name": "Bến xe khách Bình Dương",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "Bến xe khách Bình Dương",
+          "street": "Đường 30 tháng 4",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.96564,
+          "lng": 106.668524,
+          "routes": [
+            "60-15",
+            "61-2",
+            "61-3",
+            "61-4",
+            "61-8",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8630,
+          "code": "BD-0341",
+          "name": "Số nhà 1073",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Số 1073 đường CMT8, Phường Thủ Dầu Một",
+          "street": "Cách mạng tháng 8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.966628,
+          "lng": 106.665836,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9577,
+          "code": "BD-0353",
+          "name": "Bánh hotdog",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Số 971, đường CMT8, Phường Thủ Dầu Một",
+          "street": "Đường CMT8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.967879,
+          "lng": 106.663747,
+          "routes": [
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8318,
+          "code": "BD-0018",
+          "name": "Ngã ba Lò Chén",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Số 829, đường CMT8, Phường Thủ Dầu Một",
+          "street": "Đường CMT8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.968838,
+          "lng": 106.660461,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8841,
+          "code": "BD-0520",
+          "name": "Mẹ bầu ( Siêu thị tóc Sài Gòn)",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Số 156, CMT8, phường Thủ Dầu Một",
+          "street": "Đường CMT8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.972116,
+          "lng": 106.659817,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8880,
+          "code": "BD-0592",
+          "name": "Quán ăn A Quánh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Quán ăn A Quánh",
+          "street": "Cách mạng tháng 8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.973597,
+          "lng": 106.659436,
+          "routes": [
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8888,
+          "code": "BD-0600",
+          "name": "Nhà Sách Bình Minh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà Sách Bình Minh",
+          "street": "Cách mạng tháng 8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.975993,
+          "lng": 106.657977,
+          "routes": [
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8320,
+          "code": "BD-0020",
+          "name": "Đối diện Nhà sách Bình Minh",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Số 567, CMT8 , phường Thủ Dầu Một",
+          "street": "Đường CMT8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.976622,
+          "lng": 106.657743,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8322,
+          "code": "BD-0022",
+          "name": "Công viên Phú Cường",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện số 548, cmt8 , phường Thủ Dầu Một",
+          "street": "CMT8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.978814,
+          "lng": 106.656222,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8324,
+          "code": "BD-0024",
+          "name": "Chùa Bà Thiên Hậu",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện số 494 - 496, cmt8 , phường Thủ Dầu Một",
+          "street": "CMT8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.98044,
+          "lng": 106.654247,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8901,
+          "code": "BD-0613",
+          "name": "Siêu thị Citimart",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Siêu thị Citimart",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981565,
+          "lng": 106.655965,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8902,
+          "code": "BD-0614",
+          "name": "Sở y tế Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Sở y tế Bình Dương",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981479,
+          "lng": 106.656787,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8903,
+          "code": "BD-0615",
+          "name": "Phòng khám phụ khoa  BS,Chi",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phòng khám phụ khoa  BS,Chi",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981992,
+          "lng": 106.658025,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8907,
+          "code": "BD-0619",
+          "name": "Tin học Việt hồng",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tin học Việt hồng",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982281,
+          "lng": 106.659499,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8797,
+          "code": "BD-0544",
+          "name": "Bệnh viện Điều dưỡng Bình Dương",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Bệnh viện Điều dưỡng Bình Dương",
+          "street": " Đường Yesin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983456,
+          "lng": 106.663492,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8944,
+          "code": "BD-0659",
+          "name": "Liên đoàn lao động tỉnh Bình Dương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Liên đoàn lao động tỉnh Bình Dương",
+          "street": "Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983851,
+          "lng": 106.665401,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8806,
+          "code": "BD-0553",
+          "name": "Chợ Đình",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chợ Đình",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983561,
+          "lng": 106.667215,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8870,
+          "code": "BD-0366",
+          "name": "Đội thanh niên xung phong tỉnh Bình Dương",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đội thanh niên xung phong tỉnh Bình Dương",
+          "street": "Phú Lợi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982039,
+          "lng": 106.672525,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8808,
+          "code": "BD-0555",
+          "name": "Nhà thờ Phú Lợi",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà thờ Phú Lợi",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982445,
+          "lng": 106.674945,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8810,
+          "code": "BD-0557",
+          "name": "UBND Phường Phú Hòa",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND Phường Phú Hòa",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.984456,
+          "lng": 106.681366,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8811,
+          "code": "BD-0558",
+          "name": "Chợ mới Phú Hòa",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chợ mới Phú Hòa",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.985546,
+          "lng": 106.684708,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8869,
+          "code": "BD-0365",
+          "name": "Đài tưởng niệm liệt sĩ phường Phú Hòa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đài tưởng niệm liệt sĩ phường Phú Hòa",
+          "street": "Phú Lợi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.986057,
+          "lng": 106.686253,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8812,
+          "code": "BD-0559",
+          "name": "SHIJAB",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "SHIJAB",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.987869,
+          "lng": 106.691837,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8814,
+          "code": "BD-0560",
+          "name": "Sư 7",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Sư 7",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.989333,
+          "lng": 106.696789,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8815,
+          "code": "BD-0561",
+          "name": "Công ty Kim Huy",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Kim Huy",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.987447,
+          "lng": 106.705742,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8872,
+          "code": "BD-0368",
+          "name": "Công ty Ý Tưởng",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Ý Tưởng",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.986652,
+          "lng": 106.709583,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8816,
+          "code": "BD-0562",
+          "name": "Nhà hàng Đình Viên",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà hàng Đình Viên",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.985515,
+          "lng": 106.71499,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8817,
+          "code": "BD-0563",
+          "name": "Nhà thờ Bà Trà",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà thờ Bà Trà",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.984656,
+          "lng": 106.718826,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9110,
+          "code": "BD-0371",
+          "name": "đối diện Mẫu giáo Nai Vàng",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "đối diện Mẫu giáo Nai Vàng",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.97969,
+          "lng": 106.732221,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8820,
+          "code": "BD-0566",
+          "name": "Miếu ông cù",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Miếu ông cù",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.977842,
+          "lng": 106.739259,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8989,
+          "code": "BD-0704",
+          "name": "Kho thạch cao Ngọc Dũng - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Kho thạch cao Ngọc Dũng - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.97651,
+          "lng": 106.741265,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9204,
+          "code": "BD-0915",
+          "name": "Nội thất Quốc Khánh",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nội thất Quốc Khánh",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.975362,
+          "lng": 106.741518,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9203,
+          "code": "BD-0914",
+          "name": "Nhà sách Huy Chương",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà sách Huy Chương",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.972491,
+          "lng": 106.741785,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9202,
+          "code": "BD-0913",
+          "name": "Chợ Đông Đô",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chợ Đông Đô",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.968146,
+          "lng": 106.741846,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9201,
+          "code": "BD-0908",
+          "name": "Công ty TNHH Nhật Tường",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH Nhật Tường",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.963007,
+          "lng": 106.741882,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8993,
+          "code": "BD-0708",
+          "name": "Công ty TNHH thiết bị kho vận Thúy Hồng 195 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH thiết bị kho vận Thúy Hồng 195 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.956292,
+          "lng": 106.74193,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9200,
+          "code": "BD-0911",
+          "name": "Công ty Gấu Đỏ",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Gấu Đỏ",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.955888,
+          "lng": 106.741917,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9199,
+          "code": "BD-0910",
+          "name": "Chùa Long Bửu",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chùa Long Bửu",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.953769,
+          "lng": 106.741962,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8994,
+          "code": "BD-0709",
+          "name": "Ngân hàng Aribank 5/1 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngân hàng Aribank 5/1 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.952758,
+          "lng": 106.741952,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8995,
+          "code": "BD-0710",
+          "name": "UBND Phường An Phú - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "UBND Phường An Phú - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.949756,
+          "lng": 106.742016,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8996,
+          "code": "BD-0711",
+          "name": "Sửa xe Huy Đăng 83/1 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Sửa xe Huy Đăng 83/1 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.945258,
+          "lng": 106.74207,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9198,
+          "code": "BD-0909",
+          "name": "Công điện trường 23/1",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công điện trường 23/1",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.943493,
+          "lng": 106.742129,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8997,
+          "code": "BD-0712",
+          "name": "Tiệm xe máy Hoàng Sáng 94/3 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tiệm xe máy Hoàng Sáng 94/3 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.936336,
+          "lng": 106.742091,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9197,
+          "code": "BD-0908",
+          "name": "Phòng khám đa khoa Bình An",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phòng khám đa khoa Bình An",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.936146,
+          "lng": 106.742107,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8998,
+          "code": "BD-0713",
+          "name": "Ngân hàng ACB Thuận An 127a/3 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngân hàng ACB Thuận An 127a/3 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.931385,
+          "lng": 106.741952,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9196,
+          "code": "BD-0907",
+          "name": "Ngã 3 Tân Đông Hiệp",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Tân Đông Hiệp",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.929441,
+          "lng": 106.741818,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8999,
+          "code": "BD-0714",
+          "name": "Công ty giày da Thái Bình - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty giày da Thái Bình - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.926934,
+          "lng": 106.741651,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9195,
+          "code": "BD-0906",
+          "name": "Công ty Jsc",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Jsc",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.92272,
+          "lng": 106.741399,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9193,
+          "code": "BD-0905",
+          "name": "Công ty giày Asama",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty giày Asama",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.912496,
+          "lng": 106.740836,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9000,
+          "code": "BD-0715",
+          "name": "Phòng khám đa khoa phụ sản Thủy Tiên - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phòng khám đa khoa phụ sản Thủy Tiên - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.911364,
+          "lng": 106.740788,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9001,
+          "code": "BD-0716",
+          "name": "Cổng hàng rào Quân đội - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cổng hàng rào Quân đội - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.904315,
+          "lng": 106.740405,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9192,
+          "code": "BD-0904",
+          "name": "Cây xăng số 14",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng số 14",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.903815,
+          "lng": 106.740369,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8837,
+          "code": "BD-0583",
+          "name": "Doanh trại Quân đội nhân dân ( qua cây xăng 71 khoảng 50m)",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Doanh trại Quân đội nhân dân ( qua cây xăng 71 khoảng 50m)",
+          "street": "ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.896767,
+          "lng": 106.739935,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9191,
+          "code": "BD-0903",
+          "name": "Công ty giày da An Thịnh số 12",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty giày da An Thịnh số 12",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.896372,
+          "lng": 106.739878,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9002,
+          "code": "BD-0717",
+          "name": "Cây xăng Vân Trúc BV Quân đoàn 4 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng Vân Trúc BV Quân đoàn 4 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.889087,
+          "lng": 106.739098,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9004,
+          "code": "BD-0719",
+          "name": "Bưu điện Sóng Thần 2a/Đại lộ độc lập - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Bưu điện Sóng Thần 2a/Đại lộ độc lập - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.878778,
+          "lng": 106.74899,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 323,
+          "code": "QTD 165",
+          "name": "Bến xe Lam Hồng",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "6/8",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.875706,
+          "lng": 106.75562,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 325,
+          "code": "QTD 166",
+          "name": "Giày da Thái Bình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Đối diện 10/19 (20/8)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.875353,
+          "lng": 106.757466,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 328,
+          "code": "QTD 167",
+          "name": "Linh Xuân",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "54/8",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.874474,
+          "lng": 106.76091,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 324,
+          "code": "QTD 168",
+          "name": "Cầu vượt Linh Xuân",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Kho 856",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.873973,
+          "lng": 106.762476,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 2083,
+          "code": "QTD 169",
+          "name": "Vietcombank",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Ngân hàng Vietcombank",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871597,
+          "lng": 106.769643,
+          "routes": [
+            "167D",
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 2084,
+          "code": "QTD 170",
+          "name": "Nghĩa trang TP",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Cổng nghĩa trang thành phố",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.870507,
+          "lng": 106.773039,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1040,
+          "code": "QTD 171",
+          "name": "ĐH Kinh tế Luật",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện 665-CoopXtra",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.869306,
+          "lng": 106.776724,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1041,
+          "code": "QTD 172",
+          "name": "Công ty điện tử Samsung",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Công ty điện tử Samsung",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.868691,
+          "lng": 106.778656,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1042,
+          "code": "QTD 173",
+          "name": "ĐH Nông Lâm",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Cột điện SI 2",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.867122,
+          "lng": 106.787277,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 396,
+          "code": "QTD 174",
+          "name": "ĐH Nông Lâm",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "1026/2 (1030)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.866912,
+          "lng": 106.790283,
+          "routes": [
+            "06",
+            "164D",
+            "164V",
+            "165",
+            "170",
+            "19",
+            "33",
+            "50",
+            "52",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 536,
+          "code": "Q9 221",
+          "name": "Cầu Vượt Trạm 2",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Tiệm vàng Kim Lợi",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.863595,
+          "lng": 106.797538,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164D",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-1",
+            "60-2",
+            "60-3",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 537,
+          "code": "Q9 223",
+          "name": "Suối Tiên",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Suối Tiên",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.866113,
+          "lng": 106.802081,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "19",
+            "33",
+            "53",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 3715,
+          "code": "Q9 057",
+          "name": "Nghĩa trang liệt sĩ Tp.HCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "14-18",
+          "street": "D400",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871371,
+          "lng": 106.809028,
+          "routes": [
+            "150",
+            "61-77",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 3716,
+          "code": "Q9 058",
+          "name": "Ngã ba Lâm Viên 1",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "124",
+          "street": "D400",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.87037,
+          "lng": 106.812891,
+          "routes": [
+            "150",
+            "61-77",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 3717,
+          "code": "Q9 266",
+          "name": "Đường Hoàng Hữu Nam",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "kế 474",
+          "street": "Hoàng Hữu Nam",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.87185,
+          "lng": 106.814522,
+          "routes": [
+            "150",
+            "61-77",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 7695,
+          "code": "BX 33",
+          "name": "Bến xe Miền Đông mới",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Long Bình",
+          "address": "Bến xe Miền Đông mới",
+          "street": "Quốc lộ 1",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.878606,
+          "lng": 106.81497,
+          "routes": [
+            "150",
+            "56",
+            "60-7",
+            "61-77",
+            "61-9",
+            "76",
+            "93"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 80,
+          "start_time": "05:15",
+          "end_time": "06:40"
+        },
+        {
+          "trip_id": 81,
+          "start_time": "06:00",
+          "end_time": "07:25"
+        },
+        {
+          "trip_id": 82,
+          "start_time": "07:15",
+          "end_time": "08:40"
+        },
+        {
+          "trip_id": 83,
+          "start_time": "08:45",
+          "end_time": "10:10"
+        },
+        {
+          "trip_id": 84,
+          "start_time": "09:45",
+          "end_time": "11:10"
+        },
+        {
+          "trip_id": 85,
+          "start_time": "11:10",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 86,
+          "start_time": "12:30",
+          "end_time": "13:55"
+        },
+        {
+          "trip_id": 87,
+          "start_time": "13:30",
+          "end_time": "14:55"
+        },
+        {
+          "trip_id": 88,
+          "start_time": "14:45",
+          "end_time": "16:10"
+        },
+        {
+          "trip_id": 89,
+          "start_time": "16:00",
+          "end_time": "17:25"
+        },
+        {
+          "trip_id": 90,
+          "start_time": "17:30",
+          "end_time": "18:55"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Bến xe Miền Đông mới - Bến xe Thủ Dầu Một",
+        "short_name": "Thủ Dầu Một",
+        "start_stop": "Bến xe Miền Đông mới",
+        "end_stop": "Bến xe khách Bình Dương",
+        "distance_m": 35194.00000000002,
+        "running_time_minutes": 85,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 8,
+        "route_var_id": 2,
+        "start_date": "23/05/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 85,
+          "max": 85
+        },
+        "headway_minutes": {
+          "min": 45,
+          "max": 90
+        },
+        "total_trip": 11,
+        "operation_time": {
+          "start": "05:30",
+          "end": "17:50"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7695,
+          "code": "BX 33",
+          "name": "Bến xe Miền Đông mới",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Long Bình",
+          "address": "Bến xe Miền Đông mới",
+          "street": "Quốc lộ 1",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.878606,
+          "lng": 106.81497,
+          "routes": [
+            "150",
+            "56",
+            "60-7",
+            "61-77",
+            "61-9",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 3742,
+          "code": "Q9 267",
+          "name": "Đường Hoàng Hữu Nam",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Long Bình",
+          "address": "373",
+          "street": "Hoàng Hữu Nam",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871176,
+          "lng": 106.814125,
+          "routes": [
+            "150",
+            "56",
+            "61-77",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 3745,
+          "code": "Q9 059",
+          "name": "Ngã ba Lâm Viên 1",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Đối diện 100",
+          "street": "D400",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.870689,
+          "lng": 106.812386,
+          "routes": [
+            "150",
+            "56",
+            "61-77",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 3744,
+          "code": "Q9 060",
+          "name": "Nghĩa trang liệt sĩ Tp.HCM",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Đối diện 28",
+          "street": "D400",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871408,
+          "lng": 106.809345,
+          "routes": [
+            "150",
+            "56",
+            "61-77",
+            "61-9",
+            "67",
+            "76",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1919,
+          "code": "Q9 225",
+          "name": "Nghĩa trang liệt sĩ TP.HCM",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Nghĩa trang liệt sĩ Thành phố HCM",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.873515,
+          "lng": 106.809458,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "170",
+            "19",
+            "33",
+            "53",
+            "56",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-77",
+            "61-9",
+            "67",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 572,
+          "code": "QTD 175",
+          "name": "Đại học An Ninh Nhân Dân",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Nhà máy Tiến Thành",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871402,
+          "lng": 106.806657,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "166",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 576,
+          "code": "QTD 176",
+          "name": "Trường ĐH công nghệ thông tin",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Trường ĐH Công Nghệ thông tin",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.869172,
+          "lng": 106.804727,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "166",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 574,
+          "code": "QTD 177",
+          "name": "Khu DL Suối Tiên",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "9/29",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.86605,
+          "lng": 106.801116,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "19",
+            "33",
+            "53",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 2145,
+          "code": "QTD 179",
+          "name": "Thảo Nguyên",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "35B",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.865335,
+          "lng": 106.793938,
+          "routes": [
+            "164V",
+            "19",
+            "33",
+            "50",
+            "52",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 500,
+          "code": "QTD 180",
+          "name": "Đại học Nông Lâm",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "85 (Đối diện 1026-1028)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.866961,
+          "lng": 106.791101,
+          "routes": [
+            "06",
+            "164D",
+            "164V",
+            "170",
+            "19",
+            "33",
+            "50",
+            "52",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1101,
+          "code": "QTD 181",
+          "name": "ĐH Nông Lâm",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Kế 21",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.867404,
+          "lng": 106.787265,
+          "routes": [
+            "167D",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1102,
+          "code": "QTD 182",
+          "name": "Công ty điện tử Samsung",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "34/38 (Kế 59/6)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.867867,
+          "lng": 106.782201,
+          "routes": [
+            "167D",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1103,
+          "code": "QTD 183",
+          "name": "Đại học Kinh tế -Luật",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Xuân",
+          "address": "Đại học Kinh tế -Luật",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.869427,
+          "lng": 106.77726,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 2142,
+          "code": "QTD 184",
+          "name": "Trung tâm kho vận Linh Xuân",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Xuân",
+          "address": "Trung tâm kho vận Linh Xuân",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.870254,
+          "lng": 106.774932,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 2147,
+          "code": "QTD 185",
+          "name": "Nghĩa trang Thành phố",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Xuân",
+          "address": "Cột điện NG/1",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871313,
+          "lng": 106.771671,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 2143,
+          "code": "QTD 186",
+          "name": "Công ty Nissan",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Đối diện công ty Nissan (559)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.872419,
+          "lng": 106.768248,
+          "routes": [
+            "167V",
+            "19",
+            "33",
+            "50",
+            "53",
+            "60-1",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 339,
+          "code": "QTD 187",
+          "name": "Cầu vượt Linh Xuân",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Xuân",
+          "address": "467B",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.874474,
+          "lng": 106.762095,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 341,
+          "code": "QTD 188",
+          "name": "Giày Thái Bình-Bình Đường",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "467B",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "Không có",
+          "lat": 10.875454,
+          "lng": 106.758689,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 343,
+          "code": "QTD 189",
+          "name": "Giày Thái Bình",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Trường Thọ",
+          "address": "Đối diện 22/8",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.875738,
+          "lng": 106.757305,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 342,
+          "code": "QTD 190",
+          "name": "Bến xe Lam Hồng",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "12A/28",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.876049,
+          "lng": 106.755631,
+          "routes": [
+            "05",
+            "19",
+            "33",
+            "60-1",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9005,
+          "code": "BD-0720",
+          "name": "Công ty CP TM Monterosa - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty CP TM Monterosa - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.879671,
+          "lng": 106.748418,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9006,
+          "code": "BD-0721",
+          "name": "Tổng kho Sóng Thần số 7 đại lộ độc lập - Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Tổng kho Sóng Thần số 7 đại lộ độc lập - Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.882581,
+          "lng": 106.745701,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8838,
+          "code": "BD-0584",
+          "name": "BV Quân đoàn 4",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "BV Quân đoàn 4",
+          "street": "ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.890198,
+          "lng": 106.739881,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9003,
+          "code": "BD-0718",
+          "name": "Công ty giày da An Thịnh - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty giày da An Thịnh - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.895724,
+          "lng": 106.740192,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9016,
+          "code": "BD-0731",
+          "name": "Cây xăng số 14 - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cây xăng số 14 - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.903231,
+          "lng": 106.740627,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9017,
+          "code": "BD-0732",
+          "name": "Công ty giày Asama - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty giày Asama - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.912612,
+          "lng": 106.741109,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9018,
+          "code": "BD-0733",
+          "name": "Công ty Jsc -  743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Jsc -  743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.923136,
+          "lng": 106.74171,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8839,
+          "code": "BD-0585",
+          "name": "Ngã 3 Tân Đông Hiệp",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã 3 Tân Đông Hiệp",
+          "street": "ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.929542,
+          "lng": 106.742146,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9019,
+          "code": "BD-0734",
+          "name": "Phòng khám đa khoa Bình An - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phòng khám đa khoa Bình An - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.936715,
+          "lng": 106.742349,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9020,
+          "code": "BD-0735",
+          "name": "Công điện trường 23/1 - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công điện trường 23/1 - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.943525,
+          "lng": 106.742359,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9021,
+          "code": "BD-0736",
+          "name": "Chùa Long Bửu - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chùa Long Bửu - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.95369,
+          "lng": 106.742209,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9023,
+          "code": "BD-0738",
+          "name": "Công ty TNHH Nhật Tường - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH Nhật Tường - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.961332,
+          "lng": 106.742129,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8992,
+          "code": "BD-0707",
+          "name": "Công ty Acecook - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty Acecook - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.961858,
+          "lng": 106.742123,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8991,
+          "code": "BD-0706",
+          "name": "Xe đạp điện Thanh Trúc - 56a/2 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Xe đạp điện Thanh Trúc - 56a/2 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.966124,
+          "lng": 106.742123,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8990,
+          "code": "BD-0705",
+          "name": "Công ty TNHH TMDV Triệu Vân 21/15 - Miếu ông Cù -> Sóng Thần",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH TMDV Triệu Vân 21/15 - Miếu ông Cù -> Sóng Thần",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.971401,
+          "lng": 106.742038,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9025,
+          "code": "BD-0740",
+          "name": "Nhà sách Huy Chương - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà sách Huy Chương - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.972218,
+          "lng": 106.742032,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9026,
+          "code": "BD-0741",
+          "name": "Nội thất Quốc Khánh - 743 -> Sóng Thần -> Miếu ông Cù",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nội thất Quốc Khánh - 743 -> Sóng Thần -> Miếu ông Cù",
+          "street": "DT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.975119,
+          "lng": 106.741812,
+          "routes": [
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8821,
+          "code": "BD-0567",
+          "name": "Miếu ông cù - đối diện",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Miếu ông cù - đối diện",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.978074,
+          "lng": 106.739216,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8874,
+          "code": "BD-0370",
+          "name": "Mẫu giáo Nai Vàng",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Mẫu giáo Nai Vàng",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.980012,
+          "lng": 106.732194,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8818,
+          "code": "BD-0564",
+          "name": "Trường mẫu giáo gần ngã tư Bình Chuẩn",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Trường mẫu giáo gần ngã tư Bình Chuẩn",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983872,
+          "lng": 106.723589,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9124,
+          "code": "BD-0372",
+          "name": "Công ty thép Việt Bình Dương",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty thép Việt Bình Dương",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.985783,
+          "lng": 106.714797,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9138,
+          "code": "BD-0373",
+          "name": "Cách ngã 3 Bình Qưới 100m",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cách ngã 3 Bình Qưới 100m",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.986894,
+          "lng": 106.709379,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9194,
+          "code": "BD-0374",
+          "name": "(Đối diện) Văn phòng khu phố Bình Quới",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "(Đối diện) Văn phòng khu phố Bình Quới",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.987816,
+          "lng": 106.705023,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9210,
+          "code": "BD-0375",
+          "name": "Số nhà 615 Phú Lợi",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Số nhà 615 Phú Lợi",
+          "street": "ĐT743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.988137,
+          "lng": 106.69199,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8809,
+          "code": "BD-0556",
+          "name": "Bảo hiểm xã hội",
+          "type": "Nhà chờ",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Bảo hiểm xã hội",
+          "street": "Đường ĐT 743",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983248,
+          "lng": 106.676963,
+          "routes": [
+            "60-18",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8941,
+          "code": "BD-0656",
+          "name": "Công ty TNHH Thành lễ",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH Thành lễ",
+          "street": "Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983914,
+          "lng": 106.664779,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8909,
+          "code": "BD-0621",
+          "name": "Công an thị xã TDM",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công an thị xã TDM",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.983687,
+          "lng": 106.663497,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9230,
+          "code": "BD-0938",
+          "name": "Cổng khu phố 1 tổ 6,7 hẻm 81",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cổng khu phố 1 tổ 6,7 hẻm 81",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982418,
+          "lng": 106.659737,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9229,
+          "code": "BD-0937",
+          "name": "Nhà phân phối nước khoáng Vĩnh Hảo",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà phân phối nước khoáng Vĩnh Hảo",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982424,
+          "lng": 106.659259,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9228,
+          "code": "BD-0936",
+          "name": "Garage Lê Tuấn",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Garage Lê Tuấn",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982455,
+          "lng": 106.659012,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8908,
+          "code": "BD-0620",
+          "name": "Công ty TNHH TM_DV Khánh Hà",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công ty TNHH TM_DV Khánh Hà",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.982129,
+          "lng": 106.657945,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 9227,
+          "code": "BD-0935",
+          "name": "Ban quản lý dự án  thị xả TDM",
+          "type": "Trụ dừng",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ban quản lý dự án  thị xả TDM",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981634,
+          "lng": 106.656443,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8906,
+          "code": "BD-0618",
+          "name": "Phòng cảnh sát Hình sự",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phòng cảnh sát Hình sự",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981665,
+          "lng": 106.656239,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8905,
+          "code": "BD-0617",
+          "name": "Phòng cảnh sát Giao thông",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Phòng cảnh sát Giao thông",
+          "street": "Đường Yersin",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.981707,
+          "lng": 106.655847,
+          "routes": [
+            "61-4",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8891,
+          "code": "BD-0603",
+          "name": "Đối diện chùa bà cửa hàng PH phone",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đối diện chùa bà cửa hàng PH phone",
+          "street": "Cách mạng tháng 8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.98028,
+          "lng": 106.65412,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8325,
+          "code": "BD-0025",
+          "name": "Chùa Bà Thiên Hậu",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Chùa Bà Thiên Hậu",
+          "street": "CMT8",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.980237,
+          "lng": 106.65423,
+          "routes": [
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8323,
+          "code": "BD-0023",
+          "name": "Đối diện Công viên Phú Cường",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Công viên Phú Cường",
+          "street": "Đường CMT8",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.978616,
+          "lng": 106.655928,
+          "routes": [
+            "60-18",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8321,
+          "code": "BD-0021",
+          "name": "Nhà sách Bình Minh",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Nhà sách Bình Minh",
+          "street": "CMT8",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.975938,
+          "lng": 106.657834,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8843,
+          "code": "BD-0522",
+          "name": "Đài liệt sĩ phường Chánh nghĩa",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Đài liệt sĩ phường Chánh nghĩa",
+          "street": "Đường CMT8, ngã tư Phú Văn đi Mũi Tàu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.97355,
+          "lng": 106.659313,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8319,
+          "code": "BD-0019",
+          "name": "Ngã ba Lò Chén",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Ngã ba Lò Chén",
+          "street": "Đường CMT8",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.968552,
+          "lng": 106.660729,
+          "routes": [
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-52",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8876,
+          "code": "BD-0588",
+          "name": "Cửa hàng vi tính Chíp",
+          "type": "Ô sơn",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Cửa hàng vi tính Chíp",
+          "street": "Cách mạng tháng 8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.967262,
+          "lng": 106.664248,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 8631,
+          "code": "BD-0342",
+          "name": "Điện lực Bình Dương",
+          "type": "Trụ - hộp thông tin",
+          "zone": "Bình Dương",
+          "ward": null,
+          "address": "Điện lực Bình Dương",
+          "street": "Cách mạng tháng 8",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.966077,
+          "lng": 106.666195,
+          "routes": [
+            "60-18",
+            "61-2",
+            "61-4",
+            "61-51",
+            "61-53",
+            "61-9"
+          ]
+        },
+        {
+          "stop_id": 7257,
+          "code": "BXLT Thu Dau Mot",
+          "name": "Bến xe khách Bình Dương",
+          "type": "Bến xe",
+          "zone": "Ngoại thành",
+          "ward": null,
+          "address": "Bến xe khách Bình Dương",
+          "street": "Đường 30 tháng 4",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.96564,
+          "lng": 106.668524,
+          "routes": [
+            "60-15",
+            "61-2",
+            "61-3",
+            "61-4",
+            "61-8",
+            "61-9"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 91,
+          "start_time": "05:30",
+          "end_time": "06:55"
+        },
+        {
+          "trip_id": 92,
+          "start_time": "07:00",
+          "end_time": "08:25"
+        },
+        {
+          "trip_id": 93,
+          "start_time": "07:45",
+          "end_time": "09:10"
+        },
+        {
+          "trip_id": 94,
+          "start_time": "09:10",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 95,
+          "start_time": "10:30",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 96,
+          "start_time": "11:40",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 97,
+          "start_time": "12:55",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 98,
+          "start_time": "14:15",
+          "end_time": "15:40"
+        },
+        {
+          "trip_id": 99,
+          "start_time": "15:15",
+          "end_time": "16:40"
+        },
+        {
+          "trip_id": 100,
+          "start_time": "16:30",
+          "end_time": "17:55"
+        },
+        {
+          "trip_id": 101,
+          "start_time": "17:50",
+          "end_time": "19:15"
+        }
+      ]
+    }
+  }
+}

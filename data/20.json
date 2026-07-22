@@ -1,0 +1,3756 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 42,
+    "crawled_at": "2026-07-23T00:26:49"
+  },
+  "data": {
+    "route": {
+      "id": 42,
+      "bus_no": "20",
+      "name": "Bến Thành - Nhà Bè",
+      "color": "#000080",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 16930.0,
+      "num_of_seats": "40 - 65",
+      "operators": [
+        "Công ty Cổ phần vận tải 26, ĐT: 028.6683.2179"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 6000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 135000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 50,
+        "max": 50
+      },
+      "headway_minutes": {
+        "min": 5,
+        "max": 17
+      },
+      "operation_time": {
+        "start": "04:20",
+        "end": "21:15"
+      },
+      "total_trip": {
+        "value": 300,
+        "unit": "TPD"
+      },
+      "outbound_name": "Nhà Bè",
+      "outbound_description": [
+        "Bến xe buýt Sài Gòn – Đường Phạm Ngũ Lão – Đường Yersin – Đường Trần Hưng Đạo – Đường Hàm Nghi – Đường Tôn Đức Thắng – Cầu Khánh Hội – Đường Nguyễn Tất Thành – Cầu Tân Thuận 2 – Đường Nguyễn Văn Linh – Đường Huỳnh Tấn Phát – Bến xe buýt Bình Khánh"
+      ],
+      "inbound_name": "Bến Thành",
+      "inbound_description": [
+        "Bến xe buýt Bình Khánh – Đường Huỳnh Tấn Phát – Đường Nguyễn Văn Linh – Cầu Tân Thuận 2 – Đường Nguyễn Tất Thành – Đường Hoàng Diệu – Cầu Calmette – nhánh rẻ phải trên cầu Calmette",
+        "Đường Võ Văn Kiệt",
+        "Đường Pasteur – Đường Hàm Nghi – Đường Lê Lai – Bến xe buýt Sài Gòn"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 83,
+        "name": "Lượt đi: Bến xe buýt Sài Gòn - Bình Khánh",
+        "short_name": "Nhà Bè",
+        "start_stop": "Bến xe buýt Sài Gòn",
+        "end_stop": "Bến xe buýt Bình Khánh",
+        "distance_m": 16855.000000000004,
+        "running_time_minutes": 50,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 79,
+        "route_var_id": 83,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 50,
+          "max": 50
+        },
+        "headway_minutes": {
+          "min": 5,
+          "max": 17
+        },
+        "total_trip": 150,
+        "operation_time": {
+          "start": "04:20",
+          "end": "21:15"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 35,
+          "code": "BX 01",
+          "name": "Bến xe buýt Sài Gòn",
+          "type": "Bến xe",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "BẾN XE BUÝT SÀI GÒN",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.767676,
+          "lng": 106.689362,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "27",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL04",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 7276,
+          "code": "Q1 190",
+          "name": "Tôn Thất Tùng",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "277-279-275Y",
+          "street": "Phạm Ngũ Lão",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.76767,
+          "lng": 106.690941,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "156V",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "28",
+            "34",
+            "36",
+            "39",
+            "46",
+            "52",
+            "65",
+            "69",
+            "72",
+            "72-2B",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03"
+          ]
+        },
+        {
+          "stop_id": 7277,
+          "code": "Q1 191",
+          "name": "Nguyễn Thị Nghĩa",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "187",
+          "street": "Phạm Ngũ Lão",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.768788,
+          "lng": 106.693699,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "156V",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "28",
+            "34",
+            "36",
+            "39",
+            "46",
+            "52",
+            "65",
+            "69",
+            "72",
+            "72-2B",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 7278,
+          "code": "Q1 192",
+          "name": "Trường Emst Thalmann",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "Trường Emst Thalmann",
+          "street": "Phạm Ngũ Lão",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.769504,
+          "lng": 106.695587,
+          "routes": [
+            "03",
+            "04",
+            "109",
+            "13",
+            "156V",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72-2B",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03"
+          ]
+        },
+        {
+          "stop_id": 4275,
+          "code": "Q1 161",
+          "name": "Trạm Trung chuyển trên đường Hàm Nghi",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "Hàm Nghi 15 (99)",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.77079,
+          "lng": 106.70101,
+          "routes": [
+            "102",
+            "20",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 7693,
+          "code": "Q1 1950",
+          "name": "Nam Kỳ Khởi Nghĩa",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "93-95",
+          "street": "Hàm Nghi",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.770875,
+          "lng": 106.701354,
+          "routes": [
+            "01",
+            "03",
+            "04",
+            "109",
+            "152",
+            "155",
+            "18",
+            "19",
+            "20",
+            "31",
+            "36",
+            "45",
+            "52",
+            "53",
+            "56",
+            "75",
+            "88",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 1256,
+          "code": "Q1 195",
+          "name": "Chợ Cũ",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "89A",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.770811,
+          "lng": 106.701998,
+          "routes": [
+            "03",
+            "04",
+            "109",
+            "152",
+            "155",
+            "18",
+            "19",
+            "20",
+            "31",
+            "36",
+            "45",
+            "52",
+            "53",
+            "56",
+            "75",
+            "86",
+            "88",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 7588,
+          "code": "Q1 200",
+          "name": "Giao lộ Hàm Nghi - Tôn Thất Đạm",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "81-83-83B",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.77078,
+          "lng": 106.703038,
+          "routes": [
+            "01",
+            "03",
+            "19",
+            "20",
+            "45",
+            "53",
+            "56",
+            "75",
+            "88"
+          ]
+        },
+        {
+          "stop_id": 32,
+          "code": "Q1 017",
+          "name": "Hồ Tùng Mậu",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "67",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.770722,
+          "lng": 106.704074,
+          "routes": [
+            "01",
+            "03",
+            "19",
+            "20",
+            "45",
+            "53",
+            "56",
+            "75",
+            "88",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 2114,
+          "code": "Q1 018",
+          "name": "Tòa nhà Bitexco",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "31-33-35",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.770685,
+          "lng": 106.704792,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2115,
+          "code": "Q1 019",
+          "name": "Cục Hải Quan Thành Phố",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Nguyễn Thái Bình",
+          "address": "1",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.770637,
+          "lng": 106.705785,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2116,
+          "code": "Q4 026",
+          "name": "Đại học Luật",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "8A",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.767288,
+          "lng": 106.706032,
+          "routes": [
+            "155",
+            "20",
+            "75",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 855,
+          "code": "Q4 027",
+          "name": "Bưu Điện Quận 4",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "136-138",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.76385,
+          "lng": 106.70763,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 857,
+          "code": "Q4 028",
+          "name": "Đại học Nguyễn Tất Thành",
+          "type": "Nhà chờ",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "276",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.7618,
+          "lng": 106.70932,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 858,
+          "code": "Q4 029",
+          "name": "Trường Nguyễn Trãi",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "428",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.759423,
+          "lng": 106.713359,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 860,
+          "code": "Q4 030",
+          "name": "Cảng Sài Gòn",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "456",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.7579,
+          "lng": 106.715977,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 843,
+          "code": "Q7 104",
+          "name": "Khu chế xuất Tân Thuận",
+          "type": "Nhà chờ",
+          "zone": "Quận 7",
+          "ward": null,
+          "address": "33 (Đối diện 49/2)",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.752498,
+          "lng": 106.727414,
+          "routes": [
+            "20",
+            "34",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2122,
+          "code": "Q7 004",
+          "name": "Khu chế xuất Tân Thuận",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Thuận Tây",
+          "address": "298",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.75166,
+          "lng": 106.728428,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2123,
+          "code": "Q7 005",
+          "name": "Bùi Văn Ba",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Bình Thuận",
+          "address": "338",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.749151,
+          "lng": 106.728643,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2125,
+          "code": "Q7 006",
+          "name": "Nhà tưởng niệm Bác Hồ",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Bình Thuận",
+          "address": "448A",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.74575,
+          "lng": 106.729088,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2124,
+          "code": "Q7 007",
+          "name": "Trường Huỳnh Tấn Phát",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Bình Thuận",
+          "address": "488",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.742901,
+          "lng": 106.729485,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2126,
+          "code": "Q7 008",
+          "name": "Nghĩa trang liệt sỹ Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Bình Thuận",
+          "address": "Nghĩa trang liệt sỹ Nhà Bè",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.740381,
+          "lng": 106.729876,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2130,
+          "code": "Q7 009",
+          "name": "Cầu Phú Mỹ",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Phú",
+          "address": "560 (16/8)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.736803,
+          "lng": 106.730434,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2186,
+          "code": "Q7 034",
+          "name": "Khu phố 2",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Phú",
+          "address": "704",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.734294,
+          "lng": 106.730751,
+          "routes": [
+            "20"
+          ]
+        },
+        {
+          "stop_id": 2127,
+          "code": "Q7 010",
+          "name": "Phú Thuận",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Phú",
+          "address": "748",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.731337,
+          "lng": 106.731652,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2128,
+          "code": "Q7 012",
+          "name": "Gò Ô Môi",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "864",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.728433,
+          "lng": 106.732677,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2132,
+          "code": "Q7 013",
+          "name": "Khu phố 3",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": null,
+          "address": "936",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.724986,
+          "lng": 106.734302,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2131,
+          "code": "Q7 014",
+          "name": "Mầm non Ban Mai",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1004A",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.722836,
+          "lng": 106.735412,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2135,
+          "code": "Q7 015",
+          "name": "Ban chỉ huy Quân sự Quận 7",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1092-1094",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.720833,
+          "lng": 106.736378,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2133,
+          "code": "Q7 016",
+          "name": "Trường Nguyễn Văn Hưởng",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1166",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.71884,
+          "lng": 106.736593,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2136,
+          "code": "Q7 017",
+          "name": "Nhà sách Nguyễn Văn Cừ",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1260",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.7166,
+          "lng": 106.736732,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2134,
+          "code": "Q7 018",
+          "name": "Hoàng Quốc Việt",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1312",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.714782,
+          "lng": 106.736813,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1362,
+          "code": "Q7 019",
+          "name": "Trường Ngô Quyền",
+          "type": "Nhà chờ",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1360",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.712974,
+          "lng": 106.736904,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1358,
+          "code": "Q7 020",
+          "name": "An Chánh Dương",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1400",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.711002,
+          "lng": 106.737016,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1360,
+          "code": "Q7 021",
+          "name": "Chùa Pháp Hoa",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1452",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.708958,
+          "lng": 106.737152,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1366,
+          "code": "Q7 022",
+          "name": "Phạm Hữu Lầu",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1520-1522",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.705626,
+          "lng": 106.737427,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1055,
+          "code": "HNB 001",
+          "name": "Chợ Phú Xuân",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1678-1680 (26/1-26/2)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.701088,
+          "lng": 106.73817,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1147,
+          "code": "HNB 028",
+          "name": "Nha khoa Khánh Minh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1901B",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6984,
+          "lng": 106.738785,
+          "routes": [
+            "110",
+            "20"
+          ]
+        },
+        {
+          "stop_id": 1058,
+          "code": "HNB 003",
+          "name": "Công an Thị trấn Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "242 (42/7)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695869,
+          "lng": 106.739666,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1061,
+          "code": "HNB 004",
+          "name": "Trường Lâm Văn Bền",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "57/4",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.69345,
+          "lng": 106.740546,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1063,
+          "code": "HNB 005",
+          "name": "Chùa Lá",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "Kế 4/11C",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.690113,
+          "lng": 106.741694,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1060,
+          "code": "HNB 006",
+          "name": "Ngân hàng Agribank",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "2132",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.686992,
+          "lng": 106.743314,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1065,
+          "code": "HNB 007",
+          "name": "Chùa Pháp Võ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "536",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.683998,
+          "lng": 106.74538,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1062,
+          "code": "HNB 008",
+          "name": "Đào Tông Nguyên",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "Đối diện 23/5",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.682021,
+          "lng": 106.746764,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1066,
+          "code": "HNB 009",
+          "name": "Công Tiến Thọ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2374 (15/6B)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.679275,
+          "lng": 106.750803,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1064,
+          "code": "HNB 010",
+          "name": "Ngã Ba Bờ Đăng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "12/8H",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6784,
+          "lng": 106.753196,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2138,
+          "code": "HNB 011",
+          "name": "Ủy ban xã Phú Xuân",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2524 (790B)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.677925,
+          "lng": 106.754419,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2137,
+          "code": "HNB 012",
+          "name": "Việt Long Sài Gòn",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "Công ty Việt Long Sài Gòn",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.676897,
+          "lng": 106.757192,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2141,
+          "code": "HNB 013",
+          "name": "Trường Lê Văn Hưu",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "Đối diện 74/4B",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.675922,
+          "lng": 106.759611,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2139,
+          "code": "HNB 014",
+          "name": "Chùa Bà Châu Đốc 2",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2864",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.674752,
+          "lng": 106.76268,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2144,
+          "code": "HNB 015",
+          "name": "Phà Bình Khánh",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2756",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673761,
+          "lng": 106.765233,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2140,
+          "code": "BX 72",
+          "name": "Bến xe buýt Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "BẾN XE BUÝT BÌNH KHÁNH",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673856,
+          "lng": 106.766263,
+          "routes": [
+            "20"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 20226,
+          "start_time": "04:20",
+          "end_time": "05:10"
+        },
+        {
+          "trip_id": 20227,
+          "start_time": "04:30",
+          "end_time": "05:20"
+        },
+        {
+          "trip_id": 20228,
+          "start_time": "04:40",
+          "end_time": "05:30"
+        },
+        {
+          "trip_id": 20229,
+          "start_time": "04:47",
+          "end_time": "05:37"
+        },
+        {
+          "trip_id": 20230,
+          "start_time": "04:54",
+          "end_time": "05:44"
+        },
+        {
+          "trip_id": 20231,
+          "start_time": "05:01",
+          "end_time": "05:51"
+        },
+        {
+          "trip_id": 20232,
+          "start_time": "05:08",
+          "end_time": "05:58"
+        },
+        {
+          "trip_id": 20233,
+          "start_time": "05:15",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 20234,
+          "start_time": "05:22",
+          "end_time": "06:12"
+        },
+        {
+          "trip_id": 20235,
+          "start_time": "05:28",
+          "end_time": "06:18"
+        },
+        {
+          "trip_id": 20236,
+          "start_time": "05:34",
+          "end_time": "06:24"
+        },
+        {
+          "trip_id": 20237,
+          "start_time": "05:40",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 20238,
+          "start_time": "05:46",
+          "end_time": "06:36"
+        },
+        {
+          "trip_id": 20239,
+          "start_time": "05:52",
+          "end_time": "06:42"
+        },
+        {
+          "trip_id": 20240,
+          "start_time": "05:58",
+          "end_time": "06:48"
+        },
+        {
+          "trip_id": 20241,
+          "start_time": "06:04",
+          "end_time": "06:54"
+        },
+        {
+          "trip_id": 20242,
+          "start_time": "06:10",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 20243,
+          "start_time": "06:16",
+          "end_time": "07:06"
+        },
+        {
+          "trip_id": 20244,
+          "start_time": "06:22",
+          "end_time": "07:12"
+        },
+        {
+          "trip_id": 20245,
+          "start_time": "06:28",
+          "end_time": "07:18"
+        },
+        {
+          "trip_id": 20246,
+          "start_time": "06:34",
+          "end_time": "07:24"
+        },
+        {
+          "trip_id": 20247,
+          "start_time": "06:40",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 20248,
+          "start_time": "06:46",
+          "end_time": "07:36"
+        },
+        {
+          "trip_id": 20249,
+          "start_time": "06:52",
+          "end_time": "07:42"
+        },
+        {
+          "trip_id": 20250,
+          "start_time": "06:58",
+          "end_time": "07:48"
+        },
+        {
+          "trip_id": 20251,
+          "start_time": "07:04",
+          "end_time": "07:54"
+        },
+        {
+          "trip_id": 20252,
+          "start_time": "07:10",
+          "end_time": "08:00"
+        },
+        {
+          "trip_id": 20253,
+          "start_time": "07:16",
+          "end_time": "08:06"
+        },
+        {
+          "trip_id": 20254,
+          "start_time": "07:23",
+          "end_time": "08:13"
+        },
+        {
+          "trip_id": 20255,
+          "start_time": "07:30",
+          "end_time": "08:20"
+        },
+        {
+          "trip_id": 20256,
+          "start_time": "07:37",
+          "end_time": "08:27"
+        },
+        {
+          "trip_id": 20257,
+          "start_time": "07:44",
+          "end_time": "08:34"
+        },
+        {
+          "trip_id": 20258,
+          "start_time": "07:51",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 20259,
+          "start_time": "07:58",
+          "end_time": "08:48"
+        },
+        {
+          "trip_id": 20260,
+          "start_time": "08:05",
+          "end_time": "08:55"
+        },
+        {
+          "trip_id": 20261,
+          "start_time": "08:12",
+          "end_time": "09:02"
+        },
+        {
+          "trip_id": 20262,
+          "start_time": "08:19",
+          "end_time": "09:09"
+        },
+        {
+          "trip_id": 20263,
+          "start_time": "08:26",
+          "end_time": "09:16"
+        },
+        {
+          "trip_id": 20264,
+          "start_time": "08:33",
+          "end_time": "09:23"
+        },
+        {
+          "trip_id": 20265,
+          "start_time": "08:40",
+          "end_time": "09:30"
+        },
+        {
+          "trip_id": 20266,
+          "start_time": "08:47",
+          "end_time": "09:37"
+        },
+        {
+          "trip_id": 20267,
+          "start_time": "08:54",
+          "end_time": "09:44"
+        },
+        {
+          "trip_id": 20268,
+          "start_time": "09:01",
+          "end_time": "09:51"
+        },
+        {
+          "trip_id": 20269,
+          "start_time": "09:08",
+          "end_time": "09:58"
+        },
+        {
+          "trip_id": 20270,
+          "start_time": "09:15",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 20271,
+          "start_time": "09:22",
+          "end_time": "10:12"
+        },
+        {
+          "trip_id": 20272,
+          "start_time": "09:29",
+          "end_time": "10:19"
+        },
+        {
+          "trip_id": 20273,
+          "start_time": "09:36",
+          "end_time": "10:26"
+        },
+        {
+          "trip_id": 20274,
+          "start_time": "09:43",
+          "end_time": "10:33"
+        },
+        {
+          "trip_id": 20275,
+          "start_time": "09:50",
+          "end_time": "10:40"
+        },
+        {
+          "trip_id": 20276,
+          "start_time": "09:57",
+          "end_time": "10:47"
+        },
+        {
+          "trip_id": 20277,
+          "start_time": "10:04",
+          "end_time": "10:54"
+        },
+        {
+          "trip_id": 20278,
+          "start_time": "10:11",
+          "end_time": "11:01"
+        },
+        {
+          "trip_id": 20279,
+          "start_time": "10:18",
+          "end_time": "11:08"
+        },
+        {
+          "trip_id": 20280,
+          "start_time": "10:25",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 20281,
+          "start_time": "10:32",
+          "end_time": "11:22"
+        },
+        {
+          "trip_id": 20282,
+          "start_time": "10:39",
+          "end_time": "11:29"
+        },
+        {
+          "trip_id": 20283,
+          "start_time": "10:46",
+          "end_time": "11:36"
+        },
+        {
+          "trip_id": 20284,
+          "start_time": "10:53",
+          "end_time": "11:43"
+        },
+        {
+          "trip_id": 20285,
+          "start_time": "11:00",
+          "end_time": "11:50"
+        },
+        {
+          "trip_id": 20286,
+          "start_time": "11:05",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 20287,
+          "start_time": "11:10",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 20288,
+          "start_time": "11:15",
+          "end_time": "12:05"
+        },
+        {
+          "trip_id": 20289,
+          "start_time": "11:20",
+          "end_time": "12:10"
+        },
+        {
+          "trip_id": 20290,
+          "start_time": "11:25",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 20291,
+          "start_time": "11:30",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 20292,
+          "start_time": "11:35",
+          "end_time": "12:25"
+        },
+        {
+          "trip_id": 20293,
+          "start_time": "11:40",
+          "end_time": "12:30"
+        },
+        {
+          "trip_id": 20294,
+          "start_time": "11:45",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 20295,
+          "start_time": "11:50",
+          "end_time": "12:40"
+        },
+        {
+          "trip_id": 20296,
+          "start_time": "11:55",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 20297,
+          "start_time": "12:00",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 20298,
+          "start_time": "12:07",
+          "end_time": "12:57"
+        },
+        {
+          "trip_id": 20299,
+          "start_time": "12:14",
+          "end_time": "13:04"
+        },
+        {
+          "trip_id": 20300,
+          "start_time": "12:21",
+          "end_time": "13:11"
+        },
+        {
+          "trip_id": 20301,
+          "start_time": "12:28",
+          "end_time": "13:18"
+        },
+        {
+          "trip_id": 20302,
+          "start_time": "12:35",
+          "end_time": "13:25"
+        },
+        {
+          "trip_id": 20303,
+          "start_time": "12:42",
+          "end_time": "13:32"
+        },
+        {
+          "trip_id": 20304,
+          "start_time": "12:49",
+          "end_time": "13:39"
+        },
+        {
+          "trip_id": 20305,
+          "start_time": "12:56",
+          "end_time": "13:46"
+        },
+        {
+          "trip_id": 20306,
+          "start_time": "13:03",
+          "end_time": "13:53"
+        },
+        {
+          "trip_id": 20307,
+          "start_time": "13:10",
+          "end_time": "14:00"
+        },
+        {
+          "trip_id": 20308,
+          "start_time": "13:17",
+          "end_time": "14:07"
+        },
+        {
+          "trip_id": 20309,
+          "start_time": "13:24",
+          "end_time": "14:14"
+        },
+        {
+          "trip_id": 20310,
+          "start_time": "13:31",
+          "end_time": "14:21"
+        },
+        {
+          "trip_id": 20311,
+          "start_time": "13:38",
+          "end_time": "14:28"
+        },
+        {
+          "trip_id": 20312,
+          "start_time": "13:45",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 20313,
+          "start_time": "13:52",
+          "end_time": "14:42"
+        },
+        {
+          "trip_id": 20314,
+          "start_time": "13:59",
+          "end_time": "14:49"
+        },
+        {
+          "trip_id": 20315,
+          "start_time": "14:06",
+          "end_time": "14:56"
+        },
+        {
+          "trip_id": 20316,
+          "start_time": "14:13",
+          "end_time": "15:03"
+        },
+        {
+          "trip_id": 20317,
+          "start_time": "14:20",
+          "end_time": "15:10"
+        },
+        {
+          "trip_id": 20318,
+          "start_time": "14:27",
+          "end_time": "15:17"
+        },
+        {
+          "trip_id": 20319,
+          "start_time": "14:34",
+          "end_time": "15:24"
+        },
+        {
+          "trip_id": 20320,
+          "start_time": "14:41",
+          "end_time": "15:31"
+        },
+        {
+          "trip_id": 20321,
+          "start_time": "14:48",
+          "end_time": "15:38"
+        },
+        {
+          "trip_id": 20322,
+          "start_time": "14:55",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 20323,
+          "start_time": "15:02",
+          "end_time": "15:52"
+        },
+        {
+          "trip_id": 20324,
+          "start_time": "15:09",
+          "end_time": "15:59"
+        },
+        {
+          "trip_id": 20325,
+          "start_time": "15:16",
+          "end_time": "16:06"
+        },
+        {
+          "trip_id": 20326,
+          "start_time": "15:23",
+          "end_time": "16:13"
+        },
+        {
+          "trip_id": 20327,
+          "start_time": "15:30",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 20328,
+          "start_time": "15:37",
+          "end_time": "16:27"
+        },
+        {
+          "trip_id": 20329,
+          "start_time": "15:44",
+          "end_time": "16:34"
+        },
+        {
+          "trip_id": 20330,
+          "start_time": "15:51",
+          "end_time": "16:41"
+        },
+        {
+          "trip_id": 20331,
+          "start_time": "15:56",
+          "end_time": "16:46"
+        },
+        {
+          "trip_id": 20332,
+          "start_time": "16:01",
+          "end_time": "16:51"
+        },
+        {
+          "trip_id": 20333,
+          "start_time": "16:06",
+          "end_time": "16:56"
+        },
+        {
+          "trip_id": 20334,
+          "start_time": "16:11",
+          "end_time": "17:01"
+        },
+        {
+          "trip_id": 20335,
+          "start_time": "16:16",
+          "end_time": "17:06"
+        },
+        {
+          "trip_id": 20336,
+          "start_time": "16:21",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 20337,
+          "start_time": "16:26",
+          "end_time": "17:16"
+        },
+        {
+          "trip_id": 20338,
+          "start_time": "16:31",
+          "end_time": "17:21"
+        },
+        {
+          "trip_id": 20339,
+          "start_time": "16:36",
+          "end_time": "17:26"
+        },
+        {
+          "trip_id": 20340,
+          "start_time": "16:41",
+          "end_time": "17:31"
+        },
+        {
+          "trip_id": 20341,
+          "start_time": "16:46",
+          "end_time": "17:36"
+        },
+        {
+          "trip_id": 20342,
+          "start_time": "16:51",
+          "end_time": "17:41"
+        },
+        {
+          "trip_id": 20343,
+          "start_time": "16:56",
+          "end_time": "17:46"
+        },
+        {
+          "trip_id": 20344,
+          "start_time": "17:01",
+          "end_time": "17:51"
+        },
+        {
+          "trip_id": 20345,
+          "start_time": "17:06",
+          "end_time": "17:56"
+        },
+        {
+          "trip_id": 20346,
+          "start_time": "17:11",
+          "end_time": "18:01"
+        },
+        {
+          "trip_id": 20347,
+          "start_time": "17:16",
+          "end_time": "18:06"
+        },
+        {
+          "trip_id": 20348,
+          "start_time": "17:21",
+          "end_time": "18:11"
+        },
+        {
+          "trip_id": 20349,
+          "start_time": "17:26",
+          "end_time": "18:16"
+        },
+        {
+          "trip_id": 20350,
+          "start_time": "17:31",
+          "end_time": "18:21"
+        },
+        {
+          "trip_id": 20351,
+          "start_time": "17:36",
+          "end_time": "18:26"
+        },
+        {
+          "trip_id": 20352,
+          "start_time": "17:41",
+          "end_time": "18:31"
+        },
+        {
+          "trip_id": 20353,
+          "start_time": "17:46",
+          "end_time": "18:36"
+        },
+        {
+          "trip_id": 20354,
+          "start_time": "17:51",
+          "end_time": "18:41"
+        },
+        {
+          "trip_id": 20355,
+          "start_time": "17:56",
+          "end_time": "18:46"
+        },
+        {
+          "trip_id": 20356,
+          "start_time": "18:03",
+          "end_time": "18:53"
+        },
+        {
+          "trip_id": 20357,
+          "start_time": "18:10",
+          "end_time": "19:00"
+        },
+        {
+          "trip_id": 20358,
+          "start_time": "18:17",
+          "end_time": "19:07"
+        },
+        {
+          "trip_id": 20359,
+          "start_time": "18:24",
+          "end_time": "19:14"
+        },
+        {
+          "trip_id": 20360,
+          "start_time": "18:31",
+          "end_time": "19:21"
+        },
+        {
+          "trip_id": 20361,
+          "start_time": "18:38",
+          "end_time": "19:28"
+        },
+        {
+          "trip_id": 20362,
+          "start_time": "18:45",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 20363,
+          "start_time": "18:52",
+          "end_time": "19:42"
+        },
+        {
+          "trip_id": 20364,
+          "start_time": "18:59",
+          "end_time": "19:49"
+        },
+        {
+          "trip_id": 20365,
+          "start_time": "19:06",
+          "end_time": "19:56"
+        },
+        {
+          "trip_id": 20366,
+          "start_time": "19:13",
+          "end_time": "20:03"
+        },
+        {
+          "trip_id": 20367,
+          "start_time": "19:23",
+          "end_time": "20:13"
+        },
+        {
+          "trip_id": 20368,
+          "start_time": "19:33",
+          "end_time": "20:23"
+        },
+        {
+          "trip_id": 20369,
+          "start_time": "19:43",
+          "end_time": "20:33"
+        },
+        {
+          "trip_id": 20370,
+          "start_time": "19:58",
+          "end_time": "20:48"
+        },
+        {
+          "trip_id": 20371,
+          "start_time": "20:13",
+          "end_time": "21:03"
+        },
+        {
+          "trip_id": 20372,
+          "start_time": "20:28",
+          "end_time": "21:18"
+        },
+        {
+          "trip_id": 20373,
+          "start_time": "20:43",
+          "end_time": "21:33"
+        },
+        {
+          "trip_id": 20374,
+          "start_time": "20:58",
+          "end_time": "21:48"
+        },
+        {
+          "trip_id": 20375,
+          "start_time": "21:15",
+          "end_time": "22:05"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 84,
+        "name": "Lượt về: Bình Khánh - Bến xe buýt Sài Gòn",
+        "short_name": "Bến Thành",
+        "start_stop": "Bến xe buýt Bình Khánh",
+        "end_stop": "Bến xe buýt Sài Gòn",
+        "distance_m": 17364.0,
+        "running_time_minutes": 50,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 80,
+        "route_var_id": 84,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 50,
+          "max": 50
+        },
+        "headway_minutes": {
+          "min": 5,
+          "max": 10
+        },
+        "total_trip": 150,
+        "operation_time": {
+          "start": "04:20",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 2140,
+          "code": "BX 72",
+          "name": "Bến xe buýt Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "BẾN XE BUÝT BÌNH KHÁNH",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673856,
+          "lng": 106.766263,
+          "routes": [
+            "20"
+          ]
+        },
+        {
+          "stop_id": 2174,
+          "code": "HNB 111",
+          "name": "Phà Bình Khánh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2919",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673856,
+          "lng": 106.765426,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2173,
+          "code": "HNB 016",
+          "name": "Chùa Bà Châu Đốc 2",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2775-2777",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.674931,
+          "lng": 106.762626,
+          "routes": [
+            "20"
+          ]
+        },
+        {
+          "stop_id": 3689,
+          "code": "HNB 017",
+          "name": "Trường Lê Văn Hưu",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2749",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.675985,
+          "lng": 106.759847,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2176,
+          "code": "HNB 018",
+          "name": "Việt Long Sài Gòn",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "817",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.676882,
+          "lng": 106.757594,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2177,
+          "code": "HNB 019",
+          "name": "Ủy ban xã Phú Xuân",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2461",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.678115,
+          "lng": 106.754354,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1141,
+          "code": "HNB 020",
+          "name": "Công Tiến Thọ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2479 (19/8B)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.679507,
+          "lng": 106.75071,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1143,
+          "code": "HNB 021",
+          "name": "Đào Tông Nguyên",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "23/3",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.681985,
+          "lng": 106.746994,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1142,
+          "code": "HNB 022",
+          "name": "Chùa Pháp Võ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "27/1B",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.684125,
+          "lng": 106.745476,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1144,
+          "code": "HNB 023",
+          "name": "Ngân hàng Agribank",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "18",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.687393,
+          "lng": 106.743202,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1145,
+          "code": "HNB 024",
+          "name": "Chùa Lá",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "2213",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.68996,
+          "lng": 106.741909,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1146,
+          "code": "HNB 025",
+          "name": "Trường Lâm Văn Bền",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "638",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.693397,
+          "lng": 106.740723,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1150,
+          "code": "HNB 027",
+          "name": "Công An Thị Trấn Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "2049",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695332,
+          "lng": 106.740026,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1148,
+          "code": "HNB 026",
+          "name": "Nha khoa Khánh Minh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1758",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.698273,
+          "lng": 106.738996,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1059,
+          "code": "HNB 002",
+          "name": "Chợ Phú Xuân",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1809-1811",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.70114,
+          "lng": 106.738315,
+          "routes": [
+            "110",
+            "20"
+          ]
+        },
+        {
+          "stop_id": 1364,
+          "code": "Q7 023",
+          "name": "Phạm Hữu Lầu",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1697-1699",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.705547,
+          "lng": 106.737649,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1363,
+          "code": "Q7 024",
+          "name": "Chùa Pháp Hoa",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "Đối diện 1442 (1611)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.708926,
+          "lng": 106.737381,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1367,
+          "code": "Q7 025",
+          "name": "An Chánh Dương",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1543",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.711134,
+          "lng": 106.737242,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1365,
+          "code": "Q7 026",
+          "name": "Trường Ngô Quyền",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1424 (1503/7)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.712795,
+          "lng": 106.737177,
+          "routes": [
+            "139",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2175,
+          "code": "Q7 027",
+          "name": "Hoàng Quốc Việt",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1393-1395",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.714624,
+          "lng": 106.737081,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2178,
+          "code": "Q7 028",
+          "name": "Nhà sách Nguyễn Văn Cừ",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "Đối diện 1260",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.716732,
+          "lng": 106.736974,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2179,
+          "code": "Q7 029",
+          "name": "Trường Nguyễn Văn Hưởng",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1255",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.718656,
+          "lng": 106.736882,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2180,
+          "code": "Q7 030",
+          "name": "Ban chỉ huy quân sự Quận 7",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1193",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.721054,
+          "lng": 106.73656,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2181,
+          "code": "Q7 031",
+          "name": "Mầm non Ban Mai",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "1097",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.723141,
+          "lng": 106.735525,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2182,
+          "code": "Q7 032",
+          "name": "Khu phố 3",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Thuận",
+          "address": "1027",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.725028,
+          "lng": 106.734554,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2129,
+          "code": "Q7 011",
+          "name": "Gò Ô Môi",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Thuận",
+          "address": "955A",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.728654,
+          "lng": 106.732838,
+          "routes": [
+            "20"
+          ]
+        },
+        {
+          "stop_id": 2183,
+          "code": "Q7 033",
+          "name": "Phú Thuận",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Thuận",
+          "address": "853",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.731727,
+          "lng": 106.731834,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2184,
+          "code": "Q7 035",
+          "name": "Cầu Phú Mỹ",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Phú",
+          "address": "731",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.736639,
+          "lng": 106.730681,
+          "routes": [
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2189,
+          "code": "Q7 036",
+          "name": "Nghĩa Trang Liệt Sĩ Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Thuận Đông",
+          "address": "619",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.739944,
+          "lng": 106.730188,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2185,
+          "code": "Q7 037",
+          "name": "Trường Nguyễn Hữu Cảnh",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Thuận Đông",
+          "address": "571",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.742621,
+          "lng": 106.729796,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2187,
+          "code": "Q7 038",
+          "name": "Nhà tưởng niệm Bác Hồ",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Thuận Đông",
+          "address": "473-475",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.745077,
+          "lng": 106.72941,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2190,
+          "code": "Q7 039",
+          "name": "Bùi Văn Ba",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Thuận Đông",
+          "address": "381",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.749441,
+          "lng": 106.728868,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2188,
+          "code": "Q7 040",
+          "name": "Khu chế xuất Tân Thuận",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Tân Thuận Đông",
+          "address": "Đối diện 298",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.751892,
+          "lng": 106.72868,
+          "routes": [
+            "20",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 7821,
+          "code": "Q7 198",
+          "name": "Khu chế xuất Tân Thuận",
+          "type": "Nhà chờ",
+          "zone": "Quận 7",
+          "ward": "Phường Bình Thuận",
+          "address": "KCX Tân Thuận",
+          "street": "Nguyễn Văn Linh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.752672,
+          "lng": 106.726255,
+          "routes": [
+            "20",
+            "34",
+            "68",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 848,
+          "code": "Q4 031",
+          "name": "Cảng Sài Gòn",
+          "type": "Nhà chờ",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "Đối diện 466",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.758443,
+          "lng": 106.7155,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 847,
+          "code": "Q4 032",
+          "name": "Nhà thờ Thánh An Tôn",
+          "type": "Nhà chờ",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "Đối diện 448",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.759771,
+          "lng": 106.713241,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 850,
+          "code": "Q4 033",
+          "name": "Đại học Nguyễn Tất Thành",
+          "type": "Nhà chờ",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "Đối diện 300A",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.761557,
+          "lng": 106.710194,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 849,
+          "code": "Q4 034",
+          "name": "Bưu Điện Quận 4",
+          "type": "Ô sơn",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "75-83",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.763744,
+          "lng": 106.707941,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 852,
+          "code": "Q4 006",
+          "name": "Chợ Xóm Chiếu",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "34",
+          "street": "Hoàng Diệu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.764983,
+          "lng": 106.706471,
+          "routes": [
+            "102",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 851,
+          "code": "Q4 007",
+          "name": "Đoàn Văn Bơ",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": null,
+          "address": "106-108",
+          "street": "Hoàng Diệu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.763744,
+          "lng": 106.704031,
+          "routes": [
+            "102",
+            "155",
+            "20",
+            "31",
+            "34",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 2028,
+          "code": "Q1 194",
+          "name": "Trường Cao Thắng",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Trường Cao Thắng",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.771043,
+          "lng": 106.701853,
+          "routes": [
+            "01",
+            "03",
+            "102",
+            "172",
+            "19",
+            "20",
+            "34",
+            "38",
+            "39",
+            "45",
+            "56",
+            "72-2B",
+            "75",
+            "86",
+            "88",
+            "D4"
+          ]
+        },
+        {
+          "stop_id": 82,
+          "code": "Q1 023",
+          "name": "Trạm Trung chuyển trên đường Hàm Nghi",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Thành",
+          "address": "Hàm Nghi 16 (140)",
+          "street": "Hàm Nghi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.771243,
+          "lng": 106.699326,
+          "routes": [
+            "04",
+            "18",
+            "20"
+          ]
+        },
+        {
+          "stop_id": 7273,
+          "code": "Q1 187",
+          "name": "Khách sạn New World",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Thành",
+          "address": "Số 76",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.770964,
+          "lng": 106.695946,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "34",
+            "36",
+            "39",
+            "52",
+            "53",
+            "72-2B",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL03"
+          ]
+        },
+        {
+          "stop_id": 7274,
+          "code": "Q1 188",
+          "name": "Nguyễn Thị Nghĩa",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Thành",
+          "address": "94-96",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.769952,
+          "lng": 106.693495,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "156D",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "34",
+            "36",
+            "39",
+            "52",
+            "53",
+            "69",
+            "72",
+            "72-2B",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL03"
+          ]
+        },
+        {
+          "stop_id": 7275,
+          "code": "Q1 189",
+          "name": "Tôn Thất Tùng",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Thành",
+          "address": "202-204",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.768761,
+          "lng": 106.690469,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "156D",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "34",
+            "36",
+            "39",
+            "52",
+            "53",
+            "69",
+            "72",
+            "72-2B",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL03"
+          ]
+        },
+        {
+          "stop_id": 35,
+          "code": "BX 01",
+          "name": "Bến xe buýt Sài Gòn",
+          "type": "Bến xe",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "BẾN XE BUÝT SÀI GÒN",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.767676,
+          "lng": 106.689362,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "27",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL04",
+            "DL05",
+            "DL06"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 20376,
+          "start_time": "04:20",
+          "end_time": "05:10"
+        },
+        {
+          "trip_id": 20377,
+          "start_time": "04:30",
+          "end_time": "05:20"
+        },
+        {
+          "trip_id": 20378,
+          "start_time": "04:40",
+          "end_time": "05:30"
+        },
+        {
+          "trip_id": 20379,
+          "start_time": "04:50",
+          "end_time": "05:40"
+        },
+        {
+          "trip_id": 20380,
+          "start_time": "04:56",
+          "end_time": "05:46"
+        },
+        {
+          "trip_id": 20381,
+          "start_time": "05:02",
+          "end_time": "05:52"
+        },
+        {
+          "trip_id": 20382,
+          "start_time": "05:08",
+          "end_time": "05:58"
+        },
+        {
+          "trip_id": 20383,
+          "start_time": "05:14",
+          "end_time": "06:04"
+        },
+        {
+          "trip_id": 20384,
+          "start_time": "05:20",
+          "end_time": "06:10"
+        },
+        {
+          "trip_id": 20385,
+          "start_time": "05:26",
+          "end_time": "06:16"
+        },
+        {
+          "trip_id": 20386,
+          "start_time": "05:32",
+          "end_time": "06:22"
+        },
+        {
+          "trip_id": 20387,
+          "start_time": "05:38",
+          "end_time": "06:28"
+        },
+        {
+          "trip_id": 20388,
+          "start_time": "05:44",
+          "end_time": "06:34"
+        },
+        {
+          "trip_id": 20389,
+          "start_time": "05:50",
+          "end_time": "06:40"
+        },
+        {
+          "trip_id": 20390,
+          "start_time": "05:56",
+          "end_time": "06:46"
+        },
+        {
+          "trip_id": 20391,
+          "start_time": "06:01",
+          "end_time": "06:51"
+        },
+        {
+          "trip_id": 20392,
+          "start_time": "06:06",
+          "end_time": "06:56"
+        },
+        {
+          "trip_id": 20393,
+          "start_time": "06:11",
+          "end_time": "07:01"
+        },
+        {
+          "trip_id": 20394,
+          "start_time": "06:16",
+          "end_time": "07:06"
+        },
+        {
+          "trip_id": 20395,
+          "start_time": "06:21",
+          "end_time": "07:11"
+        },
+        {
+          "trip_id": 20396,
+          "start_time": "06:26",
+          "end_time": "07:16"
+        },
+        {
+          "trip_id": 20397,
+          "start_time": "06:31",
+          "end_time": "07:21"
+        },
+        {
+          "trip_id": 20398,
+          "start_time": "06:36",
+          "end_time": "07:26"
+        },
+        {
+          "trip_id": 20399,
+          "start_time": "06:41",
+          "end_time": "07:31"
+        },
+        {
+          "trip_id": 20400,
+          "start_time": "06:46",
+          "end_time": "07:36"
+        },
+        {
+          "trip_id": 20401,
+          "start_time": "06:51",
+          "end_time": "07:41"
+        },
+        {
+          "trip_id": 20402,
+          "start_time": "06:56",
+          "end_time": "07:46"
+        },
+        {
+          "trip_id": 20403,
+          "start_time": "07:01",
+          "end_time": "07:51"
+        },
+        {
+          "trip_id": 20404,
+          "start_time": "07:06",
+          "end_time": "07:56"
+        },
+        {
+          "trip_id": 20405,
+          "start_time": "07:11",
+          "end_time": "08:01"
+        },
+        {
+          "trip_id": 20406,
+          "start_time": "07:16",
+          "end_time": "08:06"
+        },
+        {
+          "trip_id": 20407,
+          "start_time": "07:21",
+          "end_time": "08:11"
+        },
+        {
+          "trip_id": 20408,
+          "start_time": "07:27",
+          "end_time": "08:17"
+        },
+        {
+          "trip_id": 20409,
+          "start_time": "07:33",
+          "end_time": "08:23"
+        },
+        {
+          "trip_id": 20410,
+          "start_time": "07:39",
+          "end_time": "08:29"
+        },
+        {
+          "trip_id": 20411,
+          "start_time": "07:45",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 20412,
+          "start_time": "07:51",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 20413,
+          "start_time": "07:57",
+          "end_time": "08:47"
+        },
+        {
+          "trip_id": 20414,
+          "start_time": "08:03",
+          "end_time": "08:53"
+        },
+        {
+          "trip_id": 20415,
+          "start_time": "08:09",
+          "end_time": "08:59"
+        },
+        {
+          "trip_id": 20416,
+          "start_time": "08:15",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 20417,
+          "start_time": "08:21",
+          "end_time": "09:11"
+        },
+        {
+          "trip_id": 20418,
+          "start_time": "08:27",
+          "end_time": "09:17"
+        },
+        {
+          "trip_id": 20419,
+          "start_time": "08:33",
+          "end_time": "09:23"
+        },
+        {
+          "trip_id": 20420,
+          "start_time": "08:39",
+          "end_time": "09:29"
+        },
+        {
+          "trip_id": 20421,
+          "start_time": "08:45",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 20422,
+          "start_time": "08:51",
+          "end_time": "09:41"
+        },
+        {
+          "trip_id": 20423,
+          "start_time": "08:57",
+          "end_time": "09:47"
+        },
+        {
+          "trip_id": 20424,
+          "start_time": "09:03",
+          "end_time": "09:53"
+        },
+        {
+          "trip_id": 20425,
+          "start_time": "09:09",
+          "end_time": "09:59"
+        },
+        {
+          "trip_id": 20426,
+          "start_time": "09:15",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 20427,
+          "start_time": "09:21",
+          "end_time": "10:11"
+        },
+        {
+          "trip_id": 20428,
+          "start_time": "09:27",
+          "end_time": "10:17"
+        },
+        {
+          "trip_id": 20429,
+          "start_time": "09:34",
+          "end_time": "10:24"
+        },
+        {
+          "trip_id": 20430,
+          "start_time": "09:41",
+          "end_time": "10:31"
+        },
+        {
+          "trip_id": 20431,
+          "start_time": "09:48",
+          "end_time": "10:38"
+        },
+        {
+          "trip_id": 20432,
+          "start_time": "09:55",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 20433,
+          "start_time": "10:02",
+          "end_time": "10:52"
+        },
+        {
+          "trip_id": 20434,
+          "start_time": "10:09",
+          "end_time": "10:59"
+        },
+        {
+          "trip_id": 20435,
+          "start_time": "10:16",
+          "end_time": "11:06"
+        },
+        {
+          "trip_id": 20436,
+          "start_time": "10:23",
+          "end_time": "11:13"
+        },
+        {
+          "trip_id": 20437,
+          "start_time": "10:30",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 20438,
+          "start_time": "10:37",
+          "end_time": "11:27"
+        },
+        {
+          "trip_id": 20439,
+          "start_time": "10:44",
+          "end_time": "11:34"
+        },
+        {
+          "trip_id": 20440,
+          "start_time": "10:51",
+          "end_time": "11:41"
+        },
+        {
+          "trip_id": 20441,
+          "start_time": "10:58",
+          "end_time": "11:48"
+        },
+        {
+          "trip_id": 20442,
+          "start_time": "11:05",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 20443,
+          "start_time": "11:12",
+          "end_time": "12:02"
+        },
+        {
+          "trip_id": 20444,
+          "start_time": "11:18",
+          "end_time": "12:08"
+        },
+        {
+          "trip_id": 20445,
+          "start_time": "11:24",
+          "end_time": "12:14"
+        },
+        {
+          "trip_id": 20446,
+          "start_time": "11:30",
+          "end_time": "12:20"
+        },
+        {
+          "trip_id": 20447,
+          "start_time": "11:36",
+          "end_time": "12:26"
+        },
+        {
+          "trip_id": 20448,
+          "start_time": "11:42",
+          "end_time": "12:32"
+        },
+        {
+          "trip_id": 20449,
+          "start_time": "11:48",
+          "end_time": "12:38"
+        },
+        {
+          "trip_id": 20450,
+          "start_time": "11:54",
+          "end_time": "12:44"
+        },
+        {
+          "trip_id": 20451,
+          "start_time": "12:00",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 20452,
+          "start_time": "12:06",
+          "end_time": "12:56"
+        },
+        {
+          "trip_id": 20453,
+          "start_time": "12:12",
+          "end_time": "13:02"
+        },
+        {
+          "trip_id": 20454,
+          "start_time": "12:18",
+          "end_time": "13:08"
+        },
+        {
+          "trip_id": 20455,
+          "start_time": "12:24",
+          "end_time": "13:14"
+        },
+        {
+          "trip_id": 20456,
+          "start_time": "12:30",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 20457,
+          "start_time": "12:36",
+          "end_time": "13:26"
+        },
+        {
+          "trip_id": 20458,
+          "start_time": "12:42",
+          "end_time": "13:32"
+        },
+        {
+          "trip_id": 20459,
+          "start_time": "12:48",
+          "end_time": "13:38"
+        },
+        {
+          "trip_id": 20460,
+          "start_time": "12:54",
+          "end_time": "13:44"
+        },
+        {
+          "trip_id": 20461,
+          "start_time": "13:00",
+          "end_time": "13:50"
+        },
+        {
+          "trip_id": 20462,
+          "start_time": "13:06",
+          "end_time": "13:56"
+        },
+        {
+          "trip_id": 20463,
+          "start_time": "13:12",
+          "end_time": "14:02"
+        },
+        {
+          "trip_id": 20464,
+          "start_time": "13:18",
+          "end_time": "14:08"
+        },
+        {
+          "trip_id": 20465,
+          "start_time": "13:24",
+          "end_time": "14:14"
+        },
+        {
+          "trip_id": 20466,
+          "start_time": "13:31",
+          "end_time": "14:21"
+        },
+        {
+          "trip_id": 20467,
+          "start_time": "13:38",
+          "end_time": "14:28"
+        },
+        {
+          "trip_id": 20468,
+          "start_time": "13:45",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 20469,
+          "start_time": "13:52",
+          "end_time": "14:42"
+        },
+        {
+          "trip_id": 20470,
+          "start_time": "13:59",
+          "end_time": "14:49"
+        },
+        {
+          "trip_id": 20471,
+          "start_time": "14:06",
+          "end_time": "14:56"
+        },
+        {
+          "trip_id": 20472,
+          "start_time": "14:13",
+          "end_time": "15:03"
+        },
+        {
+          "trip_id": 20473,
+          "start_time": "14:20",
+          "end_time": "15:10"
+        },
+        {
+          "trip_id": 20474,
+          "start_time": "14:27",
+          "end_time": "15:17"
+        },
+        {
+          "trip_id": 20475,
+          "start_time": "14:34",
+          "end_time": "15:24"
+        },
+        {
+          "trip_id": 20476,
+          "start_time": "14:41",
+          "end_time": "15:31"
+        },
+        {
+          "trip_id": 20477,
+          "start_time": "14:48",
+          "end_time": "15:38"
+        },
+        {
+          "trip_id": 20478,
+          "start_time": "14:55",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 20479,
+          "start_time": "15:02",
+          "end_time": "15:52"
+        },
+        {
+          "trip_id": 20480,
+          "start_time": "15:09",
+          "end_time": "15:59"
+        },
+        {
+          "trip_id": 20481,
+          "start_time": "15:16",
+          "end_time": "16:06"
+        },
+        {
+          "trip_id": 20482,
+          "start_time": "15:23",
+          "end_time": "16:13"
+        },
+        {
+          "trip_id": 20483,
+          "start_time": "15:30",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 20484,
+          "start_time": "15:37",
+          "end_time": "16:27"
+        },
+        {
+          "trip_id": 20485,
+          "start_time": "15:44",
+          "end_time": "16:34"
+        },
+        {
+          "trip_id": 20486,
+          "start_time": "15:51",
+          "end_time": "16:41"
+        },
+        {
+          "trip_id": 20487,
+          "start_time": "15:58",
+          "end_time": "16:48"
+        },
+        {
+          "trip_id": 20488,
+          "start_time": "16:04",
+          "end_time": "16:54"
+        },
+        {
+          "trip_id": 20489,
+          "start_time": "16:10",
+          "end_time": "17:00"
+        },
+        {
+          "trip_id": 20490,
+          "start_time": "16:16",
+          "end_time": "17:06"
+        },
+        {
+          "trip_id": 20491,
+          "start_time": "16:22",
+          "end_time": "17:12"
+        },
+        {
+          "trip_id": 20492,
+          "start_time": "16:28",
+          "end_time": "17:18"
+        },
+        {
+          "trip_id": 20493,
+          "start_time": "16:34",
+          "end_time": "17:24"
+        },
+        {
+          "trip_id": 20494,
+          "start_time": "16:40",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 20495,
+          "start_time": "16:46",
+          "end_time": "17:36"
+        },
+        {
+          "trip_id": 20496,
+          "start_time": "16:52",
+          "end_time": "17:42"
+        },
+        {
+          "trip_id": 20497,
+          "start_time": "16:58",
+          "end_time": "17:48"
+        },
+        {
+          "trip_id": 20498,
+          "start_time": "17:04",
+          "end_time": "17:54"
+        },
+        {
+          "trip_id": 20499,
+          "start_time": "17:10",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 20500,
+          "start_time": "17:16",
+          "end_time": "18:06"
+        },
+        {
+          "trip_id": 20501,
+          "start_time": "17:22",
+          "end_time": "18:12"
+        },
+        {
+          "trip_id": 20502,
+          "start_time": "17:28",
+          "end_time": "18:18"
+        },
+        {
+          "trip_id": 20503,
+          "start_time": "17:34",
+          "end_time": "18:24"
+        },
+        {
+          "trip_id": 20504,
+          "start_time": "17:40",
+          "end_time": "18:30"
+        },
+        {
+          "trip_id": 20505,
+          "start_time": "17:46",
+          "end_time": "18:36"
+        },
+        {
+          "trip_id": 20506,
+          "start_time": "17:52",
+          "end_time": "18:42"
+        },
+        {
+          "trip_id": 20507,
+          "start_time": "17:58",
+          "end_time": "18:48"
+        },
+        {
+          "trip_id": 20508,
+          "start_time": "18:04",
+          "end_time": "18:54"
+        },
+        {
+          "trip_id": 20509,
+          "start_time": "18:10",
+          "end_time": "19:00"
+        },
+        {
+          "trip_id": 20510,
+          "start_time": "18:16",
+          "end_time": "19:06"
+        },
+        {
+          "trip_id": 20511,
+          "start_time": "18:22",
+          "end_time": "19:12"
+        },
+        {
+          "trip_id": 20512,
+          "start_time": "18:29",
+          "end_time": "19:19"
+        },
+        {
+          "trip_id": 20513,
+          "start_time": "18:36",
+          "end_time": "19:26"
+        },
+        {
+          "trip_id": 20514,
+          "start_time": "18:43",
+          "end_time": "19:33"
+        },
+        {
+          "trip_id": 20515,
+          "start_time": "18:50",
+          "end_time": "19:40"
+        },
+        {
+          "trip_id": 20516,
+          "start_time": "18:57",
+          "end_time": "19:47"
+        },
+        {
+          "trip_id": 20517,
+          "start_time": "19:04",
+          "end_time": "19:54"
+        },
+        {
+          "trip_id": 20518,
+          "start_time": "19:11",
+          "end_time": "20:01"
+        },
+        {
+          "trip_id": 20519,
+          "start_time": "19:18",
+          "end_time": "20:08"
+        },
+        {
+          "trip_id": 20520,
+          "start_time": "19:25",
+          "end_time": "20:15"
+        },
+        {
+          "trip_id": 20521,
+          "start_time": "19:32",
+          "end_time": "20:22"
+        },
+        {
+          "trip_id": 20522,
+          "start_time": "19:39",
+          "end_time": "20:29"
+        },
+        {
+          "trip_id": 20523,
+          "start_time": "19:46",
+          "end_time": "20:36"
+        },
+        {
+          "trip_id": 20524,
+          "start_time": "19:53",
+          "end_time": "20:43"
+        },
+        {
+          "trip_id": 20525,
+          "start_time": "20:00",
+          "end_time": "20:50"
+        }
+      ]
+    }
+  }
+}

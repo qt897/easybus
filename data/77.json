@@ -1,0 +1,1775 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 117,
+    "crawled_at": "2026-07-23T00:27:27"
+  },
+  "data": {
+    "route": {
+      "id": 117,
+      "bus_no": "77",
+      "name": "Đồng Hòa - Cần Thạnh",
+      "color": "#7E1E9C",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 16300.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 6000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 135000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 35,
+        "max": 35
+      },
+      "headway_minutes": {
+        "min": 10,
+        "max": 30
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "20:00"
+      },
+      "total_trip": {
+        "value": 90,
+        "unit": "TPD"
+      },
+      "outbound_name": "Cần Thạnh",
+      "outbound_description": [
+        "Đình Đồng Hòa",
+        "Đường Duyên Hải",
+        "Đường Nguyễn Văn Mạnh",
+        "Đường Duyên Hải",
+        "Đường Thạnh Thới",
+        "Đường Lương Văn Nho",
+        "Đường Duyên Hải",
+        "Đường Đào Cử",
+        "Đường Tắc Xuất",
+        "Quay đầu tại bến tàu Tắc Xuất",
+        "Bến xe buýt Cần Giờ"
+      ],
+      "inbound_name": "Đồng Hòa",
+      "inbound_description": [
+        "Bến xe buýt Cần Giờ",
+        "Đường Đào Cử",
+        "Đường Duyên Hải",
+        "Đường Lương Văn Nho",
+        "Đường Thạnh Thới",
+        "Đường Duyên Hải",
+        "Đường Nguyễn Văn Mạnh",
+        "Đường Duyên Hải",
+        "Đình Đồng Hòa"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 235,
+        "name": "Lượt đi: Đồng Hòa - Bến xe buýt Cần Giờ",
+        "short_name": "Cần Thạnh",
+        "start_stop": "Đình Đồng Hòa",
+        "end_stop": "Bến xe buýt Cần Giờ",
+        "distance_m": 17352.999999999993,
+        "running_time_minutes": 35,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 25,
+        "route_var_id": 235,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 35,
+          "max": 35
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 30
+        },
+        "total_trip": 45,
+        "operation_time": {
+          "start": "05:00",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 3771,
+          "code": "BX 83",
+          "name": "Đình Đồng Hòa",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "ĐẦU BẾN ĐỒNG HÒA",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.380525,
+          "lng": 106.881126,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3769,
+          "code": "HCG 034",
+          "name": "Phương Nam",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Phương Nam Resort",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.380393,
+          "lng": 106.881641,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9391,
+          "code": "HCG 158",
+          "name": "Trụ điện T245T",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Trụ điện T245T",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.379283,
+          "lng": 106.884776,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3772,
+          "code": "HCG 035",
+          "name": "Quán cafe 207",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện trường Đồng Hòa",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.380061,
+          "lng": 106.886848,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9452,
+          "code": "HCG 219",
+          "name": "Cửa hàng Ga Chẩy",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Đối diện cửa hàng Ga Chẩy",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.381976,
+          "lng": 106.888579,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3770,
+          "code": "HCG 036",
+          "name": "Đình Ông Phước",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đình Ông Phước",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.380325,
+          "lng": 106.895058,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9453,
+          "code": "HCG 220",
+          "name": "Tạp Hóa Xuân Tùng",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Đối diện Tạp Hóa Xuân Tùng",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.381317,
+          "lng": 106.903033,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9454,
+          "code": "HCG 221",
+          "name": "Nghĩa trang Long Hòa",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Đối diện Nghĩa trang Long Hòa",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.38338,
+          "lng": 106.905283,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3773,
+          "code": "HCG 037",
+          "name": "Cánh buồm",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện LH41",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.384567,
+          "lng": 106.908431,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3774,
+          "code": "HCG 038",
+          "name": "Đình Long Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện 1/40",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.386065,
+          "lng": 106.911875,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3674,
+          "code": "HCG 039",
+          "name": "Ủy ban xã Long Hòa",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện 1/147",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.389917,
+          "lng": 106.9121,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3775,
+          "code": "HCG 040",
+          "name": "Cửa hàng Vĩnh Tiến",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Cửa hàng Vĩnh Tiến",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.392165,
+          "lng": 106.911162,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3776,
+          "code": "HCG 041",
+          "name": "Huy Hoàng",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "2/222",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.394455,
+          "lng": 106.913018,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3673,
+          "code": "HCG 020",
+          "name": "Cây xăng Đức Thanh",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đ/d Cây xăng Đức Thanh",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.39512,
+          "lng": 106.916907,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 9392,
+          "code": "HCG 159",
+          "name": "Đối diện Chợ Hòa Hiệp",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện Chợ Hòa Hiệp",
+          "street": "Lương Văn Nho",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.402802,
+          "lng": 106.923323,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9406,
+          "code": "HCG 175",
+          "name": "180 Lương Văn Nho",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "180",
+          "street": "Lương Văn Nho",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.40442,
+          "lng": 106.930532,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 7674,
+          "code": "HCG 136",
+          "name": "Bệnh viện Huyện Cần Giờ",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "BV huyện Cần Giờ",
+          "street": "Lương Văn Nho",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.40544,
+          "lng": 106.937313,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9399,
+          "code": "HCG 171",
+          "name": "Giồng Cháy",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trụ điện T41P 15P",
+          "street": "Giồng Cháy",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.407201,
+          "lng": 106.947169,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 6924,
+          "code": "HCG 103",
+          "name": "Trường THPT Cần Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện Trường THPT Cần Thạnh",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.402021,
+          "lng": 106.94919,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6922,
+          "code": "HCG 101",
+          "name": "Đài liệt sỹ",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đài liệt sỹ",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.402369,
+          "lng": 106.953605,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6920,
+          "code": "HCG 099",
+          "name": "Trung tâm BDCT Duyên Hải (cũ)",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trung tâm BDCT Duyên Hải (cũ)",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.402807,
+          "lng": 106.956502,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 4235,
+          "code": "HCG 042",
+          "name": "Đ/d ngã ba Lê Hùng Yên, Duyên Hải",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đ/d ngã ba Lê Hùng Yên",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.403884,
+          "lng": 106.959355,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 9424,
+          "code": "HCG 191",
+          "name": "Duyên Hải",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "218",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.405768,
+          "lng": 106.962871,
+          "routes": [
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6918,
+          "code": "HCG 097",
+          "name": "Bệnh viện huyện Cần Giờ (cũ)",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện BV huyện Cần Giờ (cũ)",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.407187,
+          "lng": 106.965551,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6916,
+          "code": "HCG 095",
+          "name": "Đặng Văn Kiều",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "18/3",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.409946,
+          "lng": 106.971002,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6914,
+          "code": "HCG 093",
+          "name": "Trường tiểu học Cần Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "55/2A",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.414183,
+          "lng": 106.973072,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6911,
+          "code": "HCG 090",
+          "name": "Lê Trọng Mân",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "428/2",
+          "street": "Đào Cử",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.41403,
+          "lng": 106.97046,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6910,
+          "code": "HCG 089",
+          "name": "Coop mart Đào Cử",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Siêu thị Coop Mart Cần Giờ",
+          "street": "Đào Cử",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.41232,
+          "lng": 106.967928,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 9400,
+          "code": "HCG 168",
+          "name": "Rạch Sấu",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trụ điện T23P",
+          "street": "Tắc Xuất",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.413798,
+          "lng": 106.961969,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9398,
+          "code": "HCG 167",
+          "name": "Tắc Xuất",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trụ điện T11P",
+          "street": "Tắc Xuất",
+          "support_disability": "",
+          "status": "Chưa khai thác",
+          "lat": 10.417359,
+          "lng": 106.960866,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9414,
+          "code": "HCG 165",
+          "name": "Đối diện Cafe Hoài Niệm",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện Cafe Hoài Niệm",
+          "street": "Tắc Xuất",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.41939,
+          "lng": 106.95956,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9415,
+          "code": "HCG 166",
+          "name": "Tắc Suất",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Cột đèn Tắc Xuất số 06",
+          "street": "Tắc Xuất",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.419215,
+          "lng": 106.959618,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9397,
+          "code": "HCG 164",
+          "name": "Trụ điện T09T",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trụ điện T09T",
+          "street": "Tắc Xuất",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.416927,
+          "lng": 106.961068,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9396,
+          "code": "HCG 163",
+          "name": "Rạch Giồng Ao",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trụ điện T21T",
+          "street": "Tắc Xuất",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.413498,
+          "lng": 106.962137,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9395,
+          "code": "HCG 162",
+          "name": "Rạch Giồng Ao",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "543/2B",
+          "street": "Tắc Xuất",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.411141,
+          "lng": 106.964409,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3675,
+          "code": "BX 78",
+          "name": "Bến xe buýt Cần Giờ",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "BẾN XE BUÝT CẦN GIỜ",
+          "street": "Đào Cử",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.410474,
+          "lng": 106.964441,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2884,
+          "start_time": "05:00",
+          "end_time": "05:35"
+        },
+        {
+          "trip_id": 2885,
+          "start_time": "05:30",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 2886,
+          "start_time": "05:40",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 2887,
+          "start_time": "05:50",
+          "end_time": "06:25"
+        },
+        {
+          "trip_id": 2888,
+          "start_time": "06:00",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 2889,
+          "start_time": "06:10",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 2890,
+          "start_time": "06:20",
+          "end_time": "06:55"
+        },
+        {
+          "trip_id": 2891,
+          "start_time": "06:30",
+          "end_time": "07:05"
+        },
+        {
+          "trip_id": 2892,
+          "start_time": "07:00",
+          "end_time": "07:35"
+        },
+        {
+          "trip_id": 2893,
+          "start_time": "07:30",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 2894,
+          "start_time": "08:00",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 2895,
+          "start_time": "08:30",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 2896,
+          "start_time": "09:00",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 2897,
+          "start_time": "09:30",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 2898,
+          "start_time": "10:00",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 2899,
+          "start_time": "10:30",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 2900,
+          "start_time": "10:40",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 2901,
+          "start_time": "10:50",
+          "end_time": "11:25"
+        },
+        {
+          "trip_id": 2902,
+          "start_time": "11:00",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 2903,
+          "start_time": "11:10",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 2904,
+          "start_time": "11:20",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 2905,
+          "start_time": "11:30",
+          "end_time": "12:05"
+        },
+        {
+          "trip_id": 2906,
+          "start_time": "11:40",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 2907,
+          "start_time": "11:50",
+          "end_time": "12:25"
+        },
+        {
+          "trip_id": 2908,
+          "start_time": "12:00",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 2909,
+          "start_time": "12:30",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 2910,
+          "start_time": "13:00",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 2911,
+          "start_time": "13:30",
+          "end_time": "14:05"
+        },
+        {
+          "trip_id": 2912,
+          "start_time": "14:00",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 2913,
+          "start_time": "14:30",
+          "end_time": "15:05"
+        },
+        {
+          "trip_id": 2914,
+          "start_time": "15:00",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 2915,
+          "start_time": "15:30",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 2916,
+          "start_time": "16:00",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 2917,
+          "start_time": "16:10",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 2918,
+          "start_time": "16:20",
+          "end_time": "16:55"
+        },
+        {
+          "trip_id": 2919,
+          "start_time": "16:30",
+          "end_time": "17:05"
+        },
+        {
+          "trip_id": 2920,
+          "start_time": "16:40",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 2921,
+          "start_time": "16:50",
+          "end_time": "17:25"
+        },
+        {
+          "trip_id": 2922,
+          "start_time": "17:00",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 2923,
+          "start_time": "17:30",
+          "end_time": "18:05"
+        },
+        {
+          "trip_id": 2924,
+          "start_time": "18:00",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 2925,
+          "start_time": "18:30",
+          "end_time": "19:05"
+        },
+        {
+          "trip_id": 2926,
+          "start_time": "19:00",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 2927,
+          "start_time": "19:30",
+          "end_time": "20:05"
+        },
+        {
+          "trip_id": 2928,
+          "start_time": "20:00",
+          "end_time": "20:35"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 236,
+        "name": "Lượt về: Bến xe buýt Cần Giờ - Đồng Hòa",
+        "short_name": "Đồng Hòa",
+        "start_stop": "Bến xe buýt Cần Giờ",
+        "end_stop": "Đình Đồng Hòa",
+        "distance_m": 14893.0,
+        "running_time_minutes": 35,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 26,
+        "route_var_id": 236,
+        "start_date": "22/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 35,
+          "max": 35
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 30
+        },
+        "total_trip": 45,
+        "operation_time": {
+          "start": "05:00",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 3675,
+          "code": "BX 78",
+          "name": "Bến xe buýt Cần Giờ",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "BẾN XE BUÝT CẦN GIỜ",
+          "street": "Đào Cử",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.410474,
+          "lng": 106.964441,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 3676,
+          "code": "HCG 025",
+          "name": "Coop mart Đào Cử",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "D/d Siêu thị Coop mart Đào Cử",
+          "street": "Đào Cử",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.412352,
+          "lng": 106.96826,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6912,
+          "code": "HCG 091",
+          "name": "Lê Trọng Mân",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "1H",
+          "street": "Đào Cử",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.414114,
+          "lng": 106.970862,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6913,
+          "code": "HCG 092",
+          "name": "Trường tiểu học Cần Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trường tiểu học Cần Thạnh",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.413486,
+          "lng": 106.973163,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6915,
+          "code": "HCG 094",
+          "name": "Đặng Văn Kiều",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện 161A",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.409767,
+          "lng": 106.970304,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6917,
+          "code": "HCG 096",
+          "name": "Bệnh viện huyện Cần Giờ (cũ)",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Bệnh viện huyện Cần Giờ (cũ)",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.407123,
+          "lng": 106.965128,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 9423,
+          "code": "HCG 190",
+          "name": "Duyên Hải",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "290/3",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.406061,
+          "lng": 106.963259,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3677,
+          "code": "HCG 023",
+          "name": "Ngã ba Lê Hùng Yên",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Ngã ba Lê Hùng Yên - Duyên Hải",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.403699,
+          "lng": 106.958637,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6919,
+          "code": "HCG 098",
+          "name": "Trung tâm BDCT Duyên Hải (cũ)",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện TT BDCT Duyên Hải (cũ)",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.40286,
+          "lng": 106.95603,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6921,
+          "code": "HCG 100",
+          "name": "Đối diện Đài liệt sỹ",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện Đài liệt sỹ huyện Cần Giờ",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.402496,
+          "lng": 106.953498,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 6923,
+          "code": "HCG 102",
+          "name": "Trường THPT Cần Thạnh",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trường THPT Cần Thạnh",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.402143,
+          "lng": 106.948991,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 9394,
+          "code": "HCG 161",
+          "name": "Đối diện trường THCS Cần Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện trường THCS Cần Thạnh",
+          "street": "Giồng Cháy",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.406939,
+          "lng": 106.947222,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 7675,
+          "code": "HCG 137",
+          "name": "Bệnh viện Huyện Cần Giờ",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện BV huyện Cần Giờ",
+          "street": "Lương Văn Nho",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.405778,
+          "lng": 106.937817,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9393,
+          "code": "HCG 160",
+          "name": "Trường Tiểu học Hòa Hiệp",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Trường Tiểu học Hòa Hiệp",
+          "street": "Lương Văn Nho",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.404353,
+          "lng": 106.929873,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9407,
+          "code": "HCG 176",
+          "name": "Lương Văn Nho",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trụ điện T120P",
+          "street": "Lương Văn Nho",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.402947,
+          "lng": 106.923003,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3680,
+          "code": "HCG 019",
+          "name": "Cây xăng Đức Thanh",
+          "type": "Nhà chờ",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Cây xăng Đức Thanh",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.395326,
+          "lng": 106.916596,
+          "routes": [
+            "75",
+            "77",
+            "90"
+          ]
+        },
+        {
+          "stop_id": 3797,
+          "code": "HCG 026",
+          "name": "Huy Hoàng",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "1/13A",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.394597,
+          "lng": 106.91298,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3796,
+          "code": "HCG 027",
+          "name": "Nhà văn hóa Long Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Cột điện LH41",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.392424,
+          "lng": 106.911017,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3799,
+          "code": "HCG 028",
+          "name": "UBND xã Long Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện 2/63",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.39006,
+          "lng": 106.911795,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3798,
+          "code": "HCG 029",
+          "name": "Đình Long Thạnh",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "2/84",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.385754,
+          "lng": 106.911451,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3800,
+          "code": "HCG 030",
+          "name": "Cánh buồm",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Cột điện LT1-423",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.384388,
+          "lng": 106.907444,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9455,
+          "code": "HCG 222",
+          "name": "Nghĩa trang Long Hòa",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Nghĩa trang Long Hòa",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.383526,
+          "lng": 106.905529,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9456,
+          "code": "HCG 223",
+          "name": "Tạp Hóa Xuân Tùng",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Tạp Hóa Xuân Tùng",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.380983,
+          "lng": 106.902677,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3801,
+          "code": "HCG 031",
+          "name": "Đình Ông Phước",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "Đối diện Đình Ông Phước",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.38082,
+          "lng": 106.89431,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9457,
+          "code": "HCG 224",
+          "name": "Cửa hàng Ga Chẩy",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Cửa hàng Ga Chẩy",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.381967,
+          "lng": 106.888701,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3802,
+          "code": "HCG 032",
+          "name": "Quán Cafê 207",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Trường Đồng Hòa",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.381132,
+          "lng": 106.887022,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 9408,
+          "code": "HCG 177",
+          "name": "Duyên Hải",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Xã Long Hòa",
+          "address": "Đối diện trụ điện T245T",
+          "street": "Duyên Hải",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.379376,
+          "lng": 106.884602,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3803,
+          "code": "HCG 033",
+          "name": "Phương Nam",
+          "type": "Ô sơn",
+          "zone": "Huyện Cần Giờ",
+          "ward": "Thị trấn Cần Thạnh",
+          "address": "Đối diện Phương Nam Resort",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.380425,
+          "lng": 106.881421,
+          "routes": [
+            "77"
+          ]
+        },
+        {
+          "stop_id": 3771,
+          "code": "BX 83",
+          "name": "Đình Đồng Hòa",
+          "type": "Bến xe",
+          "zone": "Huyện Cần Giờ",
+          "ward": null,
+          "address": "ĐẦU BẾN ĐỒNG HÒA",
+          "street": "Duyên Hải",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.380525,
+          "lng": 106.881126,
+          "routes": [
+            "77"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2929,
+          "start_time": "05:00",
+          "end_time": "05:35"
+        },
+        {
+          "trip_id": 2930,
+          "start_time": "05:30",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 2931,
+          "start_time": "05:40",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 2932,
+          "start_time": "05:50",
+          "end_time": "06:25"
+        },
+        {
+          "trip_id": 2933,
+          "start_time": "06:00",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 2934,
+          "start_time": "06:10",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 2935,
+          "start_time": "06:20",
+          "end_time": "06:55"
+        },
+        {
+          "trip_id": 2936,
+          "start_time": "06:30",
+          "end_time": "07:05"
+        },
+        {
+          "trip_id": 2937,
+          "start_time": "07:00",
+          "end_time": "07:35"
+        },
+        {
+          "trip_id": 2938,
+          "start_time": "07:30",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 2939,
+          "start_time": "08:00",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 2940,
+          "start_time": "08:30",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 2941,
+          "start_time": "09:00",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 2942,
+          "start_time": "09:30",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 2943,
+          "start_time": "10:00",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 2944,
+          "start_time": "10:30",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 2945,
+          "start_time": "10:40",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 2946,
+          "start_time": "10:50",
+          "end_time": "11:25"
+        },
+        {
+          "trip_id": 2947,
+          "start_time": "11:00",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 2948,
+          "start_time": "11:10",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 2949,
+          "start_time": "11:20",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 2950,
+          "start_time": "11:30",
+          "end_time": "12:05"
+        },
+        {
+          "trip_id": 2951,
+          "start_time": "11:40",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 2952,
+          "start_time": "11:50",
+          "end_time": "12:25"
+        },
+        {
+          "trip_id": 2953,
+          "start_time": "12:00",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 2954,
+          "start_time": "12:30",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 2955,
+          "start_time": "13:00",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 2956,
+          "start_time": "13:30",
+          "end_time": "14:05"
+        },
+        {
+          "trip_id": 2957,
+          "start_time": "14:00",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 2958,
+          "start_time": "14:30",
+          "end_time": "15:05"
+        },
+        {
+          "trip_id": 2959,
+          "start_time": "15:00",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 2960,
+          "start_time": "15:30",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 2961,
+          "start_time": "16:00",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 2962,
+          "start_time": "16:10",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 2963,
+          "start_time": "16:20",
+          "end_time": "16:55"
+        },
+        {
+          "trip_id": 2964,
+          "start_time": "16:30",
+          "end_time": "17:05"
+        },
+        {
+          "trip_id": 2965,
+          "start_time": "16:40",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 2966,
+          "start_time": "16:50",
+          "end_time": "17:25"
+        },
+        {
+          "trip_id": 2967,
+          "start_time": "17:00",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 2968,
+          "start_time": "17:30",
+          "end_time": "18:05"
+        },
+        {
+          "trip_id": 2969,
+          "start_time": "18:00",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 2970,
+          "start_time": "18:30",
+          "end_time": "19:05"
+        },
+        {
+          "trip_id": 2971,
+          "start_time": "19:00",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 2972,
+          "start_time": "19:30",
+          "end_time": "20:05"
+        },
+        {
+          "trip_id": 2973,
+          "start_time": "20:00",
+          "end_time": "20:35"
+        }
+      ]
+    }
+  }
+}

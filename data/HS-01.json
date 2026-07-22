@@ -1,0 +1,332 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 303,
+    "crawled_at": "2026-07-23T00:27:38"
+  },
+  "data": {
+    "route": {
+      "id": 303,
+      "bus_no": "HS-01",
+      "name": "Hà Quang Vóc - Trường THCS Bình Khánh",
+      "color": "#FF0000",
+      "type": "Học sinh - Có trợ giá",
+      "distance_m": 3800.0,
+      "num_of_seats": 29,
+      "operators": [
+        "Hợp tác xã Tân Tiến"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 0,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 7,
+        "max": 7
+      },
+      "headway_minutes": {
+        "min": 14,
+        "max": 14
+      },
+      "operation_time": {
+        "start": "05:55",
+        "end": "17:19"
+      },
+      "total_trip": {
+        "value": 22,
+        "unit": "TPD"
+      },
+      "outbound_name": "Trường THCS Bình Khánh",
+      "outbound_description": [
+        "Hà Quang Vóc",
+        "Rừng Sác",
+        "Trường THCS Bình Khánh"
+      ],
+      "inbound_name": "Hà Quang Vóc",
+      "inbound_description": [
+        "Trường THCS Bình Khánh",
+        "Rừng Sác",
+        "Hà Quang Vóc"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Hà Quang Vóc - Trưởng THCS Bình Khánh",
+        "short_name": "Trường THCS Bình Khánh",
+        "start_stop": "Hà Quang Vóc",
+        "end_stop": "Trường THCS Bình Khánh",
+        "distance_m": 4141.0,
+        "running_time_minutes": 7,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 7,
+          "max": 7
+        },
+        "headway_minutes": {
+          "min": 14,
+          "max": 328
+        },
+        "total_trip": 8,
+        "operation_time": {
+          "start": "05:55",
+          "end": "13:05"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7496,
+          "code": "BX_haquangvoc1",
+          "name": "Hà Quang Vóc",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "334",
+          "street": "Hà Quang Vóc",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.61878,
+          "lng": 106.77733,
+          "routes": [
+            "HS-01",
+            "HS-05"
+          ]
+        },
+        {
+          "stop_id": 7495,
+          "code": "BX_THCSbinhkhanh",
+          "name": "Trường THCS Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.64249,
+          "lng": 106.78755,
+          "routes": [
+            "HS-01",
+            "HS-02",
+            "HS-03",
+            "HS-04"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 92,
+          "start_time": "05:55",
+          "end_time": "06:02"
+        },
+        {
+          "trip_id": 93,
+          "start_time": "06:09",
+          "end_time": "06:16"
+        },
+        {
+          "trip_id": 94,
+          "start_time": "06:24",
+          "end_time": "06:31"
+        },
+        {
+          "trip_id": 95,
+          "start_time": "06:47",
+          "end_time": "06:54"
+        },
+        {
+          "trip_id": 96,
+          "start_time": "12:15",
+          "end_time": "12:22"
+        },
+        {
+          "trip_id": 97,
+          "start_time": "12:30",
+          "end_time": "12:37"
+        },
+        {
+          "trip_id": 98,
+          "start_time": "12:47",
+          "end_time": "12:54"
+        },
+        {
+          "trip_id": 99,
+          "start_time": "13:05",
+          "end_time": "13:12"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Trường THCS Bình Khánh - Hà Quang Vóc",
+        "short_name": "Hà Quang Vóc",
+        "start_stop": "Trường THCS Bình Khánh",
+        "end_stop": "Hà Quang Vóc",
+        "distance_m": 4089.0,
+        "running_time_minutes": 8,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 7,
+          "max": 7
+        },
+        "headway_minutes": {
+          "min": 14,
+          "max": 216
+        },
+        "total_trip": 14,
+        "operation_time": {
+          "start": "08:50",
+          "end": "17:19"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7495,
+          "code": "BX_THCSbinhkhanh",
+          "name": "Trường THCS Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.64249,
+          "lng": 106.78755,
+          "routes": [
+            "HS-01",
+            "HS-02",
+            "HS-03",
+            "HS-04"
+          ]
+        },
+        {
+          "stop_id": 7496,
+          "code": "BX_haquangvoc1",
+          "name": "Hà Quang Vóc",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "334",
+          "street": "Hà Quang Vóc",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.61878,
+          "lng": 106.77733,
+          "routes": [
+            "HS-01",
+            "HS-05"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 100,
+          "start_time": "08:50",
+          "end_time": "08:57"
+        },
+        {
+          "trip_id": 101,
+          "start_time": "09:04",
+          "end_time": "09:11"
+        },
+        {
+          "trip_id": 102,
+          "start_time": "09:18",
+          "end_time": "09:25"
+        },
+        {
+          "trip_id": 103,
+          "start_time": "09:32",
+          "end_time": "09:39"
+        },
+        {
+          "trip_id": 104,
+          "start_time": "10:17",
+          "end_time": "10:24"
+        },
+        {
+          "trip_id": 105,
+          "start_time": "10:50",
+          "end_time": "10:57"
+        },
+        {
+          "trip_id": 106,
+          "start_time": "11:04",
+          "end_time": "11:11"
+        },
+        {
+          "trip_id": 107,
+          "start_time": "11:18",
+          "end_time": "11:25"
+        },
+        {
+          "trip_id": 108,
+          "start_time": "11:32",
+          "end_time": "11:39"
+        },
+        {
+          "trip_id": 109,
+          "start_time": "15:08",
+          "end_time": "15:15"
+        },
+        {
+          "trip_id": 110,
+          "start_time": "16:18",
+          "end_time": "16:25"
+        },
+        {
+          "trip_id": 111,
+          "start_time": "16:33",
+          "end_time": "16:40"
+        },
+        {
+          "trip_id": 112,
+          "start_time": "17:05",
+          "end_time": "17:12"
+        },
+        {
+          "trip_id": 113,
+          "start_time": "17:19",
+          "end_time": "17:26"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 388,
+    "crawled_at": "2026-07-23T00:27:39"
+  },
+  "data": {
+    "route": {
+      "id": 388,
+      "bus_no": "HS-05",
+      "name": "Hà Quang Vóc - Trường THPT Bình Khánh",
+      "color": "#33CCCC",
+      "type": "Học sinh - Có trợ giá",
+      "distance_m": 3800.0,
+      "num_of_seats": 29,
+      "operators": [
+        "Hợp tác xã Tân Tiến"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 0,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 6,
+        "max": 6
+      },
+      "headway_minutes": {
+        "min": 25,
+        "max": 25
+      },
+      "operation_time": {
+        "start": "06:05",
+        "end": "17:18"
+      },
+      "total_trip": {
+        "value": 8,
+        "unit": "TPD"
+      },
+      "outbound_name": "Trường THPT Bình Khánh",
+      "outbound_description": [
+        "Hà Quang Vóc",
+        "Đường Rừng Sác",
+        "Trường THPT Bình Khánh"
+      ],
+      "inbound_name": "Hà Quang Vóc",
+      "inbound_description": [
+        "Trường THPT Bình Khánh",
+        "Đường Rừng Sác",
+        "Hà Quang Vóc"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Hà Quang Vóc - Trường THPT Bình Khánh",
+        "short_name": "Trường THPT Bình Khánh",
+        "start_stop": "Hà Quang Vóc",
+        "end_stop": "Trường THPT Bình Khánh",
+        "distance_m": 3976.0,
+        "running_time_minutes": 8,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 6,
+          "max": 6
+        },
+        "headway_minutes": {
+          "min": 167,
+          "max": 395
+        },
+        "total_trip": 2,
+        "operation_time": {
+          "start": "06:05",
+          "end": "12:40"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7496,
+          "code": "BX_haquangvoc1",
+          "name": "Hà Quang Vóc",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "334",
+          "street": "Hà Quang Vóc",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.61878,
+          "lng": 106.77733,
+          "routes": [
+            "HS-01",
+            "HS-05"
+          ]
+        },
+        {
+          "stop_id": 8125,
+          "code": "BX_THPTbinhkhanh",
+          "name": "Trường THPT Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.641518,
+          "lng": 106.788472,
+          "routes": [
+            "HS-05",
+            "HS-06",
+            "HS-07"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 18,
+          "start_time": "06:05",
+          "end_time": "06:11"
+        },
+        {
+          "trip_id": 19,
+          "start_time": "12:40",
+          "end_time": "12:46"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Trường THPT Bình Khánh - Hà Quang Vóc",
+        "short_name": "Hà Quang Vóc",
+        "start_stop": "Trường THPT Bình Khánh",
+        "end_stop": "Hà Quang Vóc",
+        "distance_m": 3939.0,
+        "running_time_minutes": 8,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 6,
+          "max": 6
+        },
+        "headway_minutes": {
+          "min": 25,
+          "max": 211
+        },
+        "total_trip": 6,
+        "operation_time": {
+          "start": "09:20",
+          "end": "17:18"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 8125,
+          "code": "BX_THPTbinhkhanh",
+          "name": "Trường THPT Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.641518,
+          "lng": 106.788472,
+          "routes": [
+            "HS-05",
+            "HS-06",
+            "HS-07"
+          ]
+        },
+        {
+          "stop_id": 7496,
+          "code": "BX_haquangvoc1",
+          "name": "Hà Quang Vóc",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "334",
+          "street": "Hà Quang Vóc",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.61878,
+          "lng": 106.77733,
+          "routes": [
+            "HS-01",
+            "HS-05"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 20,
+          "start_time": "09:20",
+          "end_time": "09:26"
+        },
+        {
+          "trip_id": 21,
+          "start_time": "11:31",
+          "end_time": "11:37"
+        },
+        {
+          "trip_id": 22,
+          "start_time": "15:02",
+          "end_time": "15:08"
+        },
+        {
+          "trip_id": 23,
+          "start_time": "16:23",
+          "end_time": "16:29"
+        },
+        {
+          "trip_id": 24,
+          "start_time": "16:48",
+          "end_time": "16:54"
+        },
+        {
+          "trip_id": 25,
+          "start_time": "17:18",
+          "end_time": "17:24"
+        }
+      ]
+    }
+  }
+}

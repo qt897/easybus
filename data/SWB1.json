@@ -1,0 +1,390 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 337,
+    "crawled_at": "2026-07-23T00:27:41"
+  },
+  "data": {
+    "route": {
+      "id": 337,
+      "bus_no": "SWB1",
+      "name": "Bạch Đằng - Linh Đông",
+      "color": "#0000FF",
+      "type": "Không trợ giá - Du lịch",
+      "distance_m": 10800.0,
+      "num_of_seats": 75,
+      "operators": [
+        "Cty TNHH Thường Nhật, ĐT: 1900636830"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 15000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 42,
+        "max": 52
+      },
+      "headway_minutes": {
+        "min": 55,
+        "max": 55
+      },
+      "operation_time": {
+        "start": "07:10",
+        "end": "18:20"
+      },
+      "total_trip": {
+        "value": 12,
+        "unit": "TPD"
+      },
+      "outbound_name": "Linh Đông",
+      "outbound_description": [
+        "Bến số 1 Bạch Đằng, Q.1",
+        "Bến số 2 Sài Gòn Pearl, Q. Bình Thạnh",
+        "Bến số 3 Bình An, Q.2",
+        "Bến số 4 Thảo Điền, Q.2",
+        "Bến số 5 Tầm Vu, Q. Bình Thạnh",
+        "Bến số 6 Thanh Đa, Q. Bình Thạnh",
+        "Bến số 7 Bình Triệu, Q. Thủ Đức",
+        "Bến số 8 Hiệp Bình Chánh, Q. Thủ Đức",
+        "Bến số 9 Bình Quới, Q. Thủ Đức"
+      ],
+      "inbound_name": "Bạch Đằng",
+      "inbound_description": [
+        "Bến số 9 Bình Quới, Q. Thủ Đức",
+        "Bến số 8 Hiệp Bình Chánh, Q. Thủ Đức",
+        "Bến số 7 Bình Triệu, Q. Thủ Đức",
+        "Bến số 6 Thanh Đa, Q. Bình Thạnh",
+        "Bến số 5 Tầm Vu, Q. Bình Thạnh",
+        "Bến số 4 Thảo Điền, Q.2",
+        "Bến số 3 Bình An, Q.2",
+        "Bến số 2 Sài Gòn Pearl, Q. Bình Thạnh",
+        "Bến số 1 Bạch Đằng, Q.1"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Ga tàu thuỷ Bạch Đằng - Ga tàu thuỷ Linh Đông",
+        "short_name": "Linh Đông",
+        "start_stop": "Ga tàu thuỷ Bạch Đằng",
+        "end_stop": "Ga tàu thuỷ Linh Đông",
+        "distance_m": 11680.000000000002,
+        "running_time_minutes": 52,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "01/11/2017",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 42,
+          "max": 52
+        },
+        "headway_minutes": {
+          "min": 70,
+          "max": 240
+        },
+        "total_trip": 6,
+        "operation_time": {
+          "start": "08:30",
+          "end": "18:20"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7682,
+          "code": "SWB1_1",
+          "name": "Ga tàu thuỷ Bạch Đằng",
+          "type": "Trạm tạm",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Ga tàu thuỷ Bạch Đằng",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.775264,
+          "lng": 106.706901,
+          "routes": [
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7683,
+          "code": "SWB1_4",
+          "name": "Ga tàu thuỷ Bình An",
+          "type": "Trạm tạm",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường Bình An",
+          "address": "Ga tàu thuỷ Bình An",
+          "street": "Đường số 21",
+          "support_disability": "",
+          "status": "Chưa khai thác",
+          "lat": 10.797349,
+          "lng": 106.728734,
+          "routes": [
+            "153",
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7684,
+          "code": "SWB1_8",
+          "name": "Ga tàu thuỷ Thanh Đa",
+          "type": "Trạm tạm",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 27",
+          "address": "LO 1 Cư xá Thanh Đa ",
+          "street": "Cư xá Thanh Đa",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.819385,
+          "lng": 106.715757,
+          "routes": [
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7685,
+          "code": "SWB1_10",
+          "name": "Ga tàu thuỷ Hiệp Bình Chánh",
+          "type": "Trạm tạm",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "Bến tàu thuỷ Hiệp Bình Chánh",
+          "street": "Đường số 10",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.827231,
+          "lng": 106.731475,
+          "routes": [
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7686,
+          "code": "SWB1_11",
+          "name": "Ga tàu thuỷ Linh Đông",
+          "type": "Trạm tạm",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "Bến tàu thuỷ Linh Đông",
+          "street": "Đường số 36",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.835287,
+          "lng": 106.746254,
+          "routes": [
+            "SWB1"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2,
+          "start_time": "08:30",
+          "end_time": "09:22"
+        },
+        {
+          "trip_id": 3,
+          "start_time": "10:30",
+          "end_time": "11:22"
+        },
+        {
+          "trip_id": 4,
+          "start_time": "14:30",
+          "end_time": "15:22"
+        },
+        {
+          "trip_id": 5,
+          "start_time": "16:00",
+          "end_time": "16:52"
+        },
+        {
+          "trip_id": 6,
+          "start_time": "17:10",
+          "end_time": "18:02"
+        },
+        {
+          "trip_id": 7,
+          "start_time": "18:20",
+          "end_time": "19:02"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Ga tàu thuỷ Linh Đông - Ga tàu thuỷ Bạch Đằng",
+        "short_name": "Bạch Đằng",
+        "start_stop": "Ga tàu thuỷ Linh Đông",
+        "end_stop": "Ga tàu thuỷ Bạch Đằng",
+        "distance_m": 11785.0,
+        "running_time_minutes": 52,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "01/11/2017",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 52,
+          "max": 52
+        },
+        "headway_minutes": {
+          "min": 55,
+          "max": 220
+        },
+        "total_trip": 6,
+        "operation_time": {
+          "start": "07:10",
+          "end": "18:15"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7686,
+          "code": "SWB1_11",
+          "name": "Ga tàu thuỷ Linh Đông",
+          "type": "Trạm tạm",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Đông",
+          "address": "Bến tàu thuỷ Linh Đông",
+          "street": "Đường số 36",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.835287,
+          "lng": 106.746254,
+          "routes": [
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7685,
+          "code": "SWB1_10",
+          "name": "Ga tàu thuỷ Hiệp Bình Chánh",
+          "type": "Trạm tạm",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Hiệp Bình Chánh",
+          "address": "Bến tàu thuỷ Hiệp Bình Chánh",
+          "street": "Đường số 10",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.827231,
+          "lng": 106.731475,
+          "routes": [
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7684,
+          "code": "SWB1_8",
+          "name": "Ga tàu thuỷ Thanh Đa",
+          "type": "Trạm tạm",
+          "zone": "Quận Bình Thạnh",
+          "ward": "Phường 27",
+          "address": "LO 1 Cư xá Thanh Đa ",
+          "street": "Cư xá Thanh Đa",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.819385,
+          "lng": 106.715757,
+          "routes": [
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7683,
+          "code": "SWB1_4",
+          "name": "Ga tàu thuỷ Bình An",
+          "type": "Trạm tạm",
+          "zone": "TP. Thủ Đức - KV1",
+          "ward": "Phường Bình An",
+          "address": "Ga tàu thuỷ Bình An",
+          "street": "Đường số 21",
+          "support_disability": "",
+          "status": "Chưa khai thác",
+          "lat": 10.797349,
+          "lng": 106.728734,
+          "routes": [
+            "153",
+            "SWB1"
+          ]
+        },
+        {
+          "stop_id": 7682,
+          "code": "SWB1_1",
+          "name": "Ga tàu thuỷ Bạch Đằng",
+          "type": "Trạm tạm",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Ga tàu thuỷ Bạch Đằng",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "Có",
+          "status": "Chưa khai thác",
+          "lat": 10.775264,
+          "lng": 106.706901,
+          "routes": [
+            "SWB1"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 8,
+          "start_time": "07:10",
+          "end_time": "08:02"
+        },
+        {
+          "trip_id": 9,
+          "start_time": "09:40",
+          "end_time": "10:32"
+        },
+        {
+          "trip_id": 10,
+          "start_time": "13:20",
+          "end_time": "14:12"
+        },
+        {
+          "trip_id": 11,
+          "start_time": "15:40",
+          "end_time": "16:32"
+        },
+        {
+          "trip_id": 12,
+          "start_time": "17:20",
+          "end_time": "18:12"
+        },
+        {
+          "trip_id": 13,
+          "start_time": "18:15",
+          "end_time": "19:07"
+        }
+      ]
+    }
+  }
+}

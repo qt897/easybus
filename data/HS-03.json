@@ -1,0 +1,269 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 387,
+    "crawled_at": "2026-07-23T00:27:38"
+  },
+  "data": {
+    "route": {
+      "id": 387,
+      "bus_no": "HS-03",
+      "name": "Đường Trần Quang Quờn (Khu dân cư kho lúa) - Trường THCS Bình Khánh",
+      "color": "#339966",
+      "type": "Học sinh - Có trợ giá",
+      "distance_m": 1400.0,
+      "num_of_seats": 29,
+      "operators": [
+        "Hợp tác xã Tân Tiến"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 0,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 5,
+        "max": 5
+      },
+      "headway_minutes": {
+        "min": 8,
+        "max": 8
+      },
+      "operation_time": {
+        "start": "06:12",
+        "end": "17:05"
+      },
+      "total_trip": {
+        "value": 10,
+        "unit": "TPD"
+      },
+      "outbound_name": "Trường THCS Bình Khánh",
+      "outbound_description": [
+        "Đường Trần Quang Quờn (Khu dân cư kho lúa)",
+        "Đường Rừng Sác",
+        "Trường THCS Bình Khánh"
+      ],
+      "inbound_name": "Đường Trần Quang Quờn (Khu dân cư kho lúa)",
+      "inbound_description": [
+        "Trường THCS Bình Khánh – Đường Rừng Sác",
+        "Đường Trần Quang Quờn (Khu dân cư kho lúa)"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Trần Quang Quờn (Khu dân cư kho lúa) - Trường THCS Bình Khánh",
+        "short_name": "Trường THCS Bình Khánh",
+        "start_stop": "Trần Quang Quờn (Khu dân cư kho lúa)",
+        "end_stop": "Trường THCS Bình Khánh",
+        "distance_m": 1483.0,
+        "running_time_minutes": 5,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 5,
+          "max": 5
+        },
+        "headway_minutes": {
+          "min": 8,
+          "max": 372
+        },
+        "total_trip": 3,
+        "operation_time": {
+          "start": "06:12",
+          "end": "12:32"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7480,
+          "code": "BX_tranquangquon",
+          "name": "Trần Quang Quờn (Khu dân cư kho lúa)",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Khu dân cư kho lúa",
+          "street": "Trần Quang Quờn",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.643395,
+          "lng": 106.780704,
+          "routes": [
+            "HS-03"
+          ]
+        },
+        {
+          "stop_id": 7495,
+          "code": "BX_THCSbinhkhanh",
+          "name": "Trường THCS Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.64249,
+          "lng": 106.78755,
+          "routes": [
+            "HS-01",
+            "HS-02",
+            "HS-03",
+            "HS-04"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 8,
+          "start_time": "06:12",
+          "end_time": "06:17"
+        },
+        {
+          "trip_id": 9,
+          "start_time": "06:20",
+          "end_time": "06:25"
+        },
+        {
+          "trip_id": 10,
+          "start_time": "12:32",
+          "end_time": "12:37"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Trường THCS Bình Khánh - Đường Trần Quang Quờn (Khu dân cư kho lúa)",
+        "short_name": "Đường Trần Quang Quờn (Khu dân cư kho lúa)",
+        "start_stop": "Trường THCS Bình Khánh",
+        "end_stop": "Trần Quang Quờn (Khu dân cư kho lúa)",
+        "distance_m": 1748.0,
+        "running_time_minutes": 5,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 5,
+          "max": 5
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 330
+        },
+        "total_trip": 7,
+        "operation_time": {
+          "start": "09:00",
+          "end": "17:05"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7495,
+          "code": "BX_THCSbinhkhanh",
+          "name": "Trường THCS Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.64249,
+          "lng": 106.78755,
+          "routes": [
+            "HS-01",
+            "HS-02",
+            "HS-03",
+            "HS-04"
+          ]
+        },
+        {
+          "stop_id": 7480,
+          "code": "BX_tranquangquon",
+          "name": "Trần Quang Quờn (Khu dân cư kho lúa)",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Khu dân cư kho lúa",
+          "street": "Trần Quang Quờn",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.643395,
+          "lng": 106.780704,
+          "routes": [
+            "HS-03"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 11,
+          "start_time": "09:00",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 12,
+          "start_time": "09:20",
+          "end_time": "09:25"
+        },
+        {
+          "trip_id": 13,
+          "start_time": "11:00",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 14,
+          "start_time": "11:10",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 15,
+          "start_time": "11:20",
+          "end_time": "11:25"
+        },
+        {
+          "trip_id": 16,
+          "start_time": "16:50",
+          "end_time": "16:55"
+        },
+        {
+          "trip_id": 17,
+          "start_time": "17:05",
+          "end_time": "17:10"
+        }
+      ]
+    }
+  }
+}

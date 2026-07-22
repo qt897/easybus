@@ -1,0 +1,1462 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 421,
+    "crawled_at": "2026-07-23T00:26:49"
+  },
+  "data": {
+    "route": {
+      "id": 421,
+      "bus_no": "173",
+      "name": "Trung tâm Côn Đảo - Cỏ Ống",
+      "color": "#00FF00",
+      "type": "Phổ thông - Không trợ giá",
+      "distance_m": 17100.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty Cổ phần Tập đoàn Côn Đảo, ĐT: (0254)3.830.399"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 12000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 24000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 40000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 5000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 30,
+        "max": 30
+      },
+      "headway_minutes": {
+        "min": 15,
+        "max": 15
+      },
+      "operation_time": {
+        "start": "04:15",
+        "end": "19:00"
+      },
+      "total_trip": {
+        "value": 114,
+        "unit": "TPD"
+      },
+      "outbound_name": "Cỏ Ống",
+      "outbound_description": [
+        "Chợ Côn Đảo",
+        "Phạm Văn Đồng",
+        "Võ Thị Sáu",
+        "Nguyễn Huệ",
+        "Tôn Đức Thắng",
+        "Nguyễn Văn Cừ",
+        "Nguyễn Chí Thanh",
+        "đường Cỏ Ống",
+        "đường nội bộ vào Bãi Đầm Trầu",
+        "(quay đầu)",
+        "đường nội bộ vào Bãi Đầm Trầu",
+        "đường Cỏ Ống – Sân bay Côn Đảo."
+      ],
+      "inbound_name": "Trung tâm Côn Đảo",
+      "inbound_description": [
+        "Sân bay Côn Đảo",
+        "đường Cỏ Ống",
+        "đường nội bộ vào Bãi Đầm Trầu",
+        "(quay đầu)",
+        "đường Cỏ Ống",
+        "Nguyễn Chí Thanh",
+        "Nguyễn Văn Cừ",
+        "Tôn Đức Thắng",
+        "Nguyễn Huệ – Võ Thị Sáu",
+        "Phạm Văn Đồng",
+        "Chợ Côn Đảo."
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Chợ Côn Đảo - Cảng Hàng không Côn Đảo",
+        "short_name": "Cỏ Ống",
+        "start_stop": "Chợ Côn Đảo",
+        "end_stop": "Cảng Hàng không Côn Đảo",
+        "distance_m": 17232.0,
+        "running_time_minutes": 30,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 3,
+        "route_var_id": 1,
+        "start_date": "27/06/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 30,
+          "max": 30
+        },
+        "headway_minutes": {
+          "min": 15,
+          "max": 15
+        },
+        "total_trip": 57,
+        "operation_time": {
+          "start": "04:15",
+          "end": "18:15"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9501,
+          "code": "CĐ BX 0001",
+          "name": "Chợ Côn Đảo",
+          "type": "Bến xe",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Chợ Côn Đảo",
+          "street": "Phạm Văn Đồng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.686167,
+          "lng": 106.608715,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9503,
+          "code": "CĐ 0001",
+          "name": "Bưu điện Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Bưu điện Côn Đảo",
+          "street": "Nguyễn Huệ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.683661,
+          "lng": 106.606741,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9505,
+          "code": "CĐ 0003",
+          "name": "Tòa án Côn Đảo",
+          "type": "Nhà chờ",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Tòa án Côn Đảo",
+          "street": "Nguyễn Huệ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.681923,
+          "lng": 106.604934,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9507,
+          "code": "CĐ 0005",
+          "name": "Cảng tàu khách Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Cảng tàu khách Côn Đảo",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.681083,
+          "lng": 106.606233,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9509,
+          "code": "CĐ 0007",
+          "name": "Sài Gòn Côn Đảo Resort",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Sài Gòn Côn Đảo Resort",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.682436,
+          "lng": 106.609749,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9511,
+          "code": "CĐ 0009",
+          "name": "The Secret Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện The Secret Côn Đảo",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.684923,
+          "lng": 106.61305,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9513,
+          "code": "CĐ 0011",
+          "name": "Trại Phú Tường",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Trại Phú Tường",
+          "street": "Nguyễn Văn Cừ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.687939,
+          "lng": 106.615443,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9515,
+          "code": "CĐ 0013",
+          "name": "Nghĩa trang Hàng Keo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Nghĩa trang Hàng Keo",
+          "street": "Nguyễn Văn Cừ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.689767,
+          "lng": 106.616686,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9517,
+          "code": "CĐ 0015",
+          "name": "Sở Lò Vôi",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Sở Lò Vôi",
+          "street": "Nguyễn Văn Cừ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 8.692865,
+          "lng": 106.622535,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9519,
+          "code": "CĐ 0017",
+          "name": "Ngã 3 Phan Chu Trinh",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Ngã 3 Phan Chu Trinh",
+          "street": "Nguyễn Chí Thanh",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 8.698472,
+          "lng": 106.621471,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9521,
+          "code": "CĐ 0019",
+          "name": "Đất Dốc",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đất Dốc",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.70006,
+          "lng": 106.628778,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9523,
+          "code": "CĐ 0021",
+          "name": "Six Senses Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Six Senses Côn Đảo",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.700837,
+          "lng": 106.634745,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9525,
+          "code": "CĐ 0023",
+          "name": "Mũi Chân Chim",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Mũi Chân Chim",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.692736,
+          "lng": 106.651003,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9527,
+          "code": "CĐ 0025",
+          "name": "Mũi Tàu Bể",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Mũi Tàu Bể",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.695635,
+          "lng": 106.656965,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9529,
+          "code": "CĐ 0027",
+          "name": "Yên Spa",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Yên Spa",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.711932,
+          "lng": 106.636477,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9531,
+          "code": "CĐ 0029",
+          "name": "Trạm cung cấp nước",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Trạm cung cấp nước",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.719197,
+          "lng": 106.631233,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9533,
+          "code": "CĐ 0031",
+          "name": "Miếu Bà Phi Yến - Cỏ Ống",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Miếu Bà Phi Yến - Cỏ Ống",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.724975,
+          "lng": 106.625799,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9535,
+          "code": "CĐ 0033",
+          "name": "Miếu Cậu",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Miếu Cậu",
+          "street": "đường nội bộ vào bãi Đầm Trầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.730025,
+          "lng": 106.62456,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9537,
+          "code": "CĐ 0035",
+          "name": "Bãi Đầm Trầu",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Bãi Đầm Trầu",
+          "street": "đường nội bộ vào bãi Đầm Trầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.732675,
+          "lng": 106.623344,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9538,
+          "code": "CĐ 0037",
+          "name": "KDC Văn hóa số 1",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Mộc Trà Quán",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.729247,
+          "lng": 106.627739,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9502,
+          "code": "CĐ BX 0002",
+          "name": "Cảng Hàng không Côn Đảo",
+          "type": "Bến xe",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Cảng Hàng không Côn Đảo",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.730273,
+          "lng": 106.628312,
+          "routes": [
+            "173"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 116,
+          "start_time": "04:15",
+          "end_time": "04:45"
+        },
+        {
+          "trip_id": 117,
+          "start_time": "04:30",
+          "end_time": "05:00"
+        },
+        {
+          "trip_id": 118,
+          "start_time": "04:45",
+          "end_time": "05:15"
+        },
+        {
+          "trip_id": 119,
+          "start_time": "05:00",
+          "end_time": "05:30"
+        },
+        {
+          "trip_id": 120,
+          "start_time": "05:15",
+          "end_time": "05:45"
+        },
+        {
+          "trip_id": 121,
+          "start_time": "05:30",
+          "end_time": "06:00"
+        },
+        {
+          "trip_id": 122,
+          "start_time": "05:45",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 123,
+          "start_time": "06:00",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 124,
+          "start_time": "06:15",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 125,
+          "start_time": "06:30",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 126,
+          "start_time": "06:45",
+          "end_time": "07:15"
+        },
+        {
+          "trip_id": 127,
+          "start_time": "07:00",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 128,
+          "start_time": "07:15",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 129,
+          "start_time": "07:30",
+          "end_time": "08:00"
+        },
+        {
+          "trip_id": 130,
+          "start_time": "07:45",
+          "end_time": "08:15"
+        },
+        {
+          "trip_id": 131,
+          "start_time": "08:00",
+          "end_time": "08:30"
+        },
+        {
+          "trip_id": 132,
+          "start_time": "08:15",
+          "end_time": "08:45"
+        },
+        {
+          "trip_id": 133,
+          "start_time": "08:30",
+          "end_time": "09:00"
+        },
+        {
+          "trip_id": 134,
+          "start_time": "08:45",
+          "end_time": "09:15"
+        },
+        {
+          "trip_id": 135,
+          "start_time": "09:00",
+          "end_time": "09:30"
+        },
+        {
+          "trip_id": 136,
+          "start_time": "09:15",
+          "end_time": "09:45"
+        },
+        {
+          "trip_id": 137,
+          "start_time": "09:30",
+          "end_time": "10:00"
+        },
+        {
+          "trip_id": 138,
+          "start_time": "09:45",
+          "end_time": "10:15"
+        },
+        {
+          "trip_id": 139,
+          "start_time": "10:00",
+          "end_time": "10:30"
+        },
+        {
+          "trip_id": 140,
+          "start_time": "10:15",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 141,
+          "start_time": "10:30",
+          "end_time": "11:00"
+        },
+        {
+          "trip_id": 142,
+          "start_time": "10:45",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 143,
+          "start_time": "11:00",
+          "end_time": "11:30"
+        },
+        {
+          "trip_id": 144,
+          "start_time": "11:15",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 145,
+          "start_time": "11:30",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 146,
+          "start_time": "11:45",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 147,
+          "start_time": "12:00",
+          "end_time": "12:30"
+        },
+        {
+          "trip_id": 148,
+          "start_time": "12:15",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 149,
+          "start_time": "12:30",
+          "end_time": "13:00"
+        },
+        {
+          "trip_id": 150,
+          "start_time": "12:45",
+          "end_time": "13:15"
+        },
+        {
+          "trip_id": 151,
+          "start_time": "13:00",
+          "end_time": "13:30"
+        },
+        {
+          "trip_id": 152,
+          "start_time": "13:15",
+          "end_time": "13:45"
+        },
+        {
+          "trip_id": 153,
+          "start_time": "13:30",
+          "end_time": "14:00"
+        },
+        {
+          "trip_id": 154,
+          "start_time": "13:45",
+          "end_time": "14:15"
+        },
+        {
+          "trip_id": 155,
+          "start_time": "14:00",
+          "end_time": "14:30"
+        },
+        {
+          "trip_id": 156,
+          "start_time": "14:15",
+          "end_time": "14:45"
+        },
+        {
+          "trip_id": 157,
+          "start_time": "14:30",
+          "end_time": "15:00"
+        },
+        {
+          "trip_id": 158,
+          "start_time": "14:45",
+          "end_time": "15:15"
+        },
+        {
+          "trip_id": 159,
+          "start_time": "15:00",
+          "end_time": "15:30"
+        },
+        {
+          "trip_id": 160,
+          "start_time": "15:15",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 161,
+          "start_time": "15:30",
+          "end_time": "16:00"
+        },
+        {
+          "trip_id": 162,
+          "start_time": "15:45",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 163,
+          "start_time": "16:00",
+          "end_time": "16:30"
+        },
+        {
+          "trip_id": 164,
+          "start_time": "16:15",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 165,
+          "start_time": "16:30",
+          "end_time": "17:00"
+        },
+        {
+          "trip_id": 166,
+          "start_time": "16:45",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 167,
+          "start_time": "17:00",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 168,
+          "start_time": "17:15",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 169,
+          "start_time": "17:30",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 170,
+          "start_time": "17:45",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 171,
+          "start_time": "18:00",
+          "end_time": "18:30"
+        },
+        {
+          "trip_id": 172,
+          "start_time": "18:15",
+          "end_time": "18:45"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Cảng Hàng không Côn Đảo - Chợ Côn Đảo",
+        "short_name": "Trung tâm Côn Đảo",
+        "start_stop": "Cảng Hàng không Côn Đảo",
+        "end_stop": "Chợ Côn Đảo",
+        "distance_m": 17119.0,
+        "running_time_minutes": 30,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 4,
+        "route_var_id": 2,
+        "start_date": "27/06/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 30,
+          "max": 30
+        },
+        "headway_minutes": {
+          "min": 15,
+          "max": 15
+        },
+        "total_trip": 57,
+        "operation_time": {
+          "start": "05:00",
+          "end": "19:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 9502,
+          "code": "CĐ BX 0002",
+          "name": "Cảng Hàng không Côn Đảo",
+          "type": "Bến xe",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Cảng Hàng không Côn Đảo",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.730273,
+          "lng": 106.628312,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9539,
+          "code": "CĐ 0036",
+          "name": "KDC Văn hóa số 1",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện KDC Văn hóa số 1",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.728995,
+          "lng": 106.627466,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9535,
+          "code": "CĐ 0033",
+          "name": "Miếu Cậu",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Miếu Cậu",
+          "street": "đường nội bộ vào bãi Đầm Trầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.730025,
+          "lng": 106.62456,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9537,
+          "code": "CĐ 0035",
+          "name": "Bãi Đầm Trầu",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Bãi Đầm Trầu",
+          "street": "đường nội bộ vào bãi Đầm Trầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.732675,
+          "lng": 106.623344,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9534,
+          "code": "CĐ 0032",
+          "name": "Miếu Bà Phi Yến - Cỏ Ống",
+          "type": "Nhà chờ",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Miếu bà Phi Yến - Cỏ Ống",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.726266,
+          "lng": 106.625688,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9532,
+          "code": "CĐ 0030",
+          "name": "Trạm cung cấp nước",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Trạm cung cấp nước",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.71947,
+          "lng": 106.630902,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9530,
+          "code": "CĐ 0028",
+          "name": "Yên Spa",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Yên Spa",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.711698,
+          "lng": 106.636562,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9528,
+          "code": "CĐ 0026",
+          "name": "Mũi Tàu Bể",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "đối diện Mũi Tàu Bể",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.695905,
+          "lng": 106.656586,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9526,
+          "code": "CĐ 0024",
+          "name": "Mũi Chân Chim",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Mũi Chân Chim",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.692942,
+          "lng": 106.651098,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9524,
+          "code": "CĐ 0022",
+          "name": "Six Senses Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Six senses",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.700923,
+          "lng": 106.634893,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9522,
+          "code": "CĐ 0020",
+          "name": "Đất Dốc",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện đất Dốc",
+          "street": "Cỏ Ống",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.700596,
+          "lng": 106.628298,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9520,
+          "code": "CĐ 0018",
+          "name": "Đường Tây Bắc",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đường Tây Bắc",
+          "street": "Nguyễn Chí Thanh",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.697475,
+          "lng": 106.620238,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9518,
+          "code": "CĐ 0016",
+          "name": "Sở Lò Vôi",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Sở Lò Vôi",
+          "street": "Nguyễn Văn Cừ",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 8.693075,
+          "lng": 106.622184,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9516,
+          "code": "CĐ 0014",
+          "name": "Nghĩa trang Hàng Keo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Nghĩa trang Hàng Keo",
+          "street": "Nguyễn Văn Cừ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.690055,
+          "lng": 106.616731,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9514,
+          "code": "CĐ 0012",
+          "name": "Trại Phú Tường",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Trại Phú Tường",
+          "street": "Nguyễn Văn Cừ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.688069,
+          "lng": 106.615341,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9512,
+          "code": "CĐ 0010",
+          "name": "The Secret Côn Đảo",
+          "type": "Nhà chờ",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "The Secret Côn Đảo",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.684739,
+          "lng": 106.612637,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9510,
+          "code": "CĐ 0008",
+          "name": "Sài Gòn Côn Đảo Resort",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Sài Gòn Côn Đảo Resort",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.6825,
+          "lng": 106.609466,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9508,
+          "code": "CĐ 0006",
+          "name": "Cảng tàu khách Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Đối diện Cảng tàu khách Côn Đảo",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.681242,
+          "lng": 106.606159,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9506,
+          "code": "CĐ 0004",
+          "name": "Tòa án Côn Đảo",
+          "type": "Nhà chờ",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Tòa án Côn Đảo",
+          "street": "Nguyễn Huệ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.68196,
+          "lng": 106.605105,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9504,
+          "code": "CĐ 0002",
+          "name": "Phòng Kinh tế hạ tầng đô thị đặc khu Côn Đảo",
+          "type": "Trụ dừng",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Phòng Kinh tế hạ tầng đô thị đặc khu Côn Đảo",
+          "street": "Nguyễn Huệ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.683907,
+          "lng": 106.607589,
+          "routes": [
+            "173"
+          ]
+        },
+        {
+          "stop_id": 9501,
+          "code": "CĐ BX 0001",
+          "name": "Chợ Côn Đảo",
+          "type": "Bến xe",
+          "zone": "Đặc khu Côn Đảo",
+          "ward": null,
+          "address": "Chợ Côn Đảo",
+          "street": "Phạm Văn Đồng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 8.686167,
+          "lng": 106.608715,
+          "routes": [
+            "173"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 173,
+          "start_time": "05:00",
+          "end_time": "05:30"
+        },
+        {
+          "trip_id": 174,
+          "start_time": "05:15",
+          "end_time": "05:45"
+        },
+        {
+          "trip_id": 175,
+          "start_time": "05:30",
+          "end_time": "06:00"
+        },
+        {
+          "trip_id": 176,
+          "start_time": "05:45",
+          "end_time": "06:15"
+        },
+        {
+          "trip_id": 177,
+          "start_time": "06:00",
+          "end_time": "06:30"
+        },
+        {
+          "trip_id": 178,
+          "start_time": "06:15",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 179,
+          "start_time": "06:30",
+          "end_time": "07:00"
+        },
+        {
+          "trip_id": 180,
+          "start_time": "06:45",
+          "end_time": "07:15"
+        },
+        {
+          "trip_id": 181,
+          "start_time": "07:00",
+          "end_time": "07:30"
+        },
+        {
+          "trip_id": 182,
+          "start_time": "07:15",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 183,
+          "start_time": "07:30",
+          "end_time": "08:00"
+        },
+        {
+          "trip_id": 184,
+          "start_time": "07:45",
+          "end_time": "08:15"
+        },
+        {
+          "trip_id": 185,
+          "start_time": "08:00",
+          "end_time": "08:30"
+        },
+        {
+          "trip_id": 186,
+          "start_time": "08:15",
+          "end_time": "08:45"
+        },
+        {
+          "trip_id": 187,
+          "start_time": "08:30",
+          "end_time": "09:00"
+        },
+        {
+          "trip_id": 188,
+          "start_time": "08:45",
+          "end_time": "09:15"
+        },
+        {
+          "trip_id": 189,
+          "start_time": "09:00",
+          "end_time": "09:30"
+        },
+        {
+          "trip_id": 190,
+          "start_time": "09:15",
+          "end_time": "09:45"
+        },
+        {
+          "trip_id": 191,
+          "start_time": "09:30",
+          "end_time": "10:00"
+        },
+        {
+          "trip_id": 192,
+          "start_time": "09:45",
+          "end_time": "10:15"
+        },
+        {
+          "trip_id": 193,
+          "start_time": "10:00",
+          "end_time": "10:30"
+        },
+        {
+          "trip_id": 194,
+          "start_time": "10:15",
+          "end_time": "10:45"
+        },
+        {
+          "trip_id": 195,
+          "start_time": "10:30",
+          "end_time": "11:00"
+        },
+        {
+          "trip_id": 196,
+          "start_time": "10:45",
+          "end_time": "11:15"
+        },
+        {
+          "trip_id": 197,
+          "start_time": "11:00",
+          "end_time": "11:30"
+        },
+        {
+          "trip_id": 198,
+          "start_time": "11:15",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 199,
+          "start_time": "11:30",
+          "end_time": "12:00"
+        },
+        {
+          "trip_id": 200,
+          "start_time": "11:45",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 201,
+          "start_time": "12:00",
+          "end_time": "12:30"
+        },
+        {
+          "trip_id": 202,
+          "start_time": "12:15",
+          "end_time": "12:45"
+        },
+        {
+          "trip_id": 203,
+          "start_time": "12:30",
+          "end_time": "13:00"
+        },
+        {
+          "trip_id": 204,
+          "start_time": "12:45",
+          "end_time": "13:15"
+        },
+        {
+          "trip_id": 205,
+          "start_time": "13:00",
+          "end_time": "13:30"
+        },
+        {
+          "trip_id": 206,
+          "start_time": "13:15",
+          "end_time": "13:45"
+        },
+        {
+          "trip_id": 207,
+          "start_time": "13:30",
+          "end_time": "14:00"
+        },
+        {
+          "trip_id": 208,
+          "start_time": "13:45",
+          "end_time": "14:15"
+        },
+        {
+          "trip_id": 209,
+          "start_time": "14:00",
+          "end_time": "14:30"
+        },
+        {
+          "trip_id": 210,
+          "start_time": "14:15",
+          "end_time": "14:45"
+        },
+        {
+          "trip_id": 211,
+          "start_time": "14:30",
+          "end_time": "15:00"
+        },
+        {
+          "trip_id": 212,
+          "start_time": "14:45",
+          "end_time": "15:15"
+        },
+        {
+          "trip_id": 213,
+          "start_time": "15:00",
+          "end_time": "15:30"
+        },
+        {
+          "trip_id": 214,
+          "start_time": "15:15",
+          "end_time": "15:45"
+        },
+        {
+          "trip_id": 215,
+          "start_time": "15:30",
+          "end_time": "16:00"
+        },
+        {
+          "trip_id": 216,
+          "start_time": "15:45",
+          "end_time": "16:15"
+        },
+        {
+          "trip_id": 217,
+          "start_time": "16:00",
+          "end_time": "16:30"
+        },
+        {
+          "trip_id": 218,
+          "start_time": "16:15",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 219,
+          "start_time": "16:30",
+          "end_time": "17:00"
+        },
+        {
+          "trip_id": 220,
+          "start_time": "16:45",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 221,
+          "start_time": "17:00",
+          "end_time": "17:30"
+        },
+        {
+          "trip_id": 222,
+          "start_time": "17:15",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 223,
+          "start_time": "17:30",
+          "end_time": "18:00"
+        },
+        {
+          "trip_id": 224,
+          "start_time": "17:45",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 225,
+          "start_time": "18:00",
+          "end_time": "18:30"
+        },
+        {
+          "trip_id": 226,
+          "start_time": "18:15",
+          "end_time": "18:45"
+        },
+        {
+          "trip_id": 227,
+          "start_time": "18:30",
+          "end_time": "19:00"
+        },
+        {
+          "trip_id": 228,
+          "start_time": "18:45",
+          "end_time": "19:15"
+        },
+        {
+          "trip_id": 229,
+          "start_time": "19:00",
+          "end_time": "19:30"
+        }
+      ]
+    }
+  }
+}

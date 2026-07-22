@@ -1,0 +1,2658 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 18,
+    "crawled_at": "2026-07-23T00:26:33"
+  },
+  "data": {
+    "route": {
+      "id": 18,
+      "bus_no": "110",
+      "name": "Hiệp Phước - Phước Lộc",
+      "color": "#06C2AC",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 26300.0,
+      "num_of_seats": 40,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 7000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 157500,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 65,
+        "max": 65
+      },
+      "headway_minutes": {
+        "min": 12,
+        "max": 15
+      },
+      "operation_time": {
+        "start": "04:45",
+        "end": "20:00"
+      },
+      "total_trip": {
+        "value": 134,
+        "unit": "TPD"
+      },
+      "outbound_name": "Phước Lộc",
+      "outbound_description": [
+        "Bến xe buýt Cầu Kênh Lộ – quay đầu dưới dạ Cầu Kênh Lộ",
+        "quay đầu trên đường Nguyễn Văn Tạo – Cầu Kênh Lộ",
+        "Đường Nguyễn Văn Tạo",
+        "nhánh rẽ sang đường số 1 – đường số 1- Đường Nguyễn Bình",
+        "Đường Huỳnh Tấn Phát",
+        "Đường Phạm Hữu Lầu",
+        "Đường Lê Văn Lương",
+        "Đường Đào Sư Tích",
+        "Bến đò Ấp 3 (Bến đò Bảy Bé)"
+      ],
+      "inbound_name": "Hiệp Phước",
+      "inbound_description": [
+        "Bến đò Ấp 3 (Bến đò Bảy Bé)",
+        "Đường Đào Sư Tích",
+        "Đường Lê Văn Lương",
+        "Đường Phạm Hữu Lầu",
+        "Đường Huỳnh Tấn Phát",
+        "Đường Nguyễn Bình",
+        "Đường Nguyễn Văn Tạo",
+        "Cầu Kênh Lộ",
+        "quay đầu trên đường Nguyễn Văn Tạo",
+        "Bến xe buýt Cầu Kênh Lộ"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bến xe buýt Cầu Kênh Lộ - Bến Đò Ấp 3",
+        "short_name": "Phước Lộc",
+        "start_stop": "Cầu Kênh Lộ",
+        "end_stop": "Bến Đò Ấp 3",
+        "distance_m": 27732.0,
+        "running_time_minutes": 65,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "01/03/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 65,
+          "max": 65
+        },
+        "headway_minutes": {
+          "min": 12,
+          "max": 15
+        },
+        "total_trip": 67,
+        "operation_time": {
+          "start": "04:45",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 1088,
+          "code": "BX 71",
+          "name": "Cầu Kênh Lộ",
+          "type": "Bến xe",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Hiệp Phước",
+          "address": "Đầu bến kênh lộ",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.598307,
+          "lng": 106.742727,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1118,
+          "code": "HNB 060",
+          "name": "Nhà Tưởng niệm Liệt sỹ Nhà Bè",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện Nghĩa trang liệt sỹ Nhà Bè",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.604189,
+          "lng": 106.741308,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1119,
+          "code": "HNB 059",
+          "name": "Chùa Phước Linh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "1095",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.610005,
+          "lng": 106.740074,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1121,
+          "code": "HNB 058",
+          "name": "Công an xã Hiệp Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "1244 (Cửa sắt Ba Thủy)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.617645,
+          "lng": 106.739157,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1120,
+          "code": "HNB 057",
+          "name": "Giáo xứ Tin Mừng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Kế 919 (1733)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.622153,
+          "lng": 106.738159,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1122,
+          "code": "HNB 064",
+          "name": "Thành Công",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "849 (280)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.626002,
+          "lng": 106.73737,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1123,
+          "code": "HNB 055",
+          "name": "Ngã tư Long Hậu",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "921",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.631169,
+          "lng": 106.736104,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1125,
+          "code": "HNB 053",
+          "name": "Cầu Hiệp Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "78/4",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.634638,
+          "lng": 106.735364,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 7306,
+          "code": "HNB_098",
+          "name": "Chợ tạm",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Long Thới",
+          "address": "26",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.63952,
+          "lng": 106.733948,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1126,
+          "code": "HNB 052",
+          "name": "Trung tâm dạy nghề",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "189",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.643189,
+          "lng": 106.732677,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1129,
+          "code": "HNB 051",
+          "name": "Công ty may Đại Sơn",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "617",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.64717,
+          "lng": 106.731384,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1130,
+          "code": "HNB 050",
+          "name": "Chợ Bà Chồi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "78A",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.650117,
+          "lng": 106.730461,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1127,
+          "code": "HNB 049",
+          "name": "Bệnh viện Nhân Tâm",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Kế 205 (155)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.653391,
+          "lng": 106.729415,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1128,
+          "code": "HNB 048",
+          "name": "Trường Long Thới",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện CA H.Nhà Bè",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.657133,
+          "lng": 106.728203,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 7593,
+          "code": "HNB 157",
+          "name": "Trạm radar thời tiết Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Long Thới",
+          "address": "Đối diện 198",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.660503,
+          "lng": 106.7272,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1131,
+          "code": "HNB 047",
+          "name": "Hàng Tre",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "137",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.663465,
+          "lng": 106.726213,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1133,
+          "code": "HNB 037",
+          "name": "Cầu Bà Chiêm ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "303/12 (4/39)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.671605,
+          "lng": 106.724576,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1134,
+          "code": "HNB 038",
+          "name": "Cầu Mương Chuối",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "525 (13/4)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.672733,
+          "lng": 106.729568,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1135,
+          "code": "HNB 039",
+          "name": "Ủy ban huyện Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện UBND H.Nhà Bè",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67375,
+          "lng": 106.734243,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1136,
+          "code": "HNB 040",
+          "name": "Trường tiểu học Nguyễn Bình",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đ/d 274A (1/2)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6746,
+          "lng": 106.737968,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1137,
+          "code": "HNB 041",
+          "name": "Đình Đức Hưng Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "247 (Trường Nguyễn Bình)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.675433,
+          "lng": 106.741814,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1140,
+          "code": "HNB 042",
+          "name": "Nguyễn Bình",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "290 (209-233)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67595,
+          "lng": 106.744034,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1138,
+          "code": "HNB 043",
+          "name": "Đại lý bảo hiểm xe máy",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "91",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67668,
+          "lng": 106.747353,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1139,
+          "code": "HNB 044",
+          "name": "Ngã Ba Bờ Đăng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "12/11A",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6776,
+          "lng": 106.751465,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1141,
+          "code": "HNB 020",
+          "name": "Công Tiến Thọ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2479 (19/8B)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.679507,
+          "lng": 106.75071,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1143,
+          "code": "HNB 021",
+          "name": "Đào Tông Nguyên",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "23/3",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.681985,
+          "lng": 106.746994,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1142,
+          "code": "HNB 022",
+          "name": "Chùa Pháp Võ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "27/1B",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.684125,
+          "lng": 106.745476,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1144,
+          "code": "HNB 023",
+          "name": "Ngân hàng Agribank",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "18",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.687393,
+          "lng": 106.743202,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1145,
+          "code": "HNB 024",
+          "name": "Chùa Lá",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "2213",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.68996,
+          "lng": 106.741909,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1146,
+          "code": "HNB 025",
+          "name": "Trường Lâm Văn Bền",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "638",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.693397,
+          "lng": 106.740723,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1150,
+          "code": "HNB 027",
+          "name": "Công An Thị Trấn Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "2049",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695332,
+          "lng": 106.740026,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1148,
+          "code": "HNB 026",
+          "name": "Nha khoa Khánh Minh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1758",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.698273,
+          "lng": 106.738996,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1059,
+          "code": "HNB 002",
+          "name": "Chợ Phú Xuân",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1809-1811",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.70114,
+          "lng": 106.738315,
+          "routes": [
+            "110",
+            "20"
+          ]
+        },
+        {
+          "stop_id": 1149,
+          "code": "Q7 168",
+          "name": "Khu dân cư Kỹ Nguyên",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": null,
+          "address": "Trường Tiểu học Phú Mỹ",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.704941,
+          "lng": 106.735246,
+          "routes": [
+            "110",
+            "139"
+          ]
+        },
+        {
+          "stop_id": 7162,
+          "code": "Q7 192",
+          "name": "Đường 15B",
+          "type": "Nhà chờ",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "Gần cây xanh 160 (246)",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.70435,
+          "lng": 106.730171,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7170,
+          "code": "HNB 141",
+          "name": "Cầu Phước Long",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "360",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.702506,
+          "lng": 106.721985,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7168,
+          "code": "HNB 139",
+          "name": "Nguyễn Hữu Thọ",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "292B",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.697598,
+          "lng": 106.718633,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7166,
+          "code": "HNB 137",
+          "name": "Phạm Hữu Lầu",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "Đối diện trụ điện 57T",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.694588,
+          "lng": 106.707104,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 2818,
+          "code": "HNB 092",
+          "name": "Thu Liễu",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "1193",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.700297,
+          "lng": 106.70431,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2820,
+          "code": "HNB 091",
+          "name": "Bệnh viện huyện Nhà Bè",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "113",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.704593,
+          "lng": 106.703687,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2819,
+          "code": "HNB 090",
+          "name": "Ngọc Lâm",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "217",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.708631,
+          "lng": 106.702759,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2822,
+          "code": "HNB 089",
+          "name": "Đào Sư Tích",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "109",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.713317,
+          "lng": 106.701202,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 7164,
+          "code": "HNB 135",
+          "name": "Trường THCS Lê Thành Công",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "Đối diện 290 (106A)",
+          "street": "Đào Sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.712173,
+          "lng": 106.696537,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7766,
+          "code": "HNB 136-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "274-276",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.707268,
+          "lng": 106.688147,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7772,
+          "code": "HNB 139-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "404",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.699944,
+          "lng": 106.68613,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7767,
+          "code": "HNB 138-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "328",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.697509,
+          "lng": 106.685207,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7769,
+          "code": "HNB 140-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "464",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.696749,
+          "lng": 106.684928,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7761,
+          "code": "HNB 01009",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "ĐDTrường Tiểu Học Bùi Thanh Khiết",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.688294,
+          "lng": 106.682589,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7771,
+          "code": "TĐC_110",
+          "name": "Bến Đò Ấp 3",
+          "type": "Bến xe",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "Bến Đò Bảy Bé",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.683698,
+          "lng": 106.680422,
+          "routes": [
+            "110"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2,
+          "start_time": "04:45",
+          "end_time": "05:50"
+        },
+        {
+          "trip_id": 3,
+          "start_time": "05:00",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 4,
+          "start_time": "05:15",
+          "end_time": "06:20"
+        },
+        {
+          "trip_id": 5,
+          "start_time": "05:30",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 6,
+          "start_time": "05:45",
+          "end_time": "06:50"
+        },
+        {
+          "trip_id": 7,
+          "start_time": "05:57",
+          "end_time": "07:02"
+        },
+        {
+          "trip_id": 8,
+          "start_time": "06:09",
+          "end_time": "07:14"
+        },
+        {
+          "trip_id": 9,
+          "start_time": "06:21",
+          "end_time": "07:26"
+        },
+        {
+          "trip_id": 10,
+          "start_time": "06:33",
+          "end_time": "07:38"
+        },
+        {
+          "trip_id": 11,
+          "start_time": "06:45",
+          "end_time": "07:50"
+        },
+        {
+          "trip_id": 12,
+          "start_time": "06:57",
+          "end_time": "08:02"
+        },
+        {
+          "trip_id": 13,
+          "start_time": "07:09",
+          "end_time": "08:14"
+        },
+        {
+          "trip_id": 14,
+          "start_time": "07:21",
+          "end_time": "08:26"
+        },
+        {
+          "trip_id": 15,
+          "start_time": "07:36",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 16,
+          "start_time": "07:51",
+          "end_time": "08:56"
+        },
+        {
+          "trip_id": 17,
+          "start_time": "08:06",
+          "end_time": "09:11"
+        },
+        {
+          "trip_id": 18,
+          "start_time": "08:21",
+          "end_time": "09:26"
+        },
+        {
+          "trip_id": 19,
+          "start_time": "08:36",
+          "end_time": "09:41"
+        },
+        {
+          "trip_id": 20,
+          "start_time": "08:51",
+          "end_time": "09:56"
+        },
+        {
+          "trip_id": 21,
+          "start_time": "09:06",
+          "end_time": "10:11"
+        },
+        {
+          "trip_id": 22,
+          "start_time": "09:21",
+          "end_time": "10:26"
+        },
+        {
+          "trip_id": 23,
+          "start_time": "09:36",
+          "end_time": "10:41"
+        },
+        {
+          "trip_id": 24,
+          "start_time": "09:51",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 25,
+          "start_time": "10:06",
+          "end_time": "11:11"
+        },
+        {
+          "trip_id": 26,
+          "start_time": "10:21",
+          "end_time": "11:26"
+        },
+        {
+          "trip_id": 27,
+          "start_time": "10:33",
+          "end_time": "11:38"
+        },
+        {
+          "trip_id": 28,
+          "start_time": "10:45",
+          "end_time": "11:50"
+        },
+        {
+          "trip_id": 29,
+          "start_time": "10:57",
+          "end_time": "12:02"
+        },
+        {
+          "trip_id": 30,
+          "start_time": "11:09",
+          "end_time": "12:14"
+        },
+        {
+          "trip_id": 31,
+          "start_time": "11:21",
+          "end_time": "12:26"
+        },
+        {
+          "trip_id": 32,
+          "start_time": "11:33",
+          "end_time": "12:38"
+        },
+        {
+          "trip_id": 33,
+          "start_time": "11:45",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 34,
+          "start_time": "12:00",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 35,
+          "start_time": "12:15",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 36,
+          "start_time": "12:30",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 37,
+          "start_time": "12:45",
+          "end_time": "13:50"
+        },
+        {
+          "trip_id": 38,
+          "start_time": "13:00",
+          "end_time": "14:05"
+        },
+        {
+          "trip_id": 39,
+          "start_time": "13:15",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 40,
+          "start_time": "13:30",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 41,
+          "start_time": "13:45",
+          "end_time": "14:50"
+        },
+        {
+          "trip_id": 42,
+          "start_time": "14:00",
+          "end_time": "15:05"
+        },
+        {
+          "trip_id": 43,
+          "start_time": "14:15",
+          "end_time": "15:20"
+        },
+        {
+          "trip_id": 44,
+          "start_time": "14:30",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 45,
+          "start_time": "14:45",
+          "end_time": "15:50"
+        },
+        {
+          "trip_id": 46,
+          "start_time": "15:00",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 47,
+          "start_time": "15:15",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 48,
+          "start_time": "15:30",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 49,
+          "start_time": "15:42",
+          "end_time": "16:47"
+        },
+        {
+          "trip_id": 50,
+          "start_time": "15:54",
+          "end_time": "16:59"
+        },
+        {
+          "trip_id": 51,
+          "start_time": "16:06",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 52,
+          "start_time": "16:18",
+          "end_time": "17:23"
+        },
+        {
+          "trip_id": 53,
+          "start_time": "16:30",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 54,
+          "start_time": "16:42",
+          "end_time": "17:47"
+        },
+        {
+          "trip_id": 55,
+          "start_time": "16:54",
+          "end_time": "17:59"
+        },
+        {
+          "trip_id": 56,
+          "start_time": "17:06",
+          "end_time": "18:11"
+        },
+        {
+          "trip_id": 57,
+          "start_time": "17:18",
+          "end_time": "18:23"
+        },
+        {
+          "trip_id": 58,
+          "start_time": "17:30",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 59,
+          "start_time": "17:45",
+          "end_time": "18:50"
+        },
+        {
+          "trip_id": 60,
+          "start_time": "18:00",
+          "end_time": "19:05"
+        },
+        {
+          "trip_id": 61,
+          "start_time": "18:15",
+          "end_time": "19:20"
+        },
+        {
+          "trip_id": 62,
+          "start_time": "18:30",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 63,
+          "start_time": "18:45",
+          "end_time": "19:50"
+        },
+        {
+          "trip_id": 64,
+          "start_time": "19:00",
+          "end_time": "20:05"
+        },
+        {
+          "trip_id": 65,
+          "start_time": "19:15",
+          "end_time": "20:20"
+        },
+        {
+          "trip_id": 66,
+          "start_time": "19:30",
+          "end_time": "20:35"
+        },
+        {
+          "trip_id": 67,
+          "start_time": "19:45",
+          "end_time": "20:50"
+        },
+        {
+          "trip_id": 68,
+          "start_time": "20:00",
+          "end_time": "21:05"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Bến Đò Ấp 3 - Bến xe buýt Cầu Kênh Lộ",
+        "short_name": "Hiệp Phước",
+        "start_stop": "Bến Đò Ấp 3",
+        "end_stop": "Cầu Kênh Lộ",
+        "distance_m": 27394.00000000002,
+        "running_time_minutes": 65,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "01/03/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 65,
+          "max": 65
+        },
+        "headway_minutes": {
+          "min": 12,
+          "max": 15
+        },
+        "total_trip": 67,
+        "operation_time": {
+          "start": "04:45",
+          "end": "20:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7771,
+          "code": "TĐC_110",
+          "name": "Bến Đò Ấp 3",
+          "type": "Bến xe",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "Bến Đò Bảy Bé",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.683698,
+          "lng": 106.680422,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7765,
+          "code": "HNB 144-1",
+          "name": "Đào sư Tích",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "Trường Tiểu học Bùi Thanh Khiết",
+          "street": " Đào Sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.688144,
+          "lng": 106.682712,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7770,
+          "code": "HNB 142-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "ĐD464",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.696749,
+          "lng": 106.685057,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7763,
+          "code": "HNB 145-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "Trước UBND Xã Phước Lộc",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.699477,
+          "lng": 106.685963,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7762,
+          "code": "HNB 137-1",
+          "name": "Đào sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "327a",
+          "street": "Đào sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.70025,
+          "lng": 106.68643,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7760,
+          "code": "HNB 141-1",
+          "name": " Đào Sư Tích",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "ĐD276",
+          "street": " Đào Sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.703201,
+          "lng": 106.687632,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7163,
+          "code": "HNB 134",
+          "name": "Trường THCS Lê Thành Công",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "63",
+          "street": "Đào Sư Tích",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.712278,
+          "lng": 106.697052,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 2799,
+          "code": "HNB 082",
+          "name": "Đào Sư Tích",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "304A",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.712937,
+          "lng": 106.701193,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2798,
+          "code": "HNB 081",
+          "name": "Ngọc Lâm",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "426",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.708304,
+          "lng": 106.702652,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2801,
+          "code": "HNB 080",
+          "name": "Bệnh viện huyện Nhà Bè",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "506-508",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.70505,
+          "lng": 106.703484,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2800,
+          "code": "HNB 079",
+          "name": "Thu Liễu",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "162",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.699886,
+          "lng": 106.704202,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 2803,
+          "code": "HNB 078",
+          "name": "Phạm Hữu Lầu",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "1358",
+          "street": "Lê Văn Lương",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695667,
+          "lng": 106.704834,
+          "routes": [
+            "110",
+            "86"
+          ]
+        },
+        {
+          "stop_id": 7165,
+          "code": "HNB 136",
+          "name": "Phạm Hữu Lầu",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "Trụ điện 57T",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.694377,
+          "lng": 106.707115,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7167,
+          "code": "HNB 138",
+          "name": "Nguyễn Hữu Thọ",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "14",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.697498,
+          "lng": 106.718767,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7169,
+          "code": "HNB 140",
+          "name": "Cầu Phước Long",
+          "type": "Ô sơn",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phước Kiển",
+          "address": "334",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.702189,
+          "lng": 106.721792,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 7161,
+          "code": "Q7 191",
+          "name": "Đường 15B",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "289",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.70425,
+          "lng": 106.730644,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1057,
+          "code": "Q7 169",
+          "name": "Khu dân cư Kỹ Nguyên",
+          "type": "Trụ dừng",
+          "zone": "Quận 7",
+          "ward": "Phường Phú Mỹ",
+          "address": "63-65",
+          "street": "Phạm Hữu Lầu",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.704788,
+          "lng": 106.735198,
+          "routes": [
+            "110",
+            "139"
+          ]
+        },
+        {
+          "stop_id": 1055,
+          "code": "HNB 001",
+          "name": "Chợ Phú Xuân",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1678-1680 (26/1-26/2)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.701088,
+          "lng": 106.73817,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1147,
+          "code": "HNB 028",
+          "name": "Nha khoa Khánh Minh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "1901B",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6984,
+          "lng": 106.738785,
+          "routes": [
+            "110",
+            "20"
+          ]
+        },
+        {
+          "stop_id": 1058,
+          "code": "HNB 003",
+          "name": "Công an Thị trấn Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "242 (42/7)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.695869,
+          "lng": 106.739666,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1061,
+          "code": "HNB 004",
+          "name": "Trường Lâm Văn Bền",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "57/4",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.69345,
+          "lng": 106.740546,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1063,
+          "code": "HNB 005",
+          "name": "Chùa Lá",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "Kế 4/11C",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.690113,
+          "lng": 106.741694,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1060,
+          "code": "HNB 006",
+          "name": "Ngân hàng Agribank",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "2132",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.686992,
+          "lng": 106.743314,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1065,
+          "code": "HNB 007",
+          "name": "Chùa Pháp Võ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "536",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.683998,
+          "lng": 106.74538,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1062,
+          "code": "HNB 008",
+          "name": "Đào Tông Nguyên",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "Đối diện 23/5",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.682021,
+          "lng": 106.746764,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1066,
+          "code": "HNB 009",
+          "name": "Công Tiến Thọ",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "2374 (15/6B)",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.679275,
+          "lng": 106.750803,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1064,
+          "code": "HNB 010",
+          "name": "Ngã Ba Bờ Đăng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "12/8H",
+          "street": "Huỳnh Tấn Phát",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6784,
+          "lng": 106.753196,
+          "routes": [
+            "110",
+            "20",
+            "75"
+          ]
+        },
+        {
+          "stop_id": 1069,
+          "code": "HNB 029",
+          "name": "Ngã Ba Bờ Đăng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "32",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67775,
+          "lng": 106.751747,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1067,
+          "code": "HNB 030",
+          "name": "Đại lý bảo hiểm xe máy",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "98",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.676867,
+          "lng": 106.747803,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1071,
+          "code": "HNB 031",
+          "name": "Rạch Ngang",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "192 (13/1)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.676117,
+          "lng": 106.744499,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1068,
+          "code": "HNB 032",
+          "name": "Đình Đức Hưng Thạnh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "243 ( Đình Đức Hưng Thạnh)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67545,
+          "lng": 106.741402,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1073,
+          "code": "HNB 033",
+          "name": "Trường tiểu học Nguyễn Bình",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện 269A (Đ/d 1/2C)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67475,
+          "lng": 106.738251,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1070,
+          "code": "HNB 034",
+          "name": "Ủy ban huyện Nhà Bè",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Phú Xuân",
+          "address": "UBND Huyện Nhà Bè",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.67385,
+          "lng": 106.734154,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1075,
+          "code": "HNB 035",
+          "name": "Cầu Mương Chuối",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "486 (17/6)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.673017,
+          "lng": 106.730316,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1072,
+          "code": "HNB 036",
+          "name": "Cầu Bà Chiêm",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "578 (5/12)",
+          "street": "Nguyễn Bình",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.671817,
+          "lng": 106.724968,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 4161,
+          "code": "HNB 045",
+          "name": "Nguyễn Văn Tạo",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Bưu điện Long Thới",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.670545,
+          "lng": 106.72375,
+          "routes": [
+            "110"
+          ]
+        },
+        {
+          "stop_id": 1078,
+          "code": "HNB 112",
+          "name": "Vòng xoay Long Thới",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "74",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.667366,
+          "lng": 106.724791,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1074,
+          "code": "HNB 073",
+          "name": "Hàng Tre",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện 206",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.663817,
+          "lng": 106.725929,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 7592,
+          "code": "HNB 156",
+          "name": "Trạm radar thời tiết Nhà Bè",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Long Thới",
+          "address": "192",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.66065,
+          "lng": 106.726835,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1076,
+          "code": "HNB 072",
+          "name": "Trường Long Thới",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Công an huyện Nhà Bè",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.656775,
+          "lng": 106.728176,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1077,
+          "code": "HNB 071",
+          "name": "Bệnh viện Nhân Tâm",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "288 (239)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.6529,
+          "lng": 106.729431,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1080,
+          "code": "HNB 070",
+          "name": "Chợ Bà Chồi",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "372 (Chợ Bà Chồi)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.650117,
+          "lng": 106.730316,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1079,
+          "code": "HNB 069",
+          "name": "Công ty may Đại Sơn",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "482B",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.647491,
+          "lng": 106.731148,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1081,
+          "code": "HNB 068",
+          "name": "Trung tâm dạy nghề",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "568 (Đ/d Trung tâm dạy nghề Nhà Bè )",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.642867,
+          "lng": 106.732651,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 7307,
+          "code": "HNB_097",
+          "name": "Chợ tạm",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Thị trấn Nhà Bè",
+          "address": "129",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.639414,
+          "lng": 106.733857,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1082,
+          "code": "HNB 066",
+          "name": "Cầu Hiệp Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "718",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.634253,
+          "lng": 106.735284,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1085,
+          "code": "HNB 065",
+          "name": "Ngã tư Long Hậu",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện 929",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.630685,
+          "lng": 106.736143,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1084,
+          "code": "HNB 114",
+          "name": "Thành Công",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "CHVLXD Thành Công",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.626165,
+          "lng": 106.737118,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1087,
+          "code": "HNB 056",
+          "name": "Giáo xứ Tin Mừng",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Kế 280 (Cửa sắt Hoàng Cẩn)",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.622401,
+          "lng": 106.737939,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1086,
+          "code": "HNB 063",
+          "name": "Công an xã Hiệp Phước",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Đối diện cửa hàng Ba Thủy",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.617386,
+          "lng": 106.739017,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1089,
+          "code": "HNB 062",
+          "name": "Chùa Phước Linh",
+          "type": "Trụ dừng",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "Cột điện 141P",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.609535,
+          "lng": 106.739983,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1091,
+          "code": "HNB 061",
+          "name": "Nhà Tưởng niệm Liệt sỹ Nhà Bè",
+          "type": "Nhà chờ",
+          "zone": "Huyện Nhà Bè",
+          "ward": null,
+          "address": "1/58A",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.604421,
+          "lng": 106.741072,
+          "routes": [
+            "110",
+            "72"
+          ]
+        },
+        {
+          "stop_id": 1088,
+          "code": "BX 71",
+          "name": "Cầu Kênh Lộ",
+          "type": "Bến xe",
+          "zone": "Huyện Nhà Bè",
+          "ward": "Xã Hiệp Phước",
+          "address": "Đầu bến kênh lộ",
+          "street": "Nguyễn Văn Tạo",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.598307,
+          "lng": 106.742727,
+          "routes": [
+            "110",
+            "72"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 69,
+          "start_time": "04:45",
+          "end_time": "05:50"
+        },
+        {
+          "trip_id": 70,
+          "start_time": "05:00",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 71,
+          "start_time": "05:15",
+          "end_time": "06:20"
+        },
+        {
+          "trip_id": 72,
+          "start_time": "05:30",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 73,
+          "start_time": "05:45",
+          "end_time": "06:50"
+        },
+        {
+          "trip_id": 74,
+          "start_time": "05:57",
+          "end_time": "07:02"
+        },
+        {
+          "trip_id": 75,
+          "start_time": "06:09",
+          "end_time": "07:14"
+        },
+        {
+          "trip_id": 76,
+          "start_time": "06:21",
+          "end_time": "07:26"
+        },
+        {
+          "trip_id": 77,
+          "start_time": "06:33",
+          "end_time": "07:38"
+        },
+        {
+          "trip_id": 78,
+          "start_time": "06:45",
+          "end_time": "07:50"
+        },
+        {
+          "trip_id": 79,
+          "start_time": "06:57",
+          "end_time": "08:02"
+        },
+        {
+          "trip_id": 80,
+          "start_time": "07:09",
+          "end_time": "08:14"
+        },
+        {
+          "trip_id": 81,
+          "start_time": "07:21",
+          "end_time": "08:26"
+        },
+        {
+          "trip_id": 82,
+          "start_time": "07:36",
+          "end_time": "08:41"
+        },
+        {
+          "trip_id": 83,
+          "start_time": "07:51",
+          "end_time": "08:56"
+        },
+        {
+          "trip_id": 84,
+          "start_time": "08:06",
+          "end_time": "09:11"
+        },
+        {
+          "trip_id": 85,
+          "start_time": "08:21",
+          "end_time": "09:26"
+        },
+        {
+          "trip_id": 86,
+          "start_time": "08:36",
+          "end_time": "09:41"
+        },
+        {
+          "trip_id": 87,
+          "start_time": "08:51",
+          "end_time": "09:56"
+        },
+        {
+          "trip_id": 88,
+          "start_time": "09:06",
+          "end_time": "10:11"
+        },
+        {
+          "trip_id": 89,
+          "start_time": "09:21",
+          "end_time": "10:26"
+        },
+        {
+          "trip_id": 90,
+          "start_time": "09:36",
+          "end_time": "10:41"
+        },
+        {
+          "trip_id": 91,
+          "start_time": "09:51",
+          "end_time": "10:56"
+        },
+        {
+          "trip_id": 92,
+          "start_time": "10:06",
+          "end_time": "11:11"
+        },
+        {
+          "trip_id": 93,
+          "start_time": "10:21",
+          "end_time": "11:26"
+        },
+        {
+          "trip_id": 94,
+          "start_time": "10:33",
+          "end_time": "11:38"
+        },
+        {
+          "trip_id": 95,
+          "start_time": "10:45",
+          "end_time": "11:50"
+        },
+        {
+          "trip_id": 96,
+          "start_time": "10:57",
+          "end_time": "12:02"
+        },
+        {
+          "trip_id": 97,
+          "start_time": "11:09",
+          "end_time": "12:14"
+        },
+        {
+          "trip_id": 98,
+          "start_time": "11:21",
+          "end_time": "12:26"
+        },
+        {
+          "trip_id": 99,
+          "start_time": "11:33",
+          "end_time": "12:38"
+        },
+        {
+          "trip_id": 100,
+          "start_time": "11:45",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 101,
+          "start_time": "12:00",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 102,
+          "start_time": "12:15",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 103,
+          "start_time": "12:30",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 104,
+          "start_time": "12:45",
+          "end_time": "13:50"
+        },
+        {
+          "trip_id": 105,
+          "start_time": "13:00",
+          "end_time": "14:05"
+        },
+        {
+          "trip_id": 106,
+          "start_time": "13:15",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 107,
+          "start_time": "13:30",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 108,
+          "start_time": "13:45",
+          "end_time": "14:50"
+        },
+        {
+          "trip_id": 109,
+          "start_time": "14:00",
+          "end_time": "15:05"
+        },
+        {
+          "trip_id": 110,
+          "start_time": "14:15",
+          "end_time": "15:20"
+        },
+        {
+          "trip_id": 111,
+          "start_time": "14:30",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 112,
+          "start_time": "14:45",
+          "end_time": "15:50"
+        },
+        {
+          "trip_id": 113,
+          "start_time": "15:00",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 114,
+          "start_time": "15:15",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 115,
+          "start_time": "15:30",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 116,
+          "start_time": "15:42",
+          "end_time": "16:47"
+        },
+        {
+          "trip_id": 117,
+          "start_time": "15:54",
+          "end_time": "16:59"
+        },
+        {
+          "trip_id": 118,
+          "start_time": "16:06",
+          "end_time": "17:11"
+        },
+        {
+          "trip_id": 119,
+          "start_time": "16:18",
+          "end_time": "17:23"
+        },
+        {
+          "trip_id": 120,
+          "start_time": "16:30",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 121,
+          "start_time": "16:42",
+          "end_time": "17:47"
+        },
+        {
+          "trip_id": 122,
+          "start_time": "16:54",
+          "end_time": "17:59"
+        },
+        {
+          "trip_id": 123,
+          "start_time": "17:06",
+          "end_time": "18:11"
+        },
+        {
+          "trip_id": 124,
+          "start_time": "17:18",
+          "end_time": "18:23"
+        },
+        {
+          "trip_id": 125,
+          "start_time": "17:30",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 126,
+          "start_time": "17:45",
+          "end_time": "18:50"
+        },
+        {
+          "trip_id": 127,
+          "start_time": "18:00",
+          "end_time": "19:05"
+        },
+        {
+          "trip_id": 128,
+          "start_time": "18:15",
+          "end_time": "19:20"
+        },
+        {
+          "trip_id": 129,
+          "start_time": "18:30",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 130,
+          "start_time": "18:45",
+          "end_time": "19:50"
+        },
+        {
+          "trip_id": 131,
+          "start_time": "19:00",
+          "end_time": "20:05"
+        },
+        {
+          "trip_id": 132,
+          "start_time": "19:15",
+          "end_time": "20:20"
+        },
+        {
+          "trip_id": 133,
+          "start_time": "19:30",
+          "end_time": "20:35"
+        },
+        {
+          "trip_id": 134,
+          "start_time": "19:45",
+          "end_time": "20:50"
+        },
+        {
+          "trip_id": 135,
+          "start_time": "20:00",
+          "end_time": "21:05"
+        }
+      ]
+    }
+  }
+}

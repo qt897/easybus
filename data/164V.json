@@ -1,0 +1,948 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 396,
+    "crawled_at": "2026-07-23T00:26:44"
+  },
+  "data": {
+    "route": {
+      "id": 396,
+      "bus_no": "164V",
+      "name": "Đại học Nông Lâm - Chung cư Topaz - Ga Metro Khu Công nghệ cao",
+      "color": "#FFFF99",
+      "type": "Phổ thông - Có trợ giá",
+      "distance_m": 10400.0,
+      "num_of_seats": 30,
+      "operators": [
+        "Công ty Cổ phần Xe khách Phương Trang FutaBusLines, ĐT: 1900638494"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá",
+          "price": 5000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 3000,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé miễn",
+          "price": 0,
+          "currency": "VNĐ"
+        },
+        {
+          "name": "Vé tập",
+          "price": 112500,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 35,
+        "max": 35
+      },
+      "headway_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "operation_time": {
+        "start": "05:00",
+        "end": "22:00"
+      },
+      "total_trip": {
+        "value": 79,
+        "unit": "TPD"
+      },
+      "outbound_name": "Ga Metro Khu Công nghệ cao",
+      "outbound_description": [
+        "Bến xe buýt Đại học Nông Lâm – Quốc lộ 1 – Đường Bưng Sáu Xã – Đường Nam Cao – Đường Cầu Xây – Đường Hoàng Hữu Nam – Đường 154 – song hành phải – Quốc lộ 1 – quay đầu (trước Nghĩa trang liệt sĩ Thành phố Hồ Chí Minh) – song hành trái – Ga Đại học Quốc gia – song hành trái – Quốc lộ 1 – Bến xe buýt Đại học Nông Lâm"
+      ],
+      "inbound_name": null,
+      "inbound_description": []
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt về",
+        "short_name": "Ga Metro Khu Công nghệ cao",
+        "start_stop": "BẾN XE BUÝT ĐẠI HỌC NÔNG LÂM",
+        "end_stop": "BẾN XE BUÝT ĐẠI HỌC NÔNG LÂM",
+        "distance_m": 10331.999999999998,
+        "running_time_minutes": 35,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 3,
+        "route_var_id": 1,
+        "start_date": "21/02/2026",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 35,
+          "max": 35
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 15
+        },
+        "total_trip": 79,
+        "operation_time": {
+          "start": "05:00",
+          "end": "22:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 394,
+          "code": "BX73",
+          "name": "BẾN XE BUÝT ĐẠI HỌC NÔNG LÂM",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Bến xe buýt ĐH Nông Lâm",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.868183,
+          "lng": 106.787445,
+          "routes": [
+            "06",
+            "164D",
+            "164V",
+            "165",
+            "60-2",
+            "89"
+          ]
+        },
+        {
+          "stop_id": 396,
+          "code": "QTD 174",
+          "name": "ĐH Nông Lâm",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "1026/2 (1030)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.866912,
+          "lng": 106.790283,
+          "routes": [
+            "06",
+            "164D",
+            "164V",
+            "165",
+            "170",
+            "19",
+            "33",
+            "50",
+            "52",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 4113,
+          "code": "Q9 275",
+          "name": "Trạm Y tế phường Tân Phú",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "46",
+          "street": "Nam Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.859897,
+          "lng": 106.799753,
+          "routes": [
+            "164V",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 4105,
+          "code": "Q9 276",
+          "name": "Trường THCS Tân Phú",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "102",
+          "street": "Nam Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.858116,
+          "lng": 106.801051,
+          "routes": [
+            "164V",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 4117,
+          "code": "Q9 277",
+          "name": "Trạm đầu Nam Cao",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Đối diện 109",
+          "street": "Nam Cao",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.85595,
+          "lng": 106.802784,
+          "routes": [
+            "164V",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 4106,
+          "code": "Q9 004",
+          "name": "Trạm cuối đường Cầu Xây",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": null,
+          "address": "Đối diện 37",
+          "street": "Cầu Xây",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.85395,
+          "lng": 106.80776,
+          "routes": [
+            "164V",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 4118,
+          "code": "Q9 005",
+          "name": "Đường số 100",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Đối diện 97",
+          "street": "Cầu Xây",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.854539,
+          "lng": 106.809774,
+          "routes": [
+            "164V",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 4107,
+          "code": "Q9 006",
+          "name": "Hoa cảnh Sài Gòn",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "162-164",
+          "street": "Cầu Xây",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.855698,
+          "lng": 106.812671,
+          "routes": [
+            "164V",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 7629,
+          "code": "Q9 282",
+          "name": "Cầu Xây",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Đối diện 151",
+          "street": "Hoàng Hữu Nam",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.856967,
+          "lng": 106.813647,
+          "routes": [
+            "164V",
+            "56"
+          ]
+        },
+        {
+          "stop_id": 4133,
+          "code": "Q9 265",
+          "name": "Học viện Thanh Thiếu niên Việt Nam",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "284 (304)",
+          "street": "Hoàng Hữu Nam",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.86281,
+          "lng": 106.813524,
+          "routes": [
+            "164V",
+            "56"
+          ]
+        },
+        {
+          "stop_id": 8001,
+          "code": "TPTĐ 131",
+          "name": "Trường Mầm non Tân Phú",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Trường Mầm non Tân Phú",
+          "street": "Đường 154",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.864833,
+          "lng": 106.812889,
+          "routes": [
+            "164V"
+          ]
+        },
+        {
+          "stop_id": 8004,
+          "code": "TPTĐ 134",
+          "name": "Chung cư Topaz",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Cạnh số 179 (đối diện Chung cư Topaz)",
+          "street": "Đường 154",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.86625,
+          "lng": 106.81,
+          "routes": [
+            "164V"
+          ]
+        },
+        {
+          "stop_id": 8006,
+          "code": "TPTĐ 136",
+          "name": "Trường Mầm non Mai Hoa",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Trường Mầm non Mai Hoa (79)",
+          "street": "Đường 154",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.8675,
+          "lng": 106.807444,
+          "routes": [
+            "164V"
+          ]
+        },
+        {
+          "stop_id": 1919,
+          "code": "Q9 225",
+          "name": "Nghĩa trang liệt sĩ TP.HCM",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV2",
+          "ward": "Phường Tân Phú",
+          "address": "Nghĩa trang liệt sĩ Thành phố HCM",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.873515,
+          "lng": 106.809458,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "170",
+            "19",
+            "33",
+            "53",
+            "56",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-77",
+            "61-9",
+            "67",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 572,
+          "code": "QTD 175",
+          "name": "Đại học An Ninh Nhân Dân",
+          "type": "Ô sơn",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Nhà máy Tiến Thành",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.871402,
+          "lng": 106.806657,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "166",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-1",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 576,
+          "code": "QTD 176",
+          "name": "Trường ĐH công nghệ thông tin",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Trường ĐH Công Nghệ thông tin",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.869172,
+          "lng": 106.804727,
+          "routes": [
+            "08",
+            "10",
+            "150",
+            "164V",
+            "166",
+            "170",
+            "19",
+            "33",
+            "53",
+            "60-2",
+            "60-3",
+            "60-7",
+            "61-9",
+            "67",
+            "76",
+            "93",
+            "99"
+          ]
+        },
+        {
+          "stop_id": 8099,
+          "code": "TPTĐ 229",
+          "name": "Ga metro Đại học quốc gia",
+          "type": "Nhà chờ",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "Đối diện ga metro Đại học quốc gia",
+          "street": "Song Hành trái Xa Lộ Hà Nội",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.866189,
+          "lng": 106.800494,
+          "routes": [
+            "164V",
+            "170"
+          ]
+        },
+        {
+          "stop_id": 2145,
+          "code": "QTD 179",
+          "name": "Thảo Nguyên",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "35B",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.865335,
+          "lng": 106.793938,
+          "routes": [
+            "164V",
+            "19",
+            "33",
+            "50",
+            "52",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 500,
+          "code": "QTD 180",
+          "name": "Đại học Nông Lâm",
+          "type": "Trụ dừng",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": "Phường Linh Trung",
+          "address": "85 (Đối diện 1026-1028)",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.866961,
+          "lng": 106.791101,
+          "routes": [
+            "06",
+            "164D",
+            "164V",
+            "170",
+            "19",
+            "33",
+            "50",
+            "52",
+            "53",
+            "60-1",
+            "60-2",
+            "61-9",
+            "93"
+          ]
+        },
+        {
+          "stop_id": 394,
+          "code": "BX73",
+          "name": "BẾN XE BUÝT ĐẠI HỌC NÔNG LÂM",
+          "type": "Bến xe",
+          "zone": "TP. Thủ Đức - KV3",
+          "ward": null,
+          "address": "Bến xe buýt ĐH Nông Lâm",
+          "street": "Quốc lộ 1",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.868183,
+          "lng": 106.787445,
+          "routes": [
+            "06",
+            "164D",
+            "164V",
+            "165",
+            "60-2",
+            "89"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 116,
+          "start_time": "05:00",
+          "end_time": "05:35"
+        },
+        {
+          "trip_id": 117,
+          "start_time": "05:15",
+          "end_time": "05:50"
+        },
+        {
+          "trip_id": 118,
+          "start_time": "05:30",
+          "end_time": "06:05"
+        },
+        {
+          "trip_id": 119,
+          "start_time": "05:45",
+          "end_time": "06:20"
+        },
+        {
+          "trip_id": 120,
+          "start_time": "06:00",
+          "end_time": "06:35"
+        },
+        {
+          "trip_id": 121,
+          "start_time": "06:10",
+          "end_time": "06:45"
+        },
+        {
+          "trip_id": 122,
+          "start_time": "06:20",
+          "end_time": "06:55"
+        },
+        {
+          "trip_id": 123,
+          "start_time": "06:30",
+          "end_time": "07:05"
+        },
+        {
+          "trip_id": 124,
+          "start_time": "06:40",
+          "end_time": "07:15"
+        },
+        {
+          "trip_id": 125,
+          "start_time": "06:50",
+          "end_time": "07:25"
+        },
+        {
+          "trip_id": 126,
+          "start_time": "07:00",
+          "end_time": "07:35"
+        },
+        {
+          "trip_id": 127,
+          "start_time": "07:10",
+          "end_time": "07:45"
+        },
+        {
+          "trip_id": 128,
+          "start_time": "07:20",
+          "end_time": "07:55"
+        },
+        {
+          "trip_id": 129,
+          "start_time": "07:30",
+          "end_time": "08:05"
+        },
+        {
+          "trip_id": 130,
+          "start_time": "07:40",
+          "end_time": "08:15"
+        },
+        {
+          "trip_id": 131,
+          "start_time": "07:50",
+          "end_time": "08:25"
+        },
+        {
+          "trip_id": 132,
+          "start_time": "08:00",
+          "end_time": "08:35"
+        },
+        {
+          "trip_id": 133,
+          "start_time": "08:15",
+          "end_time": "08:50"
+        },
+        {
+          "trip_id": 134,
+          "start_time": "08:30",
+          "end_time": "09:05"
+        },
+        {
+          "trip_id": 135,
+          "start_time": "08:45",
+          "end_time": "09:20"
+        },
+        {
+          "trip_id": 136,
+          "start_time": "09:00",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 137,
+          "start_time": "09:15",
+          "end_time": "09:50"
+        },
+        {
+          "trip_id": 138,
+          "start_time": "09:30",
+          "end_time": "10:05"
+        },
+        {
+          "trip_id": 139,
+          "start_time": "09:45",
+          "end_time": "10:20"
+        },
+        {
+          "trip_id": 140,
+          "start_time": "10:00",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 141,
+          "start_time": "10:15",
+          "end_time": "10:50"
+        },
+        {
+          "trip_id": 142,
+          "start_time": "10:30",
+          "end_time": "11:05"
+        },
+        {
+          "trip_id": 143,
+          "start_time": "10:45",
+          "end_time": "11:20"
+        },
+        {
+          "trip_id": 144,
+          "start_time": "11:00",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 145,
+          "start_time": "11:10",
+          "end_time": "11:45"
+        },
+        {
+          "trip_id": 146,
+          "start_time": "11:20",
+          "end_time": "11:55"
+        },
+        {
+          "trip_id": 147,
+          "start_time": "11:30",
+          "end_time": "12:05"
+        },
+        {
+          "trip_id": 148,
+          "start_time": "11:40",
+          "end_time": "12:15"
+        },
+        {
+          "trip_id": 149,
+          "start_time": "11:50",
+          "end_time": "12:25"
+        },
+        {
+          "trip_id": 150,
+          "start_time": "12:00",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 151,
+          "start_time": "12:15",
+          "end_time": "12:50"
+        },
+        {
+          "trip_id": 152,
+          "start_time": "12:30",
+          "end_time": "13:05"
+        },
+        {
+          "trip_id": 153,
+          "start_time": "12:45",
+          "end_time": "13:20"
+        },
+        {
+          "trip_id": 154,
+          "start_time": "13:00",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 155,
+          "start_time": "13:15",
+          "end_time": "13:50"
+        },
+        {
+          "trip_id": 156,
+          "start_time": "13:30",
+          "end_time": "14:05"
+        },
+        {
+          "trip_id": 157,
+          "start_time": "13:45",
+          "end_time": "14:20"
+        },
+        {
+          "trip_id": 158,
+          "start_time": "14:00",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 159,
+          "start_time": "14:15",
+          "end_time": "14:50"
+        },
+        {
+          "trip_id": 160,
+          "start_time": "14:30",
+          "end_time": "15:05"
+        },
+        {
+          "trip_id": 161,
+          "start_time": "14:45",
+          "end_time": "15:20"
+        },
+        {
+          "trip_id": 162,
+          "start_time": "15:00",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 163,
+          "start_time": "15:15",
+          "end_time": "15:50"
+        },
+        {
+          "trip_id": 164,
+          "start_time": "15:30",
+          "end_time": "16:05"
+        },
+        {
+          "trip_id": 165,
+          "start_time": "15:45",
+          "end_time": "16:20"
+        },
+        {
+          "trip_id": 166,
+          "start_time": "16:00",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 167,
+          "start_time": "16:10",
+          "end_time": "16:45"
+        },
+        {
+          "trip_id": 168,
+          "start_time": "16:20",
+          "end_time": "16:55"
+        },
+        {
+          "trip_id": 169,
+          "start_time": "16:30",
+          "end_time": "17:05"
+        },
+        {
+          "trip_id": 170,
+          "start_time": "16:40",
+          "end_time": "17:15"
+        },
+        {
+          "trip_id": 171,
+          "start_time": "16:50",
+          "end_time": "17:25"
+        },
+        {
+          "trip_id": 172,
+          "start_time": "17:00",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 173,
+          "start_time": "17:10",
+          "end_time": "17:45"
+        },
+        {
+          "trip_id": 174,
+          "start_time": "17:20",
+          "end_time": "17:55"
+        },
+        {
+          "trip_id": 175,
+          "start_time": "17:30",
+          "end_time": "18:05"
+        },
+        {
+          "trip_id": 176,
+          "start_time": "17:40",
+          "end_time": "18:15"
+        },
+        {
+          "trip_id": 177,
+          "start_time": "17:50",
+          "end_time": "18:25"
+        },
+        {
+          "trip_id": 178,
+          "start_time": "18:00",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 179,
+          "start_time": "18:15",
+          "end_time": "18:50"
+        },
+        {
+          "trip_id": 180,
+          "start_time": "18:30",
+          "end_time": "19:05"
+        },
+        {
+          "trip_id": 181,
+          "start_time": "18:45",
+          "end_time": "19:20"
+        },
+        {
+          "trip_id": 182,
+          "start_time": "19:00",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 183,
+          "start_time": "19:15",
+          "end_time": "19:50"
+        },
+        {
+          "trip_id": 184,
+          "start_time": "19:30",
+          "end_time": "20:05"
+        },
+        {
+          "trip_id": 185,
+          "start_time": "19:45",
+          "end_time": "20:20"
+        },
+        {
+          "trip_id": 186,
+          "start_time": "20:00",
+          "end_time": "20:35"
+        },
+        {
+          "trip_id": 187,
+          "start_time": "20:15",
+          "end_time": "20:50"
+        },
+        {
+          "trip_id": 188,
+          "start_time": "20:30",
+          "end_time": "21:05"
+        },
+        {
+          "trip_id": 189,
+          "start_time": "20:45",
+          "end_time": "21:20"
+        },
+        {
+          "trip_id": 190,
+          "start_time": "21:00",
+          "end_time": "21:35"
+        },
+        {
+          "trip_id": 191,
+          "start_time": "21:15",
+          "end_time": "21:50"
+        },
+        {
+          "trip_id": 192,
+          "start_time": "21:30",
+          "end_time": "22:05"
+        },
+        {
+          "trip_id": 193,
+          "start_time": "21:45",
+          "end_time": "22:20"
+        },
+        {
+          "trip_id": 194,
+          "start_time": "22:00",
+          "end_time": "22:35"
+        }
+      ]
+    }
+  }
+}

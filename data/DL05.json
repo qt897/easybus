@@ -1,0 +1,579 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 406,
+    "crawled_at": "2026-07-23T00:27:35"
+  },
+  "data": {
+    "route": {
+      "id": 406,
+      "bus_no": "DL05",
+      "name": "Bến xe buýt Sài Gòn - Tân Định",
+      "color": "#FF6600",
+      "type": "Không trợ giá - Du lịch",
+      "distance_m": 24000.0,
+      "num_of_seats": 60,
+      "operators": [
+        "Công ty CP VT DL&amp;TT Viet BigBus"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt không trợ giá",
+          "price": 450000,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 95,
+        "max": 95
+      },
+      "headway_minutes": {
+        "min": 60,
+        "max": 60
+      },
+      "operation_time": {
+        "start": "08:00",
+        "end": "22:00"
+      },
+      "total_trip": {
+        "value": 15,
+        "unit": "TPD"
+      },
+      "outbound_name": "Tân Định",
+      "outbound_description": [
+        "Bến xe buýt Sài Gòn",
+        "đường Phạm Ngũ Lão",
+        "đường Yersin",
+        "đường Trần Hưng Đạo",
+        "đường Hàm Nghi",
+        "đường Phó Đức Chính",
+        "đường Lê Thị Hồng Gấm",
+        "đường Calmette",
+        "cầu Calmette",
+        "đường Đoàn Văn Bơ",
+        "đường Hoàng Diệu",
+        "đường Nguyễn Tất Thành",
+        "cầu Khánh Hội",
+        "đường Tôn Đức Thắng",
+        "cầu Ba Son",
+        "đường Tố Hữu",
+        "đường Mai Chí Thọ",
+        "đường Nguyễn Cơ Thạch",
+        "cầu Thủ Thiêm",
+        "đường Nguyễn Hữu Cảnh",
+        "đường Tôn Đức Thắng – đường Đinh Tiên Hoàng",
+        "cầu Bông – đường Lê Văn Duyệt",
+        "đường Phan Đăng Lưu",
+        "đường Phan Đình Phùng",
+        "cầu Kiệu – đường Hai Bà Trưng",
+        "đường Trần Cao Vân",
+        "đường Công trường Quốc Tế",
+        "đường Võ Văn Tần",
+        "đường Bà Huyện Thanh Quan",
+        "đường Nguyễn Thị Minh Khai",
+        "đường Nam Kỳ Khởi Nghĩa",
+        "đường Lê Duẩn",
+        "Công xã Paris",
+        "đường Đồng Khởi",
+        "đường Mạc Thị Bưởi",
+        "đường Nguyễn Huệ",
+        "đường Lê Thánh Tôn",
+        "đường Phan Bội Châu",
+        "đường Lê Lợi",
+        "đường Lê Lai",
+        "Bến xe buýt Sài Gòn."
+      ],
+      "inbound_name": null,
+      "inbound_description": []
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lộ trình (Không cấm Nguyễn Huệ trước 17 giờ)",
+        "short_name": "Tân Định",
+        "start_stop": "Bến xe buýt Sài Gòn",
+        "end_stop": "Bến xe buýt Sài Gòn",
+        "distance_m": 23929.000000000004,
+        "running_time_minutes": 95,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "11/11/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 95,
+          "max": 95
+        },
+        "headway_minutes": {
+          "min": 60,
+          "max": 60
+        },
+        "total_trip": 15,
+        "operation_time": {
+          "start": "08:00",
+          "end": "22:00"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 35,
+          "code": "BX 01",
+          "name": "Bến xe buýt Sài Gòn",
+          "type": "Bến xe",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "BẾN XE BUÝT SÀI GÒN",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.767676,
+          "lng": 106.689362,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "27",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL04",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 7277,
+          "code": "Q1 191",
+          "name": "Nguyễn Thị Nghĩa",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "187",
+          "street": "Phạm Ngũ Lão",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.768788,
+          "lng": 106.693699,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "156V",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "28",
+            "34",
+            "36",
+            "39",
+            "46",
+            "52",
+            "65",
+            "69",
+            "72",
+            "72-2B",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 853,
+          "code": "Q1 001",
+          "name": "Calmette",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": null,
+          "address": "97",
+          "street": "Calmette",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.767768,
+          "lng": 106.699219,
+          "routes": [
+            "102",
+            "34",
+            "38",
+            "44",
+            "86",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 7699,
+          "code": "Q4 057",
+          "name": "Bến nhà Rồng",
+          "type": "Trụ dừng",
+          "zone": "Quận 4",
+          "ward": "Phường 12",
+          "address": "Cột đèn thứ 2 (Cty cảng Sg)",
+          "street": "Nguyễn Tất Thành",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.767855,
+          "lng": 106.705951,
+          "routes": [
+            "DL01",
+            "DL02",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 31,
+          "code": "Q1 024",
+          "name": "Bến Bạch Đằng",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": null,
+          "address": "Bến thủy nội địa Thủ Thiêm",
+          "street": "Tôn Đức Thắng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.774094,
+          "lng": 106.706654,
+          "routes": [
+            "01",
+            "03",
+            "19",
+            "45",
+            "53",
+            "56",
+            "88",
+            "DL01",
+            "DL02",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 1096,
+          "code": "Q1 011",
+          "name": "Đại học Khoa học xã hội nhân văn",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": null,
+          "address": "10",
+          "street": "Đinh Tiên Hoàng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.785778,
+          "lng": 106.702663,
+          "routes": [
+            "18",
+            "19",
+            "DL01",
+            "DL02",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 2109,
+          "code": "QBTH 045",
+          "name": "Lăng Ông Bà Chiểu",
+          "type": "Nhà chờ",
+          "zone": "Quận Bình Thạnh",
+          "ward": null,
+          "address": "Đối diện 129",
+          "street": "Lê Văn Duyệt",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.80107,
+          "lng": 106.696579,
+          "routes": [
+            "18",
+            "31",
+            "36",
+            "91",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 233,
+          "code": "Q3 031",
+          "name": "Công viên Lê Văn Tám",
+          "type": "Trụ dừng",
+          "zone": "Quận 3",
+          "ward": "Phường 06",
+          "address": "243",
+          "street": "Hai Bà Trưng",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.787174,
+          "lng": 106.692653,
+          "routes": [
+            "03",
+            "18",
+            "31",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 377,
+          "code": "Q3 106",
+          "name": "Bảo tàng chứng tích chiến tranh",
+          "type": "Nhà chờ",
+          "zone": "Quận 3",
+          "ward": null,
+          "address": "28",
+          "street": "Võ Văn Tần",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.779143,
+          "lng": 106.69254,
+          "routes": [
+            "05",
+            "06",
+            "14",
+            "DL01",
+            "DL02",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 7698,
+          "code": "Q1 206",
+          "name": "Dinh Độc Lập",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "Cây xanh số 191",
+          "street": "Lê Duẩn",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.778579,
+          "lng": 106.69688,
+          "routes": [
+            "DL01",
+            "DL02",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 2568,
+          "code": "Q1 005",
+          "name": "Nhà Thờ Đức Bà",
+          "type": "Trụ dừng",
+          "zone": "Quận 1",
+          "ward": null,
+          "address": "1",
+          "street": "Công xã Paris",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.779233,
+          "lng": 106.699154,
+          "routes": [
+            "36",
+            "DL01",
+            "DL02",
+            "DL05",
+            "DL06"
+          ]
+        },
+        {
+          "stop_id": 7078,
+          "code": "Q1 174",
+          "name": "Nhà hát Thành phố",
+          "type": "Ô sơn",
+          "zone": "Quận 1",
+          "ward": "Phường Bến Nghé",
+          "address": "127-129",
+          "street": "Đồng Khởi",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.775407,
+          "lng": 106.703709,
+          "routes": [
+            "DL02",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 4261,
+          "code": "Q1 054",
+          "name": "Lê Lợi",
+          "type": "Nhà chờ",
+          "zone": "Quận 1",
+          "ward": null,
+          "address": "92-96",
+          "street": "Nguyễn Huệ",
+          "support_disability": "",
+          "status": "active",
+          "lat": 10.775127,
+          "lng": 106.702883,
+          "routes": [
+            "DL01",
+            "DL02",
+            "DL05"
+          ]
+        },
+        {
+          "stop_id": 35,
+          "code": "BX 01",
+          "name": "Bến xe buýt Sài Gòn",
+          "type": "Bến xe",
+          "zone": "Quận 1",
+          "ward": "Phường Phạm Ngũ Lão",
+          "address": "BẾN XE BUÝT SÀI GÒN",
+          "street": "Lê Lai",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.767676,
+          "lng": 106.689362,
+          "routes": [
+            "03",
+            "04",
+            "102",
+            "109",
+            "13",
+            "140",
+            "171",
+            "172",
+            "18",
+            "19",
+            "20",
+            "27",
+            "28",
+            "34",
+            "36",
+            "39",
+            "52",
+            "65",
+            "69",
+            "72",
+            "75",
+            "86",
+            "88",
+            "93",
+            "D4",
+            "DL01",
+            "DL02",
+            "DL03",
+            "DL04",
+            "DL05",
+            "DL06"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 2,
+          "start_time": "08:00",
+          "end_time": "09:35"
+        },
+        {
+          "trip_id": 3,
+          "start_time": "09:00",
+          "end_time": "10:35"
+        },
+        {
+          "trip_id": 4,
+          "start_time": "10:00",
+          "end_time": "11:35"
+        },
+        {
+          "trip_id": 5,
+          "start_time": "11:00",
+          "end_time": "12:35"
+        },
+        {
+          "trip_id": 6,
+          "start_time": "12:00",
+          "end_time": "13:35"
+        },
+        {
+          "trip_id": 7,
+          "start_time": "13:00",
+          "end_time": "14:35"
+        },
+        {
+          "trip_id": 8,
+          "start_time": "14:00",
+          "end_time": "15:35"
+        },
+        {
+          "trip_id": 9,
+          "start_time": "15:00",
+          "end_time": "16:35"
+        },
+        {
+          "trip_id": 10,
+          "start_time": "16:00",
+          "end_time": "17:35"
+        },
+        {
+          "trip_id": 11,
+          "start_time": "17:00",
+          "end_time": "18:35"
+        },
+        {
+          "trip_id": 12,
+          "start_time": "18:00",
+          "end_time": "19:35"
+        },
+        {
+          "trip_id": 13,
+          "start_time": "19:00",
+          "end_time": "20:35"
+        },
+        {
+          "trip_id": 14,
+          "start_time": "20:00",
+          "end_time": "21:35"
+        },
+        {
+          "trip_id": 15,
+          "start_time": "21:00",
+          "end_time": "22:35"
+        },
+        {
+          "trip_id": 16,
+          "start_time": "22:00",
+          "end_time": "23:35"
+        }
+      ]
+    }
+  }
+}

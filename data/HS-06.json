@@ -1,0 +1,260 @@
+{
+  "meta_data": {
+    "source": "https://apicms.ebms.vn/businfo",
+    "route_id": 389,
+    "crawled_at": "2026-07-23T00:27:39"
+  },
+  "data": {
+    "route": {
+      "id": 389,
+      "bus_no": "HS-06",
+      "name": "Bà Xán - Trường THPT Bình Khánh",
+      "color": "#3366FF",
+      "type": "Học sinh - Có trợ giá",
+      "distance_m": 7100.0,
+      "num_of_seats": 29,
+      "operators": [
+        "Hợp tác xã Tân Tiến"
+      ],
+      "tickets": [
+        {
+          "name": "Vé lượt trợ giá HSSV",
+          "price": 0,
+          "currency": "VNĐ"
+        }
+      ],
+      "time_of_trip_minutes": {
+        "min": 11,
+        "max": 11
+      },
+      "headway_minutes": {
+        "min": 10,
+        "max": 10
+      },
+      "operation_time": {
+        "start": "06:00",
+        "end": "17:11"
+      },
+      "total_trip": {
+        "value": 8,
+        "unit": "TPD"
+      },
+      "outbound_name": "Trường THPT Bình Khánh",
+      "outbound_description": [
+        "Bà Xán",
+        "Đường Rừng Sác",
+        "Trường THPT Bình Khánh"
+      ],
+      "inbound_name": "Bà Xán",
+      "inbound_description": [
+        "Trường THPT Bình Khánh",
+        "Đường Rừng Sác",
+        "Bà Xán"
+      ]
+    },
+    "direction_outbound": {
+      "variant": {
+        "route_var_id": 1,
+        "name": "Lượt đi: Bà Xán - Trường THPT Bình Khánh",
+        "short_name": "Trường THPT Bình Khánh",
+        "start_stop": "Bà Xán",
+        "end_stop": "Trường THPT Bình Khánh",
+        "distance_m": 7234.0,
+        "running_time_minutes": 11,
+        "outbound": true
+      },
+      "timetable": {
+        "timetable_id": 1,
+        "route_var_id": 1,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 11,
+          "max": 11
+        },
+        "headway_minutes": {
+          "min": 167,
+          "max": 395
+        },
+        "total_trip": 2,
+        "operation_time": {
+          "start": "06:00",
+          "end": "12:35"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 7497,
+          "code": "BX_baxan",
+          "name": "Bà Xán",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "314",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.619543,
+          "lng": 106.842084,
+          "routes": [
+            "HS-02",
+            "HS-06"
+          ]
+        },
+        {
+          "stop_id": 8125,
+          "code": "BX_THPTbinhkhanh",
+          "name": "Trường THPT Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.641518,
+          "lng": 106.788472,
+          "routes": [
+            "HS-05",
+            "HS-06",
+            "HS-07"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 17,
+          "start_time": "06:00",
+          "end_time": "06:11"
+        },
+        {
+          "trip_id": 18,
+          "start_time": "12:35",
+          "end_time": "12:46"
+        }
+      ]
+    },
+    "direction_inbound": {
+      "variant": {
+        "route_var_id": 2,
+        "name": "Lượt về: Trường THPT Bình Khánh - Bà Xán",
+        "short_name": "Bà Xán",
+        "start_stop": "Trường THPT Bình Khánh",
+        "end_stop": "Bà Xán",
+        "distance_m": 7234.0,
+        "running_time_minutes": 13,
+        "outbound": false
+      },
+      "timetable": {
+        "timetable_id": 2,
+        "route_var_id": 2,
+        "start_date": "11/09/2025",
+        "end_date": null,
+        "is_current": true,
+        "running_time_minutes": {
+          "min": 11,
+          "max": 11
+        },
+        "headway_minutes": {
+          "min": 10,
+          "max": 211
+        },
+        "total_trip": 6,
+        "operation_time": {
+          "start": "11:30",
+          "end": "17:11"
+        },
+        "apply_dates": [
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "CN"
+        ]
+      },
+      "stops": [
+        {
+          "stop_id": 8125,
+          "code": "BX_THPTbinhkhanh",
+          "name": "Trường THPT Bình Khánh",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "Rừng Sác",
+          "street": "Rừng Sác",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.641518,
+          "lng": 106.788472,
+          "routes": [
+            "HS-05",
+            "HS-06",
+            "HS-07"
+          ]
+        },
+        {
+          "stop_id": 7497,
+          "code": "BX_baxan",
+          "name": "Bà Xán",
+          "type": "Bến xe",
+          "zone": "Học Sinh",
+          "ward": null,
+          "address": "314",
+          "street": "Bà Xán",
+          "support_disability": "Có",
+          "status": "active",
+          "lat": 10.619543,
+          "lng": 106.842084,
+          "routes": [
+            "HS-02",
+            "HS-06"
+          ]
+        }
+      ],
+      "trips": [
+        {
+          "trip_id": 19,
+          "start_time": "11:30",
+          "end_time": "11:41"
+        },
+        {
+          "trip_id": 20,
+          "start_time": "15:01",
+          "end_time": "15:12"
+        },
+        {
+          "trip_id": 21,
+          "start_time": "16:16",
+          "end_time": "16:27"
+        },
+        {
+          "trip_id": 22,
+          "start_time": "16:26",
+          "end_time": "16:37"
+        },
+        {
+          "trip_id": 23,
+          "start_time": "16:48",
+          "end_time": "16:59"
+        },
+        {
+          "trip_id": 24,
+          "start_time": "17:11",
+          "end_time": "17:22"
+        }
+      ]
+    }
+  }
+}
