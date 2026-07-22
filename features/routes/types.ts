@@ -7,7 +7,6 @@ export interface RouteSummary {
   id: number;
   busNo: string;
   name: string;
-  color?: string;
   fare?: number;
   operationTime?: { start: string; end: string };
 }
@@ -22,7 +21,6 @@ export interface RouteInfo {
   id: number;
   busNo: string;
   name: string;
-  color: string;
   type: string;
   distanceM: number;
   numOfSeats: number;

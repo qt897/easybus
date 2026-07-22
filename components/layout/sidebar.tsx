@@ -72,9 +72,9 @@ export function Sidebar() {
             <RouteDetail />
           ) : (
             <>
-              <div className="shrink-0 border-b border-border p-3">
+              {/* <div className="shrink-0 border-b border-border p-3">
                 <RouteSearch />
-              </div>
+              </div> */}
               <div className="min-h-0 flex-1">
                 <RouteList />
               </div>

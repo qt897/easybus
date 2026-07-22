@@ -18,7 +18,6 @@ async function fetchSummaryExtras(busNo: string) {
     if (!json.data?.route) return null;
     const info = adaptRouteInfo(json.data.route);
     return {
-      color: info.color,
       fare: info.tickets[0]?.price,
       operationTime: info.operationTime,
     };
@@ -46,7 +45,6 @@ export async function GET() {
         id: item.id,
         busNo: item.bus_no,
         name: item.name,
-        color: extra?.color,
         fare: extra?.fare,
         operationTime: extra?.operationTime,
       };

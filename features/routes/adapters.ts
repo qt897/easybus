@@ -26,7 +26,6 @@ export function adaptRouteInfo(raw: ExternalRouteInfo): RouteInfo {
     id: raw.id,
     busNo: raw.bus_no,
     name: raw.name,
-    color: raw.color,
     type: raw.type,
     distanceM: raw.distance_m,
     numOfSeats: raw.num_of_seats,
