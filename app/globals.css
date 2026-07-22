@@ -7,9 +7,21 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-data);
+  --font-display: var(--font-display);
+  --font-heading: var(--font-display);
+  --color-transit: var(--transit);
+  --color-transit-deep: var(--transit-deep);
+  --color-transit-soft: var(--transit-soft);
+  --color-signal: var(--signal);
+  --color-route-1: var(--route-1);
+  --color-route-2: var(--route-2);
+  --color-route-3: var(--route-3);
+  --color-route-4: var(--route-4);
+  --color-route-5: var(--route-5);
+  --color-route-6: var(--route-6);
+  --color-map-user: var(--map-user);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,72 +61,99 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --background: #faf7f2;
+  --foreground: #26241f;
+  --card: #ffffff;
+  --card-foreground: #26241f;
+  --popover: #ffffff;
+  --popover-foreground: #26241f;
+  --primary: #d9714f;
+  --primary-foreground: #fff8f4;
+  --secondary: #f0eae0;
+  --secondary-foreground: #26241f;
+  --muted: #f1ece2;
+  --muted-foreground: #7c7568;
+  --accent: #fbe6da;
+  --accent-foreground: #b1502f;
+  --destructive: #c1443a;
+  --border: #e6ddcd;
+  --input: #e6ddcd;
+  --ring: #d9714f;
+  --chart-1: #d9714f;
+  --chart-2: #e0a52e;
+  --chart-3: #6f8fea;
+  --chart-4: #e0648a;
+  --chart-5: #2fa695;
+  --radius: 0.75rem;
+
+  /* transit system tokens */
+  --transit: #d9714f;
+  --transit-deep: #b1502f;
+  --transit-soft: #fbe6da;
+  --signal: #e0a52e;
+  --route-1: #d9714f;
+  --route-2: #e0a52e;
+  --route-3: #6f8fea;
+  --route-4: #e0648a;
+  --route-5: #2fa695;
+  --route-6: #a67ce8;
+  --map-user: #3d7de0;
+
+  --sidebar: #faf7f2;
+  --sidebar-foreground: #26241f;
+  --sidebar-primary: #d9714f;
+  --sidebar-primary-foreground: #fff8f4;
+  --sidebar-accent: #fbe6da;
+  --sidebar-accent-foreground: #b1502f;
+  --sidebar-border: #e6ddcd;
+  --sidebar-ring: #d9714f;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #262521;
+  --foreground: #f5f1ea;
+  --card: #302e29;
+  --card-foreground: #f5f1ea;
+  --popover: #302e29;
+  --popover-foreground: #f5f1ea;
+  --primary: #e8865f;
+  --primary-foreground: #241a14;
+  --secondary: #3a3733;
+  --secondary-foreground: #f5f1ea;
+  --muted: #34322d;
+  --muted-foreground: #a89f92;
+  --accent: #43301f;
+  --accent-foreground: #f0a878;
+  --destructive: #ef6b5c;
+  --border: #403d37;
+  --input: #403d37;
+  --ring: #e8865f;
+  --chart-1: #e8865f;
+  --chart-2: #f0c04d;
+  --chart-3: #8fa8ff;
+  --chart-4: #f085a8;
+  --chart-5: #45cdb9;
+
+  --transit: #e8865f;
+  --transit-deep: #d9714f;
+  --transit-soft: #43301f;
+  --signal: #f0c04d;
+  --route-1: #e8865f;
+  --route-2: #f0c04d;
+  --route-3: #8fa8ff;
+  --route-4: #f085a8;
+  --route-5: #45cdb9;
+  --route-6: #c39cf5;
+  --map-user: #6ba3ff;
+
+  --sidebar: #262521;
+  --sidebar-foreground: #f5f1ea;
+  --sidebar-primary: #e8865f;
+  --sidebar-primary-foreground: #241a14;
+  --sidebar-accent: #43301f;
+  --sidebar-accent-foreground: #f0a878;
+  --sidebar-border: #403d37;
+  --sidebar-ring: #e8865f;
 }
 
 @layer base {
@@ -126,5 +165,52 @@
   }
   html {
     @apply font-sans;
+  }
+}
+
+/* Scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--muted-foreground);
+}
+
+/* MapLibre chrome, restyled to match app tokens */
+.maplibregl-ctrl-attrib,
+.maplibregl-ctrl-bottom-left,
+.maplibregl-ctrl-bottom-right,
+.maplibregl-ctrl-top-left,
+.maplibregl-ctrl-top-right {
+  z-index: 0;
+}
+.maplibregl-ctrl-attrib {
+  background: color-mix(in oklch, var(--card), transparent 15%);
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: 11px;
+}
+@keyframes user-location-pulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
   }
 }
